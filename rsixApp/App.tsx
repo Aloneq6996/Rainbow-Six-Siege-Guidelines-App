@@ -1,3 +1,5 @@
+// IMPORTS
+
 import React from "react";
 import {
   StyleSheet,
@@ -13,12 +15,31 @@ import {
   createNativeStackNavigator,
   NativeStackScreenProps,
 } from "@react-navigation/native-stack";
-import { RootStackParamList } from "./types";
+
+// PARAMS LISTS
+
+type RootStackParamList = {
+  Home: undefined;
+  Operators: undefined;
+  OperatorsListAttack: undefined;
+  OperatorsListDefense: undefined;
+  Maps: undefined;
+  Weapons: undefined;
+};
 
 type HomeScreenProps = NativeStackScreenProps<RootStackParamList, "Home">;
 type OperatorsScreenProps = NativeStackScreenProps<
   RootStackParamList,
   "Operators"
+>;
+
+type OperatorsListAttackScreenProps = NativeStackScreenProps<
+  RootStackParamList,
+  "OperatorsListAttack"
+>;
+type OperatorsListDefenseScreenProps = NativeStackScreenProps<
+  RootStackParamList,
+  "OperatorsListDefense"
 >;
 
 const HomeScreen: React.FC<HomeScreenProps> = (props) => {
@@ -40,7 +61,7 @@ const HomeScreen: React.FC<HomeScreenProps> = (props) => {
             style={styles.btn}
             underlayColor={"#363434"}
             onPress={() =>
-              Alert.alert("Bob the builder", "Funkcja niedostępna jeszcze", [
+              Alert.alert("Bob budowniczy", "Funkcja niedostępna jeszcze", [
                 {
                   text: "no dobra :(",
                 },
@@ -55,7 +76,7 @@ const HomeScreen: React.FC<HomeScreenProps> = (props) => {
             style={styles.btn}
             underlayColor={"#363434"}
             onPress={() =>
-              Alert.alert("Bob the builder", "Funkcja niedostępna jeszcze", [
+              Alert.alert("Bob budowniczy", "Funkcja niedostępna jeszcze", [
                 {
                   text: "no dobra :(",
                 },
@@ -71,6 +92,48 @@ const HomeScreen: React.FC<HomeScreenProps> = (props) => {
 };
 
 const Operators: React.FC<OperatorsScreenProps> = (props) => {
+  return (
+    <SafeAreaView style={styles.container}>
+      <Image style={styles.logo} source={require("./assets/logo.png")} />
+      <View>
+        <View>
+          <TouchableHighlight
+            style={styles.btn}
+            underlayColor={"#363434"}
+            // onPress={() => props.navigation.push("OperatorsListAttack")}
+            onPress={() =>
+              Alert.alert("Bob budowniczy", "Funkcja niedostępna jeszcze", [
+                {
+                  text: "no dobra :(",
+                },
+              ])
+            }
+          >
+            <Text style={styles.textColor}>Atakujący</Text>
+          </TouchableHighlight>
+        </View>
+        <View>
+          <TouchableHighlight
+            style={styles.btn}
+            underlayColor={"#363434"}
+            // onPress={() => props.navigation.push("OperatorsListDefense")}
+            onPress={() =>
+              Alert.alert("Bob budowniczy", "Funkcja niedostępna jeszcze", [
+                {
+                  text: "no dobra :(",
+                },
+              ])
+            }
+          >
+            <Text style={styles.textColor}>Broniący</Text>
+          </TouchableHighlight>
+        </View>
+      </View>
+    </SafeAreaView>
+  );
+};
+
+const OperatorsListDefense: React.FC<OperatorsListScreenProps> = (props) => {
   return (
     <SafeAreaView style={styles.container}>
       <Image style={styles.logo} source={require("./assets/logo.png")} />
