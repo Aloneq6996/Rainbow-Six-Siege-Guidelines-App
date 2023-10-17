@@ -133,7 +133,19 @@ const Operators: React.FC<OperatorsScreenProps> = (props) => {
   );
 };
 
-const OperatorsListDefense: React.FC<OperatorsListScreenProps> = (props) => {
+const OperatorsListAttack: React.FC<OperatorsListAttackScreenProps> = (
+  props
+) => {
+  return (
+    <SafeAreaView style={styles.container}>
+      <Image style={styles.logo} source={require("./assets/logo.png")} />
+      <View></View>
+    </SafeAreaView>
+  );
+};
+const OperatorsListDefense: React.FC<OperatorsListDefenseScreenProps> = (
+  props
+) => {
   return (
     <SafeAreaView style={styles.container}>
       <Image style={styles.logo} source={require("./assets/logo.png")} />
