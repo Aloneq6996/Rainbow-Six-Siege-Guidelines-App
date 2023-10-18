@@ -9,6 +9,8 @@ import {
   TouchableHighlight,
   Text,
   Alert,
+  TouchableOpacity,
+  FlatList,
 } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import {
@@ -16,13 +18,14 @@ import {
   NativeStackScreenProps,
 } from "@react-navigation/native-stack";
 
-// PARAMS LISTS
+// Types, interfaces
 
 type RootStackParamList = {
   Home: undefined;
   Operators: undefined;
   OperatorsListAttack: undefined;
   OperatorsListDefense: undefined;
+  OperatorsSpecific: { operatorName: string; imageUri: string };
   Maps: undefined;
   Weapons: undefined;
 };
@@ -37,10 +40,18 @@ type OperatorsListAttackScreenProps = NativeStackScreenProps<
   RootStackParamList,
   "OperatorsListAttack"
 >;
+
 type OperatorsListDefenseScreenProps = NativeStackScreenProps<
   RootStackParamList,
   "OperatorsListDefense"
 >;
+
+type OperatorsSpecific = NativeStackScreenProps<
+  RootStackParamList,
+  "OperatorsSpecific"
+>;
+
+// Not available handler
 
 const notAvailableYet = () => {
   Alert.alert("Bob budowniczy", "Funkcja niedostępna jeszcze", [
@@ -49,6 +60,8 @@ const notAvailableYet = () => {
     },
   ]);
 };
+
+// Home Screen
 
 const HomeScreen: React.FC<HomeScreenProps> = (props) => {
   return (
@@ -87,10 +100,18 @@ const HomeScreen: React.FC<HomeScreenProps> = (props) => {
   );
 };
 
+// Choose Attack/Defense
+
 const Operators: React.FC<OperatorsScreenProps> = (props) => {
   return (
     <SafeAreaView style={styles.container}>
-      <Image style={styles.logo} source={require("./assets/logo.png")} />
+      <TouchableOpacity
+        onPress={props.navigation.goBack}
+        activeOpacity={0.8}
+        style={styles.logoBtn}
+      >
+        <Image source={require("./assets/logo.png")} style={styles.logo} />
+      </TouchableOpacity>
       <View>
         <View>
           <TouchableHighlight
@@ -116,16 +137,57 @@ const Operators: React.FC<OperatorsScreenProps> = (props) => {
   );
 };
 
+// Operators on Attack
+
+const data = require("./assets/json/operatorsAttack.json");
+
+const sledgeImage = require("./assets/json/images/sledge.png");
+const thatcherImage = require("./assets/json/images/thatcher.png");
+
+const imageMapping: { [key: string]: any } = {
+  "sledge.png": sledgeImage,
+  "thatcher.png": thatcherImage,
+};
+
 const OperatorsListAttack: React.FC<OperatorsListAttackScreenProps> = (
   props
 ) => {
   return (
     <SafeAreaView style={styles.container}>
-      <Image style={styles.logo} source={require("./assets/logo.png")} />
-      <View></View>
+      <TouchableOpacity
+        onPress={() => props.navigation.navigate("Home")}
+        activeOpacity={0.8}
+        style={styles.logoBtn}
+      >
+        <Image source={require("./assets/logo.png")} style={styles.logo} />
+      </TouchableOpacity>
+      <View style={styles.containerList}>
+        <FlatList
+          data={data}
+          keyExtractor={(item) => item.id.toString()}
+          renderItem={({ item }) => (
+            <TouchableHighlight
+              onPress={() => {
+                props.navigation.navigate("OperatorsSpecific", {
+                  operatorName: item.nickname,
+                  imageUri: item.image,
+                });
+              }}
+            >
+              <View style={styles.itemContainer}>
+                <Image source={imageMapping[item.image]} style={styles.image} />
+                <Text style={styles.textColor}>{item.nickname}</Text>
+              </View>
+            </TouchableHighlight>
+          )}
+        />
+      </View>
     </SafeAreaView>
   );
 };
+
+// Operators on Defense
+
 const OperatorsListDefense: React.FC<OperatorsListDefenseScreenProps> = (
   props
 ) => {
@@ -136,6 +198,26 @@ const OperatorsListDefense: React.FC<OperatorsListDefenseScreenProps> = (
     </SafeAreaView>
   );
 };
+
+const OperatorsSpecificTemplate: React.FC<
+  OperatorsSpecific & { operatorName: string }
+> = ({ route }) => {
+  // const lowerCaseOperatorName = route.params.operatorName.toLowerCase();
+  return (
+    <SafeAreaView style={styles.container}>
+      <Image style={styles.logo} source={require("./assets/logo.png")} />
+      <View>
+        <Image
+          source={imageMapping[`${route.params.imageUri}`]}
+          style={styles.imageOp}
+        />
+        <Text style={styles.textColor}>{route.params.operatorName}</Text>
+      </View>
+    </SafeAreaView>
+  );
+};
+
+// Routing and main func
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 
@@ -162,10 +244,17 @@ export default function App() {
           component={OperatorsListAttack}
           options={{ headerShown: false }}
         />
+        <Stack.Screen
+          name="OperatorsSpecific"
+          component={OperatorsSpecificTemplate}
+          options={{ headerShown: false }}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );
 }
+
+// Styles
 
 const styles = StyleSheet.create({
   container: {
@@ -180,6 +269,12 @@ const styles = StyleSheet.create({
     width: 100,
     height: 100,
     top: 35,
+  },
+  logoBtn: {
+    position: "absolute",
+    width: 100,
+    height: 100,
+    top: 0,
   },
   btn: {
     color: "#fff",
@@ -198,5 +293,25 @@ const styles = StyleSheet.create({
     color: "#fff",
     textAlign: "center",
     fontSize: 17,
+  },
+  containerList: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+    top: 110,
+  },
+  itemContainer: {
+    flexDirection: "row",
+    alignItems: "center",
+    marginBottom: 10,
+  },
+  image: {
+    width: 50,
+    height: 50,
+    marginRight: 10,
+  },
+  imageOp: {
+    width: 50,
+    height: 50,
   },
 });
