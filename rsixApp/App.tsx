@@ -11,12 +11,20 @@ import {
   Alert,
   TouchableOpacity,
   FlatList,
+  ScrollView,
 } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import {
   createNativeStackNavigator,
   NativeStackScreenProps,
 } from "@react-navigation/native-stack";
+
+// requires
+
+const operatorsJson = require("./assets/json/operatorsAttack.json");
+
+const sledgeImage = require("./assets/json/images/sledge.png");
+const thatcherImage = require("./assets/json/images/thatcher.png");
 
 // Types, interfaces
 
@@ -30,7 +38,23 @@ type RootStackParamList = {
   Weapons: undefined;
 };
 
+type Operator = {
+  id: number;
+  role: string;
+  name: string;
+  surname: string;
+  nickname: string;
+  mainLoadout: Record<string, any>;
+  secLoadout: Record<string, any>;
+  uniGadget: Record<string, any>;
+  counters: string[];
+  counteredBy: string[];
+};
+
+// Screen Props
+
 type HomeScreenProps = NativeStackScreenProps<RootStackParamList, "Home">;
+
 type OperatorsScreenProps = NativeStackScreenProps<
   RootStackParamList,
   "Operators"
@@ -46,7 +70,7 @@ type OperatorsListDefenseScreenProps = NativeStackScreenProps<
   "OperatorsListDefense"
 >;
 
-type OperatorsSpecific = NativeStackScreenProps<
+type OperatorsSpecificScreenProps = NativeStackScreenProps<
   RootStackParamList,
   "OperatorsSpecific"
 >;
@@ -139,11 +163,6 @@ const Operators: React.FC<OperatorsScreenProps> = (props) => {
 
 // Operators on Attack
 
-const data = require("./assets/json/operatorsAttack.json");
-
-const sledgeImage = require("./assets/json/images/sledge.png");
-const thatcherImage = require("./assets/json/images/thatcher.png");
-
 const imageMapping: { [key: string]: any } = {
   "sledge.png": sledgeImage,
   "thatcher.png": thatcherImage,
@@ -163,7 +182,7 @@ const OperatorsListAttack: React.FC<OperatorsListAttackScreenProps> = (
       </TouchableOpacity>
       <View style={styles.containerList}>
         <FlatList
-          data={data}
+          data={operatorsJson}
           keyExtractor={(item) => item.id.toString()}
           renderItem={({ item }) => (
             <TouchableHighlight
@@ -199,21 +218,86 @@ const OperatorsListDefense: React.FC<OperatorsListDefenseScreenProps> = (
   );
 };
 
-const OperatorsSpecificTemplate: React.FC<
-  OperatorsSpecific & { operatorName: string }
+// Specific Operator
+
+const OperatorsSpecific: React.FC<
+  OperatorsSpecificScreenProps & { operatorName: string }
 > = ({ route }) => {
   // const lowerCaseOperatorName = route.params.operatorName.toLowerCase();
+  const operator: Operator | undefined = operatorsJson.find(
+    (op: any) => op.nickname === route.params.operatorName
+  );
+
+  if (!operator) {
+    return (
+      <SafeAreaView style={styles.container}>
+        <Image style={styles.logo} source={require("./assets/logo.png")} />
+        <View>
+          <Text style={styles.textColor}>Operator nieznaleziony</Text>
+        </View>
+      </SafeAreaView>
+    );
+  }
+
   return (
-    <SafeAreaView style={styles.container}>
-      <Image style={styles.logo} source={require("./assets/logo.png")} />
-      <View>
-        <Image
-          source={imageMapping[`${route.params.imageUri}`]}
-          style={styles.imageOp}
-        />
-        <Text style={styles.textColor}>{route.params.operatorName}</Text>
-      </View>
-    </SafeAreaView>
+    <ScrollView
+      style={styles.scrollContainer}
+      contentInsetAdjustmentBehavior="automatic"
+    >
+      <SafeAreaView style={styles.container}>
+        <Image style={styles.logoOp} source={require("./assets/logo.png")} />
+        <View style={styles.personalContainer}>
+          <Text style={styles.textColorHeaderBold}>{operator.role}</Text>
+          <Image
+            source={imageMapping[`${route.params.imageUri}`]}
+            style={styles.imageOp}
+          />
+          <Text style={styles.textColor}>
+            {operator.name} "
+            <Text style={styles.textColorBold}>{operator.nickname}</Text>"{" "}
+            {operator.surname}
+          </Text>
+          <Text style={styles.textColorHeaderBold}>Broń główna</Text>
+          <View>
+            {Object.entries(operator.mainLoadout).map(([weapon, stats]) => (
+              <Text style={styles.textColor} key={weapon}>
+                {weapon}: {stats.type} | Obrażenia: {stats.damage}
+              </Text>
+            ))}
+          </View>
+          <Text style={styles.textColorHeaderBold}>Broń Boczna</Text>
+          <View>
+            {Object.entries(operator.secLoadout).map(([weapon, stats]) => (
+              <Text style={styles.textColor} key={weapon}>
+                {weapon}: {stats.type} | Obrażenia: {stats.damage}
+              </Text>
+            ))}
+          </View>
+          <Text style={styles.textColorHeaderBold}>Gadżety</Text>
+          <View>
+            {Object.entries(operator.uniGadget).map(([weapon, stats]) => (
+              <Text style={styles.textColor} key={weapon}>
+                {weapon}: {stats.type} | Ilość: {stats.quantity}
+              </Text>
+            ))}
+          </View>
+          <Text style={styles.textColorHeaderBold}>
+            {operator.nickname} kontruje
+          </Text>
+          <View>
+            <Text style={styles.textColor}>{operator.counters.join(", ")}</Text>
+          </View>
+          <Text style={styles.textColorHeaderBold}>
+            {operator.nickname} jest kontrowany/a przez
+          </Text>
+          <View>
+            <Text style={styles.textColor}>
+              {operator.counteredBy.join(", ")}
+            </Text>
+          </View>
+        </View>
+      </SafeAreaView>
+    </ScrollView>
   );
 };
 
@@ -246,7 +330,7 @@ export default function App() {
         />
         <Stack.Screen
           name="OperatorsSpecific"
-          component={OperatorsSpecificTemplate}
+          component={OperatorsSpecific}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>
@@ -257,6 +341,9 @@ export default function App() {
 // Styles
 
 const styles = StyleSheet.create({
+  scrollContainer: {
+    backgroundColor: "#000",
+  },
   container: {
     position: "relative",
     flex: 1,
@@ -269,6 +356,12 @@ const styles = StyleSheet.create({
     width: 100,
     height: 100,
     top: 35,
+  },
+  logoOp: {
+    position: "absolute",
+    width: 100,
+    height: 100,
+    top: -10,
   },
   logoBtn: {
     position: "absolute",
@@ -293,10 +386,32 @@ const styles = StyleSheet.create({
     color: "#fff",
     textAlign: "center",
     fontSize: 17,
+    margin: 8,
+  },
+  textColorBold: {
+    color: "#fff",
+    textAlign: "center",
+    fontSize: 17,
+    fontWeight: "bold",
+    margin: 8,
+  },
+  textColorHeaderBold: {
+    color: "#fff",
+    textAlign: "center",
+    fontSize: 21,
+    fontWeight: "bold",
+    margin: 8,
   },
   containerList: {
     flex: 1,
     justifyContent: "center",
+    alignItems: "center",
+    top: 110,
+  },
+  personalContainer: {
+    flex: 1,
+    flexDirection: "column",
+    justifyContent: "flex-start",
     alignItems: "center",
     top: 110,
   },
@@ -311,7 +426,7 @@ const styles = StyleSheet.create({
     marginRight: 10,
   },
   imageOp: {
-    width: 50,
-    height: 50,
+    width: 60,
+    height: 60,
   },
 });

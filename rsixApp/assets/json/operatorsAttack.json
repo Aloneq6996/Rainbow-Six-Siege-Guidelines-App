@@ -7,11 +7,11 @@
     "nickname": "Sledge",
     "mainLoadout": {
       "M590A1": {
-        "type": "Shotgun",
+        "type": "Strzelba",
         "damage": 48
       },
       "L85A2": {
-        "type": "Assault Rifle",
+        "type": "Karabin szturmowy",
         "damage": 47,
         "rateOfFire": 670,
         "magSize": 30
@@ -19,24 +19,26 @@
     },
     "secLoadout": {
       "P226 Mk 25": {
-        "type": "Pistol",
+        "type": "Pistolet",
         "damage": 50
       }
     },
     "uniGadget": {
       "Frag Granade": {
-        "type": "Granade",
+        "type": "Granat",
         "quantity": 2
       },
       "Stun Granade": {
-        "type": "Granade",
+        "type": "Granat",
         "quantity": 3
       },
       "Impact EMP Granade": {
-        "type": "EMP Granade",
+        "type": "Granat EMP",
         "quantity": 2
       }
     },
+    "counters": ["Castle"],
+    "counteredBy": ["Wzmocniona ściana"],
     "image": "sledge.png"
   },
   {
@@ -45,44 +47,60 @@
     "name": "Mike",
     "surname": "Baker",
     "nickname": "Thatcher",
-    "loadout": {
-      "mainLoadout": {
-        "AR33": {
-          "type": "Assault Rifle",
-          "damage": 41
-        },
-        "L85A2": {
-          "type": "Assault Rifle",
-          "damage": 47,
-          "rateOfFire": 670,
-          "magSize": 30
-        },
-        "M590A1": {
-          "type": "Shotgun",
-          "damage": 48
-        }
+    "mainLoadout": {
+      "AR33": {
+        "type": "Karabin szturmowy",
+        "damage": 41
       },
-      "secLoadout": {
-        "P226 Mk 25": {
-          "type": "Pistol",
-          "damage": 50
-        }
+      "L85A2": {
+        "type": "Karabin szturmowy",
+        "damage": 47,
+        "rateOfFire": 670,
+        "magSize": 30
       },
-      "uniGadget": {
-        "Frag Granade": {
-          "type": "Granade",
-          "quantity": 2
-        },
-        "Stun Granade": {
-          "type": "Granade",
-          "quantity": 3
-        },
-        "Impact EMP Granade": {
-          "type": "EMP Granade",
-          "quantity": 2
-        }
+      "M590A1": {
+        "type": "Strzelba",
+        "damage": 48
       }
     },
+    "secLoadout": {
+      "P226 Mk 25": {
+        "type": "Pistolet",
+        "damage": 50
+      }
+    },
+    "uniGadget": {
+      "Breach Charge": {
+        "type": "Soft Breach",
+        "quantity": 3
+      },
+      "Claymore": {
+        "type": "Anti personnel",
+        "quantity": 2
+      }
+    },
+    "counters": [
+      "Smoke",
+      "Mute",
+      "Pulse",
+      "Kapkan",
+      "Jäger",
+      "Bandit",
+      "Valkyrie",
+      "Echo",
+      "Ela",
+      "Vigil",
+      "Alibi",
+      "Maestro",
+      "Clash",
+      "Kaid",
+      "Mozzie",
+      "Warden",
+      "Wamai",
+      "Melusi",
+      "Aruni"
+    ],
+    "counteredBy": ["Jäger", "Wamai"],
     "image": "thatcher.png"
   }
 ]
