@@ -42,6 +42,14 @@ type OperatorsListDefenseScreenProps = NativeStackScreenProps<
   "OperatorsListDefense"
 >;
 
+const notAvailableYet = () => {
+  Alert.alert("Bob budowniczy", "Funkcja niedostępna jeszcze", [
+    {
+      text: "no dobra :(",
+    },
+  ]);
+};
+
 const HomeScreen: React.FC<HomeScreenProps> = (props) => {
   return (
     <SafeAreaView style={styles.container}>
@@ -60,13 +68,7 @@ const HomeScreen: React.FC<HomeScreenProps> = (props) => {
           <TouchableHighlight
             style={styles.btn}
             underlayColor={"#363434"}
-            onPress={() =>
-              Alert.alert("Bob budowniczy", "Funkcja niedostępna jeszcze", [
-                {
-                  text: "no dobra :(",
-                },
-              ])
-            }
+            onPress={notAvailableYet}
           >
             <Text style={styles.textColor}>Mapy</Text>
           </TouchableHighlight>
@@ -75,13 +77,7 @@ const HomeScreen: React.FC<HomeScreenProps> = (props) => {
           <TouchableHighlight
             style={styles.btn}
             underlayColor={"#363434"}
-            onPress={() =>
-              Alert.alert("Bob budowniczy", "Funkcja niedostępna jeszcze", [
-                {
-                  text: "no dobra :(",
-                },
-              ])
-            }
+            onPress={notAvailableYet}
           >
             <Text style={styles.textColor}>Bronie</Text>
           </TouchableHighlight>
@@ -100,14 +96,7 @@ const Operators: React.FC<OperatorsScreenProps> = (props) => {
           <TouchableHighlight
             style={styles.btn}
             underlayColor={"#363434"}
-            // onPress={() => props.navigation.push("OperatorsListAttack")}
-            onPress={() =>
-              Alert.alert("Bob budowniczy", "Funkcja niedostępna jeszcze", [
-                {
-                  text: "no dobra :(",
-                },
-              ])
-            }
+            onPress={() => props.navigation.push("OperatorsListAttack")}
           >
             <Text style={styles.textColor}>Atakujący</Text>
           </TouchableHighlight>
@@ -117,13 +106,7 @@ const Operators: React.FC<OperatorsScreenProps> = (props) => {
             style={styles.btn}
             underlayColor={"#363434"}
             // onPress={() => props.navigation.push("OperatorsListDefense")}
-            onPress={() =>
-              Alert.alert("Bob budowniczy", "Funkcja niedostępna jeszcze", [
-                {
-                  text: "no dobra :(",
-                },
-              ])
-            }
+            onPress={notAvailableYet}
           >
             <Text style={styles.textColor}>Broniący</Text>
           </TouchableHighlight>
@@ -173,6 +156,11 @@ export default function App() {
           options={{
             headerShown: false,
           }}
+        />
+        <Stack.Screen
+          name="OperatorsListAttack"
+          component={OperatorsListAttack}
+          options={{ headerShown: false }}
         />
       </Stack.Navigator>
     </NavigationContainer>
