@@ -1,0 +1,284 @@
+[
+  {
+    "id": 1,
+    "role": "Soft Breach",
+    "name": "Seamus",
+    "surname": "Cowden",
+    "nickname": "Sledge",
+    "mainLoadout": {
+      "M590A1": {
+        "type": "Strzelba",
+        "damage": 48
+      },
+      "L85A2": {
+        "type": "Karabin szturmowy",
+        "damage": 47,
+        "rateOfFire": 670,
+        "magSize": 30
+      }
+    },
+    "secLoadout": {
+      "P226 Mk 25": {
+        "type": "Pistolet",
+        "damage": 50
+      }
+    },
+    "uniGadget": {
+      "Frag Granade": {
+        "type": "Granat",
+        "quantity": 2
+      },
+      "Stun Granade": {
+        "type": "Granat",
+        "quantity": 3
+      },
+      "Impact EMP Granade": {
+        "type": "Granat EMP",
+        "quantity": 2
+      }
+    },
+    "counters": ["Castle"],
+    "counteredBy": ["Wzmocniona ściana"],
+    "image": "sledge.png"
+  },
+  {
+    "id": 2,
+    "role": "Disable",
+    "name": "Mike",
+    "surname": "Baker",
+    "nickname": "Thatcher",
+    "mainLoadout": {
+      "AR33": {
+        "type": "Karabin szturmowy",
+        "damage": 41
+      },
+      "L85A2": {
+        "type": "Karabin szturmowy",
+        "damage": 47,
+        "rateOfFire": 670,
+        "magSize": 30
+      },
+      "M590A1": {
+        "type": "Strzelba",
+        "damage": 48
+      }
+    },
+    "secLoadout": {
+      "P226 Mk 25": {
+        "type": "Pistolet",
+        "damage": 50
+      }
+    },
+    "uniGadget": {
+      "Breach Charge": {
+        "type": "Soft Breach",
+        "quantity": 3
+      },
+      "Claymore": {
+        "type": "Anti personnel",
+        "quantity": 2
+      }
+    },
+    "counters": [
+      "Smoke",
+      "Mute",
+      "Pulse",
+      "Kapkan",
+      "Jäger",
+      "Bandit",
+      "Valkyrie",
+      "Echo",
+      "Ela",
+      "Vigil",
+      "Alibi",
+      "Maestro",
+      "Clash",
+      "Kaid",
+      "Mozzie",
+      "Warden",
+      "Wamai",
+      "Melusi",
+      "Aruni"
+    ],
+    "counteredBy": ["Jäger", "Wamai"],
+    "image": "thatcher.png"
+  },
+  {
+    "id": 3,
+    "role": "Soft Breach",
+    "name": "Eliza",
+    "surname": "Cohen",
+    "nickname": "Ash",
+    "mainLoadout": {
+      "G36C": {
+        "type": "Karabin szturmowy",
+        "damage": 38
+      },
+      "R4-C": {
+        "type": "Karabin szturmowy",
+        "damage": 39
+      }
+    },
+    "secLoadout": {
+      "5.7 USG": {
+        "type": "Pistolet",
+        "damage": 42
+      },
+      "M45 MEUSOC": {
+        "type": "Pistolet",
+        "damage": 58
+      }
+    },
+    "uniGadget": {
+      "Breach Charge": {
+        "type": "Soft Breach",
+        "quantity": 3
+      },
+      "Claymore": {
+        "type": "Anti personnel",
+        "quantity": 2
+      }
+    },
+    "counters": ["Castle", "Maestro", "Goyo", "Melusi"],
+    "counteredBy": ["Jäger", "Wamai"],
+    "image": "ash.png"
+  },
+  {
+    "id": 4,
+    "role": "Hard Breach",
+    "name": "Jordan",
+    "surname": "Trace",
+    "nickname": "Thermite",
+    "mainLoadout": {
+      "M1014": {
+        "type": "Strzelba",
+        "damage": 32
+      },
+      "556xi": {
+        "type": "Karabin szturmowy",
+        "damage": 46
+      }
+    },
+    "secLoadout": {
+      "5.7 USG": {
+        "type": "Pistolet",
+        "damage": 42
+      },
+      "M45 MEUSOC": {
+        "type": "Pistolet",
+        "damage": 58
+      }
+    },
+    "uniGadget": {
+      "Smoke Grenade": {
+        "type": "Granat",
+        "quantity": 2
+      },
+      "Stun Granade": {
+        "type": "Granat",
+        "quantity": 3
+      }
+    },
+    "counters": ["-"],
+    "counteredBy": ["Bandit", "Mute", "Maestro", "Kaid"],
+    "image": "thermite.png"
+  },
+  {
+    "id": 5,
+    "role": "Disable",
+    "name": "Emmanuelle",
+    "surname": "Pichon",
+    "nickname": "Twitch",
+    "mainLoadout": {
+      "F2": {
+        "type": "Karabin szturmowy",
+        "damage": 37
+      },
+      "417": {
+        "type": "DMR",
+        "damage": 69
+      },
+      "SG-CQB": {
+        "type": "Strzelba",
+        "damage": 53
+      }
+    },
+    "secLoadout": {
+      "P9": {
+        "type": "Pistolet",
+        "damage": 45
+      },
+      "LFP586": {
+        "type": "Rewolwer",
+        "damage": 78
+      }
+    },
+    "uniGadget": {
+      "Claymore": {
+        "type": "Anti personnel",
+        "quantity": 2
+      },
+      "Smoke Grenade": {
+        "type": "Granat",
+        "quantity": 2
+      }
+    },
+    "counters": [
+      "Mira",
+      "Valkyrie",
+      "Bandit",
+      "Echo",
+      "Lesion",
+      "Ela",
+      "Vigil",
+      "Alibi",
+      "Goyo",
+      "Kapkan",
+      "Kaid",
+      "Mute",
+      "Mozzie"
+    ],
+    "counteredBy": ["Mute", "Bandit", "Maestro", "Kaid", "Mozzie"],
+    "image": "twitch.png"
+  },
+  {
+    "id": 6,
+    "role": "Shield",
+    "name": "Gilles",
+    "surname": "Touré",
+    "nickname": "Montagne",
+    "mainLoadout": {
+      "'Le Roc' Extendable Shield": {
+        "type": "Shield",
+        "damage": "melee"
+      }
+    },
+    "secLoadout": {
+      "P9": {
+        "type": "Pistolet",
+        "damage": 45
+      },
+      "LFP586": {
+        "type": "Rewolwer",
+        "damage": 78
+      }
+    },
+    "uniGadget": {
+      "Hard Breach Charge": {
+        "type": "Hard Breach",
+        "quantity": 2
+      },
+      "Smoke Grenade": {
+        "type": "Granat",
+        "quantity": 2
+      },
+      "Impact EMP Granade": {
+        "type": "Granat EMP",
+        "quantity": 2
+      }
+    },
+    "counters": ["-"],
+    "counteredBy": ["Echo", "Kapkan", "Lesion", "Ela", "Oryx"],
+    "image": "montagne.png"
+  }
+]

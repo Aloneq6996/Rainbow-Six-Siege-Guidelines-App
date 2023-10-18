@@ -1,6 +1,6 @@
 // IMPORTS
 
-import React from "react";
+import { useState } from "react";
 import {
   StyleSheet,
   SafeAreaView,
@@ -12,6 +12,7 @@ import {
   TouchableOpacity,
   FlatList,
   ScrollView,
+  TextInput,
 } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import {
@@ -21,10 +22,7 @@ import {
 
 // requires
 
-const operatorsJson = require("./assets/json/operatorsAttack.json");
-
-const sledgeImage = require("./assets/json/images/sledge.png");
-const thatcherImage = require("./assets/json/images/thatcher.png");
+const operatorsJson = require("./assets/json/operators/operatorsAttack.json");
 
 // Types, interfaces
 
@@ -163,14 +161,29 @@ const Operators: React.FC<OperatorsScreenProps> = (props) => {
 
 // Operators on Attack
 
+const sledgeImage = require("./assets/json/images/operators/attack/sledge.png");
+const thatcherImage = require("./assets/json/images/operators/attack/thatcher.png");
+const ashImage = require("./assets/json/images/operators/attack/ash.png");
+const thermiteImage = require("./assets/json/images/operators/attack/thermite.png");
+const twitchImage = require("./assets/json/images/operators/attack/twitch.png");
+const montagneImage = require("./assets/json/images/operators/attack/montagne.png");
+
 const imageMapping: { [key: string]: any } = {
   "sledge.png": sledgeImage,
   "thatcher.png": thatcherImage,
+  "ash.png": ashImage,
+  "thermite.png": thermiteImage,
+  "twitch.png": twitchImage,
+  "montagne.png": montagneImage,
 };
 
 const OperatorsListAttack: React.FC<OperatorsListAttackScreenProps> = (
   props
 ) => {
+  const [searchText, setSearchText] = useState("");
+  const filteredOperators = operatorsJson.filter((item: any) =>
+    item.nickname.toLowerCase().includes(searchText.toLowerCase())
+  );
   return (
     <SafeAreaView style={styles.container}>
       <TouchableOpacity
@@ -180,9 +193,18 @@ const OperatorsListAttack: React.FC<OperatorsListAttackScreenProps> = (
       >
         <Image source={require("./assets/logo.png")} style={styles.logo} />
       </TouchableOpacity>
+
+      <TextInput
+        placeholder="Wyszukaj operatora"
+        placeholderTextColor={"#fff"}
+        style={styles.searchInput}
+        value={searchText}
+        onChangeText={(text) => setSearchText(text)}
+      />
+
       <View style={styles.containerList}>
         <FlatList
-          data={operatorsJson}
+          data={filteredOperators}
           keyExtractor={(item) => item.id.toString()}
           renderItem={({ item }) => (
             <TouchableHighlight
@@ -223,7 +245,6 @@ const OperatorsListDefense: React.FC<OperatorsListDefenseScreenProps> = (
 const OperatorsSpecific: React.FC<
   OperatorsSpecificScreenProps & { operatorName: string }
 > = ({ route }) => {
-  // const lowerCaseOperatorName = route.params.operatorName.toLowerCase();
   const operator: Operator | undefined = operatorsJson.find(
     (op: any) => op.nickname === route.params.operatorName
   );
@@ -260,24 +281,54 @@ const OperatorsSpecific: React.FC<
           <Text style={styles.textColorHeaderBold}>Broń główna</Text>
           <View>
             {Object.entries(operator.mainLoadout).map(([weapon, stats]) => (
-              <Text style={styles.textColor} key={weapon}>
-                {weapon}: {stats.type} | Obrażenia: {stats.damage}
+              <Text
+                onPress={() => {
+                  Alert.alert("Obrażenia", `${stats.damage}`, [
+                    {
+                      text: "I tak strzelam w głowe",
+                    },
+                  ]);
+                }}
+                style={styles.textColor}
+                key={weapon}
+              >
+                {weapon} | {stats.type}
               </Text>
             ))}
           </View>
           <Text style={styles.textColorHeaderBold}>Broń Boczna</Text>
           <View>
             {Object.entries(operator.secLoadout).map(([weapon, stats]) => (
-              <Text style={styles.textColor} key={weapon}>
-                {weapon}: {stats.type} | Obrażenia: {stats.damage}
+              <Text
+                onPress={() => {
+                  Alert.alert("Obrażenia", `${stats.damage}`, [
+                    {
+                      text: "Kto normalny używa pistoletów?",
+                    },
+                  ]);
+                }}
+                style={styles.textColor}
+                key={weapon}
+              >
+                {weapon} | {stats.type}
               </Text>
             ))}
           </View>
           <Text style={styles.textColorHeaderBold}>Gadżety</Text>
           <View>
             {Object.entries(operator.uniGadget).map(([weapon, stats]) => (
-              <Text style={styles.textColor} key={weapon}>
-                {weapon}: {stats.type} | Ilość: {stats.quantity}
+              <Text
+                onPress={() => {
+                  Alert.alert("Ilość", `${stats.quantity}`, [
+                    {
+                      text: "za mało",
+                    },
+                  ]);
+                }}
+                style={styles.textColor}
+                key={weapon}
+              >
+                {weapon} | {stats.type}
               </Text>
             ))}
           </View>
@@ -413,7 +464,10 @@ const styles = StyleSheet.create({
     flexDirection: "column",
     justifyContent: "flex-start",
     alignItems: "center",
-    top: 110,
+    top: 100,
+    borderRadius: 30,
+    borderWidth: 2,
+    borderColor: "#fff",
   },
   itemContainer: {
     flexDirection: "row",
@@ -428,5 +482,15 @@ const styles = StyleSheet.create({
   imageOp: {
     width: 60,
     height: 60,
+  },
+  searchInput: {
+    height: 40,
+    top: 100,
+    borderColor: "#fff",
+    borderWidth: 2,
+    borderRadius: 10,
+    color: "#fff",
+    margin: 10,
+    padding: 10,
   },
 });
