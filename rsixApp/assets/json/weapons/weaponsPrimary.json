@@ -1,0 +1,1229 @@
+[
+  {
+    "id": 1,
+    "name": "L85A2",
+    "type": "Karabin szturmowy",
+    "damage": 47,
+    "operators": ["Sledge", "Thatcher"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0"],
+      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "l85a2.png"
+  },
+  {
+    "id": 2,
+    "name": "AR33",
+    "type": "Karabin szturmowy",
+    "damage": 41,
+    "operators": ["Thatcher", "Flores"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0", "2.5"],
+      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "ar33.png"
+  },
+  {
+    "id": 3,
+    "name": "G36C",
+    "type": "Karabin szturmowy",
+    "damage": 38,
+    "operators": ["Ash", "Iana"],
+    "attachments": {
+      "scopes": ["1.0", "1.5"],
+      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "g36c.png"
+  },
+  {
+    "id": 4,
+    "name": "R4-C",
+    "type": "Karabin szturmowy",
+    "damage": 39,
+    "operators": ["Ash", "Ram"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": ["Vertical grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "r4-c.png"
+  },
+  {
+    "id": 5,
+    "name": "556xi",
+    "type": "Karabin szturmowy",
+    "damage": 46,
+    "operators": ["Thermite", "Osa"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0", "2.5"],
+      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "556xi.png"
+  },
+  {
+    "id": 6,
+    "name": "F2",
+    "type": "Karabin szturmowy",
+    "damage": 37,
+    "operators": ["Twitch"],
+    "attachments": {
+      "scopes": ["1.0", "1.5"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "f2.png"
+  },
+  {
+    "id": 7,
+    "name": "AK-12",
+    "type": "Karabin szturmowy",
+    "damage": 45,
+    "operators": ["Fuze", "Ace"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0", "2.5"],
+      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "ak-12.png"
+  },
+  {
+    "id": 8,
+    "name": "AUG A2",
+    "type": "Karabin szturmowy",
+    "damage": 42,
+    "operators": ["Iq", "Wamai"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0", "2.5"],
+      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grips": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "auga2.png"
+  },
+  {
+    "id": 9,
+    "name": "552 Commando",
+    "type": "Karabin szturmowy",
+    "damage": 48,
+    "operators": ["Iq", "Grim"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0"],
+      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "552commando.png"
+  },
+  {
+    "id": 10,
+    "name": "416-C Carbine",
+    "type": "Karabin szturmowy",
+    "damage": 38,
+    "operators": ["Jäger"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": ["Vertical grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "416-ccarbine"
+  },
+  {
+    "id": 11,
+    "name": "C8-SFW",
+    "type": "Karabin szturmowy",
+    "damage": 40,
+    "operators": ["Buck"],
+    "attachments": {
+      "scopes": ["1.0", "1.5"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "c8-sfw.png"
+  },
+  {
+    "id": 12,
+    "name": "Mk17 CQB",
+    "type": "Karabin szturmowy",
+    "damage": 40,
+    "operators": ["Blackbeard"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "mk17cqb..png"
+  },
+  {
+    "id": 13,
+    "name": "PARA-308",
+    "type": "Karabin szturmowy",
+    "damage": 48,
+    "operators": ["Capitão", "Brava"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "para-308.png"
+  },
+  {
+    "id": 14,
+    "name": "Type-89",
+    "type": "Karabin szturmowy",
+    "damage": 40,
+    "operators": ["Hibana"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0", "2.5"],
+      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "type-89.png"
+  },
+  {
+    "id": 15,
+    "name": "C7E",
+    "type": "Karabin szturmowy",
+    "damage": 42,
+    "operators": ["Jackal"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0"],
+      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "c7e.png"
+  },
+  {
+    "id": 16,
+    "name": "M762",
+    "type": "Karabin szturmowy",
+    "damage": 45,
+    "operators": ["Zofia"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0"],
+      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "m762.png"
+  },
+  {
+    "id": 17,
+    "name": "V308",
+    "type": "Karabin szturmowy",
+    "damage": 44,
+    "operators": ["Lion"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0", "2.5"],
+      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "v308.png"
+  },
+  {
+    "id": 18,
+    "name": "Spear .308",
+    "type": "Karabin szturmowy",
+    "damage": 42,
+    "operators": ["Finka", "Thunderbird"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "spear-308.png"
+  },
+  {
+    "id": 19,
+    "name": "M4",
+    "type": "Karabin szturmowy",
+    "damage": 44,
+    "operators": ["Maverick"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "m4.png"
+  },
+  {
+    "id": 20,
+    "name": "AK-47M",
+    "type": "Karabin szturmowy",
+    "damage": 44,
+    "operators": ["Nomad"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.5"],
+      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grips": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "ak-47m.png"
+  },
+  {
+    "id": 21,
+    "name": "ARX200",
+    "type": "Karabin szturmowy",
+    "damage": 47,
+    "operators": ["Nomad", "Iana"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0", "2.5"],
+      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "arx200.png"
+  },
+  {
+    "id": 22,
+    "name": "F90",
+    "type": "Karabin szturmowy",
+    "damage": 38,
+    "operators": ["Gridlock"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0", "2.5"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "f90.ong"
+  },
+  {
+    "id": 23,
+    "name": "Commando 9",
+    "type": "Karabin szturmowy",
+    "damage": 36,
+    "operators": ["Mozzie"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "commando9.png"
+  },
+  {
+    "id": 24,
+    "name": "SC3000K",
+    "type": "Karabin szturmowy",
+    "damage": 45,
+    "operators": ["Zero"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "sc3000k.png"
+  },
+  {
+    "id": 25,
+    "name": "POF9",
+    "type": "Karabin szturmowy",
+    "damage": 35,
+    "operators": ["Sens"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0", "2.5"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "pof9.png"
+  },
+  {
+    "id": 26,
+    "name": "FMG-9",
+    "type": "Pistolet maszynowy",
+    "damage": 34,
+    "operators": ["Smoke", "Nøkk"],
+    "attachments": {
+      "scopes": ["1.0", "1.5"],
+      "barrels": ["Suppressor", "Flash Hider", "Muzzle Brake"],
+      "grips": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "fmg-9.png"
+  },
+  {
+    "id": 27,
+    "name": "MP5",
+    "type": "Pistolet maszynowy",
+    "damage": 27,
+    "operators": ["Doc", "Rook", "Melusi"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0"],
+      "barrels": ["Suppressor", "Flash Hider", "Muzzle Brake"],
+      "grips": ["Vertical grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "mp5.png"
+  },
+  {
+    "id": 28,
+    "name": "MP5K",
+    "type": "Pistolet maszynowy",
+    "damage": 30,
+    "operators": ["Mute", "Wamai"],
+    "attachments": {
+      "scopes": ["1.0", "1.5"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "mp5k.png"
+  },
+  {
+    "id": 29,
+    "name": "MP5SD",
+    "type": "Pistolet maszynowy",
+    "damage": 27,
+    "operators": ["Echo"],
+    "attachments": {
+      "scopes": ["1.0", "1.5"],
+      "barrels": ["Built-in Suppressor"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "mp5sd.png"
+  },
+  {
+    "id": 30,
+    "name": "UMP45",
+    "type": "Pistolet maszynowy",
+    "damage": 38,
+    "operators": ["Castle", "Pulse"],
+    "attachments": {
+      "scopes": ["1.0", "1.5"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "ump45.png"
+  },
+  {
+    "id": 31,
+    "name": "P90",
+    "type": "Pistolet maszynowy",
+    "damage": 22,
+    "operators": ["Doc", "Rook", "Solis"],
+    "attachments": {
+      "scopes": ["1.0", "1.5"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "p90.png"
+  },
+  {
+    "id": 32,
+    "name": "9x19VSN",
+    "type": "Pistolet maszynowy",
+    "damage": 34,
+    "operators": ["Kapkan", "Tachanka", "Azami"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "9x19vsn.png"
+  },
+  {
+    "id": 33,
+    "name": "MP7",
+    "type": "Pistolet maszynowy",
+    "damage": 32,
+    "operators": ["Bandit", "Zero", "Fenrir"],
+    "attachments": {
+      "scopes": ["1.0", "1.5"],
+      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grips": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "mp7.png"
+  },
+  {
+    "id": 34,
+    "name": "9mm C1",
+    "type": "Pistolet maszynowy",
+    "damage": 45,
+    "operators": ["Frost"],
+    "attachments": {
+      "scopes": ["1.0", "1.5"],
+      "barrels": ["Suppressor", "Extended Barrel"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "9mmc1.png"
+  },
+  {
+    "id": 35,
+    "name": "MPX",
+    "type": "Pistolet maszynowy",
+    "damage": 26,
+    "operators": ["Valkyrie", "Warden"],
+    "attachments": {
+      "scopes": ["1.0", "1.5"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "mpx.png"
+  },
+  {
+    "id": 36,
+    "name": "M12",
+    "type": "Pistolet maszynowy",
+    "damage": 40,
+    "operators": ["Caveira"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "m12.png"
+  },
+  {
+    "id": 37,
+    "name": "PDW9",
+    "type": "Pistolet maszynowy",
+    "damage": 34,
+    "operators": ["Jackal", "Osa"],
+    "attachments": {
+      "scopes": ["1.0", "1.5"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "pdw9.png"
+  },
+  {
+    "id": 38,
+    "name": "Vector .45 ACP",
+    "type": "Pistolet maszynowy",
+    "damage": 23,
+    "operators": ["Mira", "Goyo"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "vector-45acp.png"
+  },
+  {
+    "id": 39,
+    "name": "T-5 SMG",
+    "type": "Pistolet maszynowy",
+    "damage": 28,
+    "operators": ["Lesion", "Oryx"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "t-5smg.png"
+  },
+  {
+    "id": 40,
+    "name": "Scorpion EVO 3 A1",
+    "type": "Pistolet maszynowy",
+    "damage": 23,
+    "operators": ["Ela"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "scorpionevo3a1.png"
+  },
+  {
+    "id": 41,
+    "name": "K1A",
+    "type": "Pistolet maszynowy",
+    "damage": 36,
+    "operators": ["Vigil"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "k1a.png"
+  },
+  {
+    "id": 42,
+    "name": "Mx4 Storm",
+    "type": "Pistolet maszynowy",
+    "damage": 26,
+    "operators": ["Alibi"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "mx4storm"
+  },
+  {
+    "id": 43,
+    "name": "AUG A3",
+    "type": "Pistolet maszynowy",
+    "damage": 36,
+    "operators": ["Kaid"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "auga3.png"
+  },
+  {
+    "id": 44,
+    "name": "P10 RONI",
+    "type": "Pistolet maszynowy",
+    "damage": 26,
+    "operators": ["Mozzie", "Aruni"],
+    "attachments": {
+      "scopes": ["1.0", "1.5"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "p10roni.png"
+  },
+  {
+    "id": 45,
+    "name": "UZK50Gi",
+    "type": "Pistolet maszynowy",
+    "damage": 44,
+    "operators": ["Thorn"],
+    "attachments": {
+      "scopes": ["1.0", "1.5"],
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "uzk50gi.png"
+  },
+  {
+    "id": 46,
+    "name": "M590A1",
+    "type": "Strzelba",
+    "damage": 48,
+    "operators": ["Sledge", "Thatcher", "Smoke", "Mute", "Warden"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": [],
+      "grips": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "m590a1.png"
+  },
+  {
+    "id": 47,
+    "name": "M1014",
+    "type": "Strzelba",
+    "damage": 32,
+    "operators": ["Thermite", "Castle", "Pulse", "Ace"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": [],
+      "grips": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "m1014.png"
+  },
+  {
+    "id": 48,
+    "name": "SG-CQB",
+    "type": "Strzelba",
+    "damage": 53,
+    "operators": ["Twitch", "Doc", "Rook", "Lion", "Grim"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": [],
+      "grips": ["Vertical grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "sg-cqb.png"
+  },
+  {
+    "id": 49,
+    "name": "SASG-12",
+    "type": "Strzelba",
+    "damage": 50,
+    "operators": ["Kapkan", "Finka", "Fenrir"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": ["Suppressor"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "sasg-12.png"
+  },
+  {
+    "id": 50,
+    "name": "M870",
+    "type": "Strzelba",
+    "damage": 60,
+    "operators": ["Jäger", "Bandit", "Thorn"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": [],
+      "grips": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "m870.png"
+  },
+  {
+    "id": 51,
+    "name": "Super 90",
+    "type": "Strzelba",
+    "damage": 35,
+    "operators": ["Frost", "Melusi"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": [],
+      "grips": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "super90.png"
+  },
+  {
+    "id": 52,
+    "name": "SPAS-12",
+    "type": "Strzelba",
+    "damage": 35,
+    "operators": ["Valkyrie", "Oryx"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": [],
+      "grips": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "spas-12.png"
+  },
+  {
+    "id": 53,
+    "name": "SPAS-15",
+    "type": "Strzelba",
+    "damage": 30,
+    "operators": ["Caveira", "Thunderbird"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": [],
+      "grips": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "spas-15.png"
+  },
+  {
+    "id": 54,
+    "name": "SuperNova",
+    "type": "Strzelba",
+    "damage": 48,
+    "operators": ["Hibana", "Echo", "Amaru"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": ["Suppressor"],
+      "grips": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "supernova.png"
+  },
+  {
+    "id": 55,
+    "name": "ITA12L",
+    "type": "Strzelba",
+    "damage": 50,
+    "operators": ["Jackal", "Mira", "Solis"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": [],
+      "grips": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "ita12l.png"
+  },
+  {
+    "id": 56,
+    "name": "SIX12",
+    "type": "Strzelba",
+    "damage": 35,
+    "operators": ["Ying"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": [],
+      "grips": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "six12.png"
+  },
+  {
+    "id": 57,
+    "name": "SIX12 SD",
+    "type": "Strzelba",
+    "damage": 35,
+    "operators": ["Lesion", "Nøkk"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": ["Built-in Suppressor"],
+      "grips": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "six12sd.png"
+  },
+  {
+    "id": 58,
+    "name": "FO-12",
+    "type": "Strzelba",
+    "damage": 25,
+    "operators": ["Ela"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": ["Suppressor", "Extended Barrel"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "fo-12.png"
+  },
+  {
+    "id": 59,
+    "name": "BOSG.12.2",
+    "type": "Strzelba",
+    "damage": 125,
+    "operators": ["Dokkaebi", "Vigil"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0", "2.5"],
+      "barrels": [],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "bosg-12-2.png"
+  },
+  {
+    "id": 60,
+    "name": "ACS12",
+    "type": "Strzelba",
+    "damage": 69,
+    "operators": ["Maestro", "Alibi", "Azami"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0"],
+      "barrels": [],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "acs12.png"
+  },
+  {
+    "id": 61,
+    "name": "TCSG12",
+    "type": "Strzelba",
+    "damage": 63,
+    "operators": ["Kaid", "Goyo"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0"],
+      "barrels": ["Suppressor"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "tcsg12.png"
+  },
+  {
+    "id": 62,
+    "name": "417",
+    "type": "DMR",
+    "damage": 69,
+    "operators": ["Twitch", "Lion", "Sens"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0", "2.5"],
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "417.png"
+  },
+  {
+    "id": 63,
+    "name": "OTs-03",
+    "type": "DMR",
+    "damage": 71,
+    "operators": ["Glaz"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "ots-03.png"
+  },
+  {
+    "id": 64,
+    "name": "CAMRS",
+    "type": "DMR",
+    "damage": 69,
+    "operators": ["Buck", "Brava"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0", "2.5", "3.0"],
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "camrs.png"
+  },
+  {
+    "id": 65,
+    "name": "SR-25",
+    "type": "DMR",
+    "damage": 61,
+    "operators": ["Blackbeard", "Flores"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0", "2.5", "3.0"],
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "sr-25.png"
+  },
+  {
+    "id": 66,
+    "name": "Mk 14 EBR",
+    "type": "DMR",
+    "damage": 60,
+    "operators": ["Dokkaebi", "Aruni"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0", "2.5", "3.0"],
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "mk14ebr.png"
+  },
+  {
+    "id": 67,
+    "name": "AR-15.50",
+    "type": "DMR",
+    "damage": 62,
+    "operators": ["Maverick"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0", "2.5", "3.0"],
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "ar-15-50.png"
+  },
+  {
+    "id": 68,
+    "name": "CSRX 300",
+    "type": "Karabin snajperski",
+    "damage": 135,
+    "operators": ["Kali"],
+    "attachments": {
+      "scopes": ["Built-in"],
+      "barrels": ["Built-in"],
+      "grips": [],
+      "underbarrel": ["Built-in"]
+    },
+    "image": "csrx300.png"
+  },
+  {
+    "id": 69,
+    "name": "6P41",
+    "type": "LKM",
+    "damage": 46,
+    "operators": ["Fuze", "Finka"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0", "2.5"],
+      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "6p41.png"
+  },
+  {
+    "id": 70,
+    "name": "G8A1",
+    "type": "LKM",
+    "damage": 37,
+    "operators": ["Iq", "Amaru"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0", "2.5"],
+      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "g8a1.png"
+  },
+  {
+    "id": 71,
+    "name": "M249",
+    "type": "LKM",
+    "damage": 48,
+    "operators": ["Capitão"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0", "2.5"],
+      "barrels": ["Flash Hider", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "m249.png"
+  },
+  {
+    "id": 72,
+    "name": "M249 SAW",
+    "type": "LKM",
+    "damage": 48,
+    "operators": ["Gridlock"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0", "2.5"],
+      "barrels": ["Flash Hider", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "m249saw.png"
+  },
+  {
+    "id": 73,
+    "name": "T-95 LSW",
+    "type": "LKM",
+    "damage": 46,
+    "operators": ["Ying"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0", "2.5"],
+      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "t-95lsw.png"
+  },
+  {
+    "id": 74,
+    "name": "LMG-E",
+    "type": "LKM",
+    "damage": 41,
+    "operators": ["Zofia", "Ram"],
+    "attachments": {
+      "scopes": ["1.0", "1.5", "2.0"],
+      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical grip", "Angled grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "lmg-e.png"
+  },
+  {
+    "id": 75,
+    "name": "ALDA 5.56",
+    "type": "LKM",
+    "damage": 35,
+    "operators": ["Maestro"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical grip"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "alda5-56.png"
+  },
+  {
+    "id": 76,
+    "name": "DP27",
+    "type": "LKM",
+    "damage": 60,
+    "operators": ["Tachanka"],
+    "attachments": {
+      "scopes": ["1.0"],
+      "barrels": ["Built-in"],
+      "grips": [],
+      "underbarrel": []
+    },
+    "image": "dp27.png"
+  },
+  {
+    "id": 77,
+    "name": "Shield",
+    "type": "Tarcza",
+    "damage": 0,
+    "operators": ["Fuze", "Blitz", "Montagne", "Clash"],
+    "image": "ballisticshield.png"
+  }
+]

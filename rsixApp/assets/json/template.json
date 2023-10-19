@@ -34,3 +34,16 @@
     "counteredBy": [],
     "image": ""
   },
+
+  {
+    "id": 0,
+    "name": "",
+    "type": "",
+    "damage": 0,
+    "operators": [""],
+    "attachments": {
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "underbarrel": ["Laser"]
+    },
+    "image": ""
+  },

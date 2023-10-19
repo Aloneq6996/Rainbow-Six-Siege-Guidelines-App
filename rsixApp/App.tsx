@@ -23,6 +23,7 @@ import {
 // requires
 
 const operatorsJson = require("./assets/json/operators/operatorsAttack.json");
+const weaponsJson = require("./assets/json/weapons/weaponsPrimary.json");
 
 // Types, interfaces
 
@@ -33,7 +34,7 @@ type RootStackParamList = {
   OperatorsListDefense: undefined;
   OperatorsSpecific: { operatorName: string; imageUri: string };
   Maps: undefined;
-  Weapons: undefined;
+  WeaponsList: undefined;
 };
 
 type Operator = {
@@ -47,6 +48,14 @@ type Operator = {
   uniGadget: Record<string, any>;
   counters: string[];
   counteredBy: string[];
+};
+type Weapon = {
+  id: number;
+  name: string;
+  type: string;
+  damage: number;
+  operators: string[];
+  attachments: Record<string, any>;
 };
 
 // Screen Props
@@ -71,6 +80,10 @@ type OperatorsListDefenseScreenProps = NativeStackScreenProps<
 type OperatorsSpecificScreenProps = NativeStackScreenProps<
   RootStackParamList,
   "OperatorsSpecific"
+>;
+type WeaponsListScreenProps = NativeStackScreenProps<
+  RootStackParamList,
+  "WeaponsList"
 >;
 
 // Not available handler
@@ -260,6 +273,13 @@ const OperatorsSpecific: React.FC<
     );
   }
 
+  console.log("Operator Name:", route.params.operatorName);
+  const weaponsAssigned: Weapon[] = weaponsJson.filter((weapon: any) => {
+    const isAssigned = weapon.operators.includes(operator.nickname);
+    console.log(`Weapon: ${weapon.name}, Assigned: ${isAssigned}`);
+    return isAssigned;
+  });
+
   return (
     <ScrollView
       style={styles.scrollContainer}
@@ -280,40 +300,16 @@ const OperatorsSpecific: React.FC<
           </Text>
           <Text style={styles.textColorHeaderBold}>Broń główna</Text>
           <View>
-            {Object.entries(operator.mainLoadout).map(([weapon, stats]) => (
-              <Text
-                onPress={() => {
-                  Alert.alert("Obrażenia", `${stats.damage}`, [
-                    {
-                      text: "I tak strzelam w głowe",
-                    },
-                  ]);
-                }}
-                style={styles.textColor}
-                key={weapon}
-              >
-                {weapon} | {stats.type}
-              </Text>
+            {weaponsAssigned.map((weapon) => (
+              <View key={weapon.id}>
+                <Text style={styles.textColor}>
+                  {weapon.name} | {weapon.type}
+                </Text>
+              </View>
             ))}
           </View>
           <Text style={styles.textColorHeaderBold}>Broń Boczna</Text>
-          <View>
-            {Object.entries(operator.secLoadout).map(([weapon, stats]) => (
-              <Text
-                onPress={() => {
-                  Alert.alert("Obrażenia", `${stats.damage}`, [
-                    {
-                      text: "Kto normalny używa pistoletów?",
-                    },
-                  ]);
-                }}
-                style={styles.textColor}
-                key={weapon}
-              >
-                {weapon} | {stats.type}
-              </Text>
-            ))}
-          </View>
+          <View></View>
           <Text style={styles.textColorHeaderBold}>Gadżety</Text>
           <View>
             {Object.entries(operator.uniGadget).map(([weapon, stats]) => (
@@ -350,6 +346,10 @@ const OperatorsSpecific: React.FC<
       </SafeAreaView>
     </ScrollView>
   );
+};
+
+const WeaponsList: React.FC<WeaponsListScreenProps> = () => {
+  return null;
 };
 
 // Routing and main func
@@ -485,6 +485,7 @@ const styles = StyleSheet.create({
   },
   searchInput: {
     height: 40,
+    width: 152,
     top: 100,
     borderColor: "#fff",
     borderWidth: 2,

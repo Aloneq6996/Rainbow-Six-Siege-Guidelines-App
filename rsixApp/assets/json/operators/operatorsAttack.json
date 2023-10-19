@@ -5,18 +5,7 @@
     "name": "Seamus",
     "surname": "Cowden",
     "nickname": "Sledge",
-    "mainLoadout": {
-      "M590A1": {
-        "type": "Strzelba",
-        "damage": 48
-      },
-      "L85A2": {
-        "type": "Karabin szturmowy",
-        "damage": 47,
-        "rateOfFire": 670,
-        "magSize": 30
-      }
-    },
+    "mainLoadout": ["L85A2", "M590A1"],
     "secLoadout": {
       "P226 Mk 25": {
         "type": "Pistolet",

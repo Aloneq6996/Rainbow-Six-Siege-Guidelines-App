@@ -1,0 +1,401 @@
+[
+  {
+    "id": 1,
+    "name": "P226 Mk 25",
+    "type": "Pistolet",
+    "damage": 50,
+    "operators": ["Sledge", "Thatcher", "Smoke", "Mute"],
+    "attachments": {
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "p226mk25.png"
+  },
+  {
+    "id": 2,
+    "name": "M45 MEUSOC",
+    "type": "Pistolet",
+    "damage": 58,
+    "operators": ["Ash", "Thermite", "Pulse"],
+    "attachments": {
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "m45meusoc.png"
+  },
+  {
+    "id": 3,
+    "name": "5.7 USG",
+    "type": "Pistolet",
+    "damage": 42,
+    "operators": [
+      "Ash",
+      "Thermite",
+      "Castle",
+      "Pulse",
+      "Nøkk",
+      "Zero",
+      "Fenrir"
+    ],
+    "attachments": {
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "5-7usg.png"
+  },
+  {
+    "id": 4,
+    "name": "P9",
+    "type": "Pistolet",
+    "damage": 45,
+    "operators": ["Twitch", "Montagne", "Doc", "Rook", "Ace"],
+    "attachments": {
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "p9.png"
+  },
+  {
+    "id": 5,
+    "name": "LFP586",
+    "type": "Rewolwer",
+    "damage": 78,
+    "operators": ["Twitch", "Montagne", "Doc", "Rook", "Lion", "Kaid"],
+    "attachments": {
+      "barrels": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "lfp586.png"
+  },
+  {
+    "id": 6,
+    "name": "Gsh-18",
+    "type": "Pistolet",
+    "damage": 44,
+    "operators": ["Fuze", "Kapkan", "Tachanka", "Flores"],
+    "attachments": {
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "underbarrel": []
+    },
+    "image": "gsh-18.png"
+  },
+  {
+    "id": 7,
+    "name": "PMM",
+    "type": "Pistolet",
+    "damage": 63,
+    "operators": ["Glaz", "Fuze", "Kapkan", "Tachanka", "Finka", "Osa"],
+    "attachments": {
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "pmm.png"
+  },
+  {
+    "id": 8,
+    "name": "P12",
+    "type": "Pistolet",
+    "damage": 44,
+    "operators": ["Blitz", "Iq", "Jäger", "Bandit", "Wamai"],
+    "attachments": {
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "p12.png"
+  },
+  {
+    "id": 9,
+    "name": "Mk1 9mm",
+    "type": "Pistolet",
+    "damage": 48,
+    "operators": ["Buck", "Frost", "Iana", "Ram"],
+    "attachments": {
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "mk19mm.png"
+  },
+  {
+    "id": 10,
+    "name": "D-50",
+    "type": "Pistolet",
+    "damage": 71,
+    "operators": ["Blackbeard", "Valkyrie", "Nøkk", "Azami"],
+    "attachments": {
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "d-50.png"
+  },
+  {
+    "id": 11,
+    "name": "PRB92",
+    "type": "Pistolet",
+    "damage": 42,
+    "operators": ["Capitão", "Nomad", "Aruni"],
+    "attachments": {
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "prb92.png"
+  },
+  {
+    "id": 12,
+    "name": "P229",
+    "type": "Pistolet",
+    "damage": 50,
+    "operators": ["Hibana", "Echo", "Goyo", "Grim"],
+    "attachments": {
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "p229.png"
+  },
+  {
+    "id": 13,
+    "name": "USP40",
+    "type": "Pistolet",
+    "damage": 48,
+    "operators": ["Jackal", "Mira", "Oryx", "Brava"],
+    "attachments": {
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "usp40.png"
+  },
+  {
+    "id": 14,
+    "name": "Q-929",
+    "type": "Pistolet",
+    "damage": 60,
+    "operators": ["Ying", "Lesion", "Thunderbird"],
+    "attachments": {
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "q-929.png"
+  },
+  {
+    "id": 15,
+    "name": "RG15",
+    "type": "Pistolet",
+    "damage": 38,
+    "operators": ["Ela", "Zofia", "Melusi"],
+    "attachments": {
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "rg15.png"
+  },
+  {
+    "id": 16,
+    "name": "Bailiff 410",
+    "type": "Pistolet",
+    "damage": 30,
+    "operators": ["Alibi", "Maestro", "Oryx", "Doc", "Grim", "Fenrir"],
+    "attachments": {
+      "barrels": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "bailiff410.png"
+  },
+  {
+    "id": 17,
+    "name": "Keratos .357",
+    "type": "Rewolwer",
+    "damage": 78,
+    "operators": ["Alibi", "Maestro", "Wamai"],
+    "attachments": {
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "keratos-357.png"
+  },
+  {
+    "id": 18,
+    "name": "1911 TACOPS",
+    "type": "Pistolet",
+    "damage": 55,
+    "operators": ["Maverick", "Thorn"],
+    "attachments": {
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "1911tacops.png"
+  },
+  {
+    "id": 19,
+    "name": "P-10C",
+    "type": "Pistolet",
+    "damage": 40,
+    "operators": ["Warden", "Clash"],
+    "attachments": {
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "p-10c.png"
+  },
+  {
+    "id": 20,
+    "name": ".44 Mag Semi-Auto",
+    "type": "Pistolet",
+    "damage": 54,
+    "operators": ["Nomad", "Kaid"],
+    "attachments": {
+      "barrels": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "44magsemiauto.png"
+  },
+  {
+    "id": 21,
+    "name": "SDP 9mm",
+    "type": "Pistolet",
+    "damage": 47,
+    "operators": ["Gridlock", "Mozzie", "Sens"],
+    "attachments": {
+      "barrels": ["Suppressor", "Muzzle Brake"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "sdp9mm.png"
+  },
+  {
+    "id": 22,
+    "name": "Super Shorty",
+    "type": "Strzelba",
+    "damage": 35,
+    "operators": ["Castle", "Gridlock", "Clash", "Brava", "Lesion"],
+    "attachments": {
+      "barrels": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "supershorty.png"
+  },
+  {
+    "id": 23,
+    "name": "ITA12S",
+    "type": "Strzelba",
+    "damage": 70,
+    "operators": ["Frost", "Jackal", "Mira", "Amaru", "Ram"],
+    "attachments": {
+      "barrels": [],
+      "underbarrel": ["Laser"]
+    },
+    "image": "ita12s.png"
+  },
+  {
+    "id": 24,
+    "name": "SMG-11",
+    "type": "Pistolet maszynowy",
+    "damage": 35,
+    "operators": ["Smoke", "Mute", "Amaru", "Solis"],
+    "attachments": {
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "underbarrel": ["Laser"],
+      "extra": {
+        "scopes": ["1.0"],
+        "grip": ["Vertical Grip", "Angled Grip"]
+      }
+    },
+    "image": "smg-11.png"
+  },
+  {
+    "id": 25,
+    "name": "Bearing 9",
+    "type": "Pistolet maszynowy",
+    "damage": 33,
+    "operators": ["Hibana", "Echo", "Thunderbird", "Glaz", "Tachanka"],
+    "attachments": {
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "underbarrel": ["Laser"],
+      "extra": {
+        "scopes": ["1.0"]
+      }
+    },
+    "image": "bearing9.png"
+  },
+  {
+    "id": 26,
+    "name": "C75 Auto",
+    "type": "Pistolet maszynowy",
+    "damage": 35,
+    "operators": ["Dokkaebi", "Vigil", "Kali", "Thorn"],
+    "attachments": {
+      "barrels": ["Suppressor"],
+      "underbarrel": ["Laser"]
+    },
+    "image": "c75auto.png"
+  },
+  {
+    "id": 27,
+    "name": "SMG-12",
+    "type": "Pistolet maszynowy",
+    "damage": 28,
+    "operators": ["Dokkaebi", "Vigil", "Warden"],
+    "attachments": {
+      "barrels": ["Built-in"],
+      "underbarrel": ["Laser"],
+      "extra": {
+        "scopes": ["1.0"],
+        "grip": ["Vertical Grip", "Angled Grip"]
+      }
+    },
+    "image": "smg-12.png"
+  },
+  {
+    "id": 28,
+    "name": "SPSMG9",
+    "type": "Pistolet maszynowy",
+    "damage": 33,
+    "operators": ["Clash", "Kali"],
+    "attachments": {
+      "barrels": [
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "underbarrel": ["Laser"],
+      "extra": {
+        "scopes": ["1.0"]
+      }
+    },
+    "image": "spsmg9.png"
+  },
+  {
+    "id": 29,
+    "name": "GONNE-6",
+    "type": "Hand Cannon",
+    "damage": 10,
+    "operators": [
+      "Amaru",
+      "Buck",
+      "Capitão",
+      "Dokkaebi",
+      "Finka",
+      "Glaz",
+      "Gridlock",
+      "Lion",
+      "Zero",
+      "Sens"
+    ],
+    "attachments": {
+      "barrels": [],
+      "underbarrel": []
+    },
+    "image": "gonne-6.png"
+  }
+]
