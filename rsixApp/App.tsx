@@ -143,7 +143,7 @@ const HomeScreen: React.FC<HomeScreenProps> = (props) => {
           <TouchableHighlight
             style={styles.btn}
             underlayColor={"#363434"}
-            onPress={notAvailableYet}
+            onPress={() => props.navigation.push("WeaponsList")}
           >
             <Text style={styles.textColor}>Bronie</Text>
           </TouchableHighlight>
@@ -376,8 +376,43 @@ const OperatorsSpecific: React.FC<
   );
 };
 
-const WeaponsList: React.FC<WeaponsListScreenProps> = () => {
-  return null;
+const WeaponsList: React.FC<WeaponsListScreenProps> = (props) => {
+  const [searchText, setSearchText] = useState("");
+  const filteredWeapons = weaponsJson.filter((item: any) =>
+    item.name.toLowerCase().includes(searchText.toLowerCase())
+  );
+
+  return (
+    <SafeAreaView style={styles.container}>
+      <TouchableOpacity
+        onPress={() => props.navigation.navigate("Home")}
+        activeOpacity={0.8}
+        style={styles.logoBtn}
+      >
+        <Image source={require("./assets/logo.png")} style={styles.logo} />
+      </TouchableOpacity>
+
+      <TextInput
+        placeholder="Wyszukaj broń"
+        placeholderTextColor={"#fff"}
+        style={styles.searchInput}
+        value={searchText}
+        onChangeText={(text) => setSearchText(text)}
+      />
+
+      <View style={styles.containerList}>
+        <FlatList
+          data={filteredWeapons}
+          keyExtractor={(item) => item.id.toString()}
+          renderItem={({ item }) => (
+            <View style={styles.itemContainer}>
+              <Text style={styles.textColor}>{item.name}</Text>
+            </View>
+          )}
+        />
+      </View>
+    </SafeAreaView>
+  );
 };
 
 // Routing and main func
@@ -410,6 +445,11 @@ export default function App() {
         <Stack.Screen
           name="OperatorsSpecific"
           component={OperatorsSpecific}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="WeaponsList"
+          component={WeaponsList}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>
