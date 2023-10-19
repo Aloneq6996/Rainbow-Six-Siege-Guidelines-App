@@ -24,6 +24,7 @@ import {
 
 const operatorsJson = require("./assets/json/operators/operatorsAttack.json");
 const weaponsJson = require("./assets/json/weapons/weaponsPrimary.json");
+const weaponsSecondaryJson = require("./assets/json/weapons/weaponsSecondary.json");
 
 // Types, interfaces
 
@@ -35,6 +36,7 @@ type RootStackParamList = {
   OperatorsSpecific: { operatorName: string; imageUri: string };
   Maps: undefined;
   WeaponsList: undefined;
+  WeaponSpecific: { weaponName: string };
 };
 
 type Operator = {
@@ -49,13 +51,29 @@ type Operator = {
   counters: string[];
   counteredBy: string[];
 };
-type Weapon = {
+type WeaponPrimary = {
   id: number;
   name: string;
   type: string;
   damage: number;
   operators: string[];
   attachments: Record<string, any>;
+};
+
+type WeaponSecondary = {
+  id: number;
+  name: string;
+  type: string;
+  damage: number;
+  operators: string[];
+  attachments: {
+    barrels: string[];
+    underbarrel: string[];
+    extra?: {
+      scopes: string[];
+      grip: string[];
+    };
+  };
 };
 
 // Screen Props
@@ -273,12 +291,14 @@ const OperatorsSpecific: React.FC<
     );
   }
 
-  console.log("Operator Name:", route.params.operatorName);
-  const weaponsAssigned: Weapon[] = weaponsJson.filter((weapon: any) => {
-    const isAssigned = weapon.operators.includes(operator.nickname);
-    console.log(`Weapon: ${weapon.name}, Assigned: ${isAssigned}`);
-    return isAssigned;
-  });
+  const weaponsAssignedPrimary: WeaponPrimary[] = weaponsJson.filter(
+    (weapon: any) => weapon.operators.includes(operator.nickname)
+  );
+
+  const weaponsAssignedSecondary: WeaponSecondary[] =
+    weaponsSecondaryJson.filter((weaponSec: any) =>
+      weaponSec.operators.includes(operator.nickname)
+    );
 
   return (
     <ScrollView
@@ -300,7 +320,7 @@ const OperatorsSpecific: React.FC<
           </Text>
           <Text style={styles.textColorHeaderBold}>Broń główna</Text>
           <View>
-            {weaponsAssigned.map((weapon) => (
+            {weaponsAssignedPrimary.map((weapon) => (
               <View key={weapon.id}>
                 <Text style={styles.textColor}>
                   {weapon.name} | {weapon.type}
@@ -309,7 +329,15 @@ const OperatorsSpecific: React.FC<
             ))}
           </View>
           <Text style={styles.textColorHeaderBold}>Broń Boczna</Text>
-          <View></View>
+          <View>
+            {weaponsAssignedSecondary.map((weaponSec) => (
+              <View key={weaponSec.id}>
+                <Text style={styles.textColor}>
+                  {weaponSec.name} | {weaponSec.type}
+                </Text>
+              </View>
+            ))}
+          </View>
           <Text style={styles.textColorHeaderBold}>Gadżety</Text>
           <View>
             {Object.entries(operator.uniGadget).map(([weapon, stats]) => (
