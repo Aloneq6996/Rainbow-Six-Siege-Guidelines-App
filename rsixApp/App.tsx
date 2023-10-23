@@ -4,7 +4,6 @@ import { useState } from "react";
 import {
   StyleSheet,
   SafeAreaView,
-  Image,
   View,
   TouchableHighlight,
   Text,
@@ -14,6 +13,7 @@ import {
   ScrollView,
   TextInput,
 } from "react-native";
+import { Image } from "expo-image";
 import { NavigationContainer } from "@react-navigation/native";
 import {
   createNativeStackNavigator,
@@ -33,7 +33,7 @@ type RootStackParamList = {
   Operators: undefined;
   OperatorsListAttack: undefined;
   OperatorsListDefense: undefined;
-  OperatorsSpecific: { operatorName: string; imageUri: string };
+  OperatorsSpecific: { operatorName: string };
   Maps: undefined;
   WeaponsList: undefined;
   WeaponSpecific: { weaponName: string };
@@ -50,6 +50,7 @@ type Operator = {
   uniGadget: Record<string, any>;
   counters: string[];
   counteredBy: string[];
+  image: string;
 };
 type WeaponPrimary = {
   id: number;
@@ -58,6 +59,7 @@ type WeaponPrimary = {
   damage: number;
   operators: string[];
   attachments: Record<string, any>;
+  image: string;
 };
 
 type WeaponSecondary = {
@@ -74,6 +76,7 @@ type WeaponSecondary = {
       grip: string[];
     };
   };
+  image: string;
 };
 
 // Screen Props
@@ -102,6 +105,11 @@ type OperatorsSpecificScreenProps = NativeStackScreenProps<
 type WeaponsListScreenProps = NativeStackScreenProps<
   RootStackParamList,
   "WeaponsList"
+>;
+
+type WeaponSpecificScreenProps = NativeStackScreenProps<
+  RootStackParamList,
+  "WeaponSpecific"
 >;
 
 // Not available handler
@@ -192,22 +200,6 @@ const Operators: React.FC<OperatorsScreenProps> = (props) => {
 
 // Operators on Attack
 
-const sledgeImage = require("./assets/json/images/operators/attack/sledge.png");
-const thatcherImage = require("./assets/json/images/operators/attack/thatcher.png");
-const ashImage = require("./assets/json/images/operators/attack/ash.png");
-const thermiteImage = require("./assets/json/images/operators/attack/thermite.png");
-const twitchImage = require("./assets/json/images/operators/attack/twitch.png");
-const montagneImage = require("./assets/json/images/operators/attack/montagne.png");
-
-const imageMapping: { [key: string]: any } = {
-  "sledge.png": sledgeImage,
-  "thatcher.png": thatcherImage,
-  "ash.png": ashImage,
-  "thermite.png": thermiteImage,
-  "twitch.png": twitchImage,
-  "montagne.png": montagneImage,
-};
-
 const OperatorsListAttack: React.FC<OperatorsListAttackScreenProps> = (
   props
 ) => {
@@ -242,12 +234,11 @@ const OperatorsListAttack: React.FC<OperatorsListAttackScreenProps> = (
               onPress={() => {
                 props.navigation.navigate("OperatorsSpecific", {
                   operatorName: item.nickname,
-                  imageUri: item.image,
                 });
               }}
             >
               <View style={styles.itemContainer}>
-                <Image source={imageMapping[item.image]} style={styles.image} />
+                <Image source={item.image} style={styles.image} />
                 <Text style={styles.textColor}>{item.nickname}</Text>
               </View>
             </TouchableHighlight>
@@ -309,10 +300,7 @@ const OperatorsSpecific: React.FC<
         <Image style={styles.logoOp} source={require("./assets/logo.png")} />
         <View style={styles.personalContainer}>
           <Text style={styles.textColorHeaderBold}>{operator.role}</Text>
-          <Image
-            source={imageMapping[`${route.params.imageUri}`]}
-            style={styles.imageOp}
-          />
+          <Image source={operator.image} style={styles.imageOp} />
           <Text style={styles.textColor}>
             {operator.name} "
             <Text style={styles.textColorBold}>{operator.nickname}</Text>"{" "}
@@ -321,21 +309,25 @@ const OperatorsSpecific: React.FC<
           <Text style={styles.textColorHeaderBold}>Broń główna</Text>
           <View>
             {weaponsAssignedPrimary.map((weapon) => (
-              <View key={weapon.id}>
-                <Text style={styles.textColor}>
-                  {weapon.name} | {weapon.type}
-                </Text>
-              </View>
+              <TouchableHighlight onPress={notAvailableYet}>
+                <View key={weapon.id}>
+                  <Text style={styles.textColor}>
+                    {weapon.name} | {weapon.type}
+                  </Text>
+                </View>
+              </TouchableHighlight>
             ))}
           </View>
           <Text style={styles.textColorHeaderBold}>Broń Boczna</Text>
           <View>
             {weaponsAssignedSecondary.map((weaponSec) => (
-              <View key={weaponSec.id}>
-                <Text style={styles.textColor}>
-                  {weaponSec.name} | {weaponSec.type}
-                </Text>
-              </View>
+              <TouchableHighlight onPress={notAvailableYet}>
+                <View key={weaponSec.id}>
+                  <Text style={styles.textColor}>
+                    {weaponSec.name} | {weaponSec.type}
+                  </Text>
+                </View>
+              </TouchableHighlight>
             ))}
           </View>
           <Text style={styles.textColorHeaderBold}>Gadżety</Text>
@@ -378,7 +370,13 @@ const OperatorsSpecific: React.FC<
 
 const WeaponsList: React.FC<WeaponsListScreenProps> = (props) => {
   const [searchText, setSearchText] = useState("");
-  const filteredWeapons = weaponsJson.filter((item: any) =>
+
+  const weapons: (WeaponPrimary | WeaponSecondary)[] = [
+    ...weaponsJson,
+    ...weaponsSecondaryJson,
+  ];
+
+  const filteredWeapons = weapons.filter((item: any) =>
     item.name.toLowerCase().includes(searchText.toLowerCase())
   );
 
@@ -406,12 +404,155 @@ const WeaponsList: React.FC<WeaponsListScreenProps> = (props) => {
           keyExtractor={(item) => item.id.toString()}
           renderItem={({ item }) => (
             <View style={styles.itemContainer}>
-              <Text style={styles.textColor}>{item.name}</Text>
+              <TouchableHighlight
+                onPress={() => {
+                  props.navigation.navigate("WeaponSpecific", {
+                    weaponName: item.name,
+                  });
+                }}
+              >
+                <View style={styles.itemContainer}>
+                  <Text style={styles.textColor}>{item.name}</Text>
+                </View>
+              </TouchableHighlight>
             </View>
           )}
         />
       </View>
     </SafeAreaView>
+  );
+};
+
+const WeaponSpecific: React.FC<
+  WeaponSpecificScreenProps & { weaponName: string }
+> = ({ route }) => {
+  const weapons: (WeaponPrimary | WeaponSecondary)[] = [
+    ...weaponsJson,
+    ...weaponsSecondaryJson,
+  ];
+  const weapon = weapons.find((wp: any) => wp.name === route.params.weaponName);
+
+  if (!weapon) {
+    return (
+      <SafeAreaView style={styles.container}>
+        <Image style={styles.logo} source={require("./assets/logo.png")} />
+        <View>
+          <Text style={styles.textColor}>Broń nieznaleziona</Text>
+        </View>
+      </SafeAreaView>
+    );
+  }
+
+  {
+    Object.entries(weapon.attachments).map(([category, items]) => {
+      if (
+        (category === "scopes" ||
+          category === "barrels" ||
+          category === "grips" ||
+          category === "underbarrel") &&
+        (!Array.isArray(items) || items.length === 0)
+      )
+        return null;
+      let categoryLabel = category;
+
+      if (category === "scopes") {
+        categoryLabel = "Lunety";
+      } else if (category === "barrels") {
+        categoryLabel = "Lufy";
+      } else if (category === "grips") {
+        categoryLabel = "Uchwyt";
+      } else if (category === "underbarrel") {
+        categoryLabel = "Dodatki";
+      }
+    });
+  }
+
+  return (
+    <ScrollView
+      style={styles.scrollContainer}
+      contentInsetAdjustmentBehavior="automatic"
+    >
+      <SafeAreaView style={styles.container}>
+        <Image style={styles.logoOp} source={require("./assets/logo.png")} />
+        <View style={styles.personalContainer}>
+          <Image
+            style={styles.imageWeapon}
+            source={weapon.image}
+            placeholder="nie ma fotki"
+          />
+          <Text style={styles.textColorHeader}>{weapon.name}</Text>
+          <View style={styles.attachmentsContainer}>
+            {Object.entries(weapon.attachments).map(([category, items]) => {
+              if (
+                (category === "scopes" ||
+                  category === "barrels" ||
+                  category === "grips" ||
+                  category === "underbarrel") &&
+                (!Array.isArray(items) || items.length === 0)
+              ) {
+                return null;
+              }
+
+              let categoryLabel = category;
+
+              if (category === "scopes") {
+                categoryLabel = "Lunety";
+              } else if (category === "barrels") {
+                categoryLabel = "Lufy";
+              } else if (category === "grips") {
+                categoryLabel = "Uchwyt";
+              } else if (category === "underbarrel") {
+                categoryLabel = "Dodatki";
+              } else if (category === "extra") {
+                categoryLabel = "?";
+              }
+
+              return (
+                <View key={category}>
+                  <Text style={styles.attachmentsCategory}>
+                    {categoryLabel}
+                  </Text>
+                  <View
+                    style={{
+                      flexDirection: "row",
+                      justifyContent: "center",
+                      flexWrap: "wrap",
+                    }}
+                  >
+                    {Array.isArray(items)
+                      ? items.map((item) => (
+                          <Text key={item} style={styles.attachmentText}>
+                            {item}
+                          </Text>
+                        ))
+                      : Object.entries(items).map(([subCategory, subItems]) => (
+                          <View key={subCategory}>
+                            <Text style={styles.attachmentsCategory}>
+                              {subCategory}
+                            </Text>
+                            {(subItems as string[]).map((item) => (
+                              <View
+                                style={{
+                                  flexDirection: "row",
+                                  justifyContent: "center",
+                                  flexWrap: "wrap",
+                                }}
+                              >
+                                <Text key={item} style={styles.attachmentText}>
+                                  {item}
+                                </Text>
+                              </View>
+                            ))}
+                          </View>
+                        ))}
+                  </View>
+                </View>
+              );
+            })}
+          </View>
+        </View>
+      </SafeAreaView>
+    </ScrollView>
   );
 };
 
@@ -450,6 +591,11 @@ export default function App() {
         <Stack.Screen
           name="WeaponsList"
           component={WeaponsList}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="WeaponSpecific"
+          component={WeaponSpecific}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>
@@ -507,6 +653,13 @@ const styles = StyleSheet.create({
     fontSize: 17,
     margin: 8,
   },
+  textColorHeader: {
+    color: "#fff",
+    textAlign: "center",
+    fontSize: 20,
+    fontWeight: "bold",
+    margin: 8,
+  },
   textColorBold: {
     color: "#fff",
     textAlign: "center",
@@ -525,14 +678,15 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
-    top: 110,
+    marginTop: 110,
   },
   personalContainer: {
     flex: 1,
     flexDirection: "column",
     justifyContent: "flex-start",
     alignItems: "center",
-    top: 100,
+    marginTop: 100,
+    width: 390,
     borderRadius: 30,
     borderWidth: 2,
     borderColor: "#fff",
@@ -540,6 +694,7 @@ const styles = StyleSheet.create({
   itemContainer: {
     flexDirection: "row",
     alignItems: "center",
+    justifyContent: "center",
     marginBottom: 10,
   },
   image: {
@@ -551,6 +706,12 @@ const styles = StyleSheet.create({
     width: 60,
     height: 60,
   },
+  imageWeapon: {
+    margin: 20,
+    width: 300,
+    height: 100,
+    resizeMode: "contain",
+  },
   searchInput: {
     height: 40,
     width: 152,
@@ -561,5 +722,27 @@ const styles = StyleSheet.create({
     color: "#fff",
     margin: 10,
     padding: 10,
+  },
+  attachmentsContainer: {
+    padding: 10,
+    flex: 1,
+  },
+  attachmentsCategory: {
+    fontSize: 18,
+    color: "#fff",
+    textAlign: "center",
+    fontWeight: "bold",
+    marginTop: 10,
+  },
+  attachmentsSubCategory: {
+    fontSize: 16,
+    fontWeight: "bold",
+  },
+  attachmentText: {
+    color: "#fff",
+    fontSize: 17,
+    margin: 8,
+    flexDirection: "row",
+    textAlign: "center",
   },
 });

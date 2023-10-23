@@ -11,7 +11,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "l85a2.png"
+    "image": "https://liquipedia.net/commons/images/7/78/R6S_wpn_L85A2.png"
   },
   {
     "id": 2,
@@ -25,7 +25,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "ar33.png"
+    "image": "https://liquipedia.net/commons/images/2/22/R6S_wpn_AR33.png"
   },
   {
     "id": 3,
@@ -39,7 +39,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "g36c.png"
+    "image": "https://liquipedia.net/commons/images/7/7b/R6S_wpn_G36C.png"
   },
   {
     "id": 4,
@@ -59,7 +59,7 @@
       "grips": ["Vertical grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "r4-c.png"
+    "image": "https://liquipedia.net/commons/images/3/35/R6S_wpn_R4-C.png"
   },
   {
     "id": 5,
@@ -73,7 +73,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "556xi.png"
+    "image": "https://liquipedia.net/commons/images/c/c7/R6S_wpn_556XI.png"
   },
   {
     "id": 6,
@@ -93,7 +93,7 @@
       "grips": [],
       "underbarrel": ["Laser"]
     },
-    "image": "f2.png"
+    "image": "https://liquipedia.net/commons/images/f/ff/R6S_wpn_F2.png"
   },
   {
     "id": 7,
@@ -107,7 +107,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "ak-12.png"
+    "image": "https://liquipedia.net/commons/images/b/b7/R6S_wpn_AK-12.png"
   },
   {
     "id": 8,
@@ -121,7 +121,7 @@
       "grips": [],
       "underbarrel": ["Laser"]
     },
-    "image": "auga2.png"
+    "image": "https://liquipedia.net/commons/images/1/16/R6S_wpn_AUG_A2.png"
   },
   {
     "id": 9,
@@ -135,7 +135,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "552commando.png"
+    "image": "https://liquipedia.net/commons/images/c/c0/R6S_wpn_552_Commando.png"
   },
   {
     "id": 10,
@@ -155,7 +155,7 @@
       "grips": ["Vertical grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "416-ccarbine"
+    "image": "https://liquipedia.net/commons/images/5/56/R6S_wpn_416-C_Carbine.png"
   },
   {
     "id": 11,
@@ -175,7 +175,7 @@
       "grips": [],
       "underbarrel": ["Laser"]
     },
-    "image": "c8-sfw.png"
+    "image": "https://liquipedia.net/commons/images/d/d3/R6S_wpn_C8-SFW.png"
   },
   {
     "id": 12,
@@ -195,7 +195,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "mk17cqb..png"
+    "image": "https://liquipedia.net/commons/images/2/2c/R6S_wpn_MK17_CQB.png"
   },
   {
     "id": 13,
@@ -215,7 +215,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "para-308.png"
+    "image": "https://liquipedia.net/commons/images/c/cd/R6S_wpn_PARA-308.png"
   },
   {
     "id": 14,
@@ -229,7 +229,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "type-89.png"
+    "image": "https://liquipedia.net/commons/images/7/72/R6S_wpn_TYPE-89.png"
   },
   {
     "id": 15,
@@ -243,7 +243,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "c7e.png"
+    "image": "https://liquipedia.net/commons/images/9/9c/R6S_wpn_C7E.png"
   },
   {
     "id": 16,
@@ -257,7 +257,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "m762.png"
+    "image": "https://liquipedia.net/commons/images/b/b6/R6S_wpn_M762.png"
   },
   {
     "id": 17,
@@ -271,7 +271,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "v308.png"
+    "image": "https://liquipedia.net/commons/images/9/9e/R6S_wpn_V308.png"
   },
   {
     "id": 18,
@@ -291,7 +291,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "spear-308.png"
+    "image": "https://liquipedia.net/commons/images/b/bb/R6S_wpn_SPEAR_.308.png"
   },
   {
     "id": 19,
@@ -311,7 +311,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "m4.png"
+    "image": "https://liquipedia.net/commons/images/d/dd/R6S_wpn_M4.png"
   },
   {
     "id": 20,
@@ -325,7 +325,7 @@
       "grips": [],
       "underbarrel": ["Laser"]
     },
-    "image": "ak-47m.png"
+    "image": "https://liquipedia.net/commons/images/2/2a/R6S_wpn_AK-74M.png"
   },
   {
     "id": 21,
@@ -339,7 +339,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "arx200.png"
+    "image": "https://liquipedia.net/commons/images/8/84/R6S_wpn_ARX200.png"
   },
   {
     "id": 22,
@@ -359,7 +359,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "f90.ong"
+    "image": "https://liquipedia.net/commons/images/a/a1/R6S_wpn_F90.png"
   },
   {
     "id": 23,
@@ -379,7 +379,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "commando9.png"
+    "image": "https://liquipedia.net/commons/images/8/8e/R6S_wpn_Commando_9.png"
   },
   {
     "id": 24,
@@ -399,7 +399,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "sc3000k.png"
+    "image": "https://liquipedia.net/commons/images/8/8f/R6S_wpn_SC3000K.png"
   },
   {
     "id": 25,
@@ -419,7 +419,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "pof9.png"
+    "image": "https://liquipedia.net/commons/images/7/71/R6S_POF9_allmode.png"
   },
   {
     "id": 26,
@@ -433,7 +433,7 @@
       "grips": [],
       "underbarrel": ["Laser"]
     },
-    "image": "fmg-9.png"
+    "image": "https://liquipedia.net/commons/images/2/26/R6S_wpn_FMG-9.png"
   },
   {
     "id": 27,
@@ -447,7 +447,7 @@
       "grips": ["Vertical grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "mp5.png"
+    "image": "https://liquipedia.net/commons/images/8/89/R6S_wpn_MP5.png"
   },
   {
     "id": 28,
@@ -467,7 +467,7 @@
       "grips": [],
       "underbarrel": ["Laser"]
     },
-    "image": "mp5k.png"
+    "image": "https://liquipedia.net/commons/images/5/5f/R6S_wpn_MP5K.png"
   },
   {
     "id": 29,
@@ -481,7 +481,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "mp5sd.png"
+    "image": "https://liquipedia.net/commons/images/3/33/R6S_wpn_MP5SD.png"
   },
   {
     "id": 30,
@@ -501,7 +501,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "ump45.png"
+    "image": "https://liquipedia.net/commons/images/7/7d/R6S_wpn_UMP45.png"
   },
   {
     "id": 31,
@@ -521,7 +521,7 @@
       "grips": [],
       "underbarrel": ["Laser"]
     },
-    "image": "p90.png"
+    "image": "https://liquipedia.net/commons/images/0/08/R6S_wpn_P90.png"
   },
   {
     "id": 32,
@@ -541,7 +541,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "9x19vsn.png"
+    "image": "https://liquipedia.net/commons/images/a/ae/R6S_wpn_9x19VSN.png"
   },
   {
     "id": 33,
@@ -555,7 +555,7 @@
       "grips": [],
       "underbarrel": ["Laser"]
     },
-    "image": "mp7.png"
+    "image": "https://liquipedia.net/commons/images/8/80/R6S_wpn_MP7.png"
   },
   {
     "id": 34,
@@ -569,7 +569,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "9mmc1.png"
+    "image": "https://liquipedia.net/commons/images/9/9e/R6S_wpn_9mm_C1.png"
   },
   {
     "id": 35,
@@ -589,7 +589,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "mpx.png"
+    "image": "https://liquipedia.net/commons/images/2/2c/R6S_wpn_MPX.png"
   },
   {
     "id": 36,
@@ -608,7 +608,7 @@
       "grips": [],
       "underbarrel": ["Laser"]
     },
-    "image": "m12.png"
+    "image": "https://liquipedia.net/commons/images/1/13/R6S_wpn_M12.png"
   },
   {
     "id": 37,
@@ -628,7 +628,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "pdw9.png"
+    "image": "https://liquipedia.net/commons/images/6/69/R6S_wpn_PDW9.png"
   },
   {
     "id": 38,
@@ -648,7 +648,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "vector-45acp.png"
+    "image": "https://liquipedia.net/commons/images/a/a1/R6S_wpn_Vector_.45_ACP.png"
   },
   {
     "id": 39,
@@ -668,7 +668,7 @@
       "grips": [],
       "underbarrel": ["Laser"]
     },
-    "image": "t-5smg.png"
+    "image": "https://liquipedia.net/commons/images/5/50/R6S_wpn_T-5_SMG.png"
   },
   {
     "id": 40,
@@ -682,7 +682,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "scorpionevo3a1.png"
+    "image": "https://liquipedia.net/commons/images/5/52/R6S_wpn_Scorpion_EVO_3_A1.png"
   },
   {
     "id": 41,
@@ -702,7 +702,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "k1a.png"
+    "image": "https://liquipedia.net/commons/images/8/86/R6S_wpn_K1A.png"
   },
   {
     "id": 42,
@@ -722,7 +722,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "mx4storm"
+    "image": "https://liquipedia.net/commons/images/d/dd/R6S_wpn_Mx4_Storm.png"
   },
   {
     "id": 43,
@@ -742,7 +742,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "auga3.png"
+    "image": "https://liquipedia.net/commons/images/a/a8/R6S_wpn_AUG_A3.png"
   },
   {
     "id": 44,
@@ -762,7 +762,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "p10roni.png"
+    "image": "https://liquipedia.net/commons/images/0/06/R6S_wpn_P10_RONI.png"
   },
   {
     "id": 45,
@@ -782,7 +782,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "uzk50gi.png"
+    "image": "https://liquipedia.net/commons/images/6/6e/R6S_UZK50Gi_Weapon_allmode.png"
   },
   {
     "id": 46,
@@ -796,7 +796,7 @@
       "grips": [],
       "underbarrel": ["Laser"]
     },
-    "image": "m590a1.png"
+    "image": "https://liquipedia.net/commons/images/4/46/R6S_wpn_M590A1.png"
   },
   {
     "id": 47,
@@ -810,7 +810,7 @@
       "grips": [],
       "underbarrel": ["Laser"]
     },
-    "image": "m1014.png"
+    "image": "https://liquipedia.net/commons/images/9/98/R6S_wpn_M1014.png"
   },
   {
     "id": 48,
@@ -824,7 +824,7 @@
       "grips": ["Vertical grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "sg-cqb.png"
+    "image": "https://liquipedia.net/commons/images/b/be/R6S_wpn_SG-CQB.png"
   },
   {
     "id": 49,
@@ -838,7 +838,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "sasg-12.png"
+    "image": "https://liquipedia.net/commons/images/6/68/R6S_wpn_SASG-12.png"
   },
   {
     "id": 50,
@@ -852,7 +852,7 @@
       "grips": [],
       "underbarrel": ["Laser"]
     },
-    "image": "m870.png"
+    "image": "https://liquipedia.net/commons/images/6/69/R6S_wpn_M870.png"
   },
   {
     "id": 51,
@@ -866,7 +866,7 @@
       "grips": [],
       "underbarrel": ["Laser"]
     },
-    "image": "super90.png"
+    "image": "https://liquipedia.net/commons/images/0/0a/R6S_wpn_Super_90.png"
   },
   {
     "id": 52,
@@ -880,7 +880,7 @@
       "grips": [],
       "underbarrel": ["Laser"]
     },
-    "image": "spas-12.png"
+    "image": "https://liquipedia.net/commons/images/7/7e/R6S_wpn_SPAS-12.png"
   },
   {
     "id": 53,
@@ -894,7 +894,7 @@
       "grips": [],
       "underbarrel": ["Laser"]
     },
-    "image": "spas-15.png"
+    "image": "https://liquipedia.net/commons/images/5/59/R6S_wpn_SPAS-15.png"
   },
   {
     "id": 54,
@@ -908,7 +908,7 @@
       "grips": [],
       "underbarrel": ["Laser"]
     },
-    "image": "supernova.png"
+    "image": "https://liquipedia.net/commons/images/f/f3/R6S_wpn_SUPERNOVA.png"
   },
   {
     "id": 55,
@@ -922,7 +922,7 @@
       "grips": [],
       "underbarrel": ["Laser"]
     },
-    "image": "ita12l.png"
+    "image": "https://liquipedia.net/commons/images/3/3d/R6S_wpn_ITA12L.png"
   },
   {
     "id": 56,
@@ -936,7 +936,7 @@
       "grips": [],
       "underbarrel": ["Laser"]
     },
-    "image": "six12.png"
+    "image": "https://liquipedia.net/commons/images/9/99/R6S_wpn_SIX12.png"
   },
   {
     "id": 57,
@@ -950,7 +950,7 @@
       "grips": [],
       "underbarrel": ["Laser"]
     },
-    "image": "six12sd.png"
+    "image": "https://liquipedia.net/commons/images/f/fa/R6S_wpn_SIX12_SD.png"
   },
   {
     "id": 58,
@@ -964,7 +964,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "fo-12.png"
+    "image": "https://liquipedia.net/commons/images/0/0a/R6S_wpn_FO-12.png"
   },
   {
     "id": 59,
@@ -978,7 +978,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "bosg-12-2.png"
+    "image": "https://liquipedia.net/commons/images/f/f1/R6S_wpn_BOSG.12.2.png"
   },
   {
     "id": 60,
@@ -992,7 +992,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "acs12.png"
+    "image": "https://liquipedia.net/commons/images/e/e5/R6S_wpn_ACS12.png"
   },
   {
     "id": 61,
@@ -1006,7 +1006,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "tcsg12.png"
+    "image": "https://liquipedia.net/commons/images/7/77/R6S_wpn_TCSG12.png"
   },
   {
     "id": 62,
@@ -1020,7 +1020,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "417.png"
+    "image": "https://liquipedia.net/commons/images/d/db/R6S_wpn_417.png"
   },
   {
     "id": 63,
@@ -1034,7 +1034,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "ots-03.png"
+    "image": "https://liquipedia.net/commons/images/f/f4/R6S_wpn_OTs-03.png"
   },
   {
     "id": 64,
@@ -1048,7 +1048,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "camrs.png"
+    "image": "https://liquipedia.net/commons/images/4/4d/R6S_wpn_CAMRS.png"
   },
   {
     "id": 65,
@@ -1062,7 +1062,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "sr-25.png"
+    "image": "https://liquipedia.net/commons/images/f/f7/R6S_wpn_SR-25.png"
   },
   {
     "id": 66,
@@ -1076,7 +1076,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "mk14ebr.png"
+    "image": "https://liquipedia.net/commons/images/2/26/R6S_wpn_Mk_14_EBR.png"
   },
   {
     "id": 67,
@@ -1090,7 +1090,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "ar-15-50.png"
+    "image": "https://liquipedia.net/commons/images/c/cf/R6S_wpn_AR-15.50.png"
   },
   {
     "id": 68,
@@ -1104,7 +1104,7 @@
       "grips": [],
       "underbarrel": ["Built-in"]
     },
-    "image": "csrx300.png"
+    "image": "https://liquipedia.net/commons/images/9/99/R6S_CSRX_300.png"
   },
   {
     "id": 69,
@@ -1118,7 +1118,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "6p41.png"
+    "image": "https://liquipedia.net/commons/images/4/42/R6S_wpn_6P41.png"
   },
   {
     "id": 70,
@@ -1132,7 +1132,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "g8a1.png"
+    "image": "https://liquipedia.net/commons/images/b/bf/R6S_wpn_G8A1.png"
   },
   {
     "id": 71,
@@ -1146,7 +1146,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "m249.png"
+    "image": "https://liquipedia.net/commons/images/4/4f/R6S_wpn_M249.png"
   },
   {
     "id": 72,
@@ -1160,7 +1160,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "m249saw.png"
+    "image": "https://liquipedia.net/commons/images/c/c3/R6S_wpn_M249_SAW.png"
   },
   {
     "id": 73,
@@ -1174,7 +1174,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "t-95lsw.png"
+    "image": "https://liquipedia.net/commons/images/6/60/R6S_wpn_T-95_LSW.png"
   },
   {
     "id": 74,
@@ -1188,7 +1188,7 @@
       "grips": ["Vertical grip", "Angled grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "lmg-e.png"
+    "image": "https://liquipedia.net/commons/images/7/7a/R6S_wpn_LMG-E.png"
   },
   {
     "id": 75,
@@ -1202,7 +1202,7 @@
       "grips": ["Vertical grip"],
       "underbarrel": ["Laser"]
     },
-    "image": "alda5-56.png"
+    "image": "https://liquipedia.net/commons/images/7/7b/R6S_wpn_ALDA_5.56.png"
   },
   {
     "id": 76,
@@ -1216,7 +1216,7 @@
       "grips": [],
       "underbarrel": []
     },
-    "image": "dp27.png"
+    "image": "https://liquipedia.net/commons/images/8/82/R6S_wpn_DP27.png"
   },
   {
     "id": 77,
@@ -1224,6 +1224,6 @@
     "type": "Tarcza",
     "damage": 0,
     "operators": ["Fuze", "Blitz", "Montagne", "Clash"],
-    "image": "ballisticshield.png"
+    "image": "https://liquipedia.net/commons/images/e/eb/R6S_wpn_Ballistic_Shield.png"
   }
 ]

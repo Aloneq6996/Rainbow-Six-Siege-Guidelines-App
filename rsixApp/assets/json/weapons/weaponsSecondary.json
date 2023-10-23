@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 78,
     "name": "P226 Mk 25",
     "type": "Pistolet",
     "damage": 50,
@@ -9,10 +9,10 @@
       "barrels": ["Suppressor", "Muzzle Brake"],
       "underbarrel": ["Laser"]
     },
-    "image": "p226mk25.png"
+    "image": "https://liquipedia.net/commons/images/b/bf/R6S_wpn_P226_MK_25.png"
   },
   {
-    "id": 2,
+    "id": 79,
     "name": "M45 MEUSOC",
     "type": "Pistolet",
     "damage": 58,
@@ -21,10 +21,10 @@
       "barrels": ["Suppressor", "Muzzle Brake"],
       "underbarrel": ["Laser"]
     },
-    "image": "m45meusoc.png"
+    "image": "https://liquipedia.net/commons/images/1/1d/R6S_wpn_M45_MEUSOC.png"
   },
   {
-    "id": 3,
+    "id": 80,
     "name": "5.7 USG",
     "type": "Pistolet",
     "damage": 42,
@@ -41,10 +41,10 @@
       "barrels": ["Suppressor", "Muzzle Brake"],
       "underbarrel": ["Laser"]
     },
-    "image": "5-7usg.png"
+    "image": "https://liquipedia.net/commons/images/f/f1/R6S_wpn_5.7_USG.png"
   },
   {
-    "id": 4,
+    "id": 81,
     "name": "P9",
     "type": "Pistolet",
     "damage": 45,
@@ -53,10 +53,10 @@
       "barrels": ["Suppressor", "Muzzle Brake"],
       "underbarrel": ["Laser"]
     },
-    "image": "p9.png"
+    "image": "https://liquipedia.net/commons/images/2/26/R6S_wpn_P9.png"
   },
   {
-    "id": 5,
+    "id": 82,
     "name": "LFP586",
     "type": "Rewolwer",
     "damage": 78,
@@ -65,10 +65,10 @@
       "barrels": [],
       "underbarrel": ["Laser"]
     },
-    "image": "lfp586.png"
+    "image": "https://liquipedia.net/commons/images/8/81/R6S_wpn_LFP586.png"
   },
   {
-    "id": 6,
+    "id": 83,
     "name": "Gsh-18",
     "type": "Pistolet",
     "damage": 44,
@@ -77,10 +77,10 @@
       "barrels": ["Suppressor", "Muzzle Brake"],
       "underbarrel": []
     },
-    "image": "gsh-18.png"
+    "image": "https://liquipedia.net/commons/images/4/4d/R6S_wpn_GSH-18.png"
   },
   {
-    "id": 7,
+    "id": 84,
     "name": "PMM",
     "type": "Pistolet",
     "damage": 63,
@@ -89,10 +89,10 @@
       "barrels": ["Suppressor", "Muzzle Brake"],
       "underbarrel": ["Laser"]
     },
-    "image": "pmm.png"
+    "image": "https://liquipedia.net/commons/images/b/b3/R6S_wpn_PMM.png"
   },
   {
-    "id": 8,
+    "id": 85,
     "name": "P12",
     "type": "Pistolet",
     "damage": 44,
@@ -101,10 +101,10 @@
       "barrels": ["Suppressor", "Muzzle Brake"],
       "underbarrel": ["Laser"]
     },
-    "image": "p12.png"
+    "image": "https://liquipedia.net/commons/images/9/94/R6S_wpn_P12.png"
   },
   {
-    "id": 9,
+    "id": 86,
     "name": "Mk1 9mm",
     "type": "Pistolet",
     "damage": 48,
@@ -113,10 +113,10 @@
       "barrels": ["Suppressor", "Muzzle Brake"],
       "underbarrel": ["Laser"]
     },
-    "image": "mk19mm.png"
+    "image": "https://liquipedia.net/commons/images/9/9c/R6S_wpn_MK1_9mm.png"
   },
   {
-    "id": 10,
+    "id": 87,
     "name": "D-50",
     "type": "Pistolet",
     "damage": 71,
@@ -125,10 +125,10 @@
       "barrels": ["Suppressor", "Muzzle Brake"],
       "underbarrel": ["Laser"]
     },
-    "image": "d-50.png"
+    "image": "https://liquipedia.net/commons/images/d/d1/R6S_wpn_D-50.png"
   },
   {
-    "id": 11,
+    "id": 88,
     "name": "PRB92",
     "type": "Pistolet",
     "damage": 42,
@@ -137,10 +137,10 @@
       "barrels": ["Suppressor", "Muzzle Brake"],
       "underbarrel": ["Laser"]
     },
-    "image": "prb92.png"
+    "image": "https://liquipedia.net/commons/images/e/e7/R6S_wpn_PRB92.png"
   },
   {
-    "id": 12,
+    "id": 89,
     "name": "P229",
     "type": "Pistolet",
     "damage": 50,
@@ -149,10 +149,10 @@
       "barrels": ["Suppressor", "Muzzle Brake"],
       "underbarrel": ["Laser"]
     },
-    "image": "p229.png"
+    "image": "https://liquipedia.net/commons/images/1/1c/R6S_wpn_P229.png"
   },
   {
-    "id": 13,
+    "id": 90,
     "name": "USP40",
     "type": "Pistolet",
     "damage": 48,
@@ -161,10 +161,10 @@
       "barrels": ["Suppressor", "Muzzle Brake"],
       "underbarrel": ["Laser"]
     },
-    "image": "usp40.png"
+    "image": "https://liquipedia.net/commons/images/9/95/R6S_wpn_USP40.png"
   },
   {
-    "id": 14,
+    "id": 91,
     "name": "Q-929",
     "type": "Pistolet",
     "damage": 60,
@@ -173,10 +173,10 @@
       "barrels": ["Suppressor", "Muzzle Brake"],
       "underbarrel": ["Laser"]
     },
-    "image": "q-929.png"
+    "image": "https://liquipedia.net/commons/images/9/91/R6S_wpn_Q-929.png"
   },
   {
-    "id": 15,
+    "id": 92,
     "name": "RG15",
     "type": "Pistolet",
     "damage": 38,
@@ -185,22 +185,22 @@
       "barrels": ["Suppressor", "Muzzle Brake"],
       "underbarrel": ["Laser"]
     },
-    "image": "rg15.png"
+    "image": "https://liquipedia.net/commons/images/a/a8/R6S_wpn_RG15.png"
   },
   {
-    "id": 16,
+    "id": 93,
     "name": "Bailiff 410",
-    "type": "Pistolet",
+    "type": "Strzelba",
     "damage": 30,
     "operators": ["Alibi", "Maestro", "Oryx", "Doc", "Grim", "Fenrir"],
     "attachments": {
       "barrels": [],
       "underbarrel": ["Laser"]
     },
-    "image": "bailiff410.png"
+    "image": "https://liquipedia.net/commons/images/c/c9/R6S_wpn_Bailiff_410.png"
   },
   {
-    "id": 17,
+    "id": 94,
     "name": "Keratos .357",
     "type": "Rewolwer",
     "damage": 78,
@@ -209,10 +209,10 @@
       "barrels": ["Suppressor", "Muzzle Brake"],
       "underbarrel": ["Laser"]
     },
-    "image": "keratos-357.png"
+    "image": "https://liquipedia.net/commons/images/0/0b/R6S_wpn_Keratos_.357.png"
   },
   {
-    "id": 18,
+    "id": 95,
     "name": "1911 TACOPS",
     "type": "Pistolet",
     "damage": 55,
@@ -221,10 +221,10 @@
       "barrels": ["Suppressor", "Muzzle Brake"],
       "underbarrel": ["Laser"]
     },
-    "image": "1911tacops.png"
+    "image": "https://liquipedia.net/commons/images/d/d6/R6S_wpn_1911_TACOPS.png"
   },
   {
-    "id": 19,
+    "id": 96,
     "name": "P-10C",
     "type": "Pistolet",
     "damage": 40,
@@ -233,10 +233,10 @@
       "barrels": ["Suppressor", "Muzzle Brake"],
       "underbarrel": ["Laser"]
     },
-    "image": "p-10c.png"
+    "image": "https://liquipedia.net/commons/images/f/f5/R6S_wpn_P-10C.png"
   },
   {
-    "id": 20,
+    "id": 97,
     "name": ".44 Mag Semi-Auto",
     "type": "Pistolet",
     "damage": 54,
@@ -245,10 +245,10 @@
       "barrels": [],
       "underbarrel": ["Laser"]
     },
-    "image": "44magsemiauto.png"
+    "image": "https://liquipedia.net/commons/images/1/10/R6S_wpn_.44_Mag_Semi-Auto.png"
   },
   {
-    "id": 21,
+    "id": 98,
     "name": "SDP 9mm",
     "type": "Pistolet",
     "damage": 47,
@@ -257,10 +257,10 @@
       "barrels": ["Suppressor", "Muzzle Brake"],
       "underbarrel": ["Laser"]
     },
-    "image": "sdp9mm.png"
+    "image": "https://liquipedia.net/commons/images/f/fd/R6S_wpn_SDP_9mm.png"
   },
   {
-    "id": 22,
+    "id": 99,
     "name": "Super Shorty",
     "type": "Strzelba",
     "damage": 35,
@@ -269,10 +269,10 @@
       "barrels": [],
       "underbarrel": ["Laser"]
     },
-    "image": "supershorty.png"
+    "image": "https://liquipedia.net/commons/images/4/43/R6S_wpn_Super_Shorty.png"
   },
   {
-    "id": 23,
+    "id": 100,
     "name": "ITA12S",
     "type": "Strzelba",
     "damage": 70,
@@ -281,10 +281,10 @@
       "barrels": [],
       "underbarrel": ["Laser"]
     },
-    "image": "ita12s.png"
+    "image": "https://liquipedia.net/commons/images/d/d1/R6S_wpn_ITA12S.png"
   },
   {
-    "id": 24,
+    "id": 101,
     "name": "SMG-11",
     "type": "Pistolet maszynowy",
     "damage": 35,
@@ -303,10 +303,10 @@
         "grip": ["Vertical Grip", "Angled Grip"]
       }
     },
-    "image": "smg-11.png"
+    "image": "https://liquipedia.net/commons/images/f/fd/R6S_wpn_SMG-11.png"
   },
   {
-    "id": 25,
+    "id": 102,
     "name": "Bearing 9",
     "type": "Pistolet maszynowy",
     "damage": 33,
@@ -324,10 +324,10 @@
         "scopes": ["1.0"]
       }
     },
-    "image": "bearing9.png"
+    "image": "https://liquipedia.net/commons/images/5/5a/R6S_wpn_BEARING_9.png"
   },
   {
-    "id": 26,
+    "id": 103,
     "name": "C75 Auto",
     "type": "Pistolet maszynowy",
     "damage": 35,
@@ -336,10 +336,10 @@
       "barrels": ["Suppressor"],
       "underbarrel": ["Laser"]
     },
-    "image": "c75auto.png"
+    "image": "https://liquipedia.net/commons/images/1/17/R6S_wpn_C75_Auto.png"
   },
   {
-    "id": 27,
+    "id": 104,
     "name": "SMG-12",
     "type": "Pistolet maszynowy",
     "damage": 28,
@@ -352,10 +352,10 @@
         "grip": ["Vertical Grip", "Angled Grip"]
       }
     },
-    "image": "smg-12.png"
+    "image": "https://liquipedia.net/commons/images/1/13/R6S_wpn_SMG-12.png"
   },
   {
-    "id": 28,
+    "id": 105,
     "name": "SPSMG9",
     "type": "Pistolet maszynowy",
     "damage": 33,
@@ -373,10 +373,10 @@
         "scopes": ["1.0"]
       }
     },
-    "image": "spsmg9.png"
+    "image": "https://liquipedia.net/commons/images/6/66/R6S_wpn_SPSMG9.png"
   },
   {
-    "id": 29,
+    "id": 106,
     "name": "GONNE-6",
     "type": "Hand Cannon",
     "damage": 10,
@@ -396,6 +396,6 @@
       "barrels": [],
       "underbarrel": []
     },
-    "image": "gonne-6.png"
+    "image": "https://liquipedia.net/commons/images/6/63/R6S_wpn_GONNE-6.png"
   }
 ]

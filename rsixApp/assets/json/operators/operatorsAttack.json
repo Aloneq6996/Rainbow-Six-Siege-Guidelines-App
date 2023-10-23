@@ -5,13 +5,6 @@
     "name": "Seamus",
     "surname": "Cowden",
     "nickname": "Sledge",
-    "mainLoadout": ["L85A2", "M590A1"],
-    "secLoadout": {
-      "P226 Mk 25": {
-        "type": "Pistolet",
-        "damage": 50
-      }
-    },
     "uniGadget": {
       "Frag Granade": {
         "type": "Granat",
@@ -28,7 +21,7 @@
     },
     "counters": ["Castle"],
     "counteredBy": ["Wzmocniona ściana"],
-    "image": "sledge.png"
+    "image": "https://liquipedia.net/commons/images/thumb/1/1c/R6S_Sledge_Icon_2021_allmode.png/50px-R6S_Sledge_Icon_2021_allmode.png"
   },
   {
     "id": 2,
@@ -36,28 +29,6 @@
     "name": "Mike",
     "surname": "Baker",
     "nickname": "Thatcher",
-    "mainLoadout": {
-      "AR33": {
-        "type": "Karabin szturmowy",
-        "damage": 41
-      },
-      "L85A2": {
-        "type": "Karabin szturmowy",
-        "damage": 47,
-        "rateOfFire": 670,
-        "magSize": 30
-      },
-      "M590A1": {
-        "type": "Strzelba",
-        "damage": 48
-      }
-    },
-    "secLoadout": {
-      "P226 Mk 25": {
-        "type": "Pistolet",
-        "damage": 50
-      }
-    },
     "uniGadget": {
       "Breach Charge": {
         "type": "Soft Breach",
@@ -90,7 +61,7 @@
       "Aruni"
     ],
     "counteredBy": ["Jäger", "Wamai"],
-    "image": "thatcher.png"
+    "image": "https://liquipedia.net/commons/images/thumb/0/04/R6S_Thatcher_Icon_2021_allmode.png/100px-R6S_Thatcher_Icon_2021_allmode.png"
   },
   {
     "id": 3,
@@ -98,26 +69,6 @@
     "name": "Eliza",
     "surname": "Cohen",
     "nickname": "Ash",
-    "mainLoadout": {
-      "G36C": {
-        "type": "Karabin szturmowy",
-        "damage": 38
-      },
-      "R4-C": {
-        "type": "Karabin szturmowy",
-        "damage": 39
-      }
-    },
-    "secLoadout": {
-      "5.7 USG": {
-        "type": "Pistolet",
-        "damage": 42
-      },
-      "M45 MEUSOC": {
-        "type": "Pistolet",
-        "damage": 58
-      }
-    },
     "uniGadget": {
       "Breach Charge": {
         "type": "Soft Breach",
@@ -130,7 +81,7 @@
     },
     "counters": ["Castle", "Maestro", "Goyo", "Melusi"],
     "counteredBy": ["Jäger", "Wamai"],
-    "image": "ash.png"
+    "image": "https://liquipedia.net/commons/images/thumb/e/e0/R6S_Ash_Icon_2021_allmode.png/100px-R6S_Ash_Icon_2021_allmode.png"
   },
   {
     "id": 4,
@@ -138,26 +89,6 @@
     "name": "Jordan",
     "surname": "Trace",
     "nickname": "Thermite",
-    "mainLoadout": {
-      "M1014": {
-        "type": "Strzelba",
-        "damage": 32
-      },
-      "556xi": {
-        "type": "Karabin szturmowy",
-        "damage": 46
-      }
-    },
-    "secLoadout": {
-      "5.7 USG": {
-        "type": "Pistolet",
-        "damage": 42
-      },
-      "M45 MEUSOC": {
-        "type": "Pistolet",
-        "damage": 58
-      }
-    },
     "uniGadget": {
       "Smoke Grenade": {
         "type": "Granat",
@@ -170,7 +101,7 @@
     },
     "counters": ["-"],
     "counteredBy": ["Bandit", "Mute", "Maestro", "Kaid"],
-    "image": "thermite.png"
+    "image": "https://liquipedia.net/commons/images/thumb/e/e0/R6S_Ash_Icon_2021_allmode.png/100px-R6S_Ash_Icon_2021_allmode.png"
   },
   {
     "id": 5,
@@ -178,30 +109,6 @@
     "name": "Emmanuelle",
     "surname": "Pichon",
     "nickname": "Twitch",
-    "mainLoadout": {
-      "F2": {
-        "type": "Karabin szturmowy",
-        "damage": 37
-      },
-      "417": {
-        "type": "DMR",
-        "damage": 69
-      },
-      "SG-CQB": {
-        "type": "Strzelba",
-        "damage": 53
-      }
-    },
-    "secLoadout": {
-      "P9": {
-        "type": "Pistolet",
-        "damage": 45
-      },
-      "LFP586": {
-        "type": "Rewolwer",
-        "damage": 78
-      }
-    },
     "uniGadget": {
       "Claymore": {
         "type": "Anti personnel",
@@ -228,7 +135,7 @@
       "Mozzie"
     ],
     "counteredBy": ["Mute", "Bandit", "Maestro", "Kaid", "Mozzie"],
-    "image": "twitch.png"
+    "image": "https://liquipedia.net/commons/images/thumb/f/fd/R6S_Twitch_Icon_2021_allmode.png/100px-R6S_Twitch_Icon_2021_allmode.png"
   },
   {
     "id": 6,
@@ -236,22 +143,6 @@
     "name": "Gilles",
     "surname": "Touré",
     "nickname": "Montagne",
-    "mainLoadout": {
-      "'Le Roc' Extendable Shield": {
-        "type": "Shield",
-        "damage": "melee"
-      }
-    },
-    "secLoadout": {
-      "P9": {
-        "type": "Pistolet",
-        "damage": 45
-      },
-      "LFP586": {
-        "type": "Rewolwer",
-        "damage": 78
-      }
-    },
     "uniGadget": {
       "Hard Breach Charge": {
         "type": "Hard Breach",
@@ -268,6 +159,6 @@
     },
     "counters": ["-"],
     "counteredBy": ["Echo", "Kapkan", "Lesion", "Ela", "Oryx"],
-    "image": "montagne.png"
+    "image": "https://liquipedia.net/commons/images/thumb/a/ae/R6S_Montagne_Icon_2021_allmode.png/100px-R6S_Montagne_Icon_2021_allmode.png"
   }
 ]
