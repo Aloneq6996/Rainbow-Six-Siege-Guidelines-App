@@ -14,7 +14,7 @@ import {
   TextInput,
 } from "react-native";
 import { Image } from "expo-image";
-import { NavigationContainer } from "@react-navigation/native";
+import { NavigationContainer, useNavigation } from "@react-navigation/native";
 import {
   createNativeStackNavigator,
   NativeStackScreenProps,
@@ -238,8 +238,10 @@ const OperatorsListAttack: React.FC<OperatorsListAttackScreenProps> = (
               }}
             >
               <View style={styles.itemContainer}>
-                <Image source={item.image} style={styles.image} />
-                <Text style={styles.textColor}>{item.nickname}</Text>
+                <View style={styles.itemContent}>
+                  <Image source={item.image} style={styles.image} />
+                  <Text style={styles.itemText}>{item.nickname}</Text>
+                </View>
               </View>
             </TouchableHighlight>
           )}
@@ -266,7 +268,9 @@ const OperatorsListDefense: React.FC<OperatorsListDefenseScreenProps> = (
 
 const OperatorsSpecific: React.FC<
   OperatorsSpecificScreenProps & { operatorName: string }
-> = ({ route }) => {
+> = (props) => {
+  const { route } = props;
+
   const operator: Operator | undefined = operatorsJson.find(
     (op: any) => op.nickname === route.params.operatorName
   );
@@ -309,8 +313,15 @@ const OperatorsSpecific: React.FC<
           <Text style={styles.textColorHeaderBold}>Broń główna</Text>
           <View>
             {weaponsAssignedPrimary.map((weapon) => (
-              <TouchableHighlight onPress={notAvailableYet}>
-                <View key={weapon.id}>
+              <TouchableHighlight
+                key={weapon.id}
+                onPress={() => {
+                  props.navigation.navigate("WeaponSpecific", {
+                    weaponName: weapon.name,
+                  });
+                }}
+              >
+                <View>
                   <Text style={styles.textColor}>
                     {weapon.name} | {weapon.type}
                   </Text>
@@ -321,8 +332,15 @@ const OperatorsSpecific: React.FC<
           <Text style={styles.textColorHeaderBold}>Broń Boczna</Text>
           <View>
             {weaponsAssignedSecondary.map((weaponSec) => (
-              <TouchableHighlight onPress={notAvailableYet}>
-                <View key={weaponSec.id}>
+              <TouchableHighlight
+                key={weaponSec.id}
+                onPress={() => {
+                  props.navigation.navigate("WeaponSpecific", {
+                    weaponName: weaponSec.name,
+                  });
+                }}
+              >
+                <View>
                   <Text style={styles.textColor}>
                     {weaponSec.name} | {weaponSec.type}
                   </Text>
@@ -412,7 +430,9 @@ const WeaponsList: React.FC<WeaponsListScreenProps> = (props) => {
                 }}
               >
                 <View style={styles.itemContainer}>
-                  <Text style={styles.textColor}>{item.name}</Text>
+                  <View style={styles.itemContent}>
+                    <Text style={styles.itemText}>{item.name}</Text>
+                  </View>
                 </View>
               </TouchableHighlight>
             </View>
@@ -453,17 +473,6 @@ const WeaponSpecific: React.FC<
         (!Array.isArray(items) || items.length === 0)
       )
         return null;
-      let categoryLabel = category;
-
-      if (category === "scopes") {
-        categoryLabel = "Lunety";
-      } else if (category === "barrels") {
-        categoryLabel = "Lufy";
-      } else if (category === "grips") {
-        categoryLabel = "Uchwyt";
-      } else if (category === "underbarrel") {
-        categoryLabel = "Dodatki";
-      }
     });
   }
 
@@ -504,7 +513,7 @@ const WeaponSpecific: React.FC<
               } else if (category === "underbarrel") {
                 categoryLabel = "Dodatki";
               } else if (category === "extra") {
-                categoryLabel = "?";
+                categoryLabel = "Dodatkowe";
               }
 
               return (
@@ -525,26 +534,41 @@ const WeaponSpecific: React.FC<
                             {item}
                           </Text>
                         ))
-                      : Object.entries(items).map(([subCategory, subItems]) => (
-                          <View key={subCategory}>
-                            <Text style={styles.attachmentsCategory}>
-                              {subCategory}
-                            </Text>
-                            {(subItems as string[]).map((item) => (
-                              <View
-                                style={{
-                                  flexDirection: "row",
-                                  justifyContent: "center",
-                                  flexWrap: "wrap",
-                                }}
-                              >
-                                <Text key={item} style={styles.attachmentText}>
-                                  {item}
-                                </Text>
-                              </View>
-                            ))}
-                          </View>
-                        ))}
+                      : Object.entries(items).map(([subCategory, subItems]) => {
+                          let subCategoryLabel = subCategory;
+
+                          if (subCategory === "grip") {
+                            subCategoryLabel = "Uchwyt";
+                          } else if (subCategory === "scopes") {
+                            subCategoryLabel = "Lunety";
+                          }
+                          return (
+                            <View
+                              key={subCategory}
+                              style={{
+                                flex: 1,
+                                flexDirection: "column",
+                              }}
+                            >
+                              <Text style={styles.attachmentsCategory}>
+                                {subCategoryLabel}
+                              </Text>
+                              {(subItems as string[]).map((item) => (
+                                <View
+                                  key={item}
+                                  style={{
+                                    flexDirection: "row",
+                                    justifyContent: "center",
+                                  }}
+                                >
+                                  <Text style={styles.attachmentText}>
+                                    {item}
+                                  </Text>
+                                </View>
+                              ))}
+                            </View>
+                          );
+                        })}
                   </View>
                 </View>
               );
@@ -697,10 +721,25 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     marginBottom: 10,
   },
+  itemText: {
+    color: "#fff",
+    flex: 1,
+    fontSize: 17,
+    marginLeft: 10,
+  },
+  itemContent: {
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+    padding: 10,
+    backgroundColor: "#212020",
+    borderRadius: 8,
+  },
   image: {
     width: 50,
     height: 50,
     marginRight: 10,
+    resizeMode: "contain",
   },
   imageOp: {
     width: 60,
