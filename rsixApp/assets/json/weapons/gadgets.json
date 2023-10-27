@@ -100,7 +100,7 @@
     "id": 6,
     "name": "Claymore",
     "type": "Anti-Personnel",
-    "description": "Anti-personnel mine.",
+    "description": "Mina przeciwpiechotna",
     "quantity": 2,
     "operators": [
       "Thatcher",
