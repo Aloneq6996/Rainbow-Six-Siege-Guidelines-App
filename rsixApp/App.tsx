@@ -25,6 +25,7 @@ import {
 const operatorsJson = require("./assets/json/operators/operatorsAttack.json");
 const weaponsJson = require("./assets/json/weapons/weaponsPrimary.json");
 const weaponsSecondaryJson = require("./assets/json/weapons/weaponsSecondary.json");
+const uniGadgetsJson = require("./assets/json/weapons/gadgets.json");
 
 // Types, interfaces
 
@@ -76,6 +77,16 @@ type WeaponSecondary = {
       grip: string[];
     };
   };
+  image: string;
+};
+
+type uniGadget = {
+  id: number;
+  name: string;
+  type: string;
+  description: string;
+  quantity: number;
+  operators: string[];
   image: string;
 };
 
@@ -295,6 +306,10 @@ const OperatorsSpecific: React.FC<
       weaponSec.operators.includes(operator.nickname)
     );
 
+  const uniGadgetAssigned: uniGadget[] = uniGadgetsJson.filter((gadget: any) =>
+    gadget.operators.includes(operator.nickname)
+  );
+
   return (
     <ScrollView
       style={styles.scrollContainer}
@@ -350,20 +365,24 @@ const OperatorsSpecific: React.FC<
           </View>
           <Text style={styles.textColorHeaderBold}>Gadżety</Text>
           <View>
-            {Object.entries(operator.uniGadget).map(([weapon, stats]) => (
-              <Text
-                onPress={() => {
-                  Alert.alert("Ilość", `${stats.quantity}`, [
-                    {
-                      text: "za mało",
-                    },
-                  ]);
-                }}
-                style={styles.textColor}
-                key={weapon}
-              >
-                {weapon} | {stats.type}
-              </Text>
+            {uniGadgetAssigned.map((gadget) => (
+              <View key={gadget.id}>
+                <TouchableHighlight
+                  onPress={() => {
+                    Alert.alert(
+                      `Ilość: ${gadget.quantity}`,
+                      `${gadget.description}`,
+                      [
+                        {
+                          text: "Okej",
+                        },
+                      ]
+                    );
+                  }}
+                >
+                  <Text style={styles.textColor}>{gadget.name}</Text>
+                </TouchableHighlight>
+              </View>
             ))}
           </View>
           <Text style={styles.textColorHeaderBold}>
@@ -445,7 +464,8 @@ const WeaponsList: React.FC<WeaponsListScreenProps> = (props) => {
 
 const WeaponSpecific: React.FC<
   WeaponSpecificScreenProps & { weaponName: string }
-> = ({ route }) => {
+> = (props) => {
+  const { route } = props;
   const weapons: (WeaponPrimary | WeaponSecondary)[] = [
     ...weaponsJson,
     ...weaponsSecondaryJson,
@@ -573,6 +593,22 @@ const WeaponSpecific: React.FC<
                 </View>
               );
             })}
+            <Text style={styles.textColorHeaderBold}>Operatorzy</Text>
+            {weapon.operators.map((operator) => (
+              <View key={operator}>
+                <TouchableHighlight
+                  onPress={() => {
+                    props.navigation.navigate("OperatorsSpecific", {
+                      operatorName: operator,
+                    });
+                  }}
+                >
+                  <View>
+                    <Text style={styles.textColor}>{operator}</Text>
+                  </View>
+                </TouchableHighlight>
+              </View>
+            ))}
           </View>
         </View>
       </SafeAreaView>

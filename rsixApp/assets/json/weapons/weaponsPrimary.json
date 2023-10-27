@@ -114,7 +114,7 @@
     "name": "AUG A2",
     "type": "Karabin szturmowy",
     "damage": 42,
-    "operators": ["Iq", "Wamai"],
+    "operators": ["IQ", "Wamai"],
     "attachments": {
       "scopes": ["1.0", "1.5", "2.0", "2.5"],
       "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
@@ -128,7 +128,7 @@
     "name": "552 Commando",
     "type": "Karabin szturmowy",
     "damage": 48,
-    "operators": ["Iq", "Grim"],
+    "operators": ["IQ", "Grim"],
     "attachments": {
       "scopes": ["1.0", "1.5", "2.0"],
       "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
@@ -1125,7 +1125,7 @@
     "name": "G8A1",
     "type": "LKM",
     "damage": 37,
-    "operators": ["Iq", "Amaru"],
+    "operators": ["IQ", "Amaru"],
     "attachments": {
       "scopes": ["1.0", "1.5", "2.0", "2.5"],
       "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],

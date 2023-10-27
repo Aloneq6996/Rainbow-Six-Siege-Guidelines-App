@@ -5,20 +5,6 @@
     "name": "Seamus",
     "surname": "Cowden",
     "nickname": "Sledge",
-    "uniGadget": {
-      "Frag Granade": {
-        "type": "Granat",
-        "quantity": 2
-      },
-      "Stun Granade": {
-        "type": "Granat",
-        "quantity": 3
-      },
-      "Impact EMP Granade": {
-        "type": "Granat EMP",
-        "quantity": 2
-      }
-    },
     "counters": ["Castle"],
     "counteredBy": ["Wzmocniona ściana"],
     "image": "https://liquipedia.net/commons/images/thumb/1/1c/R6S_Sledge_Icon_2021_allmode.png/50px-R6S_Sledge_Icon_2021_allmode.png"
@@ -29,16 +15,6 @@
     "name": "Mike",
     "surname": "Baker",
     "nickname": "Thatcher",
-    "uniGadget": {
-      "Breach Charge": {
-        "type": "Soft Breach",
-        "quantity": 3
-      },
-      "Claymore": {
-        "type": "Anti personnel",
-        "quantity": 2
-      }
-    },
     "counters": [
       "Smoke",
       "Mute",
@@ -69,16 +45,6 @@
     "name": "Eliza",
     "surname": "Cohen",
     "nickname": "Ash",
-    "uniGadget": {
-      "Breach Charge": {
-        "type": "Soft Breach",
-        "quantity": 3
-      },
-      "Claymore": {
-        "type": "Anti personnel",
-        "quantity": 2
-      }
-    },
     "counters": ["Castle", "Maestro", "Goyo", "Melusi"],
     "counteredBy": ["Jäger", "Wamai"],
     "image": "https://liquipedia.net/commons/images/thumb/e/e0/R6S_Ash_Icon_2021_allmode.png/100px-R6S_Ash_Icon_2021_allmode.png"
@@ -89,16 +55,6 @@
     "name": "Jordan",
     "surname": "Trace",
     "nickname": "Thermite",
-    "uniGadget": {
-      "Smoke Grenade": {
-        "type": "Granat",
-        "quantity": 2
-      },
-      "Stun Granade": {
-        "type": "Granat",
-        "quantity": 3
-      }
-    },
     "counters": ["-"],
     "counteredBy": ["Bandit", "Mute", "Maestro", "Kaid"],
     "image": "https://liquipedia.net/commons/images/thumb/b/b4/R6S_Thermite_Icon_2021_allmode.png/100px-R6S_Thermite_Icon_2021_allmode.png"
@@ -109,16 +65,6 @@
     "name": "Emmanuelle",
     "surname": "Pichon",
     "nickname": "Twitch",
-    "uniGadget": {
-      "Claymore": {
-        "type": "Anti personnel",
-        "quantity": 2
-      },
-      "Smoke Grenade": {
-        "type": "Granat",
-        "quantity": 2
-      }
-    },
     "counters": [
       "Mira",
       "Valkyrie",
@@ -143,22 +89,333 @@
     "name": "Gilles",
     "surname": "Touré",
     "nickname": "Montagne",
-    "uniGadget": {
-      "Hard Breach Charge": {
-        "type": "Hard Breach",
-        "quantity": 2
-      },
-      "Smoke Grenade": {
-        "type": "Granat",
-        "quantity": 2
-      },
-      "Impact EMP Granade": {
-        "type": "Granat EMP",
-        "quantity": 2
-      }
-    },
     "counters": ["-"],
     "counteredBy": ["Echo", "Kapkan", "Lesion", "Ela", "Oryx"],
     "image": "https://liquipedia.net/commons/images/thumb/a/ae/R6S_Montagne_Icon_2021_allmode.png/100px-R6S_Montagne_Icon_2021_allmode.png"
+  },
+  {
+    "id": 7,
+    "role": "Backline",
+    "name": "Timir",
+    "surname": "Glazkov",
+    "nickname": "Glaz",
+    "counters": ["Alibi"],
+    "counteredBy": ["-"],
+    "image": "https://liquipedia.net/commons/images/thumb/0/0f/R6S_Glaz_Icon_2021_allmode.png/100px-R6S_Glaz_Icon_2021_allmode.png"
+  },
+  {
+    "id": 8,
+    "role": "Area Denial",
+    "name": "Shuhrat",
+    "surname": "Kessikbayev",
+    "nickname": "Fuze",
+    "counters": ["-"],
+    "counteredBy": ["Jäger", "Maestro"],
+    "image": "https://liquipedia.net/commons/images/thumb/c/cd/R6S_Fuze_Icon_2021_allmode.png/100px-R6S_Fuze_Icon_2021_allmode.png"
+  },
+  {
+    "id": 9,
+    "role": "Shield",
+    "name": "Ellas",
+    "surname": "Kötz",
+    "nickname": "Blitz",
+    "counters": ["-"],
+    "counteredBy": ["Kapkan", "Lesion", "Warden", "Oryx"],
+    "image": "https://liquipedia.net/commons/images/thumb/6/68/R6S_Blitz_Icon_2021_allmode.png/100px-R6S_Blitz_Icon_2021_allmode.png"
+  },
+  {
+    "id": 10,
+    "role": "Intel Gatherer",
+    "name": "Monika",
+    "surname": "Weiss",
+    "nickname": "IQ",
+    "counters": ["Solis"],
+    "counteredBy": [
+      "Mute",
+      "Pulse",
+      "Bandit",
+      "Jäger",
+      "Valkyrie",
+      "Smoke",
+      "Kapkan",
+      "Echo",
+      "Ela",
+      "Alibi",
+      "Maestro",
+      "Clash",
+      "Mozzie",
+      "Warden",
+      "Wamai"
+    ],
+    "image": "https://liquipedia.net/commons/images/thumb/a/aa/R6S_IQ_Icon_2021_allmode.png/100px-R6S_IQ_Icon_2021_allmode.png"
+  },
+  {
+    "id": 11,
+    "role": "Soft Breach",
+    "name": "Sebastien",
+    "surname": "Côté",
+    "nickname": "Buck",
+    "counters": ["-"],
+    "counteredBy": ["-"],
+    "image": "https://liquipedia.net/commons/images/thumb/6/68/R6S_Buck_Icon_2021_allmode.png/100px-R6S_Buck_Icon_2021_allmode.png"
+  },
+  {
+    "id": 12,
+    "role": "Shield",
+    "name": "Craig",
+    "surname": "Jenson",
+    "nickname": "Blackbeard",
+    "counters": ["-"],
+    "counteredBy": ["-"],
+    "image": "https://liquipedia.net/commons/images/thumb/4/48/R6S_Blackbeard_Icon_2021_allmode.png/100px-R6S_Blackbeard_Icon_2021_allmode.png"
+  },
+  {
+    "id": 13,
+    "role": "Area Denial",
+    "name": "Vicente",
+    "surname": "Souza",
+    "nickname": "Capitão",
+    "counters": ["Clash"],
+    "counteredBy": ["Wamai"],
+    "image": "https://liquipedia.net/commons/images/thumb/7/75/R6S_Capit%C3%A3o_Icon_2021_allmode.png/100px-R6S_Capit%C3%A3o_Icon_2021_allmode.png"
+  },
+  {
+    "id": 14,
+    "role": "Hard Breach",
+    "name": "Yumiko",
+    "surname": "Imagawa",
+    "nickname": "Hibana",
+    "counters": ["-"],
+    "counteredBy": ["Bandit", "Mute", "Maestro", "Kaid"],
+    "image": "https://liquipedia.net/commons/images/thumb/6/66/R6S_Hibana_Icon_2021_allmode.png/100px-R6S_Hibana_Icon_2021_allmode.png"
+  },
+  {
+    "id": 15,
+    "role": "Intel Gatherer",
+    "name": "Ryad Ramírez",
+    "surname": "Al-Hassar",
+    "nickname": "Jackal",
+    "counters": ["Vigil"],
+    "counteredBy": ["Caveira", "Mute"],
+    "image": "https://liquipedia.net/commons/images/thumb/3/3e/R6S_Jackal_Icon_2021_allmode.png/100px-R6S_Jackal_Icon_2021_allmode.png"
+  },
+  {
+    "id": 16,
+    "role": "Crowd Control",
+    "name": "Siu",
+    "surname": "Mei Lin",
+    "nickname": "Ying",
+    "counters": ["-"],
+    "counteredBy": ["Jäger", "Bandit", "Maestro", "Kaid", "Warden", "Wamai"],
+    "image": "https://liquipedia.net/commons/images/thumb/c/ce/R6S_Ying_Icon_2021_allmode.png/100px-R6S_Ying_Icon_2021_allmode.png"
+  },
+  {
+    "id": 17,
+    "role": "Crowd Control / Soft Breach",
+    "name": "Zofia",
+    "surname": "Bosak",
+    "nickname": "Zofia",
+    "counters": ["Clash", "Maestro", "Goyo", "Melusi", "Castle"],
+    "counteredBy": ["Jäger", "Wamai"],
+    "image": "https://liquipedia.net/commons/images/thumb/c/c8/R6S_Zofia_Icon_2021_allmode.png/100px-R6S_Zofia_Icon_2021_allmode.png"
+  },
+  {
+    "id": 18,
+    "role": "Intel Denial / Intel Gatherer",
+    "name": "Grace",
+    "surname": "Nam",
+    "nickname": "Dokkaebi",
+    "counters": ["-"],
+    "counteredBy": ["Mute"],
+    "image": "https://liquipedia.net/commons/images/thumb/c/c8/R6S_Zofia_Icon_2021_allmode.png/100px-R6S_Zofia_Icon_2021_allmode.png"
+  },
+  {
+    "id": 19,
+    "role": "Intel Gatherer / Crowd Control",
+    "name": "Olivier",
+    "surname": "Flament",
+    "nickname": "Lion",
+    "counters": ["-"],
+    "counteredBy": ["Mute", "Vigil"],
+    "image": "https://liquipedia.net/commons/images/thumb/9/9e/R6S_Lion_Icon_2021_allmode.png/100px-R6S_Lion_Icon_2021_allmode.png"
+  },
+  {
+    "id": 20,
+    "role": "Buff",
+    "name": "Lera",
+    "surname": "Melnikova",
+    "nickname": "Finka",
+    "counters": ["-"],
+    "counteredBy": ["Solis"],
+    "image": "https://liquipedia.net/commons/images/thumb/3/38/R6S_Finka_Icon_2021_allmode.png/100px-R6S_Finka_Icon_2021_allmode.png"
+  },
+  {
+    "id": 21,
+    "role": "Hard Breach",
+    "name": "Erik",
+    "surname": "Thorn",
+    "nickname": "Maverick",
+    "counters": ["-"],
+    "counteredBy": ["-"],
+    "image": "https://liquipedia.net/commons/images/thumb/c/ce/R6S_Maverick_Icon_2021_allmode.png/100px-R6S_Maverick_Icon_2021_allmode.png"
+  },
+  {
+    "id": 22,
+    "role": "Trap",
+    "name": "Sanaa",
+    "surname": "El Maktoub",
+    "nickname": "Nomad",
+    "counters": ["-"],
+    "counteredBy": ["Jäger", "Wamai"],
+    "image": "https://liquipedia.net/commons/images/thumb/8/8c/R6S_Nomad_Icon_2021_allmode.png/100px-R6S_Nomad_Icon_2021_allmode.png"
+  },
+  {
+    "id": 23,
+    "role": "Area Denial",
+    "name": "Tori",
+    "surname": "Tallyo Fairous",
+    "nickname": "Gridlock",
+    "counters": ["-"],
+    "counteredBy": ["Wamai"],
+    "image": "https://liquipedia.net/commons/images/thumb/d/d9/R6S_Gridlock_Icon_2021_allmode.png/100px-R6S_Gridlock_Icon_2021_allmode.png"
+  },
+  {
+    "id": 24,
+    "role": "Intel Denial",
+    "name": "[REDACTED]",
+    "surname": "[REDACTED]",
+    "nickname": "Nøkk",
+    "counters": ["Echo", "Valkyrie", "Maestro"],
+    "counteredBy": ["Solis", "Lesion"],
+    "image": "https://liquipedia.net/commons/images/thumb/d/de/R6S_N%C3%B8kk_Icon_2021_allmode.png/100px-R6S_N%C3%B8kk_Icon_2021_allmode.png"
+  },
+  {
+    "id": 25,
+    "role": "Front Line",
+    "name": "Azucena Rocío",
+    "surname": "Quispe",
+    "nickname": "Amaru",
+    "counters": ["-"],
+    "counteredBy": ["Castle", "Frost", "Kapkan", "Aruni"],
+    "image": "https://liquipedia.net/commons/images/thumb/d/da/R6S_Amaru_Icon_2021_allmode.png/100px-R6S_Amaru_Icon_2021_allmode.png"
+  },
+  {
+    "id": 26,
+    "role": "Backline",
+    "name": "Jaimini",
+    "surname": "Kalimohan Shah",
+    "nickname": "Kali",
+    "counters": ["Bandit", "Maestro", "Goyo", "Melusi"],
+    "counteredBy": ["Jäger", "Wamai", "Aruni"],
+    "image": "https://liquipedia.net/commons/images/thumb/8/84/R6S_Kali_Icon_2021_allmode.png/100px-R6S_Kali_Icon_2021_allmode.png"
+  },
+  {
+    "id": 27,
+    "role": "Intel Denial / Intel Gatherer",
+    "name": "Nienke",
+    "surname": "Meijer",
+    "nickname": "Iana",
+    "counters": ["-"],
+    "counteredBy": ["Mute", "Bandit", "Maestro", "Kaid"],
+    "image": "https://liquipedia.net/commons/images/thumb/a/a6/R6S_Iana_Icon_2021_allmode.png/100px-R6S_Iana_Icon_2021_allmode.png"
+  },
+  {
+    "id": 28,
+    "role": "Hard Breach",
+    "name": "Håvard",
+    "surname": "Haugland",
+    "nickname": "Ace",
+    "counters": ["Mira"],
+    "counteredBy": ["Jäger", "Wamai", "Bandit", "Mute", "Kaid"],
+    "image": "https://liquipedia.net/commons/images/thumb/2/24/R6S_Ace_Icon_2021_allmode.png/100px-R6S_Ace_Icon_2021_allmode.png"
+  },
+  {
+    "id": 29,
+    "role": "Intel Gatherer",
+    "name": "Samuel",
+    "surname": "Leo Fisher",
+    "nickname": "Zero",
+    "counters": ["Mira", "Goyo", "Wamai", "Jäger"],
+    "counteredBy": ["Wamai", "Jäger", "Aruni"],
+    "image": "https://liquipedia.net/commons/images/thumb/c/c2/R6S_Zero_Icon_2021_allmode.png/100px-R6S_Zero_Icon_2021_allmode.png"
+  },
+  {
+    "id": 30,
+    "role": "Soft Breach",
+    "name": "Santiago Miguel",
+    "surname": "Lucero's",
+    "nickname": "Flores",
+    "counters": ["-"],
+    "counteredBy": ["Mute", "Kaid", "Bandit"],
+    "image": "https://liquipedia.net/commons/images/thumb/b/b5/R6S_Flores_Icon_2021_allmode.png/100px-R6S_Flores_Icon_2021_allmode.png"
+  },
+  {
+    "id": 31,
+    "role": "Intel Gatherer",
+    "name": "Anja Katarina",
+    "surname": "Janković",
+    "nickname": "Osa",
+    "counters": ["Kapkan", "Aruni"],
+    "counteredBy": ["-"],
+    "image": "https://liquipedia.net/commons/images/thumb/3/33/R6S_Osa_Icon_2021_allmode.png/100px-R6S_Osa_Icon_2021_allmode.png"
+  },
+  {
+    "id": 32,
+    "role": "Crowd Control",
+    "name": "Néon Ngoma",
+    "surname": "Mutombo",
+    "nickname": "Sens",
+    "counters": ["-"],
+    "counteredBy": ["Jäger", "Wamai", "Aruni", "Mute", "Warden"],
+    "image": "https://liquipedia.net/commons/images/thumb/9/98/R6S_Sens_Icon_2022_allmode.png/100px-R6S_Sens_Icon_2022_allmode.png"
+  },
+  {
+    "id": 33,
+    "role": "Intel Gatherer",
+    "name": "Charlie Tho",
+    "surname": "Keng Boon",
+    "nickname": "Grim",
+    "counters": ["-"],
+    "counteredBy": ["-"],
+    "image": "https://liquipedia.net/commons/images/thumb/4/42/R6S_Grim_Icon_2022_allmode.png/100px-R6S_Grim_Icon_2022_allmode.png"
+  },
+  {
+    "id": 34,
+    "role": "Gadget Denier",
+    "name": "Naya",
+    "surname": "Cardoso",
+    "nickname": "Brava",
+    "counters": [
+      "Alibi",
+      "Aruni",
+      "Bandit",
+      "Echo",
+      "Ela",
+      "Jäger",
+      "Kaid",
+      "Kapkan",
+      "Maestro",
+      "Melusi",
+      "Mozzie",
+      "Mute",
+      "Smoke",
+      "Valkyrie",
+      "Wamai",
+      "Thunderbird",
+      "Thorn",
+      "Fenrir"
+    ],
+    "counteredBy": ["Mute", "Mozzie", "Solis"],
+    "image": "https://liquipedia.net/commons/images/thumb/f/f6/R6S_Brava_Icon_2023_allmode.png/100px-R6S_Brava_Icon_2023_allmode.png"
+  },
+  {
+    "id": 35,
+    "role": "Soft Breach",
+    "name": "Bo-Ram",
+    "surname": "Choi",
+    "nickname": "Ram",
+    "counters": ["Aruni", "Castle", "Goyo", "Mira"],
+    "counteredBy": ["Mute"],
+    "image": "https://liquipedia.net/commons/images/thumb/5/5e/R6S_Ram_Icon_2022_allmode.png/100px-R6S_Ram_Icon_2022_allmode.png"
   }
 ]

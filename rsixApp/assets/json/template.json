@@ -4,32 +4,6 @@
     "name": "",
     "surname": "",
     "nickname": "",
-    "mainLoadout": {
-      "": {
-        "type": "",
-        "damage": 0
-      },
-      "": {
-        "type": "",
-        "damage": 0
-      }
-    },
-    "secLoadout": {
-      "": {
-        "type": "",
-        "damage": 0
-      }
-    },
-    "uniGadget": {
-      "": {
-        "type": "",
-        "quantity": 0
-      },
-      "": {
-        "type": "",
-        "quantity": 0
-      }
-    },
     "counters": [],
     "counteredBy": [],
     "image": ""
@@ -56,4 +30,11 @@
   "quantity": 0,
   "operators": [""],
   "image": ""
+},
+
+"build": {
+  "scopes": [],
+  "barrels": [],
+  "grips": [],
+  "underbarrel": []
 },

@@ -96,7 +96,7 @@
     "name": "P12",
     "type": "Pistolet",
     "damage": 44,
-    "operators": ["Blitz", "Iq", "Jäger", "Bandit", "Wamai"],
+    "operators": ["Blitz", "IQ", "Jäger", "Bandit", "Wamai"],
     "attachments": {
       "barrels": ["Suppressor", "Muzzle Brake"],
       "underbarrel": ["Laser"]
