@@ -14,7 +14,7 @@ import {
   TextInput,
 } from "react-native";
 import { Image } from "expo-image";
-import { NavigationContainer, useNavigation } from "@react-navigation/native";
+import { NavigationContainer } from "@react-navigation/native";
 import {
   createNativeStackNavigator,
   NativeStackScreenProps,
@@ -22,7 +22,8 @@ import {
 
 // requires
 
-const operatorsJson = require("./assets/json/operators/operatorsAttack.json");
+const operatorsAttackJson = require("./assets/json/operators/operatorsAttack.json");
+const operatorsDefenseJson = require("./assets/json/operators/operatorsDefense.json");
 const weaponsJson = require("./assets/json/weapons/weaponsPrimary.json");
 const weaponsSecondaryJson = require("./assets/json/weapons/weaponsSecondary.json");
 const uniGadgetsJson = require("./assets/json/weapons/gadgets.json");
@@ -46,9 +47,6 @@ type Operator = {
   name: string;
   surname: string;
   nickname: string;
-  mainLoadout: Record<string, any>;
-  secLoadout: Record<string, any>;
-  uniGadget: Record<string, any>;
   counters: string[];
   counteredBy: string[];
   image: string;
@@ -198,8 +196,7 @@ const Operators: React.FC<OperatorsScreenProps> = (props) => {
           <TouchableHighlight
             style={styles.btn}
             underlayColor={"#363434"}
-            // onPress={() => props.navigation.push("OperatorsListDefense")}
-            onPress={notAvailableYet}
+            onPress={() => props.navigation.push("OperatorsListDefense")}
           >
             <Text style={styles.textColor}>Broniący</Text>
           </TouchableHighlight>
@@ -215,7 +212,7 @@ const OperatorsListAttack: React.FC<OperatorsListAttackScreenProps> = (
   props
 ) => {
   const [searchText, setSearchText] = useState("");
-  const filteredOperators = operatorsJson.filter((item: any) =>
+  const filteredOperators = operatorsAttackJson.filter((item: any) =>
     item.nickname.toLowerCase().includes(searchText.toLowerCase())
   );
   return (
@@ -267,29 +264,78 @@ const OperatorsListAttack: React.FC<OperatorsListAttackScreenProps> = (
 const OperatorsListDefense: React.FC<OperatorsListDefenseScreenProps> = (
   props
 ) => {
+  const [searchText, setSearchText] = useState("");
+  const filteredOperators = operatorsDefenseJson.filter((item: any) =>
+    item.nickname.toLowerCase().includes(searchText.toLowerCase())
+  );
   return (
     <SafeAreaView style={styles.container}>
-      <Image style={styles.logo} source={require("./assets/logo.png")} />
-      <View></View>
+      <TouchableOpacity
+        onPress={() => props.navigation.navigate("Home")}
+        activeOpacity={0.8}
+        style={styles.logoBtn}
+      >
+        <Image source={require("./assets/logo.png")} style={styles.logo} />
+      </TouchableOpacity>
+
+      <TextInput
+        placeholder="Wyszukaj operatora"
+        placeholderTextColor={"#fff"}
+        style={styles.searchInput}
+        value={searchText}
+        onChangeText={(text) => setSearchText(text)}
+      />
+
+      <View style={styles.containerList}>
+        <FlatList
+          data={filteredOperators}
+          keyExtractor={(item) => item.id.toString()}
+          renderItem={({ item }) => (
+            <TouchableHighlight
+              onPress={() => {
+                props.navigation.navigate("OperatorsSpecific", {
+                  operatorName: item.nickname,
+                });
+              }}
+            >
+              <View style={styles.itemContainer}>
+                <View style={styles.itemContent}>
+                  <Image source={item.image} style={styles.image} />
+                  <Text style={styles.itemText}>{item.nickname}</Text>
+                </View>
+              </View>
+            </TouchableHighlight>
+          )}
+        />
+      </View>
     </SafeAreaView>
   );
 };
 
 // Specific Operator
 
-const OperatorsSpecific: React.FC<
-  OperatorsSpecificScreenProps & { operatorName: string }
-> = (props) => {
+const OperatorsSpecific: React.FC<OperatorsSpecificScreenProps> = (props) => {
   const { route } = props;
 
-  const operator: Operator | undefined = operatorsJson.find(
+  const operators: Operator[] = [
+    ...operatorsAttackJson,
+    ...operatorsDefenseJson,
+  ];
+
+  const operator: Operator | undefined = operators.find(
     (op: any) => op.nickname === route.params.operatorName
   );
 
   if (!operator) {
     return (
       <SafeAreaView style={styles.container}>
-        <Image style={styles.logo} source={require("./assets/logo.png")} />
+        <TouchableOpacity
+          onPress={() => props.navigation.navigate("Home")}
+          activeOpacity={0.8}
+          style={styles.logoBtn}
+        >
+          <Image source={require("./assets/logo.png")} style={styles.logo} />
+        </TouchableOpacity>
         <View>
           <Text style={styles.textColor}>Operator nieznaleziony</Text>
         </View>
@@ -316,7 +362,16 @@ const OperatorsSpecific: React.FC<
       contentInsetAdjustmentBehavior="automatic"
     >
       <SafeAreaView style={styles.container}>
-        <Image style={styles.logoOp} source={require("./assets/logo.png")} />
+        <TouchableOpacity
+          onPress={() => props.navigation.navigate("Home")}
+          activeOpacity={0.8}
+          style={styles.logoBtn}
+        >
+          <Image
+            source={require("./assets/logo.png")}
+            style={styles.logoSpecific}
+          />
+        </TouchableOpacity>
         <View style={styles.personalContainer}>
           <Text style={styles.textColorHeaderBold}>{operator.role}</Text>
           <Image source={operator.image} style={styles.imageOp} />
@@ -388,16 +443,52 @@ const OperatorsSpecific: React.FC<
           <Text style={styles.textColorHeaderBold}>
             {operator.nickname} kontruje
           </Text>
-          <View>
-            <Text style={styles.textColor}>{operator.counters.join(", ")}</Text>
+          <View style={styles.rowContent}>
+            {operator.counters.map((op) =>
+              op === "-" ? (
+                <Text key={op} style={styles.textColor}>
+                  {op}
+                </Text>
+              ) : (
+                <TouchableHighlight
+                  key={op}
+                  onPress={() => {
+                    props.navigation.push("OperatorsSpecific", {
+                      operatorName: op,
+                    });
+                  }}
+                >
+                  <View>
+                    <Text style={styles.textColor}>{op}</Text>
+                  </View>
+                </TouchableHighlight>
+              )
+            )}
           </View>
           <Text style={styles.textColorHeaderBold}>
             {operator.nickname} jest kontrowany/a przez
           </Text>
-          <View>
-            <Text style={styles.textColor}>
-              {operator.counteredBy.join(", ")}
-            </Text>
+          <View style={styles.rowContent}>
+            {operator.counteredBy.map((op) =>
+              op === "-" ? (
+                <Text key={op} style={styles.textColor}>
+                  {op}
+                </Text>
+              ) : (
+                <TouchableHighlight
+                  key={op}
+                  onPress={() => {
+                    props.navigation.push("OperatorsSpecific", {
+                      operatorName: op,
+                    });
+                  }}
+                >
+                  <View style={styles.rowContent}>
+                    <Text style={styles.textColor}>{op}</Text>
+                  </View>
+                </TouchableHighlight>
+              )
+            )}
           </View>
         </View>
       </SafeAreaView>
@@ -462,9 +553,7 @@ const WeaponsList: React.FC<WeaponsListScreenProps> = (props) => {
   );
 };
 
-const WeaponSpecific: React.FC<
-  WeaponSpecificScreenProps & { weaponName: string }
-> = (props) => {
+const WeaponSpecific: React.FC<WeaponSpecificScreenProps> = (props) => {
   const { route } = props;
   const weapons: (WeaponPrimary | WeaponSecondary)[] = [
     ...weaponsJson,
@@ -644,6 +733,11 @@ export default function App() {
           options={{ headerShown: false }}
         />
         <Stack.Screen
+          name="OperatorsListDefense"
+          component={OperatorsListDefense}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
           name="OperatorsSpecific"
           component={OperatorsSpecific}
           options={{ headerShown: false }}
@@ -693,6 +787,12 @@ const styles = StyleSheet.create({
     width: 100,
     height: 100,
     top: 0,
+  },
+  logoSpecific: {
+    position: "absolute",
+    width: 100,
+    height: 100,
+    top: -12,
   },
   btn: {
     color: "#fff",
@@ -770,6 +870,11 @@ const styles = StyleSheet.create({
     padding: 10,
     backgroundColor: "#212020",
     borderRadius: 8,
+  },
+  rowContent: {
+    flexWrap: "wrap",
+    flexDirection: "row",
+    justifyContent: "center",
   },
   image: {
     width: 50,
