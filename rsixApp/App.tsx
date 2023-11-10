@@ -496,6 +496,8 @@ const OperatorsSpecific: React.FC<OperatorsSpecificScreenProps> = (props) => {
   );
 };
 
+// Weapon list
+
 const WeaponsList: React.FC<WeaponsListScreenProps> = (props) => {
   const [searchText, setSearchText] = useState("");
 
@@ -552,6 +554,8 @@ const WeaponsList: React.FC<WeaponsListScreenProps> = (props) => {
     </SafeAreaView>
   );
 };
+
+// Specific weapon
 
 const WeaponSpecific: React.FC<WeaponSpecificScreenProps> = (props) => {
   const { route } = props;
@@ -638,11 +642,34 @@ const WeaponSpecific: React.FC<WeaponSpecificScreenProps> = (props) => {
                     }}
                   >
                     {Array.isArray(items)
-                      ? items.map((item) => (
-                          <Text key={item} style={styles.attachmentText}>
-                            {item}
-                          </Text>
-                        ))
+                      ? items.map((item) => {
+                          let itemText = item;
+                          let itemStyle: {
+                            color: string;
+                            fontSize: number;
+                            margin: number;
+                            flexDirection: "row";
+                            textAlign: "center";
+                            textDecorationLine: "none" | "underline";
+                          } = {
+                            color: "#fff",
+                            fontSize: 17,
+                            margin: 8,
+                            flexDirection: "row",
+                            textAlign: "center",
+                            textDecorationLine: "none",
+                          };
+                          if (itemText.endsWith("X")) {
+                            itemText = item.slice(0, -1);
+                            itemStyle.textDecorationLine =
+                              "underline" as "underline";
+                          }
+                          return (
+                            <Text key={item} style={itemStyle}>
+                              {itemText}
+                            </Text>
+                          );
+                        })
                       : Object.entries(items).map(([subCategory, subItems]) => {
                           let subCategoryLabel = subCategory;
 
@@ -662,19 +689,40 @@ const WeaponSpecific: React.FC<WeaponSpecificScreenProps> = (props) => {
                               <Text style={styles.attachmentsCategory}>
                                 {subCategoryLabel}
                               </Text>
-                              {(subItems as string[]).map((item) => (
-                                <View
-                                  key={item}
-                                  style={{
-                                    flexDirection: "row",
-                                    justifyContent: "center",
-                                  }}
-                                >
-                                  <Text style={styles.attachmentText}>
-                                    {item}
-                                  </Text>
-                                </View>
-                              ))}
+                              {(subItems as string[]).map((item) => {
+                                let itemText = item;
+                                let itemStyle: {
+                                  color: string;
+                                  fontSize: number;
+                                  margin: number;
+                                  flexDirection: "row";
+                                  textAlign: "center";
+                                  textDecorationLine: "none" | "underline";
+                                } = {
+                                  color: "#fff",
+                                  fontSize: 17,
+                                  margin: 8,
+                                  flexDirection: "row",
+                                  textAlign: "center",
+                                  textDecorationLine: "none",
+                                };
+                                if (item.endsWith("X")) {
+                                  itemText = item.slice(0, -1);
+                                  itemStyle.textDecorationLine =
+                                    "underline" as "underline";
+                                }
+                                return (
+                                  <View
+                                    key={item}
+                                    style={{
+                                      flexDirection: "row",
+                                      justifyContent: "center",
+                                    }}
+                                  >
+                                    <Text style={itemStyle}>{itemText}</Text>
+                                  </View>
+                                );
+                              })}
                             </View>
                           );
                         })}
@@ -918,11 +966,12 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "bold",
   },
-  attachmentText: {
-    color: "#fff",
-    fontSize: 17,
-    margin: 8,
-    flexDirection: "row",
-    textAlign: "center",
-  },
+  // attachmentText: {
+  //   color: "#fff",
+  //   fontSize: 17,
+  //   margin: 8,
+  //   flexDirection: "row",
+  //   textAlign: "center",
+  //   fontWeight: "normal",
+  // },
 });

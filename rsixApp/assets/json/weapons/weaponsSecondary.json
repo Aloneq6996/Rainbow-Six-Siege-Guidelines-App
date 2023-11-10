@@ -6,7 +6,7 @@
     "damage": 50,
     "operators": ["Sledge", "Thatcher", "Smoke", "Mute"],
     "attachments": {
-      "barrels": ["Suppressor", "Muzzle Brake"],
+      "barrels": ["Suppressor", "Muzzle BrakeX"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/b/bf/R6S_wpn_P226_MK_25.png"
@@ -18,7 +18,7 @@
     "damage": 58,
     "operators": ["Ash", "Thermite", "Pulse"],
     "attachments": {
-      "barrels": ["Suppressor", "Muzzle Brake"],
+      "barrels": ["Suppressor", "Muzzle BrakeX"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/1/1d/R6S_wpn_M45_MEUSOC.png"
@@ -38,7 +38,7 @@
       "Fenrir"
     ],
     "attachments": {
-      "barrels": ["Suppressor", "Muzzle Brake"],
+      "barrels": ["Suppressor", "Muzzle BrakeX"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/f/f1/R6S_wpn_5.7_USG.png"
@@ -50,7 +50,7 @@
     "damage": 45,
     "operators": ["Twitch", "Montagne", "Doc", "Rook", "Ace"],
     "attachments": {
-      "barrels": ["Suppressor", "Muzzle Brake"],
+      "barrels": ["Suppressor", "Muzzle BrakeX"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/2/26/R6S_wpn_P9.png"
@@ -74,7 +74,7 @@
     "damage": 44,
     "operators": ["Fuze", "Kapkan", "Tachanka", "Flores"],
     "attachments": {
-      "barrels": ["Suppressor", "Muzzle Brake"],
+      "barrels": ["Suppressor", "Muzzle BrakeX"],
       "underbarrel": []
     },
     "image": "https://liquipedia.net/commons/images/4/4d/R6S_wpn_GSH-18.png"
@@ -86,7 +86,7 @@
     "damage": 63,
     "operators": ["Glaz", "Fuze", "Kapkan", "Tachanka", "Finka", "Osa"],
     "attachments": {
-      "barrels": ["Suppressor", "Muzzle Brake"],
+      "barrels": ["Suppressor", "Muzzle BrakeX"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/b/b3/R6S_wpn_PMM.png"
@@ -98,7 +98,7 @@
     "damage": 44,
     "operators": ["Blitz", "IQ", "Jäger", "Bandit", "Wamai"],
     "attachments": {
-      "barrels": ["Suppressor", "Muzzle Brake"],
+      "barrels": ["Suppressor", "Muzzle BrakeX"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/9/94/R6S_wpn_P12.png"
@@ -110,7 +110,7 @@
     "damage": 48,
     "operators": ["Buck", "Frost", "Iana", "Ram"],
     "attachments": {
-      "barrels": ["Suppressor", "Muzzle Brake"],
+      "barrels": ["Suppressor", "Muzzle BrakeX"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/9/9c/R6S_wpn_MK1_9mm.png"
@@ -122,7 +122,7 @@
     "damage": 71,
     "operators": ["Blackbeard", "Valkyrie", "Nøkk", "Azami"],
     "attachments": {
-      "barrels": ["Suppressor", "Muzzle Brake"],
+      "barrels": ["Suppressor", "Muzzle BrakeX"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/d/d1/R6S_wpn_D-50.png"
@@ -134,7 +134,7 @@
     "damage": 42,
     "operators": ["Capitão", "Nomad", "Aruni"],
     "attachments": {
-      "barrels": ["Suppressor", "Muzzle Brake"],
+      "barrels": ["Suppressor", "Muzzle BrakeX"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/e/e7/R6S_wpn_PRB92.png"
@@ -146,7 +146,7 @@
     "damage": 50,
     "operators": ["Hibana", "Echo", "Goyo", "Grim"],
     "attachments": {
-      "barrels": ["Suppressor", "Muzzle Brake"],
+      "barrels": ["Suppressor", "Muzzle BrakeX"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/1/1c/R6S_wpn_P229.png"
@@ -158,7 +158,7 @@
     "damage": 48,
     "operators": ["Jackal", "Mira", "Oryx", "Brava"],
     "attachments": {
-      "barrels": ["Suppressor", "Muzzle Brake"],
+      "barrels": ["Suppressor", "Muzzle BrakeX"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/9/95/R6S_wpn_USP40.png"
@@ -170,7 +170,7 @@
     "damage": 60,
     "operators": ["Ying", "Lesion", "Thunderbird"],
     "attachments": {
-      "barrels": ["Suppressor", "Muzzle Brake"],
+      "barrels": ["Suppressor", "Muzzle BrakeX"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/9/91/R6S_wpn_Q-929.png"
@@ -182,7 +182,7 @@
     "damage": 38,
     "operators": ["Ela", "Zofia", "Melusi"],
     "attachments": {
-      "barrels": ["Suppressor", "Muzzle Brake"],
+      "barrels": ["Suppressor", "Muzzle BrakeX"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/a/a8/R6S_wpn_RG15.png"
@@ -206,7 +206,7 @@
     "damage": 78,
     "operators": ["Alibi", "Maestro", "Wamai"],
     "attachments": {
-      "barrels": ["Suppressor", "Muzzle Brake"],
+      "barrels": ["SuppressorX", "Muzzle BrakeX"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/0/0b/R6S_wpn_Keratos_.357.png"
@@ -218,7 +218,7 @@
     "damage": 55,
     "operators": ["Maverick", "Thorn"],
     "attachments": {
-      "barrels": ["Suppressor", "Muzzle Brake"],
+      "barrels": ["Suppressor", "Muzzle BrakeX"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/d/d6/R6S_wpn_1911_TACOPS.png"
@@ -230,7 +230,7 @@
     "damage": 40,
     "operators": ["Warden", "Clash"],
     "attachments": {
-      "barrels": ["Suppressor", "Muzzle Brake"],
+      "barrels": ["Suppressor", "Muzzle BrakeX"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/f/f5/R6S_wpn_P-10C.png"
@@ -254,7 +254,7 @@
     "damage": 47,
     "operators": ["Gridlock", "Mozzie", "Sens"],
     "attachments": {
-      "barrels": ["Suppressor", "Muzzle Brake"],
+      "barrels": ["Suppressor", "Muzzle BrakeX"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/f/fd/R6S_wpn_SDP_9mm.png"
@@ -267,7 +267,7 @@
     "operators": ["Castle", "Gridlock", "Clash", "Brava", "Lesion"],
     "attachments": {
       "barrels": [],
-      "underbarrel": ["Laser"]
+      "underbarrel": ["LaserX"]
     },
     "image": "https://liquipedia.net/commons/images/4/43/R6S_wpn_Super_Shorty.png"
   },
@@ -279,7 +279,7 @@
     "operators": ["Frost", "Jackal", "Mira", "Amaru", "Ram"],
     "attachments": {
       "barrels": [],
-      "underbarrel": ["Laser"]
+      "underbarrel": ["LaserX"]
     },
     "image": "https://liquipedia.net/commons/images/d/d1/R6S_wpn_ITA12S.png"
   },
@@ -292,15 +292,15 @@
     "attachments": {
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
         "Extended Barrel"
       ],
       "underbarrel": ["Laser"],
       "extra": {
-        "scopes": ["1.0"],
-        "grip": ["Vertical Grip", "Angled Grip"]
+        "scopes": ["1.0X"],
+        "grip": ["Vertical GripX", "Angled Grip"]
       }
     },
     "image": "https://liquipedia.net/commons/images/f/fd/R6S_wpn_SMG-11.png"
@@ -314,14 +314,14 @@
     "attachments": {
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
         "Extended Barrel"
       ],
       "underbarrel": ["Laser"],
       "extra": {
-        "scopes": ["1.0"]
+        "scopes": ["1.0X"]
       }
     },
     "image": "https://liquipedia.net/commons/images/5/5a/R6S_wpn_BEARING_9.png"
@@ -348,8 +348,8 @@
       "barrels": ["Built-in"],
       "underbarrel": ["Laser"],
       "extra": {
-        "scopes": ["1.0"],
-        "grip": ["Vertical Grip", "Angled Grip"]
+        "scopes": ["1.0X"],
+        "grip": ["Vertical GripX", "Angled Grip"]
       }
     },
     "image": "https://liquipedia.net/commons/images/1/13/R6S_wpn_SMG-12.png"
@@ -363,14 +363,14 @@
     "attachments": {
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
         "Extended Barrel"
       ],
       "underbarrel": ["Laser"],
       "extra": {
-        "scopes": ["1.0"]
+        "scopes": ["1.0X"]
       }
     },
     "image": "https://liquipedia.net/commons/images/6/66/R6S_wpn_SPSMG9.png"

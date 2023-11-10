@@ -6,9 +6,9 @@
     "damage": 47,
     "operators": ["Sledge", "Thatcher"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0"],
-      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0X", "1.5X", "2.0X"],
+      "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/7/78/R6S_wpn_L85A2.png"
@@ -20,9 +20,9 @@
     "damage": 41,
     "operators": ["Thatcher", "Flores"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0", "2.5"],
-      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
+      "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/2/22/R6S_wpn_AR33.png"
@@ -34,9 +34,9 @@
     "damage": 38,
     "operators": ["Ash", "Iana"],
     "attachments": {
-      "scopes": ["1.0", "1.5"],
-      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0X", "1.5X"],
+      "barrels": ["SuppressorX", "Flash HiderX", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/7/7b/R6S_wpn_G36C.png"
@@ -48,15 +48,15 @@
     "damage": 39,
     "operators": ["Ash", "Ram"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0"],
+      "scopes": ["1.0X", "1.5X", "2.0X"],
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical grip"],
+      "grips": ["Vertical gripX"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/3/35/R6S_wpn_R4-C.png"
@@ -68,9 +68,9 @@
     "damage": 46,
     "operators": ["Thermite", "Osa"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0", "2.5"],
-      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
+      "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/c/c7/R6S_wpn_556XI.png"
@@ -82,13 +82,13 @@
     "damage": 37,
     "operators": ["Twitch"],
     "attachments": {
-      "scopes": ["1.0", "1.5"],
+      "scopes": ["1.0X", "1.5X"],
       "barrels": [
         "Suppressor",
-        "Flash Hider",
-        "Compensator",
+        "Flash HiderX",
+        "CompensatorX",
         "Muzzle Brake",
-        "Extended Barrel"
+        "Extended BarrelX"
       ],
       "grips": [],
       "underbarrel": ["Laser"]
@@ -102,9 +102,9 @@
     "damage": 45,
     "operators": ["Fuze", "Ace"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0", "2.5"],
-      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
+      "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/b/b7/R6S_wpn_AK-12.png"
@@ -116,8 +116,8 @@
     "damage": 42,
     "operators": ["IQ", "Wamai"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0", "2.5"],
-      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "scopes": ["1.0X", "1.5X", "2.0X", "2.5X"],
+      "barrels": ["SuppressorX", "Flash HiderX", "Compensator", "Muzzle Brake"],
       "grips": [],
       "underbarrel": ["Laser"]
     },
@@ -130,9 +130,9 @@
     "damage": 48,
     "operators": ["IQ", "Grim"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0"],
-      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0X", "1.5X", "2.0"],
+      "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/c/c0/R6S_wpn_552_Commando.png"
@@ -144,15 +144,15 @@
     "damage": 38,
     "operators": ["Jäger"],
     "attachments": {
-      "scopes": ["1.0"],
+      "scopes": ["1.0X"],
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical grip"],
+      "grips": ["Vertical gripX"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/5/56/R6S_wpn_416-C_Carbine.png"
@@ -164,10 +164,10 @@
     "damage": 40,
     "operators": ["Buck"],
     "attachments": {
-      "scopes": ["1.0", "1.5"],
+      "scopes": ["1.0X", "1.5X"],
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
         "Extended Barrel"
@@ -184,15 +184,15 @@
     "damage": 40,
     "operators": ["Blackbeard"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0"],
+      "scopes": ["1.0X", "1.5X", "2.0"],
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/2/2c/R6S_wpn_MK17_CQB.png"
@@ -204,15 +204,15 @@
     "damage": 48,
     "operators": ["Capitão", "Brava"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0"],
+      "scopes": ["1.0X", "1.5X", "2.0"],
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/c/cd/R6S_wpn_PARA-308.png"
@@ -224,9 +224,9 @@
     "damage": 40,
     "operators": ["Hibana"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0", "2.5"],
-      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
+      "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle BrakeX"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/7/72/R6S_wpn_TYPE-89.png"
@@ -238,9 +238,9 @@
     "damage": 42,
     "operators": ["Jackal"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0"],
-      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0X", "1.5X", "2.0X"],
+      "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/9/9c/R6S_wpn_C7E.png"
@@ -252,9 +252,9 @@
     "damage": 45,
     "operators": ["Zofia"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0"],
-      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0X", "1.5X", "2.0"],
+      "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle BrakeX"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/b/b6/R6S_wpn_M762.png"
@@ -266,9 +266,9 @@
     "damage": 44,
     "operators": ["Lion"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0", "2.5"],
-      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
+      "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/9/9e/R6S_wpn_V308.png"
@@ -280,15 +280,15 @@
     "damage": 42,
     "operators": ["Finka", "Thunderbird"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0"],
+      "scopes": ["1.0X", "1.5X", "2.0"],
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/b/bb/R6S_wpn_SPEAR_.308.png"
@@ -300,15 +300,15 @@
     "damage": 44,
     "operators": ["Maverick"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0"],
+      "scopes": ["1.0X", "1.5X", "2.0"],
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/d/dd/R6S_wpn_M4.png"
@@ -320,8 +320,8 @@
     "damage": 44,
     "operators": ["Nomad"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.5"],
-      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "scopes": ["1.0X", "1.5X", "2.5"],
+      "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
       "grips": [],
       "underbarrel": ["Laser"]
     },
@@ -334,9 +334,9 @@
     "damage": 47,
     "operators": ["Nomad", "Iana"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0", "2.5"],
-      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
+      "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/8/84/R6S_wpn_ARX200.png"
@@ -348,15 +348,15 @@
     "damage": 38,
     "operators": ["Gridlock"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0", "2.5"],
+      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/a/a1/R6S_wpn_F90.png"
@@ -368,15 +368,15 @@
     "damage": 36,
     "operators": ["Mozzie"],
     "attachments": {
-      "scopes": ["1.0"],
+      "scopes": ["1.0X"],
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/8/8e/R6S_wpn_Commando_9.png"
@@ -388,15 +388,15 @@
     "damage": 45,
     "operators": ["Zero"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0"],
+      "scopes": ["1.0X", "1.5X", "2.0"],
       "barrels": [
-        "Suppressor",
-        "Flash Hider",
+        "SuppressorX",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
-        "Extended Barrel"
+        "Extended BarrelX"
       ],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/8/8f/R6S_wpn_SC3000K.png"
@@ -408,15 +408,15 @@
     "damage": 35,
     "operators": ["Sens"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0", "2.5"],
+      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
-        "Extended Barrel"
+        "Extended BarrelX"
       ],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/7/71/R6S_POF9_allmode.png"
@@ -428,8 +428,8 @@
     "damage": 34,
     "operators": ["Smoke", "Nøkk"],
     "attachments": {
-      "scopes": ["1.0", "1.5"],
-      "barrels": ["Suppressor", "Flash Hider", "Muzzle Brake"],
+      "scopes": ["1.0X", "1.5X"],
+      "barrels": ["SuppressorX", "Flash HiderX", "Muzzle Brake"],
       "grips": [],
       "underbarrel": ["Laser"]
     },
@@ -442,9 +442,9 @@
     "damage": 27,
     "operators": ["Doc", "Rook", "Melusi"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0"],
-      "barrels": ["Suppressor", "Flash Hider", "Muzzle Brake"],
-      "grips": ["Vertical grip"],
+      "scopes": ["1.0X", "1.5X", "2.0X"],
+      "barrels": ["Suppressor", "Flash HiderX", "Muzzle Brake"],
+      "grips": ["Vertical gripX"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/8/89/R6S_wpn_MP5.png"
@@ -456,13 +456,13 @@
     "damage": 30,
     "operators": ["Mute", "Wamai"],
     "attachments": {
-      "scopes": ["1.0", "1.5"],
+      "scopes": ["1.0X", "1.5X"],
       "barrels": [
-        "Suppressor",
-        "Flash Hider",
+        "SuppressorX",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
-        "Extended Barrel"
+        "Extended BarrelX"
       ],
       "grips": [],
       "underbarrel": ["Laser"]
@@ -476,9 +476,9 @@
     "damage": 27,
     "operators": ["Echo"],
     "attachments": {
-      "scopes": ["1.0", "1.5"],
+      "scopes": ["1.0X", "1.5X"],
       "barrels": ["Built-in Suppressor"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/3/33/R6S_wpn_MP5SD.png"
@@ -490,15 +490,15 @@
     "damage": 38,
     "operators": ["Castle", "Pulse"],
     "attachments": {
-      "scopes": ["1.0", "1.5"],
+      "scopes": ["1.0X", "1.5X"],
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
-        "Extended Barrel"
+        "Extended BarrelX"
       ],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/7/7d/R6S_wpn_UMP45.png"
@@ -510,13 +510,13 @@
     "damage": 22,
     "operators": ["Doc", "Rook", "Solis"],
     "attachments": {
-      "scopes": ["1.0", "1.5"],
+      "scopes": ["1.0X", "1.5X"],
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
-        "Extended Barrel"
+        "Extended BarrelX"
       ],
       "grips": [],
       "underbarrel": ["Laser"]
@@ -530,15 +530,15 @@
     "damage": 34,
     "operators": ["Kapkan", "Tachanka", "Azami"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0"],
+      "scopes": ["1.0X", "1.5X", "2.0X"],
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/a/ae/R6S_wpn_9x19VSN.png"
@@ -550,8 +550,8 @@
     "damage": 32,
     "operators": ["Bandit", "Zero", "Fenrir"],
     "attachments": {
-      "scopes": ["1.0", "1.5"],
-      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "scopes": ["1.0X", "1.5X"],
+      "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
       "grips": [],
       "underbarrel": ["Laser"]
     },
@@ -564,9 +564,9 @@
     "damage": 45,
     "operators": ["Frost"],
     "attachments": {
-      "scopes": ["1.0", "1.5"],
-      "barrels": ["Suppressor", "Extended Barrel"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0X", "1.5X"],
+      "barrels": ["Suppressor", "Extended BarrelX"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/9/9e/R6S_wpn_9mm_C1.png"
@@ -578,15 +578,15 @@
     "damage": 26,
     "operators": ["Valkyrie", "Warden"],
     "attachments": {
-      "scopes": ["1.0", "1.5"],
+      "scopes": ["1.0X", "1.5X"],
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
-        "Extended Barrel"
+        "Extended BarrelX"
       ],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/2/2c/R6S_wpn_MPX.png"
@@ -598,12 +598,12 @@
     "damage": 40,
     "operators": ["Caveira"],
     "attachments": {
-      "scopes": ["1.0"],
+      "scopes": ["1.0X"],
       "barrels": [
-        "Suppressor",
-        "Flash Hider",
+        "SuppressorX",
+        "Flash HiderX",
         "Muzzle Brake",
-        "Extended Barrel"
+        "Extended BarrelX"
       ],
       "grips": [],
       "underbarrel": ["Laser"]
@@ -617,7 +617,7 @@
     "damage": 34,
     "operators": ["Jackal", "Osa"],
     "attachments": {
-      "scopes": ["1.0", "1.5"],
+      "scopes": ["1.0X", "1.5X"],
       "barrels": [
         "Suppressor",
         "Flash Hider",
@@ -625,7 +625,7 @@
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/6/69/R6S_wpn_PDW9.png"
@@ -637,15 +637,15 @@
     "damage": 23,
     "operators": ["Mira", "Goyo"],
     "attachments": {
-      "scopes": ["1.0"],
+      "scopes": ["1.0X", "1.5X"],
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
-        "Extended Barrel"
+        "Extended BarrelX"
       ],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/a/a1/R6S_wpn_Vector_.45_ACP.png"
@@ -657,10 +657,10 @@
     "damage": 28,
     "operators": ["Lesion", "Oryx"],
     "attachments": {
-      "scopes": ["1.0"],
+      "scopes": ["1.0X"],
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
         "Extended Barrel"
@@ -677,9 +677,9 @@
     "damage": 23,
     "operators": ["Ela"],
     "attachments": {
-      "scopes": ["1.0"],
-      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0X"],
+      "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/5/52/R6S_wpn_Scorpion_EVO_3_A1.png"
@@ -691,15 +691,15 @@
     "damage": 36,
     "operators": ["Vigil"],
     "attachments": {
-      "scopes": ["1.0"],
+      "scopes": ["1.0X"],
       "barrels": [
-        "Suppressor",
-        "Flash Hider",
+        "SuppressorX",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/8/86/R6S_wpn_K1A.png"
@@ -711,15 +711,15 @@
     "damage": 26,
     "operators": ["Alibi"],
     "attachments": {
-      "scopes": ["1.0"],
+      "scopes": ["1.0X"],
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
-        "Extended Barrel"
+        "Extended BarrelX"
       ],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/d/dd/R6S_wpn_Mx4_Storm.png"
@@ -731,15 +731,15 @@
     "damage": 36,
     "operators": ["Kaid"],
     "attachments": {
-      "scopes": ["1.0"],
+      "scopes": ["1.0X"],
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/a/a8/R6S_wpn_AUG_A3.png"
@@ -751,15 +751,15 @@
     "damage": 26,
     "operators": ["Mozzie", "Aruni"],
     "attachments": {
-      "scopes": ["1.0", "1.5"],
+      "scopes": ["1.0X", "1.5X"],
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/0/06/R6S_wpn_P10_RONI.png"
@@ -771,15 +771,15 @@
     "damage": 44,
     "operators": ["Thorn"],
     "attachments": {
-      "scopes": ["1.0", "1.5"],
+      "scopes": ["1.0X", "1.5X"],
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/6/6e/R6S_UZK50Gi_Weapon_allmode.png"
@@ -791,7 +791,7 @@
     "damage": 48,
     "operators": ["Sledge", "Thatcher", "Smoke", "Mute", "Warden"],
     "attachments": {
-      "scopes": ["1.0"],
+      "scopes": ["1.0X"],
       "barrels": [],
       "grips": [],
       "underbarrel": ["Laser"]
@@ -805,7 +805,7 @@
     "damage": 32,
     "operators": ["Thermite", "Castle", "Pulse", "Ace"],
     "attachments": {
-      "scopes": ["1.0"],
+      "scopes": ["1.0X"],
       "barrels": [],
       "grips": [],
       "underbarrel": ["Laser"]
@@ -819,9 +819,9 @@
     "damage": 53,
     "operators": ["Twitch", "Doc", "Rook", "Lion", "Grim"],
     "attachments": {
-      "scopes": ["1.0"],
+      "scopes": ["1.0X"],
       "barrels": [],
-      "grips": ["Vertical grip"],
+      "grips": ["Vertical gripX"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/b/be/R6S_wpn_SG-CQB.png"
@@ -833,9 +833,9 @@
     "damage": 50,
     "operators": ["Kapkan", "Finka", "Fenrir"],
     "attachments": {
-      "scopes": ["1.0"],
+      "scopes": ["1.0X"],
       "barrels": ["Suppressor"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/6/68/R6S_wpn_SASG-12.png"
@@ -847,7 +847,7 @@
     "damage": 60,
     "operators": ["Jäger", "Bandit", "Thorn"],
     "attachments": {
-      "scopes": ["1.0"],
+      "scopes": ["1.0X"],
       "barrels": [],
       "grips": [],
       "underbarrel": ["Laser"]
@@ -861,7 +861,7 @@
     "damage": 35,
     "operators": ["Frost", "Melusi"],
     "attachments": {
-      "scopes": ["1.0"],
+      "scopes": ["1.0X"],
       "barrels": [],
       "grips": [],
       "underbarrel": ["Laser"]
@@ -875,7 +875,7 @@
     "damage": 35,
     "operators": ["Valkyrie", "Oryx"],
     "attachments": {
-      "scopes": ["1.0"],
+      "scopes": ["1.0X"],
       "barrels": [],
       "grips": [],
       "underbarrel": ["Laser"]
@@ -889,7 +889,7 @@
     "damage": 30,
     "operators": ["Caveira", "Thunderbird"],
     "attachments": {
-      "scopes": ["1.0"],
+      "scopes": ["1.0X"],
       "barrels": [],
       "grips": [],
       "underbarrel": ["Laser"]
@@ -903,8 +903,8 @@
     "damage": 48,
     "operators": ["Hibana", "Echo", "Amaru"],
     "attachments": {
-      "scopes": ["1.0"],
-      "barrels": ["Suppressor"],
+      "scopes": ["1.0X"],
+      "barrels": ["SuppressorX"],
       "grips": [],
       "underbarrel": ["Laser"]
     },
@@ -917,7 +917,7 @@
     "damage": 50,
     "operators": ["Jackal", "Mira", "Solis"],
     "attachments": {
-      "scopes": ["1.0"],
+      "scopes": ["1.0X"],
       "barrels": [],
       "grips": [],
       "underbarrel": ["Laser"]
@@ -931,7 +931,7 @@
     "damage": 35,
     "operators": ["Ying"],
     "attachments": {
-      "scopes": ["1.0"],
+      "scopes": ["1.0X"],
       "barrels": [],
       "grips": [],
       "underbarrel": ["Laser"]
@@ -945,7 +945,7 @@
     "damage": 35,
     "operators": ["Lesion", "Nøkk"],
     "attachments": {
-      "scopes": ["1.0"],
+      "scopes": ["1.0X"],
       "barrels": ["Built-in Suppressor"],
       "grips": [],
       "underbarrel": ["Laser"]
@@ -959,9 +959,9 @@
     "damage": 25,
     "operators": ["Ela"],
     "attachments": {
-      "scopes": ["1.0"],
-      "barrels": ["Suppressor", "Extended Barrel"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0X"],
+      "barrels": ["Suppressor", "Extended BarrelX"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/0/0a/R6S_wpn_FO-12.png"
@@ -973,9 +973,9 @@
     "damage": 125,
     "operators": ["Dokkaebi", "Vigil"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0", "2.5"],
+      "scopes": ["1.0X", "1.5X", "2.0", "2.5X"],
       "barrels": [],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/f/f1/R6S_wpn_BOSG.12.2.png"
@@ -987,9 +987,9 @@
     "damage": 69,
     "operators": ["Maestro", "Alibi", "Azami"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0"],
+      "scopes": ["1.0X", "1.5X", "2.0X"],
       "barrels": [],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/e/e5/R6S_wpn_ACS12.png"
@@ -1001,9 +1001,9 @@
     "damage": 63,
     "operators": ["Kaid", "Goyo"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0"],
+      "scopes": ["1.0X", "1.5X", "2.0X"],
       "barrels": ["Suppressor"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/7/77/R6S_wpn_TCSG12.png"
@@ -1015,9 +1015,9 @@
     "damage": 69,
     "operators": ["Twitch", "Lion", "Sens"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0", "2.5"],
-      "barrels": ["Suppressor", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0", "1.5X", "2.0X", "2.5X"],
+      "barrels": ["Suppressor", "Muzzle BrakeX"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/d/db/R6S_wpn_417.png"
@@ -1029,9 +1029,9 @@
     "damage": 71,
     "operators": ["Glaz"],
     "attachments": {
-      "scopes": ["1.0"],
-      "barrels": ["Suppressor", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0X"],
+      "barrels": ["SuppressorX", "Muzzle Brake"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/f/f4/R6S_wpn_OTs-03.png"
@@ -1043,9 +1043,9 @@
     "damage": 69,
     "operators": ["Buck", "Brava"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0", "2.5", "3.0"],
-      "barrels": ["Suppressor", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0", "1.5X", "2.0X", "2.5X", "3.0X"],
+      "barrels": ["Suppressor", "Muzzle BrakeX"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/4/4d/R6S_wpn_CAMRS.png"
@@ -1057,9 +1057,9 @@
     "damage": 61,
     "operators": ["Blackbeard", "Flores"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0", "2.5", "3.0"],
-      "barrels": ["Suppressor", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0", "1.5X", "2.0X", "2.5X", "3.0X"],
+      "barrels": ["Suppressor", "Muzzle BrakeX"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/f/f7/R6S_wpn_SR-25.png"
@@ -1071,9 +1071,9 @@
     "damage": 60,
     "operators": ["Dokkaebi", "Aruni"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0", "2.5", "3.0"],
-      "barrels": ["Suppressor", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0X", "1.5X", "2.0X", "2.5X", "3.0X"],
+      "barrels": ["Suppressor", "Muzzle BrakeX"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/2/26/R6S_wpn_Mk_14_EBR.png"
@@ -1085,9 +1085,9 @@
     "damage": 62,
     "operators": ["Maverick"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0", "2.5", "3.0"],
-      "barrels": ["Suppressor", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0", "1.5X", "2.0X", "2.5X", "3.0X"],
+      "barrels": ["Suppressor", "Muzzle BrakeX"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/c/cf/R6S_wpn_AR-15.50.png"
@@ -1113,9 +1113,9 @@
     "damage": 46,
     "operators": ["Fuze", "Finka"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0", "2.5"],
-      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
+      "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/4/42/R6S_wpn_6P41.png"
@@ -1127,9 +1127,9 @@
     "damage": 37,
     "operators": ["IQ", "Amaru"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0", "2.5"],
-      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
+      "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/b/bf/R6S_wpn_G8A1.png"
@@ -1141,9 +1141,9 @@
     "damage": 48,
     "operators": ["Capitão"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0", "2.5"],
-      "barrels": ["Flash Hider", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
+      "barrels": ["Flash HiderX", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/4/4f/R6S_wpn_M249.png"
@@ -1155,9 +1155,9 @@
     "damage": 48,
     "operators": ["Gridlock"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0", "2.5"],
+      "scopes": ["1.0X", "1.5X", "2.0", "2.5"],
       "barrels": ["Flash Hider", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/c/c3/R6S_wpn_M249_SAW.png"
@@ -1169,9 +1169,9 @@
     "damage": 46,
     "operators": ["Ying"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0", "2.5"],
-      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
+      "barrels": ["SuppressorX", "Flash HiderX", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/6/60/R6S_wpn_T-95_LSW.png"
@@ -1183,9 +1183,9 @@
     "damage": 41,
     "operators": ["Zofia", "Ram"],
     "attachments": {
-      "scopes": ["1.0", "1.5", "2.0"],
-      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical grip", "Angled grip"],
+      "scopes": ["1.0X", "1.5X", "2.0X"],
+      "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/7/7a/R6S_wpn_LMG-E.png"
@@ -1197,9 +1197,9 @@
     "damage": 35,
     "operators": ["Maestro"],
     "attachments": {
-      "scopes": ["1.0"],
-      "barrels": ["Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical grip"],
+      "scopes": ["1.0X"],
+      "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
+      "grips": ["Vertical gripX"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/7/7b/R6S_wpn_ALDA_5.56.png"
@@ -1211,7 +1211,7 @@
     "damage": 60,
     "operators": ["Tachanka"],
     "attachments": {
-      "scopes": ["1.0"],
+      "scopes": ["1.0X"],
       "barrels": ["Built-in"],
       "grips": [],
       "underbarrel": []
@@ -1220,10 +1220,16 @@
   },
   {
     "id": 77,
-    "name": "Shield",
+    "name": "Ballistic Shield",
     "type": "Tarcza",
     "damage": 0,
     "operators": ["Fuze", "Blitz", "Montagne", "Clash"],
+    "attachments": {
+      "scopes": [],
+      "barrels": [],
+      "grips": [],
+      "underbarrel": []
+    },
     "image": "https://liquipedia.net/commons/images/e/eb/R6S_wpn_Ballistic_Shield.png"
   }
 ]
