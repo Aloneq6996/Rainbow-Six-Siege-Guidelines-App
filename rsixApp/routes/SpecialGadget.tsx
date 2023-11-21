@@ -15,6 +15,8 @@ import { styles } from "../assets/styles";
 import { SpecialGadgetScreenProps } from "../assets/types/ScreenProps";
 import * as Type from "../assets/types/Types";
 
+import { devHanlder } from "../assets/devHandler";
+
 // require
 
 const specialGadgetJson = require("../assets/json/weapons/specialGadgets.json");

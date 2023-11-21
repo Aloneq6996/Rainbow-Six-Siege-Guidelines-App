@@ -16,6 +16,7 @@ import { Image } from "expo-image";
 import { styles } from "../assets/styles";
 import { OperatorsSpecificScreenProps } from "../assets/types/ScreenProps";
 import * as Type from "../assets/types/Types";
+import { devHanlder } from "../assets/devHandler";
 
 // requires
 
@@ -167,6 +168,7 @@ export const OperatorsSpecific: React.FC<OperatorsSpecificScreenProps> = (
               <TouchableHighlight
                 key={sGadget.id}
                 onPress={() => {
+                  devHanlder();
                   props.navigation.navigate("SpecialGadget", {
                     gadgetName: sGadget.name,
                   });

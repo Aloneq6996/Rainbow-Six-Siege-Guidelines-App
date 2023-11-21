@@ -2,7 +2,7 @@ import { SafeAreaView, View, TouchableHighlight, Text } from "react-native";
 import { Image } from "expo-image";
 
 import { styles } from "../assets/styles";
-import { notAvailableYet } from "./noAvaibleYet";
+import { notAvailableYet } from "../assets/notAvaibleHandler";
 
 import { HomeScreenProps } from "../assets/types/ScreenProps";
 
