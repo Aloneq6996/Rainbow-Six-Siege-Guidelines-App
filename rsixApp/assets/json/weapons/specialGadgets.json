@@ -1,0 +1,623 @@
+[
+  {
+    "id": 1,
+    "name": "Tactical Breaching Hammer",
+    "type": "Soft Breach",
+    "description": "Breaching Hammer jest w stanie tworzyć przejścia w zniszczalnych ścianach i natychmiastowo niszczyć barykady. Dodatkowo młot może być używany jako broń do walki wręcz oraz do niszczenia drutu kolczastego.",
+    "quantity": "25 użyć",
+    "operator": "Sledge",
+    "image": "https://liquipedia.net/commons/images/thumb/a/a8/Breaching_Hammer_R6S.png/256px-Breaching_Hammer_R6S.png"
+  },
+  {
+    "id": 2,
+    "name": "EG MKO-EMP Grenade",
+    "type": "Disable",
+    "description": "Rzucany granat elektromagnetyczny, który może unieszkodliwić większość wrogich urządzeń elektronicznych w krótkim promieniu, nawet przez ściany.",
+    "quantity": "3",
+    "operator": "Thatcher",
+    "image": "https://liquipedia.net/commons/images/thumb/5/59/EG_MKO-EMP_Grenade_R6S.png/256px-EG_MKO-EMP_Grenade_R6S.png"
+  },
+  {
+    "id": 3,
+    "name": "M120 CREM",
+    "type": "Soft Breach",
+    "description": "Zmodyfikowany granatnik mogący pomieścić pojedynczy nabój wyważający kal. 40 mm. Detonacja następuje wkrótce po uderzeniu.",
+    "quantity": "2 naboje",
+    "operator": "Ash",
+    "image": "https://liquipedia.net/commons/images/thumb/1/1b/M120_CREM_R6S.png/256px-M120_CREM_R6S.png"
+  },
+  {
+    "id": 4,
+    "name": "Brimstone BC-3",
+    "type": "Hard Breach",
+    "description": "Mata zwijana przymocowana do urządzenia zapalającego, które można zdalnie zdetonować. Możliwość przełamania wzmocnionych ścian.",
+    "quantity": "2",
+    "operator": "Thermite",
+    "image": "https://liquipedia.net/commons/images/thumb/0/0a/Brimstone_BC-3_R6S.png/256px-Brimstone_BC-3_R6S.png"
+  },
+  {
+    "id": 5,
+    "name": "RSD Model 1",
+    "type": "Intel Gatherer / Disable",
+    "description": "Większy, wolniejszy i cichszy niż standardowy dron obserwacyjny. Jest w stanie zniszczyć sprzęt elektroniczny, a także większość gadżetów elektronicznych i okno Miry. Może również zadawać graczom niewielkie obrażenia.",
+    "quantity": "2",
+    "operator": "Twitch",
+    "image": "https://liquipedia.net/commons/images/thumb/b/b7/Shock-Drone.png/256px-Shock-Drone.png"
+  },
+  {
+    "id": 6,
+    "name": "\"Le Roc\" Extendable Shield",
+    "type": "Shield",
+    "description": "Wykonany z kompozytu wzmocnionych stopów i kevlaru, „Le Roc” może rozłożyć się zasłaniając posiadacza całkowicie z przodu.",
+    "quantity": "",
+    "operator": "Montagne",
+    "image": "https://liquipedia.net/commons/images/thumb/c/c3/Extendable_Shield_R6S.png/256px-Extendable_Shield_R6S.png"
+  },
+  {
+    "id": 7,
+    "name": "HDS Flip Sight",
+    "type": "Sight",
+    "description": "Zamontowany na zawiasie umożliwiającym jego obrócenie do właściwej pozycji, celownik HDS Flip Sight zapewnia użytkownikowi dostęp do niezrównanego poziomu powiększenia, a także możliwość widzenia przez dym.",
+    "quantity": "",
+    "operator": "Glaz",
+    "image": "https://liquipedia.net/commons/images/thumb/d/d9/HDS_Flip_Sight_R6S.png/256px-HDS_Flip_Sight_R6S.png"
+  },
+  {
+    "id": 8,
+    "name": "APM-6 \"Matryoshka\" Cluster Charge",
+    "type": "Explosive charge",
+    "description": "Wyposażona w tłok, który z łatwością przebija się przez niewzmocnione ściany, podłogi, a nawet panele pancerza, „Matryoszka”, po nałożeniu, strzela granatami kasetowymi.",
+    "quantity": "4",
+    "operator": "Fuze",
+    "image": "https://liquipedia.net/commons/images/thumb/7/72/Cluster_Charge_R6S.png/256px-Cluster_Charge_R6S.png"
+  },
+  {
+    "id": 9,
+    "name": "G52-Tactical Shield",
+    "type": "Shield",
+    "description": "Tarcza balistyczna jest wystarczająco lekka, aby jej posiadacz mógł biegać. Jest wyposażona w 24 granaty hukowo-błyskowe rozmieszczone w 3 rzędach, zapewniające źródło światła o dużej intensywności po uruchomieniu.",
+    "quantity": "",
+    "operator": "Blitz",
+    "image": "https://liquipedia.net/commons/images/thumb/f/fc/G52-Tactical_Shield_R6S.png/256px-G52-Tactical_Shield_R6S.png"
+  },
+  {
+    "id": 10,
+    "name": "Red MKIII \"Spectre\"",
+    "type": "Intel Gatherer",
+    "description": "Montowany na nadgarstku czujnik, wielkości telefonu komórkowego, który wykrywa gadżety i sprzęt elektroniczny w swoim zasięgu.",
+    "quantity": "",
+    "operator": "IQ",
+    "image": "https://liquipedia.net/commons/images/thumb/c/ce/Electronics_Detector_R6S.png/256px-Electronics_Detector_R6S.png"
+  },
+  {
+    "id": 11,
+    "name": "SK 4-12 (Skeleton Key)",
+    "type": "Soft Breach",
+    "description": "Montowana pod lufą strzelba kalibru 12, mieszcząca cztery naboje, używana w połączeniu z karabinem szturmowym.",
+    "quantity": "",
+    "operator": "Buck",
+    "image": "https://liquipedia.net/commons/images/thumb/4/44/SK_4-12_R6S.png/256px-SK_4-12_R6S.png"
+  },
+  {
+    "id": 12,
+    "name": "TARS MK 0 Rifle Shield",
+    "type": "Shield",
+    "description": "Tarcza na karabin TARS MK 0 chroni użytkownika przed tępymi uderzeniami i ostrzałem.",
+    "quantity": "2",
+    "operator": "Blackbeard",
+    "image": "https://liquipedia.net/commons/images/thumb/f/f8/TARS_MK_0_R6S.png/256px-TARS_MK_0_R6S.png"
+  },
+  {
+    "id": 13,
+    "name": "TAC MK0 Tactical Crossbow",
+    "type": "Area Denial",
+    "description": "Użyj szklanego bełtu, aby przeprowadzić szybki i cichy atak na wrogów, nie informując ich o swojej pozycji",
+    "quantity": "4",
+    "operator": "Capitão",
+    "image": "https://liquipedia.net/commons/images/thumb/8/82/TAC_MK0_R6S.png/256px-TAC_MK0_R6S.png"
+  },
+  {
+    "id": 14,
+    "name": "X-KAIROS",
+    "type": "Hard Breach",
+    "description": "X-KAIROS - wyrzutnia kalibru 40 mm zdolna do przebijania wzmocnionych ścian - wystrzeliwuje wybuchowe kulki, które można jednocześnie zdetonować na odległość.",
+    "quantity": "18",
+    "operator": "Hibana",
+    "image": "https://liquipedia.net/commons/images/thumb/5/58/X-KAIROS_R6S.png/256px-X-KAIROS_R6S.png"
+  },
+  {
+    "id": 15,
+    "name": "Eyenox Model III",
+    "type": "Intel Gatherer",
+    "description": "Eyenox Model III został stworzony, aby zaoferować mobilne urządzenie śledzące, które jest w stanie zarówno identyfikować, jak i śledzić ślady stóp danej osoby w czasie rzeczywistym.",
+    "quantity": "3 charges",
+    "operator": "Jackal",
+    "image": "https://liquipedia.net/commons/images/thumb/4/44/Eyenox_Model_III_R6S.png/256px-Eyenox_Model_III_R6S.png"
+  },
+  {
+    "id": 16,
+    "name": "Candela Device",
+    "type": "Granade",
+    "description": "Urządzenie Candela uwalnia grupę ładunków błyskowych, które można zaczepić na powierzchni lub wyrzucić jako granat.",
+    "quantity": "4",
+    "operator": "Ying",
+    "image": "https://liquipedia.net/commons/images/thumb/9/9b/Candela_Device_R6S.png/256px-Candela_Device_R6S.png"
+  },
+  {
+    "id": 17,
+    "name": "KS79 Lifeline",
+    "type": "Soft Breach / Crowd Control",
+    "description": "KS79 Lifeline wykorzystuje technologię pocisków wyzwalanych elektronicznie, które mogą wystrzelić zarówno amunicję ogłuszającą, jak i uderzeniową",
+    "quantity": "4",
+    "operator": "Zofia",
+    "image": "https://liquipedia.net/commons/images/thumb/7/71/KS79_Lifeline_R6S.png/256px-KS79_Lifeline_R6S.png"
+  },
+  {
+    "id": 18,
+    "name": "Logic Bomb",
+    "type": "Intel Gatherer / Intel Denial",
+    "description": "Tablet, którego używa do hakowania wrogich urządzeń taktycznych PDA. Program pobiera stworzonego przez nią wirusa, który może ominąć zapory sieciowe, włączyć pobliskie urządzenia i wyemitować głośny dźwięk, aby zagrozić pozycji wroga.",
+    "quantity": "2",
+    "operator": "Dokkaebi",
+    "image": "https://liquipedia.net/commons/images/thumb/0/00/Logic_Bomb_R6S.png/256px-Logic_Bomb_R6S.png"
+  },
+  {
+    "id": 19,
+    "name": "EE-ONE-D",
+    "type": "Intel Gatherer / Crowd Control",
+    "description": "EE-ONE-D pomaga Lionowi utrzymać kwarantannę, wykrywając ruch w danym obszarze, dając przegląd gorących stref lub pola bitwy.",
+    "quantity": "3",
+    "operator": "Lion",
+    "image": "https://liquipedia.net/commons/images/thumb/5/5f/EE-ONE-D_R6S.png/256px-EE-ONE-D_R6S.png"
+  },
+  {
+    "id": 20,
+    "name": "Nanobot Shots",
+    "type": "Boost",
+    "description": "Daje swojej drużynie i sobie krótki wzrost HP, zwiększa prędkość celowania i pomaga sojusznikom wydostać się z powalenia",
+    "quantity": "3",
+    "operator": "Finka",
+    "image": "https://liquipedia.net/commons/images/thumb/1/1c/Nanobot_Shots_R6S.png/256px-Nanobot_Shots_R6S.png"
+  },
+  {
+    "id": 21,
+    "name": "Exothermic-S \"SURI\" Torch",
+    "type": "Hard Breach",
+    "description": "Palnik Mavericka może przebić każdą powierzchnię, w tym wzmocnione ściany i włazy.",
+    "quantity": "6",
+    "operator": "Maverick",
+    "image": "https://static.wikia.nocookie.net/rainbowsix/images/2/23/R6S_Breaching_Torch.png/revision/latest/scale-to-width-down/185?cb=20220525145141"
+  },
+  {
+    "id": 22,
+    "name": "Airjab Launcher",
+    "type": "Trap / Crowd Control",
+    "description": "Niestandardowy dodatek do karabinu Nomad pozwala jej wystrzelić granaty odpychające Airjab. Mogą eksplodować w powietrzu, gdy znajdują się blisko wroga, lub mogą przylgnąć do powierzchni i zdetonować później, ponownie, gdy wróg znajdzie się w zasięgu",
+    "quantity": "3",
+    "operator": "Nomad",
+    "image": "https://liquipedia.net/commons/images/thumb/c/c8/Nomad_Airjab_Launcher_R6S.png/256px-Nomad_Airjab_Launcher_R6S.png"
+  },
+  {
+    "id": 23,
+    "name": "Trax Stingers",
+    "type": "Trap",
+    "description": "Rzucany gadżet, który rozkłada maty z kolcami, które spowalniają i ranią wrogów, którzy przez nie przechodzą.",
+    "quantity": "4",
+    "operator": "Gridlock",
+    "image": "https://liquipedia.net/commons/images/thumb/4/41/Gridlock_Trax_Stingers_R6S.png/256px-Gridlock_Trax_Stingers_R6S.png"
+  },
+  {
+    "id": 24,
+    "name": "Hel Presence Reduction",
+    "type": "Intel Denial",
+    "description": "Kontrwywiad, który usuwa wizerunek Nøkk z narzędzi obserwacyjnych i redukuje jej szumy, z wyjątkami.",
+    "quantity": "",
+    "operator": "Nøkk",
+    "image": "https://liquipedia.net/commons/images/thumb/e/e7/N%C3%B8kk_Hel_Presence_Reduction_R6S.png/256px-N%C3%B8kk_Hel_Presence_Reduction_R6S.png"
+  },
+  {
+    "id": 25,
+    "name": "Garra Hook",
+    "type": "Front line",
+    "description": "Dzięki hakowi Garra Amaru może chwytać się gzymsów i okien oraz podnosić się w rekordowym czasie.",
+    "quantity": "",
+    "operator": "Amaru",
+    "image": "https://liquipedia.net/commons/images/thumb/4/41/Amaru_Garra_Hook_R6S.png/256px-Amaru_Garra_Hook_R6S.png"
+  },
+  {
+    "id": 26,
+    "name": "LV Explosive Lance",
+    "type": "Disable",
+    "description": "Jego rolą jest niszczenie gadżetów, w określonym promieniu, lekką eksplozją.",
+    "quantity": "4",
+    "operator": "Kali",
+    "image": "https://liquipedia.net/commons/images/thumb/b/bd/Kali_LV_Explosive_Lance_R6S.png/256px-Kali_LV_Explosive_Lance_R6S.png"
+  },
+  {
+    "id": 27,
+    "name": "Gemini Replicator",
+    "type": "Intel Gatherer",
+    "description": "Replikator Gemini to zdalnie sterowana holograficzna kopia Iany. Kiedy go użyje, może przeprowadzić zwiad z niewielkimi lub żadnymi konsekwencjami.",
+    "quantity": "",
+    "operator": "Iana",
+    "image": "https://liquipedia.net/commons/images/thumb/e/e8/Iana_Gemini_Replicator_R6S.png/256px-Iana_Gemini_Replicator_R6S.png"
+  },
+  {
+    "id": 28,
+    "name": "S.E.L.M.A. Aqua Breacher",
+    "type": "Hard Breach",
+    "description": "S.E.L.M.A. Aqua Breacher wykorzystuje ciśnienie hydrauliczne do przebijania się przez niewzmocnione i wzmocnione powierzchnie.",
+    "quantity": "3",
+    "operator": "Ace",
+    "image": "https://liquipedia.net/commons/images/thumb/3/3f/Ace_S.E.L.M.A._Aqua_Breacher_R6S.png/256px-Ace_S.E.L.M.A._Aqua_Breacher_R6S.png"
+  },
+  {
+    "id": 29,
+    "name": "Argus Launcher",
+    "type": "Intel Denier / Intel Gatherer",
+    "description": "Argus Launcher jest wyposażony w bardzo specjalne kamery, które mogą wbić się w łamliwą i wzmocnioną powierzchnię, aby monitorować obie strony.",
+    "quantity": "4",
+    "operator": "Zero",
+    "image": "https://liquipedia.net/commons/images/thumb/3/3a/Zero_Argus_Launcher_R6S.png/256px-Zero_Argus_Launcher_R6S.png"
+  },
+  {
+    "id": 30,
+    "name": "RCE-Ratero Charge",
+    "type": "Soft Breach",
+    "description": "Sterowany na odległość, RCE-Ratero Charge stale jedzie do przodu, podczas gdy Flores szuka miejsca, w którym może wybuchnąć. Po uruchomieniu Ratero chwyta się najbliższej powierzchni, opancerza się kuloodporną skorupą i eksploduje, niszcząc pobliskie gadżety i miękkie powierzchnie.",
+    "quantity": "4",
+    "operator": "Flores",
+    "image": "https://liquipedia.net/commons/images/thumb/f/f4/Flores_RCE-Ratero_Charge_R6S.png/256px-Flores_RCE-Ratero_Charge_R6S.png"
+  },
+  {
+    "id": 31,
+    "name": "Talon-8 Clear Shield",
+    "type": "Shield",
+    "description": "Przezroczysta i kuloodporna tarcza Talon-8 może być noszona przez Osę lub umieszczana na podłodze lub framugach okien, zapewniając jej ochronne pole widzenia.",
+    "quantity": "2",
+    "operator": "Osa",
+    "image": "https://liquipedia.net/commons/images/6/65/Talon-8_Clear_Shield_Osa_lightmode.png"
+  },
+  {
+    "id": 32,
+    "name": "R.O.U. Projector System",
+    "type": "Crowd Control",
+    "description": "R.O.U. Projector System toczy się po rzuceniu przez Sens'a i upuszcza małe projektory, tworząc na swojej drodze ekran.",
+    "quantity": "3",
+    "operator": "Sens",
+    "image": "https://liquipedia.net/commons/images/0/09/R.O.U._Projector_System_Sens_allmode.png"
+  },
+  {
+    "id": 33,
+    "name": "Kawan Hive Launcher",
+    "type": "Intel Gatherer / Crowd Control",
+    "description": "Wystrzelenie pocisku uwalnia rój botów, które śledzą lokalizację przechodzących przez niego przeciwników. Tylko uważaj na oczy",
+    "quantity": "2",
+    "operator": "Grim",
+    "image": "https://liquipedia.net/commons/images/thumb/d/d0/Kawan_Hive_Launcher_lightmode.png/256px-Kawan_Hive_Launcher_lightmode.png"
+  },
+  {
+    "id": 34,
+    "name": "Kludge Drone",
+    "type": "Disable",
+    "description": "Dron Kludge Bravy to narzędzie sabotażowe zdolne do przejmowania urządzeń przeciwników. Jeśli urządzeniem nie można sterować, zamiast tego zostaje ono zniszczone.",
+    "quantity": "2",
+    "operator": "Brava",
+    "image": "https://liquipedia.net/commons/images/a/af/Kludge_Drone_lightmode.png"
+  },
+  {
+    "id": 35,
+    "name": "BU-GI Auto Breacher",
+    "type": "Soft Breach",
+    "description": "Niewiele może stanąć na przeszkodzie BU-GI Auto Breacher. Ten rozkładany miniczołg niszczy wszystkie łamliwe powierzchnie i urządzenia na swojej drodze, pozostawiając po sobie ślad zniszczenia.",
+    "quantity": "3",
+    "operator": "Ram",
+    "image": "https://liquipedia.net/commons/images/thumb/a/aa/BU-GI_Auto_Breacher_lightmode.png/256px-BU-GI_Auto_Breacher_lightmode.png"
+  },
+  {
+    "id": 36,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 37,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 38,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 39,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 40,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 41,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 42,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 43,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 44,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 45,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 46,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 47,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 48,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 49,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 50,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 51,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 52,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 53,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 54,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 55,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 56,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 57,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 58,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 59,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 60,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 61,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 62,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 63,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 64,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 65,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 66,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 67,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 68,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  },
+  {
+    "id": 69,
+    "name": "",
+    "type": "",
+    "description": "",
+    "quantity": "",
+    "operator": "",
+    "image": ""
+  }
+]

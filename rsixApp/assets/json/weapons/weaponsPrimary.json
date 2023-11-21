@@ -620,7 +620,7 @@
       "scopes": ["1.0X", "1.5X"],
       "barrels": [
         "Suppressor",
-        "Flash Hider",
+        "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
         "Extended Barrel"
@@ -663,7 +663,7 @@
         "Flash HiderX",
         "Compensator",
         "Muzzle Brake",
-        "Extended Barrel"
+        "Extended BarrelX"
       ],
       "grips": [],
       "underbarrel": ["Laser"]
@@ -678,7 +678,7 @@
     "operators": ["Ela"],
     "attachments": {
       "scopes": ["1.0X"],
-      "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
+      "barrels": ["Suppressor", "Flash Hider", "CompensatorX", "Muzzle Brake"],
       "grips": ["Vertical gripX", "Angled grip"],
       "underbarrel": ["Laser"]
     },

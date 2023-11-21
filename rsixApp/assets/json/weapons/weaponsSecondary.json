@@ -345,7 +345,7 @@
     "damage": 28,
     "operators": ["Dokkaebi", "Vigil", "Warden"],
     "attachments": {
-      "barrels": ["Built-in"],
+      "barrels": ["Built-in Suppressor"],
       "underbarrel": ["Laser"],
       "extra": {
         "scopes": ["1.0X"],
