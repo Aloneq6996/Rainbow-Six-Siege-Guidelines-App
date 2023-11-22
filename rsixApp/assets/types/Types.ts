@@ -41,7 +41,7 @@ export type SpecialGadget = {
   type: string;
   description: string;
   quantity: string;
-  operators: string;
+  operator: string;
   image: string;
 };
 

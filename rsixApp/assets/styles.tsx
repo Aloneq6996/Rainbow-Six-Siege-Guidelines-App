@@ -133,6 +133,12 @@ export const styles = StyleSheet.create({
     height: 100,
     resizeMode: "contain",
   },
+  imageAbility: {
+    margin: 20,
+    width: 200,
+    height: 100,
+    resizeMode: "contain",
+  },
   searchInput: {
     height: 40,
     width: 152,

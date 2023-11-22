@@ -6,6 +6,7 @@ import {
   View,
   ScrollView,
   Text,
+  TouchableHighlight,
 } from "react-native";
 import { Image } from "expo-image";
 
@@ -14,8 +15,6 @@ import { Image } from "expo-image";
 import { styles } from "../assets/styles";
 import { SpecialGadgetScreenProps } from "../assets/types/ScreenProps";
 import * as Type from "../assets/types/Types";
-
-import { devHanlder } from "../assets/devHandler";
 
 // require
 
@@ -48,8 +47,6 @@ export const SpecialGadget: React.FC<SpecialGadgetScreenProps> = (props) => {
     );
   }
 
-  const showQuantity: boolean = gadget.quantity.trim() !== "";
-
   return (
     <ScrollView
       style={styles.scrollContainer}
@@ -63,10 +60,35 @@ export const SpecialGadget: React.FC<SpecialGadgetScreenProps> = (props) => {
         >
           <Image
             source={require("../assets/png/logo.png")}
-            style={styles.logo}
+            style={styles.logoSpecific}
           />
         </TouchableOpacity>
-        <View></View>
+        <View style={styles.personalContainer}>
+          <Image
+            style={styles.imageAbility}
+            source={gadget.image}
+            placeholder="nie ma fotki"
+          />
+          <Text style={styles.textColorHeaderBold}>{gadget.type}</Text>
+          <Text style={styles.textColorHeader}>{gadget.name}</Text>
+          <Text style={styles.textColor}>{gadget.description}</Text>
+          {gadget.quantity ? (
+            <View>
+              <Text style={styles.textColorHeader}>Ilość:</Text>
+              <Text style={styles.textColor}>{gadget.quantity}</Text>
+            </View>
+          ) : null}
+          <Text style={styles.textColorHeader}>Operator</Text>
+          <TouchableHighlight
+            onPress={() => {
+              props.navigation.navigate("OperatorsSpecific", {
+                operatorName: gadget.operator,
+              });
+            }}
+          >
+            <Text style={styles.textColor}>{gadget.operator}</Text>
+          </TouchableHighlight>
+        </View>
       </SafeAreaView>
     </ScrollView>
   );
