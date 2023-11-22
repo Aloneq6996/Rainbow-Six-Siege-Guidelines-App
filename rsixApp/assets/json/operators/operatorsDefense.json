@@ -7,7 +7,7 @@
     "nickname": "Smoke",
     "counters": ["Finka"],
     "counteredBy": ["Thatcher", "Twitch", "IQ"],
-    "image": "https://liquipedia.net/commons/images/thumb/4/4e/R6S_Smoke_Icon_2021_allmode.png/50px-R6S_Smoke_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6mOMxoc3t27R9Gr9wFtt6T/f5f90a6be6a6710bee686ce69df29906/Y0R6_BADGE_Smoke_L.png"
   },
   {
     "id": 2,
@@ -31,7 +31,7 @@
       "Brava"
     ],
     "counteredBy": ["Thatcher", "Twitch", "IQ", "Zero", "Brava"],
-    "image": "https://liquipedia.net/commons/images/thumb/f/f2/R6S_Mute_Icon_2021_allmode.png/50px-R6S_Mute_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3exeHnxH1tmUmQTequWRKa/e1b6c6f057eb24722dd7860af0276316/Y0R6_BADGE_Mute_L.png"
   },
   {
     "id": 3,
@@ -41,7 +41,7 @@
     "nickname": "Castle",
     "counters": ["-"],
     "counteredBy": ["Sledge", "Ash", "Thermite", "Hibana", "Zofia", "Maverick"],
-    "image": "https://liquipedia.net/commons/images/thumb/3/34/R6S_Castle_Icon_2021_allmode.png/100px-R6S_Castle_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/kzznLctjOsXJZAg0F2HPB/dea28fa008515d6ddaa0d2659f4dc253/Y0R6_BADGE_Castle_L.png"
   },
   {
     "id": 4,
@@ -51,7 +51,7 @@
     "nickname": "Pulse",
     "counters": ["Finka"],
     "counteredBy": ["Thatcher", "IQ"],
-    "image": "https://liquipedia.net/commons/images/thumb/c/c0/R6S_Pulse_Icon_2021_allmode.png/100px-R6S_Pulse_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/ChAeJzdmwxuvhZTrV81rK/8c16116f4c719a3df864df6639e2f52e/Y0R6_BADGE_Pulse_L.png"
   },
   {
     "id": 5,
@@ -61,7 +61,7 @@
     "nickname": "Doc",
     "counters": ["-"],
     "counteredBy": ["-"],
-    "image": "https://liquipedia.net/commons/images/thumb/a/a7/R6S_Doc_Icon_2021_allmode.png/100px-R6S_Doc_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/71Nl3v0LqHyo9eXV6xTFQd/1ba4f057b6acad3ec700ca9e60b53d6c/Y0R6_BADGE_Doc_L.png"
   },
   {
     "id": 6,
@@ -71,7 +71,7 @@
     "nickname": "Rook",
     "counters": ["-"],
     "counteredBy": ["-"],
-    "image": "https://liquipedia.net/commons/images/thumb/b/bd/R6S_Rook_Icon_2021_allmode.png/100px-R6S_Rook_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3Yk1noMd9re0RLlrXJSWtR/7a55e80593c487827293a114835dba63/Y0R6_BADGE_Rook_L.png"
   },
   {
     "id": 7,
@@ -81,7 +81,7 @@
     "nickname": "Kapkan",
     "counters": ["-"],
     "counteredBy": ["Thatcher", "Twitch", "IQ", "Brava"],
-    "image": "https://liquipedia.net/commons/images/thumb/7/76/R6S_Kapkan_Icon_2021_allmode.png/100px-R6S_Kapkan_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/797q7C5YA89eFqw4RB40ka/f9435d1b4d13d41472e22d305c961cb9/Y0R6_BADGE_Kapkan_L.png"
   },
   {
     "id": 8,
@@ -91,7 +91,7 @@
     "nickname": "Tachanka",
     "counters": ["-"],
     "counteredBy": ["-"],
-    "image": "https://liquipedia.net/commons/images/thumb/9/9d/R6S_Tachanka_Icon_2021_allmode.png/100px-R6S_Tachanka_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7hpI2mcmvyjC2vG6ieltLo/f217b1dc449c0514b55e471193a38c91/Y0R6_BADGE_Tachanka_L.png"
   },
   {
     "id": 9,
@@ -101,7 +101,7 @@
     "nickname": "Jäger",
     "counters": ["Thatcher", "Ash", "Fuze", "Ying", "Zofia", "Nomad"],
     "counteredBy": ["Thatcher", "Twitch", "IQ"],
-    "image": "https://liquipedia.net/commons/images/thumb/a/ac/R6S_Jager_Icon_2021_allmode.png/100px-R6S_Jager_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1cCvTmKwnnovVmpZmDyPkA/b064f5ad6b9e7398d820d9ea90ff9366/Y0R6_BADGE_Jager_L.png"
   },
   {
     "id": 10,
@@ -111,7 +111,7 @@
     "nickname": "Bandit",
     "counters": ["Thermite", "Hibana", "Ace", "Ying"],
     "counteredBy": ["Thatcher", "Twitch", "IQ", "Maverick", "Kali"],
-    "image": "https://liquipedia.net/commons/images/thumb/f/ff/R6S_Bandit_Icon_2021_allmode.png/50px-R6S_Bandit_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4Vasjq82J1TNjNE38J7LmV/e1725f8d9ea2b85565e40b54faac85b8/Y0R6_BADGE_Bandit_L.png"
   },
   {
     "id": 11,
@@ -121,7 +121,7 @@
     "nickname": "Frost",
     "counters": ["Amaru"],
     "counteredBy": ["-"],
-    "image": "https://liquipedia.net/commons/images/thumb/4/42/R6S_Frost_Icon_2021_allmode.png/50px-R6S_Frost_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1OWFtfiEXleLSENciCSQQR/8fcced59c0125073e506f2dee0201015/Y1S1_BADGE_Frost_L.png"
   },
   {
     "id": 12,
@@ -131,7 +131,7 @@
     "nickname": "Valkyrie",
     "counters": ["-"],
     "counteredBy": ["Thatcher", "Twitch", "IQ", "Dokkaebi", "Nøkk"],
-    "image": "https://liquipedia.net/commons/images/thumb/5/5a/R6S_Valkyrie_Icon_2021_allmode.png/100px-R6S_Valkyrie_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/44qXJmZmAwaD4w44JnPuOx/c54c8b9d3a6813ab8ce3e3f1dd4ef408/Y1S2_BADGE_Valkyrie_L.png"
   },
   {
     "id": 13,
@@ -141,7 +141,7 @@
     "nickname": "Caveira",
     "counters": ["-"],
     "counteredBy": ["Jackal"],
-    "image": "https://liquipedia.net/commons/images/thumb/2/28/R6S_Caveira_Icon_2021_allmode.png/100px-R6S_Caveira_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4H1dOkcdZIKblKkAWjD390/10e57f4829eabda30f4aa1044e49893d/Y1S3_BADGE_Caveira_L.png"
   },
   {
     "id": 14,
@@ -151,7 +151,7 @@
     "nickname": "Echo",
     "counters": ["Montagne", "Blitz", "Finka"],
     "counteredBy": ["Thatcher", "Twitch", "IQ"],
-    "image": "https://liquipedia.net/commons/images/thumb/6/6e/R6S_Echo_Icon_2021_allmode.png/100px-R6S_Echo_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3MRqAdUybJ7GR9gX4wPAI4/992938a70a4e53b91478358634e77ca7/Y1S4_BADGE_Echo_L.png"
   },
   {
     "id": 15,
@@ -161,7 +161,7 @@
     "nickname": "Mira",
     "counters": ["-"],
     "counteredBy": ["Thermite", "Twitch", "Hibana", "Maverick", "Ace", "Brava"],
-    "image": "https://liquipedia.net/commons/images/thumb/f/f1/R6S_Mira_Icon_2021_allmode.png/50px-R6S_Mira_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/u1KR6aogjLncAtaVOciTc/ba730583f9c20cad6d3ca996d366a707/Y2S1_BADGE_Mira_L.png"
   },
   {
     "id": 16,
@@ -171,7 +171,7 @@
     "nickname": "Lesion",
     "counters": ["Finka"],
     "counteredBy": ["-"],
-    "image": "https://liquipedia.net/commons/images/thumb/9/9f/R6S_Lesion_Icon_2021_allmode.png/100px-R6S_Lesion_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2CWYSySnPAhsOHdq2OLSjv/f9e54debcfa0c8fe76012d9097b98e6e/Y2S2_BADGE_Lesion_L.png"
   },
   {
     "id": 17,
@@ -181,7 +181,7 @@
     "nickname": "Ela",
     "counters": ["-"],
     "counteredBy": ["Thatcher", "Twitch", "IQ", "Zofia", "Finka"],
-    "image": "https://liquipedia.net/commons/images/thumb/2/2d/R6S_Ela_Icon_2021_allmode.png/50px-R6S_Ela_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7zbkJJWMCOj04DNhYDz994/d2cba213d30d7b8cf2ba8cd568c78f20/Y2S3_BADGE_Ela_L.png"
   },
   {
     "id": 18,
@@ -191,7 +191,7 @@
     "nickname": "Vigil",
     "counters": ["Lion"],
     "counteredBy": ["Thatcher", "IQ", "Jackal"],
-    "image": "https://liquipedia.net/commons/images/thumb/d/de/R6S_Vigil_Icon_2021_allmode.png/100px-R6S_Vigil_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/56A3hXhWZdwO623g3ejeku/a40a0582a7841abfeed723d8fbe238d3/Y2S4_BADGE_Vigil_L.png"
   },
   {
     "id": 19,
@@ -201,7 +201,7 @@
     "nickname": "Alibi",
     "counters": ["-"],
     "counteredBy": ["Thatcher", "Twitch", "IQ", "Glaz"],
-    "image": "https://liquipedia.net/commons/images/thumb/b/b9/R6S_Alibi_Icon_2021_allmode.png/100px-R6S_Alibi_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3DgGV3hETnXiEvVFOYZrbm/55a6be47761b5cf2c7ff8aaa7991cc7f/Y3S2_BADGE_Alibi_L.png"
   },
   {
     "id": 20,
@@ -227,7 +227,7 @@
       "Zofia",
       "Maverick"
     ],
-    "image": "https://liquipedia.net/commons/images/thumb/8/8c/R6S_Maestro_Icon_2021_allmode.png/100px-R6S_Maestro_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/XK43imgD0tc0xrk0tgTCQ/0402cc95cbd525debafa1aab0fdd8385/Y3S2_BADGE_Maestro_L.png"
   },
   {
     "id": 21,
@@ -237,7 +237,7 @@
     "nickname": "Clash",
     "counters": ["-"],
     "counteredBy": ["Thatcher", "Capitão", "Zofia", "Nomad", "Kali"],
-    "image": "https://liquipedia.net/commons/images/thumb/f/f2/R6S_Clash_Icon_2021_allmode.png/100px-R6S_Clash_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7G4lGl5HPLFTTUdcZW8UOK/3901b44cf2a9423486ffd78531e42f87/Y3S3_BADGE_Clash_L.png"
   },
   {
     "id": 22,
@@ -247,7 +247,7 @@
     "nickname": "Kaid",
     "counters": ["Thermite", "Hibana", "Ace"],
     "counteredBy": ["Thatcher", "Twitch", "IQ", "Maverick", "Kali"],
-    "image": "https://liquipedia.net/commons/images/thumb/3/36/R6S_Kaid_Icon_2021_allmode.png/100px-R6S_Kaid_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5Qblb1ZqAqkN3Wa0Qw5qBq/05630c80672105a1195282d276e8eb05/Y3S4_BADGE_L.png"
   },
   {
     "id": 23,
@@ -257,7 +257,7 @@
     "nickname": "Mozzie",
     "counters": ["Twitch", "Flores", "Brava"],
     "counteredBy": ["Thatcher", "Brava", "Twitch", "IQ"],
-    "image": "https://liquipedia.net/commons/images/thumb/f/fd/R6S_Mozzie_Icon_2021_allmode.png/100px-R6S_Mozzie_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/15hUu2PsypX2c1LIJFQNUT/8538c52057420dbf3995cf3117b155c5/Y4S1_BADGE_Mozzie_L.png"
   },
   {
     "id": 24,
@@ -267,7 +267,7 @@
     "nickname": "Warden",
     "counters": ["Blitz", "Capitão", "Ying", "Glaz"],
     "counteredBy": ["Thatcher", "IQ"],
-    "image": "https://liquipedia.net/commons/images/thumb/5/53/R6S_Warden_Icon_2021_allmode.png/100px-R6S_Warden_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/hx1Ljf1qIWbjpgCNmfJbu/2217283b569ef316dc12b93e86649f8f/Y4S2_BADGE_Warden_L.png"
   },
   {
     "id": 25,
@@ -277,7 +277,7 @@
     "nickname": "Goyo",
     "counters": ["-"],
     "counteredBy": ["Twitch", "Zero"],
-    "image": "https://liquipedia.net/commons/images/thumb/6/6c/R6S_Goyo_Icon_2021_allmode.png/100px-R6S_Goyo_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6AAY4FZt5piHdabOdDokE4/f7f8bd90c20b8a429c78a08684b75aca/Y4S3_BADGE_Goyo_L.png"
   },
   {
     "id": 26,
@@ -298,7 +298,7 @@
       "Zero"
     ],
     "counteredBy": ["Thatcher", "Twitch", "IQ", "Zero"],
-    "image": "https://liquipedia.net/commons/images/thumb/b/be/R6S_Wamai_Icon_2021_allmode.png/100px-R6S_Wamai_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1vQZ4WsAjhc6M7qNOS4ahQ/92fc4d89632fb87aec0f102d7adbfe26/Y4S4_BADGE_Wamai_L.png"
   },
   {
     "id": 27,
@@ -308,7 +308,7 @@
     "nickname": "Oryx",
     "counters": ["Montagne", "Blitz"],
     "counteredBy": ["Gridlock", "Nomad"],
-    "image": "https://liquipedia.net/commons/images/thumb/7/7d/R6S_Oryx_Icon_2021_allmode.png/100px-R6S_Oryx_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7mLA8GY9ZKlUfDXrfo9Nek/e3dfd0759414f36866a8c80b61a67722/Y5S1_BADGE_Oryx_L.png"
   },
   {
     "id": 28,
@@ -318,7 +318,7 @@
     "nickname": "Melusi",
     "counters": ["-"],
     "counteredBy": ["-"],
-    "image": "https://liquipedia.net/commons/images/thumb/f/fd/R6S_Melusi_Icon_2021_allmode.png/100px-R6S_Melusi_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/74H52a9GMql8wamIy6WqH5/9fddba49258152835da7cdac8c566663/Y5S2_BADGE_Melusi_L.png"
   },
   {
     "id": 29,
@@ -328,7 +328,7 @@
     "nickname": "Aruni",
     "counters": ["-"],
     "counteredBy": ["-"],
-    "image": "https://liquipedia.net/commons/images/thumb/7/71/R6S_Aruni_Icon_2021_allmode.png/100px-R6S_Aruni_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5rOLCYQOh5HH0Nv6NHe38H/29681f901ff71ae5decb5ccb1b9f8a29/Y5S4_BADGE_Aruni_L.png"
   },
   {
     "id": 30,
@@ -338,7 +338,7 @@
     "nickname": "Thunderbird",
     "counters": ["-"],
     "counteredBy": ["IQ", "Twitch", "Flores", "Thatcher"],
-    "image": "https://liquipedia.net/commons/images/thumb/1/11/R6S_Thunderbird_Icon_2021_allmode.png/100px-R6S_Thunderbird_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/YQfDJ42B2IKcKnb0lRaXq/0cedb53c439b0fe448be95713a836b29/r6s-operators-badge-thunderbird.png"
   },
   {
     "id": 31,
@@ -348,7 +348,7 @@
     "nickname": "Thorn",
     "counters": ["-"],
     "counteredBy": ["Thatcher", "Twitch", "Zero", "IQ"],
-    "image": "https://liquipedia.net/commons/images/thumb/6/63/R6S_Thorn_Icon_2021_allmode.png/100px-R6S_Thorn_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1pzBJsbL1vQT8is7B0Xjxz/440335c080e54ca28eba24858361a03a/r6s-operators-badge-thorn.png"
   },
   {
     "id": 32,
@@ -358,7 +358,7 @@
     "nickname": "Azami",
     "counters": ["-"],
     "counteredBy": ["-"],
-    "image": "https://liquipedia.net/commons/images/thumb/e/e3/R6S_Azami_Icon_2021_allmode.png/100px-R6S_Azami_Icon_2021_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7KWTXHTk8rxLS5qtyX4Xu4/b51f8691b932fd2b83260ef3fbcd1154/r6s-operators-badge-azami.png"
   },
   {
     "id": 33,
@@ -368,7 +368,7 @@
     "nickname": "Solis",
     "counters": ["-"],
     "counteredBy": ["-"],
-    "image": "https://liquipedia.net/commons/images/thumb/8/8e/R6S_Solis_Icon_2022_allmode.png/100px-R6S_Solis_Icon_2022_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6YOBUP5JMskklFx9nDJQ49/d9d4b0968f581597feaa0ef4ec0891f3/r6s-operators-badge-solis.png"
   },
   {
     "id": 34,
@@ -378,6 +378,6 @@
     "nickname": "Fenrir",
     "counters": ["-"],
     "counteredBy": ["Twitch", "IQ", "Zero", "Brava", "Thatcher"],
-    "image": "https://liquipedia.net/commons/images/thumb/0/0e/R6S_Fenrir_Operator_Icon.png/107px-R6S_Fenrir_Operator_Icon.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4vtvBhY56S2slW3y0eKsMp/6a0f41807549ad1aa503112d4ad05a52/r6s-operators-badge-fenrir.png"
   }
 ]

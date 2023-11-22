@@ -128,8 +128,8 @@ export const styles = StyleSheet.create({
     height: 60,
   },
   imageWeapon: {
-    margin: 20,
-    width: 300,
+    margin: 10,
+    width: 280,
     height: 100,
     resizeMode: "contain",
   },
