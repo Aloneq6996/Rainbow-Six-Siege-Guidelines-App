@@ -103,42 +103,71 @@ export const OperatorsSpecific: React.FC<OperatorsSpecificScreenProps> = (
             {operator.surname}
           </Text>
           <Text style={styles.textColorHeaderBold}>Broń główna</Text>
-          <View>
-            {weaponsAssignedPrimary.map((weapon) => (
-              <TouchableHighlight
-                key={weapon.id}
-                onPress={() => {
-                  props.navigation.navigate("WeaponSpecific", {
-                    weaponName: weapon.name,
-                  });
-                }}
-              >
-                <View>
-                  <Text style={styles.textColor}>
-                    {weapon.name} | {weapon.type}
-                  </Text>
-                </View>
-              </TouchableHighlight>
-            ))}
-          </View>
+          {["Blitz", "Montagne", "Clash"].includes(operator.nickname)
+            ? specialGadgetAssigned.map((sGadget) => (
+                <TouchableHighlight
+                  key={sGadget.id}
+                  onPress={() => {
+                    props.navigation.navigate("SpecialGadget", {
+                      gadgetName: sGadget.name,
+                    });
+                  }}
+                >
+                  <Text style={styles.textColor}>{sGadget.name}</Text>
+                </TouchableHighlight>
+              ))
+            : weaponsAssignedPrimary.map((weapon) => (
+                <TouchableHighlight
+                  key={weapon.id}
+                  onPress={() => {
+                    props.navigation.navigate("WeaponSpecific", {
+                      weaponName: weapon.name,
+                    });
+                  }}
+                >
+                  <View>
+                    <Text style={styles.textColor}>
+                      {weapon.name} | {weapon.type}
+                    </Text>
+                  </View>
+                </TouchableHighlight>
+              ))}
+          <View></View>
           <Text style={styles.textColorHeaderBold}>Broń Boczna</Text>
           <View>
-            {weaponsAssignedSecondary.map((weaponSec) => (
-              <TouchableHighlight
-                key={weaponSec.id}
-                onPress={() => {
-                  props.navigation.navigate("WeaponSpecific", {
-                    weaponName: weaponSec.name,
-                  });
-                }}
-              >
-                <View>
-                  <Text style={styles.textColor}>
-                    {weaponSec.name} | {weaponSec.type}
-                  </Text>
-                </View>
-              </TouchableHighlight>
-            ))}
+            {operator.nickname === "Caveira"
+              ? specialGadgetAssigned.map((sGadget) => {
+                  if (["Luison"].includes(sGadget.name)) {
+                    return (
+                      <TouchableHighlight
+                        key={sGadget.id}
+                        onPress={() => {
+                          props.navigation.navigate("SpecialGadget", {
+                            gadgetName: sGadget.name,
+                          });
+                        }}
+                      >
+                        <Text style={styles.textColor}>{sGadget.name}</Text>
+                      </TouchableHighlight>
+                    );
+                  }
+                })
+              : weaponsAssignedSecondary.map((weaponSec) => (
+                  <TouchableHighlight
+                    key={weaponSec.id}
+                    onPress={() => {
+                      props.navigation.navigate("WeaponSpecific", {
+                        weaponName: weaponSec.name,
+                      });
+                    }}
+                  >
+                    <View>
+                      <Text style={styles.textColor}>
+                        {weaponSec.name} | {weaponSec.type}
+                      </Text>
+                    </View>
+                  </TouchableHighlight>
+                ))}
           </View>
           <Text style={styles.textColorHeaderBold}>Gadżety</Text>
           <View>
@@ -162,21 +191,33 @@ export const OperatorsSpecific: React.FC<OperatorsSpecificScreenProps> = (
               </View>
             ))}
           </View>
-          <Text style={styles.textColorHeaderBold}>Unikalny Gadżet</Text>
           <View>
-            {specialGadgetAssigned.map((sGadget) => (
-              <TouchableHighlight
-                key={sGadget.id}
-                onPress={() => {
-                  devHanlder();
-                  props.navigation.navigate("SpecialGadget", {
-                    gadgetName: sGadget.name,
-                  });
-                }}
-              >
-                <Text style={styles.textColor}>{sGadget.name}</Text>
-              </TouchableHighlight>
-            ))}
+            <Text style={styles.textColorHeaderBold}>Unikalny Gadżet</Text>
+            {["Blitz", "Montagne", "Clash"].includes(operator.nickname) ? (
+              <Text style={styles.textColor}>-</Text>
+            ) : (
+              specialGadgetAssigned
+                .filter(
+                  (sGadget) =>
+                    !(
+                      operator.nickname === "Caveira" &&
+                      sGadget.name === "Luison"
+                    )
+                )
+                .map((sGadget) => (
+                  <TouchableHighlight
+                    key={sGadget.id}
+                    onPress={() => {
+                      devHanlder();
+                      props.navigation.navigate("SpecialGadget", {
+                        gadgetName: sGadget.name,
+                      });
+                    }}
+                  >
+                    <Text style={styles.textColor}>{sGadget.name}</Text>
+                  </TouchableHighlight>
+                ))
+            )}
           </View>
           <Text style={styles.textColorHeaderBold}>
             {operator.nickname} kontruje

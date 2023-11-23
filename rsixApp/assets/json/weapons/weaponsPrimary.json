@@ -1223,7 +1223,7 @@
     "name": "Ballistic Shield",
     "type": "Tarcza",
     "damage": 0,
-    "operators": ["Fuze", "Blitz", "Montagne", "Clash"],
+    "operators": ["Fuze"],
     "attachments": {
       "scopes": [],
       "barrels": [],

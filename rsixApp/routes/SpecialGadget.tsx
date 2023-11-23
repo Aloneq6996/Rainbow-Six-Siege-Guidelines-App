@@ -64,11 +64,13 @@ export const SpecialGadget: React.FC<SpecialGadgetScreenProps> = (props) => {
           />
         </TouchableOpacity>
         <View style={styles.personalContainer}>
-          <Image
-            style={styles.imageAbility}
-            source={gadget.image}
-            placeholder="nie ma fotki"
-          />
+          {gadget.image ? (
+            <Image
+              style={styles.imageAbility}
+              source={gadget.image}
+              placeholder="nie ma fotki"
+            />
+          ) : null}
           <Text style={styles.textColorHeaderBold}>{gadget.type}</Text>
           <Text style={styles.textColorHeader}>{gadget.name}</Text>
           <Text style={styles.textColor}>{gadget.description}</Text>

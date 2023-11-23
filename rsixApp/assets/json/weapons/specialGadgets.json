@@ -6,7 +6,7 @@
     "description": "Breaching Hammer jest w stanie tworzyć przejścia w zniszczalnych ścianach i natychmiastowo niszczyć barykady. Dodatkowo młot może być używany jako broń do walki wręcz oraz do niszczenia drutu kolczastego.",
     "quantity": "25 użyć",
     "operator": "Sledge",
-    "image": "https://liquipedia.net/commons/images/thumb/a/a8/Breaching_Hammer_R6S.png/256px-Breaching_Hammer_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2Vyo9CrQ1J7IZe43XpT4pV/4bc02e829d1b1745b9a527ff34f8fafb/Tactical-Breaching-Hammer.png"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "description": "Rzucany granat elektromagnetyczny, który może unieszkodliwić większość wrogich urządzeń elektronicznych w krótkim promieniu, nawet przez ściany.",
     "quantity": "3",
     "operator": "Thatcher",
-    "image": "https://liquipedia.net/commons/images/thumb/5/59/EG_MKO-EMP_Grenade_R6S.png/256px-EG_MKO-EMP_Grenade_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4p4srpOH4sq55OHryHhn5t/d31728d1432ed28c429ea566caf0e083/EMP-Grenade.png"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "description": "Zmodyfikowany granatnik mogący pomieścić pojedynczy nabój wyważający kal. 40 mm. Detonacja następuje wkrótce po uderzeniu.",
     "quantity": "2 naboje",
     "operator": "Ash",
-    "image": "https://liquipedia.net/commons/images/thumb/1/1b/M120_CREM_R6S.png/256px-M120_CREM_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/0114WqhzsMsnvaKc4FypkN/5ebb9b86e216a2d9e6b2ea01eb3346e8/Breaching-Rounds.png"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "description": "Mata zwijana przymocowana do urządzenia zapalającego, które można zdalnie zdetonować. Możliwość przełamania wzmocnionych ścian.",
     "quantity": "2",
     "operator": "Thermite",
-    "image": "https://liquipedia.net/commons/images/thumb/0/0a/Brimstone_BC-3_R6S.png/256px-Brimstone_BC-3_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/R5giHT90R2XOMMuUENZeK/840a5a391ed57a0c62208e72258407a7/Exothermic-Charge.png"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "description": "Większy, wolniejszy i cichszy niż standardowy dron obserwacyjny. Jest w stanie zniszczyć sprzęt elektroniczny, a także większość gadżetów elektronicznych i okno Miry. Może również zadawać graczom niewielkie obrażenia.",
     "quantity": "2",
     "operator": "Twitch",
-    "image": "https://liquipedia.net/commons/images/thumb/b/b7/Shock-Drone.png/256px-Shock-Drone.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5dZ9kaUfUSF3piuFIUKf2t/7ebfc51caee42a776492b56251d45d92/Shock-Drones.png"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "description": "Wykonany z kompozytu wzmocnionych stopów i kevlaru, „Le Roc” może rozłożyć się zasłaniając posiadacza całkowicie z przodu.",
     "quantity": "",
     "operator": "Montagne",
-    "image": "https://liquipedia.net/commons/images/thumb/c/c3/Extendable_Shield_R6S.png/256px-Extendable_Shield_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1bmXJOakdA6SOrGxBKA70T/1e489e366d6db287f475963df2040d3d/Extendable-Shield.png"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "description": "Zamontowany na zawiasie umożliwiającym jego obrócenie do właściwej pozycji, celownik HDS Flip Sight zapewnia użytkownikowi dostęp do niezrównanego poziomu powiększenia, a także możliwość widzenia przez dym.",
     "quantity": "",
     "operator": "Glaz",
-    "image": "https://liquipedia.net/commons/images/thumb/d/d9/HDS_Flip_Sight_R6S.png/256px-HDS_Flip_Sight_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/73bNPGhlIuhlWvi497sYqE/b68414436088f62f9da44cd42f702df7/Flip-Sight.png"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "description": "Wyposażona w tłok, który z łatwością przebija się przez niewzmocnione ściany, podłogi, a nawet panele pancerza, „Matryoszka”, po nałożeniu, strzela granatami kasetowymi.",
     "quantity": "4",
     "operator": "Fuze",
-    "image": "https://liquipedia.net/commons/images/thumb/7/72/Cluster_Charge_R6S.png/256px-Cluster_Charge_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3YaoPPUbFYeVSCemdj57EL/a4a4a8c0a935640f7d9a1d1ea82bc48c/Cluster-Charge.png"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "description": "Tarcza balistyczna jest wystarczająco lekka, aby jej posiadacz mógł biegać. Jest wyposażona w 24 granaty hukowo-błyskowe rozmieszczone w 3 rzędach, zapewniające źródło światła o dużej intensywności po uruchomieniu.",
     "quantity": "",
     "operator": "Blitz",
-    "image": "https://liquipedia.net/commons/images/thumb/f/fc/G52-Tactical_Shield_R6S.png/256px-G52-Tactical_Shield_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7EXDIOjPFMhPKZWY5OcEQC/f2df48ebe5673dca7773d81efd940b66/Flash-Shield.png"
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "description": "Montowany na nadgarstku czujnik, wielkości telefonu komórkowego, który wykrywa gadżety i sprzęt elektroniczny w swoim zasięgu.",
     "quantity": "",
     "operator": "IQ",
-    "image": "https://liquipedia.net/commons/images/thumb/c/ce/Electronics_Detector_R6S.png/256px-Electronics_Detector_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/23Nk2ie06rb3DcZnStryIY/e06226196dd582c905c33fad87dfdd63/Electronics-Detector.png"
   },
   {
     "id": 11,
@@ -96,7 +96,7 @@
     "description": "Montowana pod lufą strzelba kalibru 12, mieszcząca cztery naboje, używana w połączeniu z karabinem szturmowym.",
     "quantity": "",
     "operator": "Buck",
-    "image": "https://liquipedia.net/commons/images/thumb/4/44/SK_4-12_R6S.png/256px-SK_4-12_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2w8EQtN4FFtEMa9lBYyWGg/36bbc6d819761c11418c868d2e483991/Skeleton-Key.png"
   },
   {
     "id": 12,
@@ -105,7 +105,7 @@
     "description": "Tarcza na karabin TARS MK 0 chroni użytkownika przed tępymi uderzeniami i ostrzałem.",
     "quantity": "2",
     "operator": "Blackbeard",
-    "image": "https://liquipedia.net/commons/images/thumb/f/f8/TARS_MK_0_R6S.png/256px-TARS_MK_0_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2dZeBTlDDdFQKb4PYb8F5v/162d60178a75cde9f65be362eacc880a/Rifle-Shield.png"
   },
   {
     "id": 13,
@@ -114,7 +114,7 @@
     "description": "Użyj szklanego bełtu, aby przeprowadzić szybki i cichy atak na wrogów, nie informując ich o swojej pozycji",
     "quantity": "4",
     "operator": "Capitão",
-    "image": "https://liquipedia.net/commons/images/thumb/8/82/TAC_MK0_R6S.png/256px-TAC_MK0_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5ur3NZUGos3i2HR8f0HIzj/46cf23c97453ebfedeaa42a1088ff32f/Tactical-Crossbow.png"
   },
   {
     "id": 14,
@@ -123,7 +123,7 @@
     "description": "X-KAIROS - wyrzutnia kalibru 40 mm zdolna do przebijania wzmocnionych ścian - wystrzeliwuje wybuchowe kulki, które można jednocześnie zdetonować na odległość.",
     "quantity": "18",
     "operator": "Hibana",
-    "image": "https://liquipedia.net/commons/images/thumb/5/58/X-KAIROS_R6S.png/256px-X-KAIROS_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1QSzVxpGhswXix3vn8XGKj/c4f64fa0895bdaf164448e3ae49950a0/X-Kairos.png"
   },
   {
     "id": 15,
@@ -132,7 +132,7 @@
     "description": "Eyenox Model III został stworzony, aby zaoferować mobilne urządzenie śledzące, które jest w stanie zarówno identyfikować, jak i śledzić ślady stóp danej osoby w czasie rzeczywistym.",
     "quantity": "3 charges",
     "operator": "Jackal",
-    "image": "https://liquipedia.net/commons/images/thumb/4/44/Eyenox_Model_III_R6S.png/256px-Eyenox_Model_III_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2gexf5zLDsa74J7urCoDxk/50da09626395cbe1bf2a58e00a57a514/Eyenox-Model-III.png"
   },
   {
     "id": 16,
@@ -141,7 +141,7 @@
     "description": "Urządzenie Candela uwalnia grupę ładunków błyskowych, które można zaczepić na powierzchni lub wyrzucić jako granat.",
     "quantity": "4",
     "operator": "Ying",
-    "image": "https://liquipedia.net/commons/images/thumb/9/9b/Candela_Device_R6S.png/256px-Candela_Device_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4vpN9vu5wD9dyb2knMosTy/430796de3c0c2a5c2eb2ac6f4217eba0/Candela.png"
   },
   {
     "id": 17,
@@ -150,7 +150,7 @@
     "description": "KS79 Lifeline wykorzystuje technologię pocisków wyzwalanych elektronicznie, które mogą wystrzelić zarówno amunicję ogłuszającą, jak i uderzeniową",
     "quantity": "4",
     "operator": "Zofia",
-    "image": "https://liquipedia.net/commons/images/thumb/7/71/KS79_Lifeline_R6S.png/256px-KS79_Lifeline_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1elqIEWJ6XsXKAbMNd0Cai/0b4c0591bad284d957e652cdae0b706b/KS79-Lifeline.png"
   },
   {
     "id": 18,
@@ -159,7 +159,7 @@
     "description": "Tablet, którego używa do hakowania wrogich urządzeń taktycznych PDA. Program pobiera stworzonego przez nią wirusa, który może ominąć zapory sieciowe, włączyć pobliskie urządzenia i wyemitować głośny dźwięk, aby zagrozić pozycji wroga.",
     "quantity": "2",
     "operator": "Dokkaebi",
-    "image": "https://liquipedia.net/commons/images/thumb/0/00/Logic_Bomb_R6S.png/256px-Logic_Bomb_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5ej2g1iCMHdfjn8h8qgfmU/bf07fef4b063a46389ca650ed02b292a/Logic-Bomb.png"
   },
   {
     "id": 19,
@@ -168,7 +168,7 @@
     "description": "EE-ONE-D pomaga Lionowi utrzymać kwarantannę, wykrywając ruch w danym obszarze, dając przegląd gorących stref lub pola bitwy.",
     "quantity": "3",
     "operator": "Lion",
-    "image": "https://liquipedia.net/commons/images/thumb/5/5f/EE-ONE-D_R6S.png/256px-EE-ONE-D_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7fRknnWl2K2qjKle1t79j/0506d25798aeb0691c8a576665050f7d/EE-ONE-D.png"
   },
   {
     "id": 20,
@@ -177,7 +177,7 @@
     "description": "Daje swojej drużynie i sobie krótki wzrost HP, zwiększa prędkość celowania i pomaga sojusznikom wydostać się z powalenia",
     "quantity": "3",
     "operator": "Finka",
-    "image": "https://liquipedia.net/commons/images/thumb/1/1c/Nanobot_Shots_R6S.png/256px-Nanobot_Shots_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/9xGRNPNznBKssvgQAtQNQ/9352fc88f2911ab40789412856b3e20e/Adrenal-Surge.png"
   },
   {
     "id": 21,
@@ -186,7 +186,7 @@
     "description": "Palnik Mavericka może przebić każdą powierzchnię, w tym wzmocnione ściany i włazy.",
     "quantity": "6",
     "operator": "Maverick",
-    "image": "https://static.wikia.nocookie.net/rainbowsix/images/2/23/R6S_Breaching_Torch.png/revision/latest/scale-to-width-down/185?cb=20220525145141"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4rPBvxDKsKiQCMjt7GxJMw/09e45c68bbc41c1721acbbe0257e2465/Breaching-Torch.png"
   },
   {
     "id": 22,
@@ -195,7 +195,7 @@
     "description": "Niestandardowy dodatek do karabinu Nomad pozwala jej wystrzelić granaty odpychające Airjab. Mogą eksplodować w powietrzu, gdy znajdują się blisko wroga, lub mogą przylgnąć do powierzchni i zdetonować później, ponownie, gdy wróg znajdzie się w zasięgu",
     "quantity": "3",
     "operator": "Nomad",
-    "image": "https://liquipedia.net/commons/images/thumb/c/c8/Nomad_Airjab_Launcher_R6S.png/256px-Nomad_Airjab_Launcher_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6d0LN1QWzviEkcYu3mTn6v/e49511a479756f71224f14225ad9cbd8/Airjab-Launcher.png"
   },
   {
     "id": 23,
@@ -204,7 +204,7 @@
     "description": "Rzucany gadżet, który rozkłada maty z kolcami, które spowalniają i ranią wrogów, którzy przez nie przechodzą.",
     "quantity": "4",
     "operator": "Gridlock",
-    "image": "https://liquipedia.net/commons/images/thumb/4/41/Gridlock_Trax_Stingers_R6S.png/256px-Gridlock_Trax_Stingers_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/QGVvmZeZ91FC2X4mvMzgn/601fa45e635872aea31f15ffebb9c366/Trax-Stingers.png"
   },
   {
     "id": 24,
@@ -213,7 +213,7 @@
     "description": "Kontrwywiad, który usuwa wizerunek Nøkk z narzędzi obserwacyjnych i redukuje jej szumy, z wyjątkami.",
     "quantity": "",
     "operator": "Nøkk",
-    "image": "https://liquipedia.net/commons/images/thumb/e/e7/N%C3%B8kk_Hel_Presence_Reduction_R6S.png/256px-N%C3%B8kk_Hel_Presence_Reduction_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/57miqbOn8xWBh7ne7za3CV/35364108d49380a0ed33998f970e104f/HEL-Presence-Reduction.png"
   },
   {
     "id": 25,
@@ -222,7 +222,7 @@
     "description": "Dzięki hakowi Garra Amaru może chwytać się gzymsów i okien oraz podnosić się w rekordowym czasie.",
     "quantity": "",
     "operator": "Amaru",
-    "image": "https://liquipedia.net/commons/images/thumb/4/41/Amaru_Garra_Hook_R6S.png/256px-Amaru_Garra_Hook_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3WejtMAtiITfpjDMuq6j4t/b52e58da6b2625839aa23f940c8e6639/Garra-Hook.png"
   },
   {
     "id": 26,
@@ -231,7 +231,7 @@
     "description": "Jego rolą jest niszczenie gadżetów, w określonym promieniu, lekką eksplozją.",
     "quantity": "4",
     "operator": "Kali",
-    "image": "https://liquipedia.net/commons/images/thumb/b/bd/Kali_LV_Explosive_Lance_R6S.png/256px-Kali_LV_Explosive_Lance_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/75eebt48ELO4eGGdIMVMpY/9533c7dc8f36651f5b5ad50c8ccb6c5a/LV_Explosive_Lance.png"
   },
   {
     "id": 27,
@@ -240,7 +240,7 @@
     "description": "Replikator Gemini to zdalnie sterowana holograficzna kopia Iany. Kiedy go użyje, może przeprowadzić zwiad z niewielkimi lub żadnymi konsekwencjami.",
     "quantity": "",
     "operator": "Iana",
-    "image": "https://liquipedia.net/commons/images/thumb/e/e8/Iana_Gemini_Replicator_R6S.png/256px-Iana_Gemini_Replicator_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/K8E4EHWbD8wTjVqro6wVl/62339b2fbe1d3a2319dcd320f7a0b070/r6s-operator-ability-iana.png"
   },
   {
     "id": 28,
@@ -249,7 +249,7 @@
     "description": "S.E.L.M.A. Aqua Breacher wykorzystuje ciśnienie hydrauliczne do przebijania się przez niewzmocnione i wzmocnione powierzchnie.",
     "quantity": "3",
     "operator": "Ace",
-    "image": "https://liquipedia.net/commons/images/thumb/3/3f/Ace_S.E.L.M.A._Aqua_Breacher_R6S.png/256px-Ace_S.E.L.M.A._Aqua_Breacher_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2sjKOnwHeOX2xn3iIpja2A/e265f675c905ac25c23ed11fc85589bb/r6s-operator-ability-ace.png"
   },
   {
     "id": 29,
@@ -258,7 +258,7 @@
     "description": "Argus Launcher jest wyposażony w bardzo specjalne kamery, które mogą wbić się w łamliwą i wzmocnioną powierzchnię, aby monitorować obie strony.",
     "quantity": "4",
     "operator": "Zero",
-    "image": "https://liquipedia.net/commons/images/thumb/3/3a/Zero_Argus_Launcher_R6S.png/256px-Zero_Argus_Launcher_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6h4hyVSzG8IwAmEl1Objrd/6e51e64eeffcc68746b8ff59445fb103/r6s-operator-ability-zero.png"
   },
   {
     "id": 30,
@@ -267,7 +267,7 @@
     "description": "Sterowany na odległość, RCE-Ratero Charge stale jedzie do przodu, podczas gdy Flores szuka miejsca, w którym może wybuchnąć. Po uruchomieniu Ratero chwyta się najbliższej powierzchni, opancerza się kuloodporną skorupą i eksploduje, niszcząc pobliskie gadżety i miękkie powierzchnie.",
     "quantity": "4",
     "operator": "Flores",
-    "image": "https://liquipedia.net/commons/images/thumb/f/f4/Flores_RCE-Ratero_Charge_R6S.png/256px-Flores_RCE-Ratero_Charge_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1z7eSI5D8IRIOHi0PJu4yq/3c4a273098a840957a248583f73fa8ff/r6s-operator-ability-flores.png"
   },
   {
     "id": 31,
@@ -276,7 +276,7 @@
     "description": "Przezroczysta i kuloodporna tarcza Talon-8 może być noszona przez Osę lub umieszczana na podłodze lub framugach okien, zapewniając jej ochronne pole widzenia.",
     "quantity": "2",
     "operator": "Osa",
-    "image": "https://liquipedia.net/commons/images/6/65/Talon-8_Clear_Shield_Osa_lightmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/71VBmyDtBAx788WnNJfEgo/1e6d78a81f8dc381bf4244b87970038f/r6s-operator-ability-osa.png"
   },
   {
     "id": 32,
@@ -285,7 +285,7 @@
     "description": "R.O.U. Projector System toczy się po rzuceniu przez Sens'a i upuszcza małe projektory, tworząc na swojej drodze ekran.",
     "quantity": "3",
     "operator": "Sens",
-    "image": "https://liquipedia.net/commons/images/0/09/R.O.U._Projector_System_Sens_allmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4iEpghBKHF6bcQxAxRKsYU/0291dc89b6f7730720d1ea5650392a81/r6s-operator-ability-sens.png"
   },
   {
     "id": 33,
@@ -294,7 +294,7 @@
     "description": "Wystrzelenie pocisku uwalnia rój botów, które śledzą lokalizację przechodzących przez niego przeciwników. Tylko uważaj na oczy",
     "quantity": "2",
     "operator": "Grim",
-    "image": "https://liquipedia.net/commons/images/thumb/d/d0/Kawan_Hive_Launcher_lightmode.png/256px-Kawan_Hive_Launcher_lightmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2Ws6ae13XPN5rcsw0WVt3d/d338fc7e22de9c2f620137d85ac4e29b/r6s-operator-ability-grim.png"
   },
   {
     "id": 34,
@@ -303,7 +303,7 @@
     "description": "Dron Kludge Bravy to narzędzie sabotażowe zdolne do przejmowania urządzeń przeciwników. Jeśli urządzeniem nie można sterować, zamiast tego zostaje ono zniszczone.",
     "quantity": "2",
     "operator": "Brava",
-    "image": "https://liquipedia.net/commons/images/a/af/Kludge_Drone_lightmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7CeEFqxBVGt3yXGCrE8TZq/9bd38a7211fdbbaea9c43794bd6f4925/r6s-operator-ability-brava.png"
   },
   {
     "id": 35,
@@ -312,7 +312,7 @@
     "description": "Niewiele może stanąć na przeszkodzie BU-GI Auto Breacher. Ten rozkładany miniczołg niszczy wszystkie łamliwe powierzchnie i urządzenia na swojej drodze, pozostawiając po sobie ślad zniszczenia.",
     "quantity": "3",
     "operator": "Ram",
-    "image": "https://liquipedia.net/commons/images/thumb/a/aa/BU-GI_Auto_Breacher_lightmode.png/256px-BU-GI_Auto_Breacher_lightmode.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7qkMmMKIA8rGhDceraZSvl/0093fd62cc9bd7cac931f2542a13cc05/r6s-operator-ability-ram.png"
   },
   {
     "id": 36,
@@ -321,7 +321,7 @@
     "description": "Kanister do rzucania zawierający toksyczny gaz. Przykleja się do dowolnej powierzchni i może zostać zdalnie zdetonowany w dowolnym momencie.",
     "quantity": "3",
     "operator": "Smoke",
-    "image": "https://liquipedia.net/commons/images/thumb/b/b3/Gas_Grenade_R6S_transparent.png/256px-Gas_Grenade_R6S_transparent.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3ZbADU6FxBqdvcA8vCpYhn/6c69d61202364fa420e2a319d817c6f3/Remote-Gas-Grenade.png"
   },
   {
     "id": 37,
@@ -330,7 +330,7 @@
     "description": "GC90 blokuje sygnał ze zdalnego detonatora lub sterownika przed dotarciem do dowolnego urządzenia w zasięgu",
     "quantity": "4",
     "operator": "Mute",
-    "image": "https://liquipedia.net/commons/images/thumb/b/b7/Jammer_R6S_transparent.png/256px-Jammer_R6S_transparent.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1M5fsUELbaAzImzMte2ESa/9de588693ec317c87ef1a2021bd43b86/Signal-Disruptor.png"
   },
   {
     "id": 38,
@@ -339,7 +339,7 @@
     "description": "Zwijany panel pancerza wykonany z polietylenu, tkaniny balistycznej i mikropłytek ceramicznych z dodatkiem boru. Zmocniona barykada, która jest kuloodporna.",
     "quantity": "4",
     "operator": "Castle",
-    "image": "https://liquipedia.net/commons/images/thumb/8/8c/Armor_Panel_R6S.png/256px-Armor_Panel_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/29N9nMqB8ZZxGCPz128ccD/439cb1fcb2f6d5385378cf073a5fbc30/Armor-Panel.png"
   },
   {
     "id": 39,
@@ -348,7 +348,7 @@
     "description": "Ten detektor bicia serca może odczytywać sygnatury termiczne przez ściany i inne przeszkody.",
     "quantity": "",
     "operator": "Pulse",
-    "image": "https://liquipedia.net/commons/images/thumb/5/54/HB-5_Cardiac_Sensor_R6S.png/256px-HB-5_Cardiac_Sensor_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7dPXIadD3D2a3uEqrCPvj2/103ad9d0d3b71adee3b92a5db96fe24d/Heartbeat-Sensor.png"
   },
   {
     "id": 40,
@@ -357,7 +357,7 @@
     "description": "Ręczny pistolet uruchamiany spustem, zasilany ciśnieniowym zbiornikiem CO2. Zawiera dawkę 1 mg epinefryny w roztworze soli fizjologicznej.",
     "quantity": "3",
     "operator": "Doc",
-    "image": "https://liquipedia.net/commons/images/thumb/e/ef/MPD-0_Stim_Pistol_R6S.png/256px-MPD-0_Stim_Pistol_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7njaeUjJj27iYH27HnH6jn/c5533d2d7191b879c313013f278f5f59/Stim-Pistol.png"
   },
   {
     "id": 41,
@@ -366,7 +366,7 @@
     "description": "Wielozadaniowa płyta ceramiczna z boru, ze specjalną powłoką zapobiegającą odpryskom i płytką odkształcającą tylną powierzchnię (BFD), przechowywaną w lekkiej, wytrzymałej torbie, umożliwiającej szybkie użycie w terenie.",
     "quantity": "5",
     "operator": "Rook",
-    "image": "https://liquipedia.net/commons/images/thumb/3/39/R1N_Rhino_Armor_R6S.png/256px-R1N_Rhino_Armor_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/MeoKw7iPY6EFYvjS07CRg/b2d7eba623f3c63d6b7097a8f2253954/Armor-Pack.png"
   },
   {
     "id": 42,
@@ -375,7 +375,7 @@
     "description": "Ładunek C4 z możliwością montażu w ościeżnicach okiennych i drzwiowych. Materiał wybuchowy jest wyzwalany poprzez przejście przez wiązkę lasera.",
     "quantity": "5",
     "operator": "Kapkan",
-    "image": "https://liquipedia.net/commons/images/thumb/c/ce/EDD_MK_II_R6S.png/256px-EDD_MK_II_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/FLgwGbMiZTrWcK62KxPq8/d4e584420f85fa61c09e5e57e12d9dd9/Entry-Denial-Device.png"
   },
   {
     "id": 43,
@@ -384,7 +384,7 @@
     "description": "Ciężki granat zapalający może odbijać się wielokrotnie, a licznik czasu zapalnika rozpoczyna się dopiero po pierwszym odbiciu, co zapewnia im dużą wszechstronność.",
     "quantity": "14",
     "operator": "Tachanka",
-    "image": "https://liquipedia.net/commons/images/thumb/d/d1/Tachanka_Shumikha_Launcher_black_R6S.png/256px-Tachanka_Shumikha_Launcher_black_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/37wX75QnY7XA6KbjM4aF5n/0ab116d398cf71463e11d43913818ec1/Shumikha-Launcher.png"
   },
   {
     "id": 44,
@@ -393,7 +393,7 @@
     "description": "Granatnik pełnozakresowy z możliwością montażu na ścianach i podłogach, wyposażony w cztery kamery monitorujące umożliwiające precyzyjne namierzanie wrogiego sprzętu.",
     "quantity": "3",
     "operator": "Jäger",
-    "image": "https://liquipedia.net/commons/images/thumb/2/2f/ADS-MK_IV_R6S.png/256px-ADS-MK_IV_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1YCujceutAcJ7F10yhHC41/c5f870e7789b6396c9997ed45ccd3beb/Active-Defense-System.png"
   },
   {
     "id": 45,
@@ -402,7 +402,7 @@
     "description": "CED-1 jest wyposażony w paralizator podłączony do akumulatora samochodowego zamkniętego w miedzianej klatce z kablami połączeniowymi. Jego celem obronnym jest zniszczenie każdego gadżetu, z którym się zetknie, co czyni go skutecznym przeciwnikiem ładunków egzotermicznych i palet X-KAIROS. Można go umieścić na dowolnej powierzchni metalowej, może chronić drut kolczasty, rozkładane tarcze i wzmocnione ściany.",
     "quantity": "4",
     "operator": "Bandit",
-    "image": "https://liquipedia.net/commons/images/thumb/e/eb/Bandit_Gadget.png/256px-Bandit_Gadget.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/129HTNU2A5kIcMj0KZ5UjU/858b60dd0e9b8692e2dc693eded50e14/Shock-Wire.png"
   },
   {
     "id": 46,
@@ -411,7 +411,7 @@
     "description": "Gumowa mata i ukryte metalowe szczęki są przykręcone śrubami. Kiedy płyta dociskowa jest zaczepiona, rozkładają się dwa zestawy szczęk na wysokości kostki i goleni, blokując osobę w miejscu.",
     "quantity": "3",
     "operator": "Frost",
-    "image": "https://liquipedia.net/commons/images/thumb/9/90/Sterling_MK2_LHT_R6S.png/256px-Sterling_MK2_LHT_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/xsIzH7XCAqvn7F3tEfAPe/c41e59a9d7f2ed7ee38b16ed0a882351/Welcome-Mate.png"
   },
   {
     "id": 47,
@@ -420,25 +420,25 @@
     "description": "Zamknięty w przyciemnianej silikonowej kulce, pokrytej mikroprzyssawkami, MK2 zapewnia dobrą widoczność dzięki wewnętrznemu żyroskopowi, który dyktuje kąt soczewki. Przyssawki umożliwiają przyleganie aparatu do dowolnej powierzchni, a obiektyw zamontowany na żyroskopie stabilizuje kąt i ostrość aparatu. Transmisja wideo na żywo jest dostępna dla wszystkich operatorów.",
     "quantity": "3",
     "operator": "Valkyrie",
-    "image": "https://liquipedia.net/commons/images/thumb/f/f1/Gyro_Cam_MK2_R6S.png/256px-Gyro_Cam_MK2_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1EPfd4xeuMpt5nItOYm2Eb/b59223248a508d205264ece3c3553d36/Black-Eye.png"
   },
   {
     "id": 48,
-    "name": "Silent Step",
-    "type": "Roam",
-    "description": "Drapieżne ukrycie się Caveiry, „Cichy krok”, pozwala jej czaić się na ofierze, nie pozostawiając śladów i prawie niesłyszalnie, dopóki nie jest za późno.",
+    "name": "Interrogation (PASSIVE)",
+    "type": "Intel Gatherer",
+    "description": "Technika przesłuchań Caveiry zapewnia jej i jej towarzyszom możliwość tymczasowego zobaczenia ikon wszystkich wrogich graczy na mapie przez 10 sekund, pod warunkiem, że pomyślnie przesłucha powalonego wroga.",
     "quantity": "",
     "operator": "Caveira",
     "image": ""
   },
   {
     "id": 49,
-    "name": "Interrogation",
-    "type": "Intel Gatherer",
-    "description": "Technika przesłuchań Caveiry zapewnia jej i jej towarzyszom możliwość tymczasowego zobaczenia ikon wszystkich wrogich graczy na mapie przez 10 sekund, pod warunkiem, że pomyślnie przesłucha powalonego wroga.",
+    "name": "Silent Step",
+    "type": "Roam",
+    "description": "Drapieżne ukrycie się Caveiry, „Cichy krok”, pozwala jej czaić się na ofierze, nie pozostawiając śladów i prawie niesłyszalnie, dopóki nie jest za późno.",
     "quantity": "",
     "operator": "Caveira",
-    "image": ""
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6PTsBBBGTT5oixxzvYv1Y4/18e31c74ba1ca73ed2694134acd9c078/Silent-Step.png"
   },
   {
     "id": 50,
@@ -447,7 +447,7 @@
     "description": "Luison jest owinięty włóknem mineralnym na bazie skał, aby zarówno izolować, jak i wygłuszać tłumik. Broń ta pozwala Caveirze dyskretnie obezwładnić cel i przeprowadzić przesłuchanie. Zneutralizowanie przeciwnika, pozostając niewykrytym, jest nie tylko groźne; gwarantuje również, że nikt nie ucieknie.",
     "quantity": "91 ammo",
     "operator": "Caveira",
-    "image": "https://liquipedia.net/commons/images/thumb/5/5c/Luison_R6S.png/256px-Luison_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5cSDFUWb8P1BAQUgnTozeM/fd3a3348f42c95d6afa9f105ae23f2e5/Luison.png"
   },
   {
     "id": 51,
@@ -456,7 +456,7 @@
     "description": "Wyposażony w akustyczne urządzenie wywołujące, ten charakterystyczny dron może wystrzelić impulsy ultradźwiękowe, które dezorientują wszystkie cele w danym obwodzie. Yokai przesyła także obraz wideo do Echo, która dba o bezpieczeństwo jego najbliższego otoczenia.",
     "quantity": "2",
     "operator": "Echo",
-    "image": "https://liquipedia.net/commons/images/thumb/a/ae/Yokai_Drone_R6S.png/256px-Yokai_Drone_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/TdDZyrKpjt9EQo8tHpIJk/d987db4da22046a0663be8be82dcda88/Yokai.png"
   },
   {
     "id": 52,
@@ -465,7 +465,7 @@
     "description": "Kuloodporne lustro jednokierunkowe, które można umieścić na łamliwych i wzmacnianych ścianach. Okno można również rozwalić, tworząc dziurę.",
     "quantity": "2",
     "operator": "Mira",
-    "image": "https://liquipedia.net/commons/images/thumb/b/b6/Black_Mirror_R6S.png/256px-Black_Mirror_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1a1w8epOhWE8VtzvvCJG9d/b20cbb221f7d45e5838f839ce042f409/Black-mirror.png"
   },
   {
     "id": 53,
@@ -474,7 +474,7 @@
     "description": "Miny Gu zostały zainspirowane ostrymi kijami punji używanymi podczas wojny w Wietnamie. Nacierane toksycznymi roślinami pale służyły do spowalniania oddziałów wroga, powodując poważne infekcje w ich obozie. Podobnie miny Gu wstrzykują toksynę, która rani przeciwnika i ogranicza jego prędkość.",
     "quantity": "8",
     "operator": "Lesion",
-    "image": "https://liquipedia.net/commons/images/thumb/c/cb/Gu_Mine_R6S.png/256px-Gu_Mine_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6PJv86R8CtQCWA7a24sJE2/24f3751b2ed941ce80a4c1ef394ab7d5/Gu-mines.png"
   },
   {
     "id": 54,
@@ -483,7 +483,7 @@
     "description": "Zainspirowane polskimi granatami przeciwpancernymi z 1939 r. używanymi przez Cichociemnych podczas II wojny światowej, lepkie miny Grzmot można kotwiczyć na powierzchniach, uszkadzając słuch i powodując zawroty głowy. Te miny wstrząsowe aktywują się w pobliżu i działają na każdego w ich promieniu.",
     "quantity": "3",
     "operator": "Ela",
-    "image": "https://liquipedia.net/commons/images/thumb/5/55/Grzmot_Mine_R6S.png/256px-Grzmot_Mine_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/10Md7ccaUO0pE0nCWimeoZ/35dddc67a4141e844d7904051a0314dc/Grzmot-Mine.png"
   },
   {
     "id": 55,
@@ -492,7 +492,7 @@
     "description": "Cicha zabójczość Chul Kyunga na polu walki pozwala mu polegać na swoim elektronicznym płaszczu renderującym (ERC-7), aby pozostać niewykrytym. ERC-7 wykorzystuje technologię Diminished Reality do usuwania dostrzegalnych bodźców z bezpośredniego otoczenia. Vigil nosi w plecaku prototyp, który skanuje otaczające go urządzenia elektroniczne i usuwa jego obraz z widocznych kamer.",
     "quantity": "",
     "operator": "Vigil",
-    "image": "https://liquipedia.net/commons/images/thumb/9/97/ERC-7_R6S.png/256px-ERC-7_R6S.png"
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6WbhiNk0evsKWChPneCES6/af08476e2f917878e0326727d2d5fb8a/ERC-7.png"
   },
   {
     "id": 56,
@@ -528,7 +528,7 @@
     "description": "Elektropazur „Rtila” Kaida może elektryzować wzmocnione ściany i włazy, drut kolczasty i rozkładane tarcze, co utrudnia wrogowi przedarcie się do wszelkich obiektów, które ma chronić. Wkracza na pole walki z dwoma takimi rzucanymi gadżetami. Po przyczepieniu się do powierzchni, każdy z nich elektryzuje metalowe obiekty w promieniu 0,75 metra.",
     "quantity": "2",
     "operator": "Kaid",
-    "image": ""
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7rUOk2LhYIUjvYLot7GT8Y/94b72bfbbfdf50c2c807cdbf9f5b276e/Rtila-Electroclaw.png"
   },
   {
     "id": 60,
@@ -537,7 +537,7 @@
     "description": "Uruchamia autonomiczne boty, które przyczepiają się do pobliskich dronów wroga i przejmują nad nimi kontrolę.",
     "quantity": "3",
     "operator": "Mozzie",
-    "image": ""
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5L0fFKVOwozKMcmJoenfef/56e4efdf77363556b35a76fd4e0e60f6/Pest-Launcher.png"
   },
   {
     "id": 61,
@@ -546,7 +546,7 @@
     "description": "Okulary poprawiające widoczność w dymie podczas postoju. Można również aktywować, aby chronić przed lub zmniejszyć ślepotę błyskową.",
     "quantity": "",
     "operator": "Warden",
-    "image": ""
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/40RkJUEmmBCf7bmfTL8ao1/1d973adfe4d002c94655d9818776fb41/Glance-Smart-Glasses.png"
   },
   {
     "id": 62,
@@ -555,96 +555,96 @@
     "description": "Kanistry Volcán to bomby zapalające, które są częściowo osłonięte i można je rozmieścić na powierzchniach takich jak ściany i podłogi.",
     "quantity": "4",
     "operator": "Goyo",
-    "image": ""
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1JqlRdbaVA73jDq8y46vX4/82e89f39c479526ace294ba246d0b085/Volcan-Shield.png"
   },
   {
     "id": 63,
     "name": "Mag-NET",
-    "type": "",
-    "description": "",
-    "quantity": "",
-    "operator": "",
-    "image": ""
+    "type": "Secure",
+    "description": "System Mag-NET to rzucany, samoprzylepny gadżet, którego funkcją jest przyciągnięcie pocisku przeciwnika do jego pozycji, a następnie dokonanie samozniszczenia w celu zdetonowania. W ten sposób Wamai może nie tylko sprawić, że granaty i gadżety pociskowe atakujących staną się bezużyteczne, ale może także zwrócić te pociski przeciwko nim.",
+    "quantity": "6",
+    "operator": "Wamai",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1IKNZzLv63AJd9vlbXj3Bo/883371432ffb22e5bf35bc82dd706384/Mag-net_System.png"
   },
   {
     "id": 64,
-    "name": "",
-    "type": "",
-    "description": "",
+    "name": "Remah Dash",
+    "type": "Roam",
+    "description": "Oryx może również przebić się przez zniszczalne ściany, tworząc szeroki otwór. Dodatkowo Oryx posiada unikalną zdolność interakcji z uszkodzonymi włazami. Potrafi wspiąć się na górę, ale może też zawisnąć na krawędzi i poczekać na idealny moment, aby wejść na górę.",
     "quantity": "",
-    "operator": "",
-    "image": ""
+    "operator": "Oryx",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3dM2B3qCdU0woydIbiy2xn/55aa99443002ad794d3f78dada26d035/r6s-operator-ability-oryx.png"
   },
   {
     "id": 65,
-    "name": "",
-    "type": "",
-    "description": "",
-    "quantity": "",
-    "operator": "",
-    "image": ""
+    "name": "Banshee Sonic Defense",
+    "type": "Secure / Crowd Control",
+    "description": "Banshee Sonic Defense można rozmieścić na powierzchniach, podobnie jak Evil Eye Maestro, ale nie wymagają one żadnej ręcznej kontroli, gdy tylko przeciwnik podejdzie wystarczająco blisko, spowolni go wydając głośny dźwięk.",
+    "quantity": "3",
+    "operator": "Melusi",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/49ixqWhGgjvHu0Ay8JzeSH/c6a3fe584847850186e15c7fb4244385/r6s-operator-ability-melusi.png"
   },
   {
     "id": 66,
-    "name": "",
-    "type": "",
-    "description": "",
+    "name": "Prosthetic Arm (PASSIVE)",
+    "type": "Melee",
+    "description": "Uderzenie o niszczycielskich możliwościach.",
     "quantity": "",
-    "operator": "",
+    "operator": "Aruni",
     "image": ""
   },
   {
     "id": 67,
-    "name": "",
-    "type": "",
-    "description": "",
-    "quantity": "",
-    "operator": "",
-    "image": ""
+    "name": "Surya Gate",
+    "type": "Secure",
+    "description": "Bramka laserowa, którą można umieścić na drzwiach, włazach, oknach i ścianach. Niszczy drony i gadżety, zadaje obrażenia, ale nie blokuje pocisków. Wyłącza się po zniszczeniu gadżetu lub innej aktywacji, wymaga ręcznej reaktywacji po krótkim czasie odnowienia. Wyłącza się automatycznie, gdy obrońca jest blisko.",
+    "quantity": "3",
+    "operator": "Aruni",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4hLJAAVKrf50wosG0471od/cde1867daf863c03754969f159ac00de/r6s-operator-ability-aruni.png"
   },
   {
     "id": 68,
-    "name": "",
-    "type": "",
-    "description": "",
-    "quantity": "",
-    "operator": "",
-    "image": ""
+    "name": "Kóna Station",
+    "type": "Buff",
+    "description": "Po rozmieszczeniu na ziemi, stacja Kóna, pełni funkcję punktu bezpieczeństwa dla rannych i powalonych Operatorów. Wystarczy, że podejdą do urządzenia, a Stacja Kóna automatycznie podniesie HP Operatora lub zaoferuje ożywienie.",
+    "quantity": "3",
+    "operator": "Thunderbird",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/67J9QnmuA4TMI3rBxoA3Jz/4ec42d8c1bb61dadc5f36893f93142e8/r6s-operator-ability-thunderbird.png"
   },
   {
     "id": 69,
-    "name": "",
-    "type": "",
-    "description": "",
-    "quantity": "",
-    "operator": "",
-    "image": ""
+    "name": "Razorbloom Shell",
+    "type": "Trap",
+    "description": "Razorbloom przykleja się do powierzchni po rzuceniu przez Thorn. Krótko po wykryciu pobliskiego przeciwnika automatycznie wystrzeliwuje zestaw ostrych ostrzy we wszystkich kierunkach, zadając śmiertelne obrażenia.",
+    "quantity": "3",
+    "operator": "Thorn",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/38hUQdWTb1vgs0Yg8eQHFC/0d7f05420068a41392342a1b38c57c2e/r6s-operator-ability-thorn.png"
   },
   {
     "id": 70,
-    "name": "",
-    "type": "",
-    "description": "",
-    "quantity": "",
-    "operator": "",
-    "image": ""
+    "name": "Kiba Barrier",
+    "type": "Area Denial",
+    "description": "Bariera Kiba to zmodyfikowany kunai, który po rzuceniu przykleja się do powierzchni i uwalnia materiał, który najpierw rozszerza się, a następnie twardnieje, tworząc kuloodporną barierę, która załata dziury w twojej obronie.",
+    "quantity": "5",
+    "operator": "Azami",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1UDhKrAXnm0thdHhsTTAyo/03f6b0b4879208d963e6d551b86ad3a6/r6s-operator-ability-azami.png"
   },
   {
     "id": 71,
-    "name": "",
-    "type": "",
-    "description": "",
+    "name": "SPEC-IO Electro-Sensor",
+    "type": "Intel Gatherer",
+    "description": "Dzięki elektroczujnikowi SPEC-IO, którym posługuje się Solis, prawda wychodzi na jaw. SPEC-IO to nowe urządzenie do wykrywania gadżetów, przeznaczone dla drużyny broniącej. Dzięki możliwości wykrywania i oznaczania urządzeń elektronicznych wroga, przy Solis nie ma się gdzie schować.",
     "quantity": "",
-    "operator": "",
-    "image": ""
+    "operator": "Solis",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6yJdnB2YJGY5lMh9mmKIQT/62bb946eb6bd2583b1c78255cab72ac9/r6s-operator-ability-solis.png"
   },
   {
     "id": 72,
-    "name": "",
-    "type": "",
-    "description": "",
-    "quantity": "",
-    "operator": "",
-    "image": ""
+    "name": "F-NATT DREAD MINE",
+    "type": "Trap / Crowd Control",
+    "description": "Mina F-NATT to urządzenie, które jednym rzutem można umieścić na ścianie. Może tam w ukryciu czekać na wroga i siać przerażenie. Do swojej dyspozycji Fenrir ma ich pięć, a jednocześnie może aktywować trzy w dowolnym miejscu na mapie.",
+    "quantity": "5",
+    "operator": "Fenrir",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5JTPi6uZt58wD0GVQJJf2c/6a0e730e2e6a4a1d1d3c878593df07f3/r6s-operator-ability-fenrir.png"
   }
 ]
