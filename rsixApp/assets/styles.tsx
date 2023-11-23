@@ -164,12 +164,11 @@ export const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "bold",
   },
-  // attachmentText: {
-  //   color: "#fff",
-  //   fontSize: 17,
-  //   margin: 8,
-  //   flexDirection: "row",
-  //   textAlign: "center",
-  //   fontWeight: "normal",
-  // },
+  settingsIcon: {
+    width: 50,
+    height: 50,
+    right: 150,
+    bottom: 570,
+  },
+  homeListFix: {},
 });

@@ -18,6 +18,7 @@ import { OperatorsSpecific } from "./routes/OperatorsSpecific";
 import { SpecialGadget } from "./routes/SpecialGadget";
 import { WeaponsList } from "./routes/WeaponsList";
 import { WeaponSpecific } from "./routes/WeaponSpecific";
+import { Settings } from "./routes/Settings";
 
 // Routing and main func
 
@@ -33,6 +34,11 @@ export default function App() {
           options={{
             headerShown: false,
           }}
+        />
+        <Stack.Screen
+          name="Settings"
+          component={Settings}
+          options={{ headerShown: false }}
         />
         <Stack.Screen
           name="Operators"

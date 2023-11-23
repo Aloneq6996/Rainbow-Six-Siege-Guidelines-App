@@ -5,6 +5,7 @@ import { styles } from "../assets/styles";
 import { notAvailableYet } from "../assets/notAvaibleHandler";
 
 import { HomeScreenProps } from "../assets/types/ScreenProps";
+import { devHanlder } from "../assets/devHandler";
 
 export const HomeScreen: React.FC<HomeScreenProps> = (props) => {
   return (
@@ -39,6 +40,17 @@ export const HomeScreen: React.FC<HomeScreenProps> = (props) => {
           </TouchableHighlight>
         </View>
       </View>
+      <TouchableHighlight
+        onPress={() => {
+          devHanlder();
+          props.navigation.navigate("Settings");
+        }}
+      >
+        <Image
+          style={styles.settingsIcon}
+          source={require("../assets/png/settings.png")}
+        />
+      </TouchableHighlight>
     </SafeAreaView>
   );
 };

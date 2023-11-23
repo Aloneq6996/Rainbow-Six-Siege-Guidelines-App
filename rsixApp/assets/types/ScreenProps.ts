@@ -6,6 +6,11 @@ export type HomeScreenProps = NativeStackScreenProps<
   "Home"
 >;
 
+export type SettingsScreenProps = NativeStackScreenProps<
+  RootStackParamList,
+  "Settings"
+>;
+
 export type OperatorsScreenProps = NativeStackScreenProps<
   RootStackParamList,
   "Operators"
