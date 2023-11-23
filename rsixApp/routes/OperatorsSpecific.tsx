@@ -208,7 +208,6 @@ export const OperatorsSpecific: React.FC<OperatorsSpecificScreenProps> = (
                   <TouchableHighlight
                     key={sGadget.id}
                     onPress={() => {
-                      devHanlder();
                       props.navigation.navigate("SpecialGadget", {
                         gadgetName: sGadget.name,
                       });
