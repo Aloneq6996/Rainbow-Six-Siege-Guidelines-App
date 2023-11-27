@@ -19,6 +19,8 @@ import { SpecialGadget } from "./routes/SpecialGadget";
 import { WeaponsList } from "./routes/WeaponsList";
 import { WeaponSpecific } from "./routes/WeaponSpecific";
 import { Settings } from "./routes/Settings";
+import { Statistics } from "./routes/Statistics";
+import { News } from "./routes/News";
 
 // Routing and main func
 
@@ -75,6 +77,16 @@ export default function App() {
         <Stack.Screen
           name="SpecialGadget"
           component={SpecialGadget}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="Statistics"
+          component={Statistics}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="News"
+          component={News}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>

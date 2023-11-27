@@ -1,0 +1,26 @@
+{
+  "name": "rsixappback",
+  "version": "1.0.0",
+  "description": "Backend for r6app",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aloneq6996/pamparampam.git"
+  },
+  "author": "Aloneq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aloneq6996/pamparampam/issues"
+  },
+  "homepage": "https://github.com/Aloneq6996/pamparampam#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "r6api.js": "^4.4.1"
+  }
+}

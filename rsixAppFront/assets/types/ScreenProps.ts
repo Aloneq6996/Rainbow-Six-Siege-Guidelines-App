@@ -45,3 +45,13 @@ export type SpecialGadgetScreenProps = NativeStackScreenProps<
   RootStackParamList,
   "SpecialGadget"
 >;
+
+export type StatysticsScreenProps = NativeStackScreenProps<
+  RootStackParamList,
+  "Statistics"
+>;
+
+export type NewsScreenProps = NativeStackScreenProps<
+  RootStackParamList,
+  "News"
+>;

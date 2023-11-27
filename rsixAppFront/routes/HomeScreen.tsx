@@ -2,10 +2,9 @@ import { SafeAreaView, View, TouchableHighlight, Text } from "react-native";
 import { Image } from "expo-image";
 
 import { styles } from "../assets/styles";
-import { notAvailableYet } from "../assets/notAvaibleHandler";
+import { devHanlder } from "../assets/devHandler";
 
 import { HomeScreenProps } from "../assets/types/ScreenProps";
-import { devHanlder } from "../assets/devHandler";
 
 export const HomeScreen: React.FC<HomeScreenProps> = (props) => {
   return (
@@ -25,22 +24,32 @@ export const HomeScreen: React.FC<HomeScreenProps> = (props) => {
           <TouchableHighlight
             style={styles.btn}
             underlayColor={"#363434"}
-            onPress={notAvailableYet}
+            onPress={() => props.navigation.push("WeaponsList")}
           >
-            <Text style={styles.textColor}>Mapy</Text>
+            <Text style={styles.textColor}>Bronie</Text>
           </TouchableHighlight>
         </View>
         <View>
           <TouchableHighlight
             style={styles.btn}
             underlayColor={"#363434"}
-            onPress={() => props.navigation.push("WeaponsList")}
+            onPress={() => props.navigation.push("Statistics")}
           >
-            <Text style={styles.textColor}>Bronie</Text>
+            <Text style={styles.textColor}>Statystyki</Text>
+          </TouchableHighlight>
+        </View>
+        <View>
+          <TouchableHighlight
+            style={styles.btn}
+            underlayColor={"#363434"}
+            onPress={() => props.navigation.push("News")}
+          >
+            <Text style={styles.textColor}>Nowości</Text>
           </TouchableHighlight>
         </View>
       </View>
       <TouchableHighlight
+        style={styles.settingsButton}
         onPress={() => {
           devHanlder();
           props.navigation.navigate("Settings");

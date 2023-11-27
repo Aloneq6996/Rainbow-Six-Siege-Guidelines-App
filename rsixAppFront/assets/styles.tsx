@@ -39,7 +39,7 @@ export const styles = StyleSheet.create({
     color: "#fff",
     justifyContent: "center",
     paddingVertical: 30,
-    margin: 30,
+    margin: 20,
     paddingHorizontal: 30,
     borderRadius: 30,
     elevation: 3,
@@ -47,6 +47,8 @@ export const styles = StyleSheet.create({
     height: 100,
     backgroundColor: "#2b2a2a",
     alignSelf: "stretch",
+    top: 50,
+    position: "relative",
   },
   textColor: {
     color: "#fff",
@@ -167,8 +169,22 @@ export const styles = StyleSheet.create({
   settingsIcon: {
     width: 50,
     height: 50,
-    right: 150,
-    bottom: 570,
   },
-  homeListFix: {},
+  settingsButton: {
+    right: 150,
+    bottom: 600,
+  },
+  settingsList: {
+    top: 20,
+  },
+  settingsInput: {
+    height: 40,
+    width: 300,
+    borderColor: "#fff",
+    borderWidth: 2,
+    borderRadius: 10,
+    color: "#fff",
+    margin: 10,
+    textAlign: "center",
+  },
 });

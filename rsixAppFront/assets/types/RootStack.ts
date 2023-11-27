@@ -9,4 +9,6 @@ export type RootStackParamList = {
   WeaponsList: undefined;
   WeaponSpecific: { weaponName: string };
   SpecialGadget: { gadgetName: string };
+  Statistics: undefined;
+  News: undefined;
 };
