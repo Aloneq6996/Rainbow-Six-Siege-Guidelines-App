@@ -12,12 +12,16 @@ import axios from "axios";
 
 import { styles } from "../assets/styles";
 import { StatysticsScreenProps } from "../assets/types/ScreenProps";
+import { SeasonData } from "../assets/types/Types";
 
 export const Statistics: React.FC<StatysticsScreenProps> = (props) => {
-  const [email, setEmail] = useState<string>("");
-  const [password, setPassword] = useState<string>("");
+  const [user, setUser] = useState<any>();
+  const [rank, setRank] = useState<any>();
+  const [userStats, setUsersStats] = useState<any>();
+
   useEffect(() => {
     loadSettings();
+    statistics();
   }, []);
   const loadSettings = async () => {
     const response = await axios.get(
@@ -31,14 +35,26 @@ export const Statistics: React.FC<StatysticsScreenProps> = (props) => {
       props.navigation.replace("Settings");
       return;
     }
-    const { email, password } = response.data;
+  };
 
-    console.log(response.data);
-    console.log(email);
-    console.log(password);
+  const statistics = async () => {
+    const response = await axios.get(
+      "http://192.168.88.141:6969/api/statistics"
+    );
 
-    setEmail(email);
-    setPassword(password);
+    if (!response.data) {
+      Alert.alert("Error", `Wystąpił błąd podczas ładowania statystyk`);
+      return;
+    }
+
+    const user = response.data.user;
+    const rank = response.data.rank;
+
+    const userStats = rank.seasons[-1];
+    const userRank = userStats?.regions?.emea?.boards?.pvp_ranked?.current;
+
+    setUser(user);
+    setRank(userRank);
   };
 
   return (
@@ -51,8 +67,11 @@ export const Statistics: React.FC<StatysticsScreenProps> = (props) => {
         <Image source={require("../assets/png/logo.png")} style={styles.logo} />
       </TouchableOpacity>
       <View>
-        <Text style={styles.textColor}>{email}</Text>
-        <Text style={styles.textColor}>{password}</Text>
+        {user && (
+          <View>
+            <Text style={styles.textColor}>Użytkownik: {user}</Text>
+          </View>
+        )}
       </View>
     </SafeAreaView>
   );

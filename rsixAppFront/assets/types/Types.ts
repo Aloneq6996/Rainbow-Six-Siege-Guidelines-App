@@ -54,3 +54,64 @@ export type UniGadget = {
   operators: string[];
   image: string;
 };
+
+export type SeasonData = {
+  [key: string]: {
+    seasonId: number;
+    seasonName: string;
+    seasonColor: string;
+    seasonImage: string;
+    seasonReleaseDate: string;
+    regions: {
+      [key: string]: {
+        regionId: string;
+        regionName: string;
+        boards: {
+          [key: string]: {
+            boardId: string;
+            boardName: string;
+            skillMean: number;
+            skillStdev: number;
+            current: {
+              id: number;
+              name: string;
+              mmr: number;
+              icon: string;
+            };
+            max: {
+              id: number;
+              name: string;
+              mmr: number;
+              icon: string;
+            };
+            lastMatch: {
+              result: string;
+              mmrChange: number;
+              skillMeanChange: number;
+              skillStdevChange: number;
+            };
+            pastSeasons: {
+              wins: number;
+              losses: number;
+              winRate: string;
+              matches: number;
+              abandons: number;
+            };
+            previousMmr: number;
+            nextMmr: number;
+            topRankPosition: number;
+            kills: number;
+            deaths: number;
+            kd: number;
+            wins: number;
+            losses: number;
+            winRate: string;
+            matches: number;
+            abandons: number;
+            updateTime: string;
+          };
+        };
+      };
+    };
+  };
+};

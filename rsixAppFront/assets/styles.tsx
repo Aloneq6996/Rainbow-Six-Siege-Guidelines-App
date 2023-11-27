@@ -187,4 +187,14 @@ export const styles = StyleSheet.create({
     margin: 10,
     textAlign: "center",
   },
+  dropdownInput: {
+    fontSize: 16,
+    paddingVertical: 12,
+    paddingHorizontal: 10,
+    borderWidth: 1,
+    borderColor: "white",
+    borderRadius: 4,
+    color: "white",
+    paddingRight: 30,
+  },
 });
