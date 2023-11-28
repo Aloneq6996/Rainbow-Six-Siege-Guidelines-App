@@ -576,7 +576,7 @@
     "name": "MPX",
     "type": "Pistolet maszynowy",
     "damage": 26,
-    "operators": ["Valkyrie", "Warden"],
+    "operators": ["Valkyrie", "Warden", "Tubarão"],
     "attachments": {
       "scopes": ["1.0X", "1.5X"],
       "barrels": [
@@ -1083,7 +1083,7 @@
     "name": "AR-15.50",
     "type": "DMR",
     "damage": 62,
-    "operators": ["Maverick"],
+    "operators": ["Maverick", "Tubarão"],
     "attachments": {
       "scopes": ["1.0", "1.5X", "2.0X", "2.5X", "3.0X"],
       "barrels": ["Suppressor", "Muzzle BrakeX"],

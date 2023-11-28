@@ -379,5 +379,15 @@
     "counters": ["-"],
     "counteredBy": ["Twitch", "IQ", "Zero", "Brava", "Thatcher"],
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4vtvBhY56S2slW3y0eKsMp/6a0f41807549ad1aa503112d4ad05a52/r6s-operators-badge-fenrir.png"
+  },
+  {
+    "id": 35,
+    "role": "Anti Entry / Anti Gadget",
+    "name": "Isaac Nunes",
+    "surname": "Oliveira",
+    "nickname": "Tubarão",
+    "counters": ["Thermite", "Ace", "Ash", "Hibana", "Fuze", "Nomad"],
+    "counteredBy": ["Twitch", "Zero", "Maverick"],
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/43VtYmfmTtLwwKDGhalSCO/9673bb50e981ba2684cd649534f00de7/r6s-operators-badge-tubarao.png"
   }
 ]

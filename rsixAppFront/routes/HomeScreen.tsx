@@ -33,7 +33,10 @@ export const HomeScreen: React.FC<HomeScreenProps> = (props) => {
           <TouchableHighlight
             style={styles.btn}
             underlayColor={"#363434"}
-            onPress={() => props.navigation.push("Statistics")}
+            onPress={() => {
+              devHanlder();
+              props.navigation.push("Statistics");
+            }}
           >
             <Text style={styles.textColor}>Statystyki</Text>
           </TouchableHighlight>
@@ -42,7 +45,10 @@ export const HomeScreen: React.FC<HomeScreenProps> = (props) => {
           <TouchableHighlight
             style={styles.btn}
             underlayColor={"#363434"}
-            onPress={() => props.navigation.push("News")}
+            onPress={() => {
+              devHanlder();
+              props.navigation.push("News");
+            }}
           >
             <Text style={styles.textColor}>Nowości</Text>
           </TouchableHighlight>
@@ -50,10 +56,7 @@ export const HomeScreen: React.FC<HomeScreenProps> = (props) => {
       </View>
       <TouchableHighlight
         style={styles.settingsButton}
-        onPress={() => {
-          devHanlder();
-          props.navigation.navigate("Settings");
-        }}
+        onPress={() => props.navigation.navigate("Settings")}
       >
         <Image
           style={styles.settingsIcon}

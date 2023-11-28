@@ -72,6 +72,20 @@ app.get("/api/statistics", async (req, res) => {
     res.json({ user: user, rank: userRank })
 })
 
+app.get("/api/news", async (req, res) => {
+    const data = await fs.readFile(SETTINGS_FILE_PATH, "utf-8");
+    const settings = JSON.parse(data)
+    const { email, password } = settings;
+
+    const r6api = new R6API.default({ email, password })
+
+    const news = await r6api.getNews({ limit: 1 })
+    //{ locale: "pl_PL" }
+
+    // console.log(news)
+    res.json({ news: news })
+})
+
 // server start
 
 app.listen(PORT, "0.0.0.0", () => {

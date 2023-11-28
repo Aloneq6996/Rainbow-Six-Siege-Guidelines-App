@@ -4,7 +4,7 @@
     "name": "P226 Mk 25",
     "type": "Pistolet",
     "damage": 50,
-    "operators": ["Sledge", "Thatcher", "Smoke", "Mute"],
+    "operators": ["Sledge", "Thatcher", "Smoke", "Mute", "Tubarão"],
     "attachments": {
       "barrels": ["Suppressor", "Muzzle BrakeX"],
       "underbarrel": ["Laser"]

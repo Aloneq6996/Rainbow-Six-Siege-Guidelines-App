@@ -1,7 +1,6 @@
 import {
   SafeAreaView,
   View,
-  TouchableHighlight,
   Text,
   TouchableOpacity,
   Alert,
@@ -50,11 +49,21 @@ export const Statistics: React.FC<StatysticsScreenProps> = (props) => {
     const user = response.data.user;
     const rank = response.data.rank;
 
-    const userStats = rank.seasons[-1];
-    const userRank = userStats?.regions?.emea?.boards?.pvp_ranked?.current;
+    console.log(user);
+    console.log(JSON.stringify(rank));
 
-    setUser(user);
-    setRank(userRank);
+    // const userStats = rank.seasons["27"];
+    // const setUser = userStats?.regions?.emea?.boards?.pvp_ranked?.current;
+
+    console.log(Object.keys(rank[0]));
+    console.log(rank[0].seasons["27"]);
+
+    const username = user[0].username;
+
+    console.log(username);
+
+    setUser(username);
+    // setRank(userRank);
   };
 
   return (
