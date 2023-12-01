@@ -10,13 +10,17 @@ import {
   Button,
 } from "react-native";
 import { Image } from "expo-image";
-import axios from "axios";
 import RNPickerSelect from "react-native-picker-select";
 
 // internal imports
 
 import { styles } from "../assets/styles";
 import { SettingsScreenProps } from "../assets/types/ScreenProps";
+import {
+  loadUserData,
+  removeUserData,
+  saveUserData,
+} from "../assets/storage/Storage";
 
 export const Settings: React.FC<SettingsScreenProps> = (props) => {
   const [email, setEmail] = useState<string>("");
@@ -28,50 +32,30 @@ export const Settings: React.FC<SettingsScreenProps> = (props) => {
     loadSettings();
   }, []);
 
+  const loadSettings = async () => {
+    const settings = await loadUserData();
+
+    if (!settings) {
+      return null;
+    }
+
+    setEmail(settings.savedEmail);
+    setPassword(settings.savedPassword);
+    setUsername(settings.savedUsername);
+    setPlatform(settings.savedPlatform);
+  };
+
+  const saveSettings = async () => {
+    if (!email || !password || !username || !platform) {
+      return null;
+    }
+
+    saveUserData(email, password, username, platform);
+  };
+
   const ubi = "Uplay";
   const ps = "PlayStation Network";
   const xb = "Xbox Live";
-
-  const saveSettings = async () => {
-    try {
-      await axios.post("http://192.168.88.141:6969/api/saveSettings", {
-        email: email,
-        password: password,
-        username: username,
-        platform: platform,
-      });
-      Alert.alert("Sukces", "Poprawnie zapisano dane!");
-    } catch (error) {
-      Alert.alert("Error", `Nie udało się zapisać danych: ${error}`);
-    }
-  };
-
-  const removeSettings = async () => {
-    try {
-      await axios.post("http://192.168.88.141:6969/api/removeSettings");
-      Alert.alert("Sukces", "Ustawienia usunięte poprawnie!");
-    } catch (error) {
-      Alert.alert("Error", `Nie udało się usunąć danych: ${error}`);
-    }
-  };
-
-  const loadSettings = async () => {
-    try {
-      const response = await axios.get(
-        "http://192.168.88.141:6969/api/loadSettings"
-      );
-
-      if (!response.data) return;
-      const { email, password, username, platform } = response.data;
-
-      setEmail(email);
-      setPassword(password);
-      setUsername(username);
-      setPlatform(platform);
-    } catch (error) {
-      Alert.alert("Error", `Błąd podczas ładowania danych: ${error}`);
-    }
-  };
 
   return (
     <SafeAreaView style={styles.container}>
@@ -119,8 +103,8 @@ export const Settings: React.FC<SettingsScreenProps> = (props) => {
             </Text>
           </View>
         </RNPickerSelect>
-        <Button title="Save" onPress={saveSettings} />
-        <Button title="remove data" onPress={removeSettings} />
+        <Button title="Save" onPress={() => saveSettings()} />
+        <Button title="remove data" onPress={() => removeUserData()} />
       </View>
     </SafeAreaView>
   );

@@ -115,3 +115,17 @@ export type SeasonData = {
     };
   };
 };
+
+export type NewsItemType = {
+  abstract: string;
+  categories: string[];
+  content: string;
+  date: string;
+  id: string;
+  readTime: number;
+  tag: string;
+  thumbnail: any;
+  title: string;
+  type: string;
+  url: string;
+};

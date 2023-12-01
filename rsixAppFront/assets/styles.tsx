@@ -15,7 +15,7 @@ export const styles = StyleSheet.create({
     position: "absolute",
     width: 100,
     height: 100,
-    top: 35,
+    top: 40,
   },
   logoOp: {
     position: "absolute",
@@ -74,6 +74,13 @@ export const styles = StyleSheet.create({
     color: "#fff",
     textAlign: "center",
     fontSize: 21,
+    fontWeight: "bold",
+    margin: 8,
+  },
+  textColorHeaderBold2: {
+    color: "#fff",
+    textAlign: "center",
+    fontSize: 30,
     fontWeight: "bold",
     margin: 8,
   },
@@ -196,5 +203,18 @@ export const styles = StyleSheet.create({
     borderRadius: 4,
     color: "white",
     paddingRight: 30,
+  },
+  moreBtn: {
+    borderRadius: 8,
+    borderColor: "white",
+    borderWidth: 2,
+    textAlign: "center",
+    marginBottom: 3,
+    maxHeight: 43,
+    flex: 1,
+  },
+  moveUp: {
+    justifyContent: "center",
+    bottom: 50,
   },
 });

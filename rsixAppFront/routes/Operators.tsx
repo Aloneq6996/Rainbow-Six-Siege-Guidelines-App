@@ -21,7 +21,7 @@ export const Operators: React.FC<OperatorsScreenProps> = (props) => {
       >
         <Image source={require("../assets/png/logo.png")} style={styles.logo} />
       </TouchableOpacity>
-      <View>
+      <View style={styles.moveUp}>
         <View>
           <TouchableHighlight
             style={styles.btn}

@@ -16,7 +16,7 @@ import { Image } from "expo-image";
 import { styles } from "../assets/styles";
 import { OperatorsSpecificScreenProps } from "../assets/types/ScreenProps";
 import * as Type from "../assets/types/Types";
-import { devHanlder } from "../assets/devHandler";
+import { devHanlder } from "../assets/handlers/devHandler";
 
 // requires
 

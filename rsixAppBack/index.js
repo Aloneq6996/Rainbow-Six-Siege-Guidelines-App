@@ -10,7 +10,7 @@ const R6API = require("r6api.js")
 // declarations 
 
 const app = express();
-const PORT = 6969;
+const PORT = 6996;
 const SETTINGS_FILE_PATH = "./assets/settings.json";
 
 // app
@@ -20,17 +20,7 @@ app.use(bodyParser.json());
 
 // routes
 
-app.post("/api/saveSettings", async (req, res) => {
-    const { email, password, username, platform } = req.body;
-    const settings = { email, password, username, platform };
-    try {
-        await fs.writeFile(SETTINGS_FILE_PATH, JSON.stringify(settings, null, 2));
-        res.json({ message: "Settings saved successfully!" });
-    } catch (error) {
-        res.status(500).json({ error: "Failed to save settings" });
-    }
-});
-
+// TO REMOVE
 app.get("/api/loadSettings", async (req, res) => {
     try {
         const data = await fs.readFile(SETTINGS_FILE_PATH, "utf-8");
@@ -40,15 +30,6 @@ app.get("/api/loadSettings", async (req, res) => {
         res.status(500).json({ error: "Failed to load settings" });
     }
 });
-
-app.post("/api/removeSettings", async (req, res) => {
-    try {
-        await fs.writeFile(SETTINGS_FILE_PATH, JSON.stringify(null, null, 2));
-        res.json({ message: "Settings removed successfully!" })
-    } catch (error) {
-        res.status(500).json({ error: "Failed to remove settings" });
-    }
-})
 
 app.get("/api/statistics", async (req, res) => {
     const data = await fs.readFile(SETTINGS_FILE_PATH, "utf-8");
@@ -73,17 +54,18 @@ app.get("/api/statistics", async (req, res) => {
 })
 
 app.get("/api/news", async (req, res) => {
-    const data = await fs.readFile(SETTINGS_FILE_PATH, "utf-8");
-    const settings = JSON.parse(data)
-    const { email, password } = settings;
+    const r6api = new R6API.default({ undefined, undefined })
 
-    const r6api = new R6API.default({ email, password })
+    let limit = req.query.limit
 
-    const news = await r6api.getNews({ limit: 1 })
+    const news = await r6api.getNews({ limit: limit })
     //{ locale: "pl_PL" }
 
-    // console.log(news)
     res.json({ news: news })
+})
+
+app.get("/api/individualNews", async (req, res) => {
+    res.json(null)
 })
 
 // server start
