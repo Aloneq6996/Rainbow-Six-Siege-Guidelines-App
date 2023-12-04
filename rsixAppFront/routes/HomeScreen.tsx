@@ -5,6 +5,7 @@ import { styles } from "../assets/styles";
 import { devHanlder } from "../assets/handlers/devHandler";
 
 import { HomeScreenProps } from "../assets/types/ScreenProps";
+import { fixHanlder } from "../assets/handlers/fixHandler";
 
 export const HomeScreen: React.FC<HomeScreenProps> = (props) => {
   return (

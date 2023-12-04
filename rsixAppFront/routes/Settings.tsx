@@ -1,14 +1,7 @@
 // external imports
 
 import React, { useState, useEffect } from "react";
-import {
-  Alert,
-  SafeAreaView,
-  View,
-  Text,
-  TextInput,
-  Button,
-} from "react-native";
+import { SafeAreaView, View, Text, TextInput, Button } from "react-native";
 import { Image } from "expo-image";
 import RNPickerSelect from "react-native-picker-select";
 
@@ -109,6 +102,3 @@ export const Settings: React.FC<SettingsScreenProps> = (props) => {
     </SafeAreaView>
   );
 };
-
-// "email": "foyeso8338@mainoj.com",
-// "password": "QMsxiBT7645!"

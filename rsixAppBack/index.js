@@ -11,7 +11,6 @@ const R6API = require("r6api.js")
 
 const app = express();
 const PORT = 6996;
-const SETTINGS_FILE_PATH = "./assets/settings.json";
 
 // app
 
@@ -20,37 +19,36 @@ app.use(bodyParser.json());
 
 // routes
 
-// TO REMOVE
-app.get("/api/loadSettings", async (req, res) => {
-    try {
-        const data = await fs.readFile(SETTINGS_FILE_PATH, "utf-8");
-        const settings = JSON.parse(data);
-        res.json(settings);
-    } catch (error) {
-        res.status(500).json({ error: "Failed to load settings" });
-    }
-});
-
 app.get("/api/statistics", async (req, res) => {
-    const data = await fs.readFile(SETTINGS_FILE_PATH, "utf-8");
-    const settings = JSON.parse(data)
-    const { email, password, username, platform } = settings;
+    try {
+        // const { email, password, username, platform } = req.query;
+        const email = req.query.email
+        const password = req.query.password
+        const username = req.query.username
+        const platform = req.query.platform
+        console.log(email, password, username, platform)
 
-    const r6api = new R6API.default({ email, password })
+        const r6api = new R6API.default({ email, password })
 
-    const user = await r6api.findByUsername(platform, username)
+        const user = await r6api.findByUsername(platform, username)
 
-    if (!user) return;
+        if (!user) {
+            res.json("not work")
+        }
 
-    const userid = user[0].userId
+        const userid = user[0].userId
 
-    console.log(userid)
+        console.log(userid)
 
-    const userRank = await r6api.getRanks(platform, userid)
+        // const userRank = await r6api.getRanks(platform, userid)
 
-    console.log(userRank)
+        // console.log(userRank)
 
-    res.json({ user: user, rank: userRank })
+        res.json({ user: user })
+    } catch (err) {
+        console.error(err)
+        return;
+    }
 })
 
 app.get("/api/news", async (req, res) => {
@@ -65,7 +63,12 @@ app.get("/api/news", async (req, res) => {
 })
 
 app.get("/api/individualNews", async (req, res) => {
-    res.json(null)
+    const newsId = req.query.id
+    const r6api = new R6API.default({ undefined, undefined })
+
+    const oneNews = await r6api.getNewsById(`${newsId}`)
+
+    res.json(oneNews)
 })
 
 // server start

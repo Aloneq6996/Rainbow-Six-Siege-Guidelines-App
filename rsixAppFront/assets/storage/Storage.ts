@@ -59,6 +59,24 @@ export const loadUserData = async () => {
   }
 };
 
-export const sendUserDataToStats = async () => {
-  return null;
+export const sendUserData = async () => {
+  try {
+    const email = await AsyncStorage.getItem("email");
+    const password = await AsyncStorage.getItem("password");
+    const username = await AsyncStorage.getItem("username");
+    const platform = await AsyncStorage.getItem("platform");
+
+    if (email && password && username && platform) {
+      await axios.get("http://192.168.88.141:6996/api/statistics", {
+        params: {
+          email: email as string,
+          password: password as string,
+          username: username as string,
+          platform: platform as string,
+        },
+      });
+    }
+  } catch (error) {
+    console.error(error);
+  }
 };

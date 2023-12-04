@@ -21,6 +21,7 @@ import { WeaponSpecific } from "./routes/WeaponSpecific";
 import { Settings } from "./routes/Settings";
 import { Statistics } from "./routes/Statistics";
 import { News } from "./routes/News";
+import { IndividualNews } from "./routes/IndividualNews";
 
 // Routing and main func
 
@@ -87,6 +88,11 @@ export default function App() {
         <Stack.Screen
           name="News"
           component={News}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="IndividualNews"
+          component={IndividualNews}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>

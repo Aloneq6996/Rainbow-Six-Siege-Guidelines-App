@@ -55,7 +55,7 @@ export const News: React.FC<NewsScreenProps> = (props) => {
       <TouchableOpacity
         key={item.id}
         activeOpacity={0.8}
-        onPress={() => handleButtonPress(item.title)}
+        onPress={() => handleButtonPress(item.id)}
         style={{
           marginVertical: 10,
           padding: 10,
@@ -70,8 +70,9 @@ export const News: React.FC<NewsScreenProps> = (props) => {
     ));
   };
 
-  const handleButtonPress = (title: string) => {
-    return Alert.alert(title);
+  const handleButtonPress = (id: string) => {
+    props.navigation.push("IndividualNews", { newsId: id });
+    // Alert.alert(title);
   };
 
   return (

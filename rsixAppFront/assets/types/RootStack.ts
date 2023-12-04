@@ -11,4 +11,5 @@ export type RootStackParamList = {
   SpecialGadget: { gadgetName: string };
   Statistics: undefined;
   News: undefined;
+  IndividualNews: { newsId: string };
 };

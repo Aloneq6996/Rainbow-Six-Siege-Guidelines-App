@@ -12,6 +12,7 @@ import axios from "axios";
 import { styles } from "../assets/styles";
 import { StatysticsScreenProps } from "../assets/types/ScreenProps";
 import { SeasonData } from "../assets/types/Types";
+import { loadUserData, sendUserData } from "../assets/storage/Storage";
 
 export const Statistics: React.FC<StatysticsScreenProps> = (props) => {
   const [user, setUser] = useState<any>();
@@ -23,23 +24,33 @@ export const Statistics: React.FC<StatysticsScreenProps> = (props) => {
     statistics();
   }, []);
   const loadSettings = async () => {
-    const response = await axios.get(
-      "http://192.168.88.141:6969/api/loadSettings"
-    );
-    if (!response.data) {
-      Alert.alert(
-        "Proszę podać mail i hasło do konta Ubisoft",
-        "Nie martw się te dane są zapisywane tylko na twoim urządzeniu"
-      );
-      props.navigation.replace("Settings");
-      return;
+    try {
+      const data = await loadUserData();
+      if (
+        !data?.savedEmail ||
+        !data.savedPassword ||
+        !data.savedUsername ||
+        !data.savedPlatform
+      ) {
+        Alert.alert(
+          "Proszę podać mail i hasło do konta Ubisoft",
+          "Nie martw się te dane są zapisywane tylko na twoim urządzeniu"
+        );
+        props.navigation.replace("Settings");
+        return;
+      }
+      sendUserData();
+    } catch (error) {
+      Alert.alert("Error", `${error}`);
     }
   };
 
   const statistics = async () => {
     const response = await axios.get(
-      "http://192.168.88.141:6969/api/statistics"
+      "http://192.168.88.141:6996/api/statistics"
     );
+
+    console.log(response.data);
 
     if (!response.data) {
       Alert.alert("Error", `Wystąpił błąd podczas ładowania statystyk`);
@@ -55,8 +66,8 @@ export const Statistics: React.FC<StatysticsScreenProps> = (props) => {
     // const userStats = rank.seasons["27"];
     // const setUser = userStats?.regions?.emea?.boards?.pvp_ranked?.current;
 
-    console.log(Object.keys(rank[0]));
-    console.log(rank[0].seasons["27"]);
+    // console.log(Object.keys(rank[0]));
+    // console.log(rank[0].seasons["27"]);
 
     const username = user[0].username;
 
