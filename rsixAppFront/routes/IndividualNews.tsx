@@ -1,21 +1,65 @@
 // external imports
-
-import { SafeAreaView, View, TouchableHighlight, Text } from "react-native";
+import {
+  SafeAreaView,
+  View,
+  Text,
+  ScrollView,
+  useWindowDimensions,
+} from "react-native";
 import { Image } from "expo-image";
 import axios from "axios";
+import Video from "react-native-video";
+import { RenderHTML } from "react-native-render-html";
 import { useEffect, useState } from "react";
 
 // internal imports
-
 import { styles } from "../assets/styles";
 import { IndividualNewsScreenProps } from "../assets/types/ScreenProps";
-import { NewsItemType } from "../assets/types/Types";
+import { IndividualNewsType } from "../assets/types/Types";
+
+type CustomRenderers = {
+  img?: (
+    htmlAttribs: any,
+    children: any,
+    convertedCSSStyles: any,
+    passProps: any
+  ) => JSX.Element;
+  video?: (
+    htmlAttribs: any,
+    children: any,
+    convertedCSSStyles: any,
+    passProps: any
+  ) => JSX.Element;
+  a?: (
+    htmlAttribs: any,
+    children: any,
+    convertedCSSStyles: any,
+    passProps: any
+  ) => JSX.Element;
+  h1?: (
+    htmlAttribs: any,
+    children: any,
+    convertedCSSStyles: any,
+    passProps: any
+  ) => JSX.Element;
+  h2?: (
+    htmlAttribs: any,
+    children: any,
+    convertedCSSStyles: any,
+    passProps: any
+  ) => null;
+  h3?: (
+    htmlAttribs: any,
+    children: any,
+    convertedCSSStyles: any,
+    passProps: any
+  ) => null;
+};
 
 export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
   const { route } = props;
-  const [newsData, setNewsData] = useState<any>();
+  const [newsData, setNewsData] = useState<IndividualNewsType>();
 
-  console.log(newsData);
   useEffect(() => {
     getOneNews();
   }, []);
@@ -35,24 +79,50 @@ export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
         return null;
       }
 
-      setNewsData(response.data.item[0].abstract);
+      setNewsData(response.data.item[0]);
     } catch (error) {
       console.error(error);
     }
   };
+
+  const customRenderers: CustomRenderers = {
+    img: (htmlAttribs, children, convertedCSSStyles, passProps) => (
+      <Image
+        source={{ uri: htmlAttribs.src }}
+        style={{ width: useWindowDimensions().width, height: 200 }}
+      />
+    ),
+    video: (htmlAttribs, children, convertedCSSStyles, passProps) => (
+      <Video
+        source={{ uri: htmlAttribs.src }}
+        style={{ width: useWindowDimensions().width, height: 200 }}
+        controls
+      />
+    ),
+  };
+
+  const { width } = useWindowDimensions();
+
+  console.log(newsData?.content);
   return (
     <SafeAreaView style={styles.container}>
       <Image style={styles.logo} source={require("../assets/png/logo.png")} />
       <View>
-        {/* {newsData &&
-          newsData?.map((item) => (
-            <View>
-              <Text style={styles.textColor}>{item.abstract}</Text>
-            </View>
-          ))} */}
-        <Text style={styles.textColor}>sd</Text>
-
-        <Text style={styles.textColor}>{newsData}</Text>
+        <Text style={styles.textColorHeaderBold}>{newsData?.title}</Text>
+        <Text style={styles.textColorBold}>{newsData?.abstract}</Text>
+        <ScrollView
+          style={styles.scrollContainer}
+          contentInsetAdjustmentBehavior="automatic"
+        >
+          {newsData && (
+            <RenderHTML
+              source={{ html: newsData.content }}
+              contentWidth={width}
+              renderers={customRenderers}
+              baseStyle={{ color: "white" }}
+            />
+          )}
+        </ScrollView>
       </View>
     </SafeAreaView>
   );
