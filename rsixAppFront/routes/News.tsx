@@ -25,20 +25,11 @@ export const News: React.FC<NewsScreenProps> = (props) => {
 
   const getNews = async () => {
     try {
-      const response = await axios.get("http://192.168.88.141:6996/api/news", {
+      const response = await axios.get("http://192.168.50.10:6996/api/news", {
         params: {
           limit: limit,
         },
       });
-
-      if (!response.data || !response.data.news || !response.data.news.items) {
-        Alert.alert(
-          "Proszę podać mail i hasło do konta Ubisoft",
-          "Nie martw się te dane są zapisywane tylko na twoim urządzeniu"
-        );
-        props.navigation.replace("Settings");
-        return;
-      }
 
       setNewsData(response.data.news.items);
     } catch (error) {
@@ -72,7 +63,6 @@ export const News: React.FC<NewsScreenProps> = (props) => {
 
   const handleButtonPress = (id: string) => {
     props.navigation.push("IndividualNews", { newsId: id });
-    // Alert.alert(title);
   };
 
   return (
