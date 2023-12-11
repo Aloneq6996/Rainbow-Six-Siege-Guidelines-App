@@ -11,9 +11,10 @@ import React from "react";
 import { Image } from "expo-image";
 import axios from "axios";
 import Video from "react-native-video";
-// import Video from "react-native-video";
 import Markdown from "@ronradtke/react-native-markdown-display";
 import { useEffect, useState } from "react";
+// import WebView from "react-native-webview";
+import HTML from "react-native-render-html";
 
 // internal imports
 import { styles } from "../assets/styles";
@@ -32,7 +33,7 @@ export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
   const getOneNews = async () => {
     try {
       const response = await axios.get(
-        "http://192.168.50.10:6996/api/individualNews",
+        "http://192.168.88.141:6996/api/individualNews",
         {
           params: {
             id: route.params.newsId,
@@ -50,7 +51,7 @@ export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
     }
   };
 
-  const renderRules = {
+  const markdownRenderer = {
     heading1: (node: any, children: any, parent: any, styles: any) => (
       <Text key={node.key} style={{ color: "white", marginBottom: 10 }}>
         {children}
@@ -104,9 +105,11 @@ export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
           </Text>
           <View style={{ flex: 1 }}>
             {React.Children.map(children, (child, index) => {
-              if (React.isValidElement(child) && child.type === Text) {
+              if (React.isValidElement(child)) {
                 const uniqueKey =
-                  (child as React.ReactElement).props.id || index;
+                  (child as React.ReactElement).props.id ||
+                  (child as React.ReactElement).key ||
+                  index.toString();
                 return React.cloneElement(child as React.ReactElement, {
                   style: [
                     { color: "white" },
@@ -124,24 +127,6 @@ export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
     hr: (node: any, children: any, parent: any, styles: any) => (
       <View style={{ height: 1, width: "100%", backgroundColor: "white" }} />
     ),
-    // video: (node: any, children: any, parent: any, styles: any) => {
-    //   const videoSource = node.children[0]?.attributes?.src;
-    //   console.log(videoSource);
-
-    //   if (videoSource) {
-    //     return (
-    //       <Video
-    //         key={node.key}
-    //         source={{ uri: videoSource }}
-    //         controls
-    //         style={{ width: 300, height: 200 }}
-    //       />
-    //     );
-    //   }
-
-    //   return <Text key={node.key}>Video source not found</Text>;
-    // },
-    // source: () => null,
     paragraph: (node: any, children: any, parent: any, styles: any) => (
       <Text key={node.key} style={{ color: "white", marginBottom: 5 }}>
         {children}
@@ -157,6 +142,35 @@ export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
     Linking.openURL(url);
   };
 
+  const customHTMLElementModels = {
+    video: {
+      contentModel: "block", // Set the content model to "block"
+    },
+  };
+
+  const htmlRenderer = {
+    video: (
+      htmlAttribs: any,
+      children: any,
+      convertedCSSStyles: any,
+      passProps: any
+    ) => {
+      const videoSource = htmlAttribs.src;
+
+      if (videoSource) {
+        return (
+          <Video
+            source={{ uri: videoSource }}
+            style={{ width: 300, height: 200 }}
+            controls
+          />
+        );
+      }
+
+      return null;
+    },
+  };
+
   // console.log(newsData?.content);
   return (
     <SafeAreaView style={styles.container}>
@@ -164,7 +178,15 @@ export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
       <View style={styles.containerList}>
         <ScrollView contentInsetAdjustmentBehavior="automatic">
           {newsData && (
-            <Markdown rules={renderRules}>{newsData.content}</Markdown>
+            <View>
+              <Markdown rules={markdownRenderer}>{newsData.content}</Markdown>
+              <HTML
+                source={{ html: newsData.content }}
+                renderers={htmlRenderer}
+                contentWidth={width}
+                ignoredDomTags={["center"]}
+              />
+            </View>
           )}
         </ScrollView>
       </View>
