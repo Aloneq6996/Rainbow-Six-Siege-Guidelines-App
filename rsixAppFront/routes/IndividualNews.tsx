@@ -132,6 +132,22 @@ export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
         {children}
       </Text>
     ),
+
+    video: (node: any, children: any, parent: any, styles: any) => {
+      const videoSource = node.attribs.src;
+
+      if (videoSource) {
+        return (
+          <WebView
+            key={node.key}
+            source={{ uri: videoSource }}
+            style={{ width: width, height: 200 }}
+          />
+        );
+      }
+
+      return null;
+    },
   };
 
   const renderLinks = (url: any) => {
@@ -142,21 +158,21 @@ export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
     Linking.openURL(url);
   };
 
-  const videoRenderer: React.FC<CustomRendererProps<any>> = (props: any) => {
-    const videoSource = props.children[0]?.attribs?.src;
+  // const videoRenderer: React.FC<CustomRendererProps<any>> = (props: any) => {
+  //   const videoSource = props.children[0]?.attribs?.src;
 
-    if (videoSource) {
-      return (
-        <WebView
-          source={{ uri: videoSource }}
-          style={{ width: width, height: 200 }}
-        />
-      );
-    }
+  //   if (videoSource) {
+  //     return (
+  //       <WebView
+  //         source={{ uri: videoSource }}
+  //         style={{ width: width, height: 200 }}
+  //       />
+  //     );
+  //   }
 
-    console.log("nuh uh");
-    return null;
-  };
+  //   console.log("nuh uh");
+  //   return null;
+  // };
 
   // const customHTMLElementModels = {
   //   video: HTMLModel.fromCustomModel({
@@ -180,18 +196,6 @@ export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
                 contentWidth={width}
                 ignoredDomTags={["center", "video", "p"]}
               />
-
-              {/* <WebView
-                source={{ html: newsData.content }}
-                style={{ width: width }}
-                scalesPageToFit
-                javaScriptEnabled
-                domStorageEnabled
-                scrollEnabled={false}
-                renderLoading={() => (
-                  <Video style={{ width: width, height: 200 }} />
-                )}
-              /> */}
             </View>
           )}
         </ScrollView>
