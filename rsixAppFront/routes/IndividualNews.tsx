@@ -10,11 +10,11 @@ import {
 import React from "react";
 import { Image } from "expo-image";
 import axios from "axios";
-import Video from "react-native-video";
+import Video, { VideoProperties } from "react-native-video";
 import Markdown from "@ronradtke/react-native-markdown-display";
 import { useEffect, useState } from "react";
-// import WebView from "react-native-webview";
-import HTML from "react-native-render-html";
+import WebView from "react-native-webview";
+import HTML, { CustomRendererProps } from "react-native-render-html";
 
 // internal imports
 import { styles } from "../assets/styles";
@@ -142,34 +142,28 @@ export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
     Linking.openURL(url);
   };
 
-  const customHTMLElementModels = {
-    video: {
-      contentModel: "block", // Set the content model to "block"
-    },
+  const videoRenderer: React.FC<CustomRendererProps<any>> = (props: any) => {
+    const videoSource = props.children[0]?.attribs?.src;
+
+    if (videoSource) {
+      return (
+        <WebView
+          source={{ uri: videoSource }}
+          style={{ width: width, height: 200 }}
+        />
+      );
+    }
+
+    console.log("nuh uh");
+    return null;
   };
 
-  const htmlRenderer = {
-    video: (
-      htmlAttribs: any,
-      children: any,
-      convertedCSSStyles: any,
-      passProps: any
-    ) => {
-      const videoSource = htmlAttribs.src;
-
-      if (videoSource) {
-        return (
-          <Video
-            source={{ uri: videoSource }}
-            style={{ width: 300, height: 200 }}
-            controls
-          />
-        );
-      }
-
-      return null;
-    },
-  };
+  // const customHTMLElementModels = {
+  //   video: HTMLModel.fromCustomModel({
+  //     tagName: 'video',
+  //     contentModel: HTMLContentModel.block,
+  //   }),
+  // };
 
   // console.log(newsData?.content);
   return (
@@ -182,10 +176,22 @@ export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
               <Markdown rules={markdownRenderer}>{newsData.content}</Markdown>
               <HTML
                 source={{ html: newsData.content }}
-                renderers={htmlRenderer}
+                renderers={{ video: videoRenderer }}
                 contentWidth={width}
-                ignoredDomTags={["center"]}
+                ignoredDomTags={["center", "video", "p"]}
               />
+
+              {/* <WebView
+                source={{ html: newsData.content }}
+                style={{ width: width }}
+                scalesPageToFit
+                javaScriptEnabled
+                domStorageEnabled
+                scrollEnabled={false}
+                renderLoading={() => (
+                  <Video style={{ width: width, height: 200 }} />
+                )}
+              /> */}
             </View>
           )}
         </ScrollView>
