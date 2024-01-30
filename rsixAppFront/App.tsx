@@ -1,4 +1,4 @@
-// external imports
+ // external  imports
 
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
