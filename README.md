@@ -1,8 +1,6 @@
 # Rainbow Six Siege App Documentation
 Hello, it's me once again. Today I present to you a guideline based app for Rainbow Six Siege!
 
-[![Build Status](https://github.com/Aloneq6996/pamparampam)](https://github.com/Aloneq6996/pamparampam)
-
 # Contents
 - [Functionalities](##-What's-inside)
 - [How does it work?](##-But-how-does-it-work)
