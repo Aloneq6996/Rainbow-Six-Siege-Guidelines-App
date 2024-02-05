@@ -1,6 +1,14 @@
 # Rainbow Six Siege App Documentation
 Hello, it's me once again. Today I present to you a guideline based app for Rainbow Six Siege!
 
+[![Build Status](https://github.com/Aloneq6996/pamparampam)](https://github.com/Aloneq6996/pamparampam)
+
+# Contents
+- [Functionalities](##-What's-inside)
+- [How does it work?](##-But-how-does-it-work)
+- [What's the purpose?](##-Why-in-the-world-would-you-make-it?)
+- [Tech](##-Simple-nerd-stuff)
+
 ## What's inside?
 So what does this application even do?
 
@@ -29,9 +37,12 @@ Each functionality:
 	- Each operator is a stack of information saved in jsons made by me! Why? Because ubisoft hates developers and doesn't publish any of theirs api's :(
 - Weapons
 	- exactly the same as **Operators**
+
 - Statistics
 	- Based on your Ubisoft credentials (email, password, username and platform) which are provided by you in settings (don't worry it's being saved on your device so no one can intercept it), it's getting information from Ubisoft and showing it to you!
 	- well it's under develompent so you can't actually use it entirely
+      _for now it's discontinued because of lack of api_
+
 - News
 	- It's requesting data from Ubisoft and shows the newest updates for you!
 
@@ -50,22 +61,18 @@ Programming languages it was made in:
 - Node.js
 
 Settings storage system:
-- AsyncStorage 
-	- it's really simple and amazing but it's only for react native :(
+- [AsyncStorage](https://reactnative.dev/docs/asyncstorage) 
+	- it's really simple yet amazing storage library
 
 What I was using:
-- VS Code
-- Expo
+- [VS Code](https://code.visualstudio.com/)
+- [Expo](https://expo.dev/)
 
 Build time:
 - First time
-	- approximately 30 000 ms
+	- _approximately_ 30 000 ms
 - More then first time
-	- approximately 90ms
-
-Made with:
-- iPhone 13
-	- Sorry for bad css, if you can spot something wrong, feel free to write an issue
+	- _approximately_ 90ms
 
 ## Well that's about it
 Have fun using it !
