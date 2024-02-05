@@ -25,7 +25,7 @@ export const News: React.FC<NewsScreenProps> = (props) => {
 
   const getNews = async () => {
     try {
-      const response = await axios.get("http://172.20.10.2:6996/api/news", {
+      const response = await axios.get("http://192.168.88.89:6996/api/news", {
         params: {
           limit: limit,
         },

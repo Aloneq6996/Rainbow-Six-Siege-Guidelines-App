@@ -2,7 +2,6 @@
 
 const express = require("express");
 const cors = require("cors");
-const fs = require("fs").promises
 const bodyParser = require("body-parser")
 const R6API = require("r6api.js")
 
@@ -21,14 +20,18 @@ app.use(bodyParser.json());
 
 app.get("/api/statistics", async (req, res) => {
     try {
-        // const { email, password, username, platform } = req.query;
         const email = req.query.email
         const password = req.query.password
         const username = req.query.username
         const platform = req.query.platform
-        console.log(email, password, username, platform)
+        // console.log(email, password, username, platform)
 
         const r6api = new R6API.default({ email, password })
+
+        if (!r6api) {
+            res.json("Invalid credentials provided")
+            return;
+        }
 
         const user = await r6api.findByUsername(platform, username)
 
@@ -40,11 +43,7 @@ app.get("/api/statistics", async (req, res) => {
 
         console.log(userid)
 
-        // const userRank = await r6api.getRanks(platform, userid)
-
-        // console.log(userRank)
-
-        res.json({ user: user })
+        return res.json({ user: user })
     } catch (err) {
         console.error(err)
         return;
