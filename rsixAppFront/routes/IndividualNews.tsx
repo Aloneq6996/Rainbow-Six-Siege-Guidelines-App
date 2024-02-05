@@ -33,7 +33,7 @@ export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
   const getOneNews = async () => {
     try {
       const response = await axios.get(
-        "http://192.168.88.141:6996/api/individualNews",
+        "http://172.20.10.2:6996/api/individualNews",
         {
           params: {
             id: route.params.newsId,
@@ -190,12 +190,12 @@ export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
           {newsData && (
             <View>
               <Markdown rules={markdownRenderer}>{newsData.content}</Markdown>
-              <HTML
-                source={{ html: newsData.content }}
-                renderers={{ video: videoRenderer }}
-                contentWidth={width}
-                ignoredDomTags={["center", "video", "p"]}
-              />
+              {/*<HTML*/}
+              {/*  source={{ html: newsData.content }}*/}
+              {/*  renderers={{ video: videoRenderer }}*/}
+              {/*  contentWidth={width}*/}
+              {/*  ignoredDomTags={["center", "video", "p"]}*/}
+              {/*/>*/}
             </View>
           )}
         </ScrollView>
