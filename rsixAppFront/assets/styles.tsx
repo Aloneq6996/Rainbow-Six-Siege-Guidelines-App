@@ -17,7 +17,7 @@ export const styles = StyleSheet.create({
     height: 100,
     top: 40,
   },
-  logoOp: {
+  logoFix: {
     position: "absolute",
     width: 100,
     height: 100,
@@ -28,12 +28,6 @@ export const styles = StyleSheet.create({
     width: 100,
     height: 100,
     top: 0,
-  },
-  logoSpecific: {
-    position: "absolute",
-    width: 100,
-    height: 100,
-    top: -12,
   },
   btn: {
     color: "#fff",
@@ -178,8 +172,9 @@ export const styles = StyleSheet.create({
     height: 50,
   },
   settingsButton: {
-    right: 150,
-    bottom: 600,
+    left: 30,
+    top: 80,
+    position: "absolute"
   },
   settingsList: {
     top: 20,

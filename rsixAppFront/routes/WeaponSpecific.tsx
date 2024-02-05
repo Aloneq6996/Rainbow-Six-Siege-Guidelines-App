@@ -68,10 +68,13 @@ export const WeaponSpecific: React.FC<WeaponSpecificScreenProps> = (props) => {
       contentInsetAdjustmentBehavior="automatic"
     >
       <SafeAreaView style={styles.container}>
-        <Image
-          style={styles.logoOp}
-          source={require("../assets/png/logo.png")}
-        />
+        <TouchableOpacity
+            onPress={() => props.navigation.navigate("Home")}
+            activeOpacity={0.8}
+            style={styles.logoBtn}
+        >
+          <Image source={require("../assets/png/logo.png")} style={styles.logoFix}/>
+        </TouchableOpacity>
         <View style={styles.personalContainer}>
           <Image
             style={styles.imageWeapon}

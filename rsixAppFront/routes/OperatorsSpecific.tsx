@@ -91,7 +91,7 @@ export const OperatorsSpecific: React.FC<OperatorsSpecificScreenProps> = (
         >
           <Image
             source={require("../assets/png/logo.png")}
-            style={styles.logoSpecific}
+            style={styles.logoFix}
           />
         </TouchableOpacity>
         <View style={styles.personalContainer}>

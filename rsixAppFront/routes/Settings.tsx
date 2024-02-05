@@ -50,6 +50,9 @@ export const Settings: React.FC<SettingsScreenProps> = (props) => {
   const ps = "PlayStation Network";
   const xb = "Xbox Live";
 
+  // @ts-ignore
+  // @ts-ignore
+  // @ts-ignore
   return (
     <SafeAreaView style={styles.container}>
       <Image style={styles.logo} source={require("../assets/png/logo.png")} />
@@ -74,8 +77,7 @@ export const Settings: React.FC<SettingsScreenProps> = (props) => {
           onChangeText={(text) => setUsername(text)}
         />
         <Text style={styles.textColor}>Platforma:</Text>
-        <RNPickerSelect
-          style={styles.dropdownInput}
+        <RNPickerSelect style={styles.dropdownInput}
           onValueChange={(value) => setPlatform(value)}
           items={[
             { label: "Uplay", value: "uplay" },
