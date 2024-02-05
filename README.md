@@ -39,7 +39,7 @@ Each functionality:
 - Statistics
 	- Based on your Ubisoft credentials (email, password, username and platform) which are provided by you in settings (don't worry it's being saved on your device so no one can intercept it), it's getting information from Ubisoft and showing it to you!
 	- well it's under develompent so you can't actually use it entirely
-      _for now it's discontinued because of lack of api_
+ 	- _for now it's discontinued because of lack of api_
 
 - News
 	- It's requesting data from Ubisoft and shows the newest updates for you!
