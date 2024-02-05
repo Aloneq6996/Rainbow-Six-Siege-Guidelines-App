@@ -35,8 +35,8 @@ export const HomeScreen: React.FC<HomeScreenProps> = (props) => {
             style={styles.btn}
             underlayColor={"#363434"}
             onPress={() => {
-              devHanlder();
-              // props.navigation.push("Statistics");
+              // devHanlder();
+              props.navigation.push("Statistics");
             }}
           >
             <Text style={styles.textColor}>Statystyki</Text>

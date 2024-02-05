@@ -12,7 +12,7 @@ import axios from "axios";
 import { styles } from "../assets/styles";
 import { StatysticsScreenProps } from "../assets/types/ScreenProps";
 import { SeasonData } from "../assets/types/Types";
-import { loadUserData, sendUserData } from "../assets/storage/Storage";
+import { loadUserData } from "../assets/storage/Storage";
 
 export const Statistics: React.FC<StatysticsScreenProps> = (props) => {
   const [user, setUser] = useState<any>();
@@ -20,61 +20,68 @@ export const Statistics: React.FC<StatysticsScreenProps> = (props) => {
   const [userStats, setUsersStats] = useState<any>();
 
   useEffect(() => {
-    loadSettings();
     statistics();
   }, []);
-  const loadSettings = async () => {
+
+  const statistics = async () => {
     try {
-      const data = await loadUserData();
+      const userData = await loadUserData();
+
       if (
-        !data?.savedEmail ||
-        !data.savedPassword ||
-        !data.savedUsername ||
-        !data.savedPlatform
+        !userData?.savedEmail ||
+        !userData.savedPassword ||
+        !userData.savedUsername ||
+        !userData.savedPlatform
       ) {
         Alert.alert(
-          "Proszę podać mail i hasło do konta Ubisoft",
+          "Proszę podać mail, hasło, nazwę użytkownika i platfrome konta Ubisoft",
           "Nie martw się te dane są zapisywane tylko na twoim urządzeniu"
         );
         props.navigation.replace("Settings");
         return;
       }
-      sendUserData();
+
+      const response = await axios.get(
+        "http://172.20.10.2:6996/api/statistics",
+        {
+          params: {
+            email: userData.savedEmail as string,
+            password: userData.savedPassword as string,
+            username: userData.savedUsername as string,
+            platform: userData.savedPlatform as string,
+          },
+        }
+      );
+
+      // console.log(response.data);
+
+      if (!response.data) {
+        Alert.alert("Error", `Wystąpił błąd podczas ładowania statystyk`);
+        return;
+      }
+
+      const user = response.data.user;
+      // const rank = response.data.rank;
+
+      console.log(user);
+      // console.log(JSON.stringify(rank));
+
+      // const userStats = rank.seasons["27"];
+      // const setUser = userStats?.regions?.emea?.boards?.pvp_ranked?.current;
+
+      // console.log(Object.keys(rank[0]));
+      // console.log(rank[0].seasons["27"]);
+
+      const username = user[0].username;
+
+      console.log(username);
+
+      setUser(username);
+      // setRank(userRank);
     } catch (error) {
-      Alert.alert("Error", `${error}`);
-    }
-  };
-
-  const statistics = async () => {
-    const response = await axios.get(
-      "http://192.168.88.141:6996/api/statistics"
-    );
-
-    console.log(response.data);
-
-    if (!response.data) {
-      Alert.alert("Error", `Wystąpił błąd podczas ładowania statystyk`);
+      Alert.alert("ERROR", `${error}`);
       return;
     }
-
-    const user = response.data.user;
-    const rank = response.data.rank;
-
-    console.log(user);
-    console.log(JSON.stringify(rank));
-
-    // const userStats = rank.seasons["27"];
-    // const setUser = userStats?.regions?.emea?.boards?.pvp_ranked?.current;
-
-    // console.log(Object.keys(rank[0]));
-    // console.log(rank[0].seasons["27"]);
-
-    const username = user[0].username;
-
-    console.log(username);
-
-    setUser(username);
-    // setRank(userRank);
   };
 
   return (
