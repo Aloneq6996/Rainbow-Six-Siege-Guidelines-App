@@ -129,17 +129,3 @@ export type NewsItemType = {
   type: string;
   url: string;
 };
-
-export type IndividualNewsType = {
-  abstract: string;
-  categories: string[];
-  content: string;
-  date: string;
-  id: string;
-  readTime: number;
-  tag: string;
-  thumbnail: { description: string; url: string };
-  title: string;
-  type: string;
-  url: string;
-};

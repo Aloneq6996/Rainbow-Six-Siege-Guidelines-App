@@ -10,21 +10,19 @@ import {
 import React from "react";
 import { Image } from "expo-image";
 import axios from "axios";
-import Video, { VideoProperties } from "react-native-video";
-import Markdown from "@ronradtke/react-native-markdown-display";
+// import Video, { VideoProperties } from "react-native-video";
+import markdownit from "markdown-it";
 import { useEffect, useState } from "react";
 import WebView from "react-native-webview";
-import HTML, { CustomRendererProps } from "react-native-render-html";
+// import HTML from "react-native-render-html";
 
 // internal imports
 import { styles } from "../assets/styles";
 import { IndividualNewsScreenProps } from "../assets/types/ScreenProps";
-import { IndividualNewsType } from "../assets/types/Types";
 
 export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
   const { route } = props;
-  const [newsData, setNewsData] = useState<IndividualNewsType>();
-  const width = useWindowDimensions().width;
+  const [newsData, setNewsData] = useState<string>();
 
   useEffect(() => {
     getOneNews();
@@ -33,7 +31,7 @@ export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
   const getOneNews = async () => {
     try {
       const response = await axios.get(
-        "http://192.168.88.89:6996/api/individualNews",
+        "http://172.20.10.2:6996/api/individualNews",
         {
           params: {
             id: route.params.newsId,
@@ -45,143 +43,46 @@ export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
         return null;
       }
 
-      setNewsData(response.data.item[0]);
+      const md = markdownit({ html: true });
+      const result = md.render(response.data.item[0].content);
+
+      setNewsData(result);
     } catch (error) {
       console.error(error);
     }
   };
 
-  const markdownRenderer = {
-    heading1: (node: any, children: any, parent: any, styles: any) => (
-      <Text key={node.key} style={{ color: "white", marginBottom: 10 }}>
-        {children}
-      </Text>
-    ),
-    heading2: (node: any, children: any, parent: any, styles: any) => (
-      <Text key={node.key} style={{ color: "white", margin: 5 }}>
-        {children}
-      </Text>
-    ),
-    heading3: (node: any, children: any, parent: any, styles: any) => (
-      <Text key={node.key} style={{ color: "white", margin: 5 }}>
-        {children}
-      </Text>
-    ),
-    heading4: (node: any, children: any, parent: any, styles: any) => (
-      <Text key={node.key} style={{ color: "white", margin: 5 }}>
-        {children}
-      </Text>
-    ),
-    heading5: (node: any, children: any, parent: any, styles: any) => (
-      <Text key={node.key} style={{ color: "white", margin: 5 }}>
-        {children}
-      </Text>
-    ),
-    link: (node: any, children: any, parent: any, styles: any) => (
-      <Text
-        key={node.key}
-        style={{ color: "white", margin: 10 }}
-        onPress={() => renderLinks(node.attributes.href)}
-      >
-        {children}
-      </Text>
-    ),
-    image: (node: any, children: any, parent: any, styles: any) => {
-      const cleanedSrc = node.attributes.src.replace(/^\/\//, "https://");
-      return (
-        <Image
-          key={node.key}
-          style={{ width: 5000, height: 200, maxWidth: width }}
-          source={{ uri: cleanedSrc }}
-          onError={(error) => console.error(`Image load error:`, error)}
-        />
-      );
-    },
-    list_item: (node: any, children: any, parent: any, styles: any) => {
-      return (
-        <View style={{ flexDirection: "row", alignItems: "center" }}>
-          <Text style={{ marginRight: 8, fontSize: 16, color: "white" }}>
-            •
-          </Text>
-          <View style={{ flex: 1 }}>
-            {React.Children.map(children, (child, index) => {
-              if (React.isValidElement(child)) {
-                const uniqueKey =
-                  (child as React.ReactElement).props.id ||
-                  (child as React.ReactElement).key ||
-                  index.toString();
-                return React.cloneElement(child as React.ReactElement, {
-                  style: [
-                    { color: "white" },
-                    (child as React.ReactElement).props.style,
-                  ],
-                  key: uniqueKey,
-                });
-              }
-              return child;
-            })}
-          </View>
-        </View>
-      );
-    },
-    hr: (node: any, children: any, parent: any, styles: any) => (
-      <View style={{ height: 1, width: "100%", backgroundColor: "white" }} />
-    ),
-    paragraph: (node: any, children: any, parent: any, styles: any) => (
-      <Text key={node.key} style={{ color: "white", marginBottom: 5 }}>
-        {children}
-      </Text>
-    ),
-
-    video: (node: any, children: any, parent: any, styles: any) => {
-      const videoSource = node.attribs.src;
-
-      if (videoSource) {
-        return (
-          <WebView
-            key={node.key}
-            source={{ uri: videoSource }}
-            style={{ width: width, height: 200 }}
-          />
-        );
-      }
-
-      return null;
-    },
-  };
-
-  const renderLinks = (url: any) => {
-    if (!url) {
-      return false;
+  const injectedStyle = `
+  const style = document.createElement('style');
+  style.innerHTML = \`
+    body {
+      color: white;
+      font-size: 16px;
     }
 
-    Linking.openURL(url);
-  };
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
 
-  // const videoRenderer: React.FC<CustomRendererProps<any>> = (props: any) => {
-  //   const videoSource = props.children[0]?.attribs?.src;
+    video {
+      width: 100%;
+      height: 200px;
+    }
 
-  //   if (videoSource) {
-  //     return (
-  //       <WebView
-  //         source={{ uri: videoSource }}
-  //         style={{ width: width, height: 200 }}
-  //       />
-  //     );
-  //   }
+    img {
+      width: 100%;
+      height: auto;
+    }
 
-  //   console.log("nuh uh");
-  //   return null;
-  // };
+    hr {
+      color: white;
+    }
+  \`;
+  document.head.appendChild(style);
+  `;
 
-  // const customHTMLElementModels = {
-  //   video: HTMLModel.fromCustomModel({
-  //     tagName: 'video',
-  //     contentModel: HTMLContentModel.block,
-  //   }),
-  // };
-
-  // console.log(newsData?.content);
   return (
     <SafeAreaView style={styles.container}>
       <Image style={styles.logo} source={require("../assets/png/logo.png")} />
@@ -189,13 +90,13 @@ export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
         <ScrollView contentInsetAdjustmentBehavior="automatic">
           {newsData && (
             <View>
-              <Markdown rules={markdownRenderer}>{newsData.content}</Markdown>
-              {/* <HTML
-                source={{ html: newsData.content }}
-                renderers={{ video: videoRenderer }}
-                contentWidth={width}
-                ignoredDomTags={["center", "video", "p"]}
-              /> */}
+              <WebView
+                source={{ html: newsData }}
+                injectedJavaScript={injectedStyle}
+                javaScriptEnabled={true}
+                onError={(error) => console.error("WebView Error:", error)}
+                style={styles.webview}
+              />
             </View>
           )}
         </ScrollView>

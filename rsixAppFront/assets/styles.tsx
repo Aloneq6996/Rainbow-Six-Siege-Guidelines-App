@@ -212,4 +212,8 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
     bottom: 50,
   },
+  webview: {
+    flex: 1,
+    width: "100%",
+  },
 });
