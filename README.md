@@ -2,10 +2,10 @@
 Hello, it's me once again. Today I present to you a guideline based app for Rainbow Six Siege!
 
 # Contents
-- [Functionalities](##-What's-inside)
-- [How does it work?](##-But-how-does-it-work)
-- [What's the purpose?](##-Why-in-the-world-would-you-make-it?)
-- [Tech](##-Simple-nerd-stuff)
+- [Functionalities](#whats-inside)
+- [How does it work?](#but-how-does-it-work)
+- [What's the purpose?](#why-in-the-world-would-you-make-it)
+- [Tech](#simple-nerd-stuff)
 
 ## What's inside?
 So what does this application even do?
