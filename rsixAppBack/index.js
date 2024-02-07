@@ -20,30 +20,29 @@ app.use(bodyParser.json());
 
 app.get("/api/statistics", async (req, res) => {
     try {
-        const email = req.query.email
-        const password = req.query.password
-        const username = req.query.username
-        const platform = req.query.platform
-        // console.log(email, password, username, platform)
+        const email = req.query.email;
+        const password = req.query.password;
+        const username = req.query.username;
+        const platform = req.query.platform;
 
-        const r6api = new R6API.default({ email, password })
+        const r6api = new R6API.default({ email, password });
 
         if (!r6api) {
-            res.json("Invalid credentials provided")
+            res.json("Invalid credentials provided");
             return;
-        }
+        };
 
-        const user = await r6api.findByUsername(platform, username)
+        const user = await r6api.findByUsername(platform, username);
 
         if (!user) {
             res.json("not work")
-        }
+        };
 
-        const userid = user[0].userId
+        const userid = user[0].userId;
 
-        console.log(userid)
+        // const rank = await r6api
 
-        return res.json({ user: user })
+        return res.json({ user: user, rank: rank })
     } catch (err) {
         console.error(err)
         return;
