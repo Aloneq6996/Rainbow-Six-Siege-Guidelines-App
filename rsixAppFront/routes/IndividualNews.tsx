@@ -14,14 +14,14 @@ import axios from "axios";
 import markdownit from "markdown-it";
 import { useEffect, useState } from "react";
 import WebView from "react-native-webview";
-// import HTML from "react-native-render-html";
+import HTML from "react-native-render-html";
 
 // internal imports
 import { styles } from "../assets/styles";
 import { IndividualNewsScreenProps } from "../assets/types/ScreenProps";
 
 export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
-  const { route } = props;
+  const {route} = props;
   const [newsData, setNewsData] = useState<string>();
 
   useEffect(() => {
@@ -31,75 +31,62 @@ export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
   const getOneNews = async () => {
     try {
       const response = await axios.get(
-        "http://172.20.10.2:6996/api/individualNews",
-        {
-          params: {
-            id: route.params.newsId,
-          },
-        }
+          "http://172.20.10.2:6996/api/individualNews",
+          {
+            params: {
+              id: route.params.newsId,
+            },
+          }
       );
 
       if (!response.data) {
         return null;
       }
 
-      const md = markdownit({ html: true });
+      const md = markdownit({html: true});
       const result = md.render(response.data.item[0].content);
 
       setNewsData(result);
+
     } catch (error) {
       console.error(error);
     }
   };
 
-  const injectedStyle = `
-  const style = document.createElement('style');
-  style.innerHTML = \`
-    body {
-      color: white;
-      font-size: 16px;
-    }
+  const addStyleTag = (htmlContent: string, cssStyles: string): string => {
+    const styleTag = `<style>${cssStyles}</style>`
+    return `${styleTag}${htmlContent}`
+  }
 
-    ul {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    video {
-      width: 100%;
-      height: 200px;
-    }
-
-    img {
-      width: 100%;
-      height: auto;
-    }
-
-    hr {
+  const cssStyle = `
+    *{
+      background: black;
       color: white;
     }
-  \`;
-  document.head.appendChild(style);
-  `;
+    p{
+      
+    }
+    `
+
+  const htmlWithStyle = addStyleTag(newsData as string, cssStyle)
+
+  const width = useWindowDimensions().width
+  const height = useWindowDimensions().height
 
   return (
     <SafeAreaView style={styles.container}>
       <Image style={styles.logo} source={require("../assets/png/logo.png")} />
+
       <View style={styles.containerList}>
-        <ScrollView contentInsetAdjustmentBehavior="automatic">
           {newsData && (
-            <View>
+            <View style={{width: width, height: height + 10, flex: 1}}>
               <WebView
-                source={{ html: newsData }}
-                injectedJavaScript={injectedStyle}
-                javaScriptEnabled={true}
-                onError={(error) => console.error("WebView Error:", error)}
-                style={styles.webview}
+                source={{ html: htmlWithStyle }}
+                style={{width: width, flex: 1}}
               />
+              {/*<HTML source={{html: newsData}} contentWidth={width}/>*/}
             </View>
           )}
-        </ScrollView>
       </View>
     </SafeAreaView>
   );
