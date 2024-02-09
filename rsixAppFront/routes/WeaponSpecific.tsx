@@ -43,22 +43,6 @@ export const WeaponSpecific: React.FC<WeaponSpecificScreenProps> = (props) => {
     );
   }
 
-  let itemStyle: {
-    color: string;
-    fontSize: number;
-    margin: number;
-    flexDirection: "row";
-    textAlign: "center";
-    textDecorationLine: "none" | "underline";
-  } = {
-    color: "#fff",
-    fontSize: 17,
-    margin: 8,
-    flexDirection: "row",
-    textAlign: "center",
-    textDecorationLine: "none",
-  };
-
   {
     Object.entries(weapon.attachments).map(([category, items]) => {
       if (
@@ -126,10 +110,31 @@ export const WeaponSpecific: React.FC<WeaponSpecificScreenProps> = (props) => {
                   <Text style={styles.attachmentsCategory}>
                     {categoryLabel}
                   </Text>
-                  <View style={styles.categoryContainter}>
+                  <View
+                    style={{
+                      flexDirection: "row",
+                      justifyContent: "center",
+                      flexWrap: "wrap",
+                    }}
+                  >
                     {Array.isArray(items)
                       ? items.map((item) => {
                           let itemText = item;
+                          let itemStyle: {
+                            color: string;
+                            fontSize: number;
+                            margin: number;
+                            flexDirection: "row";
+                            textAlign: "center";
+                            textDecorationLine: "none" | "underline";
+                          } = {
+                            color: "#fff",
+                            fontSize: 17,
+                            margin: 8,
+                            flexDirection: "row",
+                            textAlign: "center",
+                            textDecorationLine: "none",
+                          };
                           if (itemText.endsWith("X")) {
                             itemText = item.slice(0, -1);
                             itemStyle.textDecorationLine =
@@ -152,13 +157,31 @@ export const WeaponSpecific: React.FC<WeaponSpecificScreenProps> = (props) => {
                           return (
                             <View
                               key={subCategory}
-                              style={styles.subCategoryContainer}
+                              style={{
+                                flex: 1,
+                                flexDirection: "column",
+                              }}
                             >
                               <Text style={styles.attachmentsCategory}>
                                 {subCategoryLabel}
                               </Text>
                               {(subItems as string[]).map((item) => {
                                 let itemText = item;
+                                let itemStyle: {
+                                  color: string;
+                                  fontSize: number;
+                                  margin: number;
+                                  flexDirection: "row";
+                                  textAlign: "center";
+                                  textDecorationLine: "none" | "underline";
+                                } = {
+                                  color: "#fff",
+                                  fontSize: 17,
+                                  margin: 8,
+                                  flexDirection: "row",
+                                  textAlign: "center",
+                                  textDecorationLine: "none",
+                                };
                                 if (item.endsWith("X")) {
                                   itemText = item.slice(0, -1);
                                   itemStyle.textDecorationLine =
