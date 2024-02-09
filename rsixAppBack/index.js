@@ -1,22 +1,13 @@
-// imports
-
 const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser")
 const R6API = require("r6api.js")
 
-
-// declarations 
-
 const app = express();
 const PORT = 6996;
 
-// app
-
 app.use(cors());
 app.use(bodyParser.json());
-
-// routes
 
 app.get("/api/statistics", async (req, res) => {
     try {
@@ -55,7 +46,6 @@ app.get("/api/news", async (req, res) => {
     let limit = req.query.limit
 
     const news = await r6api.getNews({ limit: limit })
-    //{ locale: "pl_PL" }
 
     res.json({ news: news })
 })
@@ -68,8 +58,6 @@ app.get("/api/individualNews", async (req, res) => {
 
     res.json(oneNews)
 })
-
-// server start
 
 app.listen(PORT, "0.0.0.0", () => {
     console.log(`api działa na 0.0.0.0:${PORT}`)

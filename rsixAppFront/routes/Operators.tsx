@@ -8,7 +8,6 @@ import {
 import { Image } from "expo-image";
 
 import { styles } from "../assets/styles";
-
 import { OperatorsScreenProps } from "../assets/types/ScreenProps";
 
 export const Operators: React.FC<OperatorsScreenProps> = (props) => {
