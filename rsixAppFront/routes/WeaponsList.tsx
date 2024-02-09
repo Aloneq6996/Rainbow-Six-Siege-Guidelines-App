@@ -52,7 +52,7 @@ export const WeaponsList: React.FC<WeaponsListScreenProps> = (props) => {
           data={filteredWeapons}
           keyExtractor={(item) => item.id.toString()}
           renderItem={({ item }) => (
-            <View style={styles.itemContainer}>
+            <View>
               <TouchableHighlight
                 onPress={() => {
                   props.navigation.navigate("WeaponSpecific", {

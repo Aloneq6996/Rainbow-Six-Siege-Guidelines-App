@@ -118,14 +118,13 @@ export const OperatorsSpecific: React.FC<OperatorsSpecificScreenProps> = (
                     });
                   }}
                 >
-                  <View>
+                  <View style={styles.border}>
                     <Text style={styles.textColor}>
                       {weapon.name} | {weapon.type}
                     </Text>
                   </View>
                 </TouchableHighlight>
               ))}
-          <View></View>
           <Text style={styles.textColorHeaderBold}>Broń Boczna</Text>
           <View>
             {operator.nickname === "Caveira"
@@ -140,7 +139,9 @@ export const OperatorsSpecific: React.FC<OperatorsSpecificScreenProps> = (
                           });
                         }}
                       >
-                        <Text style={styles.textColor}>{sGadget.name}</Text>
+                        <View style={styles.border}>
+                          <Text style={styles.textColor}>{sGadget.name}</Text>
+                        </View>
                       </TouchableHighlight>
                     );
                   }
@@ -154,7 +155,7 @@ export const OperatorsSpecific: React.FC<OperatorsSpecificScreenProps> = (
                       });
                     }}
                   >
-                    <View>
+                    <View style={styles.border}>
                       <Text style={styles.textColor}>
                         {weaponSec.name} | {weaponSec.type}
                       </Text>
@@ -179,7 +180,9 @@ export const OperatorsSpecific: React.FC<OperatorsSpecificScreenProps> = (
                     );
                   }}
                 >
-                  <Text style={styles.textColor}>{gadget.name}</Text>
+                  <View style={styles.border}>
+                    <Text style={styles.textColor}>{gadget.name}</Text>
+                  </View>
                 </TouchableHighlight>
               </View>
             ))}
@@ -206,7 +209,9 @@ export const OperatorsSpecific: React.FC<OperatorsSpecificScreenProps> = (
                       });
                     }}
                   >
-                    <Text style={styles.textColor}>{sGadget.name}</Text>
+                    <View style={styles.border}>
+                      <Text style={styles.textColor}>{sGadget.name}</Text>
+                    </View>
                   </TouchableHighlight>
                 ))
             )}
@@ -229,8 +234,10 @@ export const OperatorsSpecific: React.FC<OperatorsSpecificScreenProps> = (
                     });
                   }}
                 >
-                  <View>
-                    <Text style={styles.textColor}>{op}</Text>
+                  <View style={styles.border}>
+                    <View style={styles.rowContent}>
+                      <Text style={styles.textColor}>{op}</Text>
+                    </View>
                   </View>
                 </TouchableHighlight>
               )
@@ -254,8 +261,10 @@ export const OperatorsSpecific: React.FC<OperatorsSpecificScreenProps> = (
                     });
                   }}
                 >
-                  <View style={styles.rowContent}>
-                    <Text style={styles.textColor}>{op}</Text>
+                  <View style={styles.border}>
+                    <View style={styles.rowContent}>
+                      <Text style={styles.textColor}>{op}</Text>
+                    </View>
                   </View>
                 </TouchableHighlight>
               )

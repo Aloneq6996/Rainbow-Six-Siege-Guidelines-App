@@ -216,8 +216,10 @@ export const WeaponSpecific: React.FC<WeaponSpecificScreenProps> = (props) => {
                     });
                   }}
                 >
-                  <View>
-                    <Text style={styles.textColor}>{operator}</Text>
+                  <View style={styles.rowContent}>
+                    <View style={styles.border}>
+                      <Text style={styles.textColor}>{operator}</Text>
+                    </View>
                   </View>
                 </TouchableHighlight>
               </View>

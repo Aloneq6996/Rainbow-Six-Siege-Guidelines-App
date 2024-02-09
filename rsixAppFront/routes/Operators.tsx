@@ -27,7 +27,7 @@ export const Operators: React.FC<OperatorsScreenProps> = (props) => {
             underlayColor={"#363434"}
             onPress={() => props.navigation.push("OperatorsListAttack")}
           >
-            <Text style={styles.textColor}>Atakujący</Text>
+            <Text style={styles.btnText}>Atakujący</Text>
           </TouchableHighlight>
         </View>
         <View>
@@ -36,7 +36,7 @@ export const Operators: React.FC<OperatorsScreenProps> = (props) => {
             underlayColor={"#363434"}
             onPress={() => props.navigation.push("OperatorsListDefense")}
           >
-            <Text style={styles.textColor}>Broniący</Text>
+            <Text style={styles.btnText}>Broniący</Text>
           </TouchableHighlight>
         </View>
       </View>
