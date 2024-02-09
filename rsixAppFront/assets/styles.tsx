@@ -1,4 +1,5 @@
-import { StyleSheet } from "react-native";
+import {StyleSheet, useWindowDimensions} from "react-native";
+
 
 export const styles = StyleSheet.create({
   scrollContainer: {
@@ -211,9 +212,5 @@ export const styles = StyleSheet.create({
   moveUp: {
     justifyContent: "center",
     bottom: 50,
-  },
-  webview: {
-    flex: 1,
-    width: "100%",
   },
 });
