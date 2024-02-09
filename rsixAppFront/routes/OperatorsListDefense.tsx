@@ -8,7 +8,6 @@ import {
   TouchableHighlight,
   Text,
 } from "react-native";
-
 import { Image } from "expo-image";
 
 import { styles } from "../assets/styles";

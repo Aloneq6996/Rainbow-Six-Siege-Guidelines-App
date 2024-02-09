@@ -1,14 +1,8 @@
- // external  imports
-
 import React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
-// internal imports
-
 import { RootStackParamList } from "./assets/types/RootStack";
-
-// Routes
 
 import { HomeScreen } from "./routes/HomeScreen";
 import { Operators } from "./routes/Operators";
@@ -22,8 +16,6 @@ import { Settings } from "./routes/Settings";
 import { Statistics } from "./routes/Statistics";
 import { News } from "./routes/News";
 import { IndividualNews } from "./routes/IndividualNews";
-
-// Routing and main func
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 

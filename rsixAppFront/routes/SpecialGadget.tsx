@@ -1,5 +1,3 @@
-// external imports
-
 import {
   SafeAreaView,
   TouchableOpacity,
@@ -10,13 +8,9 @@ import {
 } from "react-native";
 import { Image } from "expo-image";
 
-// internal imports
-
 import { styles } from "../assets/styles";
 import { SpecialGadgetScreenProps } from "../assets/types/ScreenProps";
 import * as Type from "../assets/types/Types";
-
-// require
 
 const specialGadgetJson = require("../assets/json/weapons/specialGadgets.json");
 

@@ -1,5 +1,3 @@
-// external imports
-
 import {
   SafeAreaView,
   TouchableOpacity,
@@ -10,13 +8,9 @@ import {
 } from "react-native";
 import { Image } from "expo-image";
 
-// internal imports
-
 import { styles } from "../assets/styles";
 import { WeaponSpecificScreenProps } from "../assets/types/ScreenProps";
 import * as Type from "../assets/types/Types";
-
-// requires
 
 const weaponsJson = require("../assets/json/weapons/weaponsPrimary.json");
 const weaponsSecondaryJson = require("../assets/json/weapons/weaponsSecondary.json");
@@ -49,6 +43,22 @@ export const WeaponSpecific: React.FC<WeaponSpecificScreenProps> = (props) => {
     );
   }
 
+  let itemStyle: {
+    color: string;
+    fontSize: number;
+    margin: number;
+    flexDirection: "row";
+    textAlign: "center";
+    textDecorationLine: "none" | "underline";
+  } = {
+    color: "#fff",
+    fontSize: 17,
+    margin: 8,
+    flexDirection: "row",
+    textAlign: "center",
+    textDecorationLine: "none",
+  };
+
   {
     Object.entries(weapon.attachments).map(([category, items]) => {
       if (
@@ -69,11 +79,14 @@ export const WeaponSpecific: React.FC<WeaponSpecificScreenProps> = (props) => {
     >
       <SafeAreaView style={styles.container}>
         <TouchableOpacity
-            onPress={() => props.navigation.navigate("Home")}
-            activeOpacity={0.8}
-            style={styles.logoBtn}
+          onPress={() => props.navigation.navigate("Home")}
+          activeOpacity={0.8}
+          style={styles.logoBtn}
         >
-          <Image source={require("../assets/png/logo.png")} style={styles.logoFix}/>
+          <Image
+            source={require("../assets/png/logo.png")}
+            style={styles.logoFix}
+          />
         </TouchableOpacity>
         <View style={styles.personalContainer}>
           <Image
@@ -113,31 +126,10 @@ export const WeaponSpecific: React.FC<WeaponSpecificScreenProps> = (props) => {
                   <Text style={styles.attachmentsCategory}>
                     {categoryLabel}
                   </Text>
-                  <View
-                    style={{
-                      flexDirection: "row",
-                      justifyContent: "center",
-                      flexWrap: "wrap",
-                    }}
-                  >
+                  <View style={styles.categoryContainter}>
                     {Array.isArray(items)
                       ? items.map((item) => {
                           let itemText = item;
-                          let itemStyle: {
-                            color: string;
-                            fontSize: number;
-                            margin: number;
-                            flexDirection: "row";
-                            textAlign: "center";
-                            textDecorationLine: "none" | "underline";
-                          } = {
-                            color: "#fff",
-                            fontSize: 17,
-                            margin: 8,
-                            flexDirection: "row",
-                            textAlign: "center",
-                            textDecorationLine: "none",
-                          };
                           if (itemText.endsWith("X")) {
                             itemText = item.slice(0, -1);
                             itemStyle.textDecorationLine =
@@ -160,31 +152,13 @@ export const WeaponSpecific: React.FC<WeaponSpecificScreenProps> = (props) => {
                           return (
                             <View
                               key={subCategory}
-                              style={{
-                                flex: 1,
-                                flexDirection: "column",
-                              }}
+                              style={styles.subCategoryContainer}
                             >
                               <Text style={styles.attachmentsCategory}>
                                 {subCategoryLabel}
                               </Text>
                               {(subItems as string[]).map((item) => {
                                 let itemText = item;
-                                let itemStyle: {
-                                  color: string;
-                                  fontSize: number;
-                                  margin: number;
-                                  flexDirection: "row";
-                                  textAlign: "center";
-                                  textDecorationLine: "none" | "underline";
-                                } = {
-                                  color: "#fff",
-                                  fontSize: 17,
-                                  margin: 8,
-                                  flexDirection: "row",
-                                  textAlign: "center",
-                                  textDecorationLine: "none",
-                                };
                                 if (item.endsWith("X")) {
                                   itemText = item.slice(0, -1);
                                   itemStyle.textDecorationLine =

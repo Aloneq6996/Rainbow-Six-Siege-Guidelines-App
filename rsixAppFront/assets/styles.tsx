@@ -1,5 +1,4 @@
-import {StyleSheet, useWindowDimensions} from "react-native";
-
+import { StyleSheet, useWindowDimensions } from "react-native";
 
 export const styles = StyleSheet.create({
   scrollContainer: {
@@ -175,7 +174,7 @@ export const styles = StyleSheet.create({
   settingsButton: {
     left: 30,
     top: 80,
-    position: "absolute"
+    position: "absolute",
   },
   settingsList: {
     top: 20,
@@ -212,5 +211,21 @@ export const styles = StyleSheet.create({
   moveUp: {
     justifyContent: "center",
     bottom: 50,
+  },
+  newsButton: {
+    marginVertical: 10,
+    padding: 10,
+    borderColor: "white",
+    borderWidth: 2,
+    borderRadius: 8,
+  },
+  categoryContainter: {
+    flexDirection: "row",
+    justifyContent: "center",
+    flexWrap: "wrap",
+  },
+  subCategoryContainer: {
+    flex: 1,
+    flexDirection: "column",
   },
 });

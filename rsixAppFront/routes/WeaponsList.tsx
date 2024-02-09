@@ -1,4 +1,3 @@
-// external imports
 import {
   SafeAreaView,
   TouchableOpacity,
@@ -11,13 +10,9 @@ import {
 import { Image } from "expo-image";
 import { useState } from "react";
 
-// internal imports
-
 import { styles } from "../assets/styles";
 import { WeaponsListScreenProps } from "../assets/types/ScreenProps";
 import * as Type from "../assets/types/Types";
-
-// require
 
 const weaponsJson = require("../assets/json/weapons/weaponsPrimary.json");
 const weaponsSecondaryJson = require("../assets/json/weapons/weaponsSecondary.json");

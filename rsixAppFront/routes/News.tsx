@@ -47,13 +47,7 @@ export const News: React.FC<NewsScreenProps> = (props) => {
         key={item.id}
         activeOpacity={0.8}
         onPress={() => handleButtonPress(item.id)}
-        style={{
-          marginVertical: 10,
-          padding: 10,
-          borderColor: "white",
-          borderWidth: 2,
-          borderRadius: 8,
-        }}
+        style={styles.newsButton}
       >
         <Text style={styles.textColorHeader}>{item.title}</Text>
         <Text style={styles.textColor}>{item.abstract}</Text>

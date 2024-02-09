@@ -1,11 +1,7 @@
-// external imports
-
 import React, { useState, useEffect } from "react";
 import { SafeAreaView, View, Text, TextInput, Button } from "react-native";
 import { Image } from "expo-image";
 import RNPickerSelect from "react-native-picker-select";
-
-// internal imports
 
 import { styles } from "../assets/styles";
 import { SettingsScreenProps } from "../assets/types/ScreenProps";
@@ -50,12 +46,6 @@ export const Settings: React.FC<SettingsScreenProps> = (props) => {
   const ps = "PlayStation Network";
   const xb = "Xbox Live";
 
-  // @ts-ignore
-  // @ts-ignore
-  // @ts-ignore
-  // @ts-ignore
-  // @ts-ignore
-  // @ts-ignore
   return (
     <SafeAreaView style={styles.container}>
       <Image style={styles.logo} source={require("../assets/png/logo.png")} />
@@ -80,7 +70,8 @@ export const Settings: React.FC<SettingsScreenProps> = (props) => {
           onChangeText={(text) => setUsername(text)}
         />
         <Text style={styles.textColor}>Platforma:</Text>
-        <RNPickerSelect style={styles.dropdownInput}
+        <RNPickerSelect
+          style={styles.dropdownInput}
           onValueChange={(value) => setPlatform(value)}
           items={[
             { label: "Uplay", value: "uplay" },

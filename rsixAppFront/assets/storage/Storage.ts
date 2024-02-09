@@ -1,13 +1,5 @@
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import axios from "axios";
 import { Alert } from "react-native";
-
-// {
-//     "email": "foyeso8338@mainoj.com",
-//     "password": "QMsxiBT7645!",
-//     "username": "pioeirgjoj4njoe",
-//     "platform": "uplay"
-// }
 
 export const saveUserData = async (
   email: string,
