@@ -106,9 +106,9 @@ So if not updated, well I'm sorry for that pal.
 
 ## Creators
 
-### [Creator](https://github.com/Aloneq6996)
+### [Creator: Aloneq\_](https://github.com/Aloneq6996)
 
-### [Co-Creator](https://github.com/casbear)
+### [Co-Creator: Casbear](https://github.com/casbear)
 
 ## Helpers
 
