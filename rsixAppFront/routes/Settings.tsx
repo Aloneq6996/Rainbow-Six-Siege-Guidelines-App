@@ -53,6 +53,9 @@ export const Settings: React.FC<SettingsScreenProps> = (props) => {
   // @ts-ignore
   // @ts-ignore
   // @ts-ignore
+  // @ts-ignore
+  // @ts-ignore
+  // @ts-ignore
   return (
     <SafeAreaView style={styles.container}>
       <Image style={styles.logo} source={require("../assets/png/logo.png")} />
