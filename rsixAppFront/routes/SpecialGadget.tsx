@@ -82,7 +82,9 @@ export const SpecialGadget: React.FC<SpecialGadgetScreenProps> = (props) => {
               });
             }}
           >
-            <Text style={styles.textColor}>{gadget.operator}</Text>
+            <View style={styles.border}>
+              <Text style={styles.textColor}>{gadget.operator}</Text>
+            </View>
           </TouchableHighlight>
         </View>
       </SafeAreaView>

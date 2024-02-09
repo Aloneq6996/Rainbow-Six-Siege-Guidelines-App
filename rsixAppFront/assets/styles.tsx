@@ -30,19 +30,20 @@ export const styles = StyleSheet.create({
     top: 0,
   },
   btn: {
-    color: "#fff",
     justifyContent: "center",
-    paddingVertical: 30,
-    margin: 20,
-    paddingHorizontal: 30,
+    margin: 10,
     borderRadius: 30,
-    elevation: 3,
     width: 200,
     height: 100,
-    backgroundColor: "#2b2a2a",
-    alignSelf: "stretch",
-    top: 50,
-    position: "relative",
+    borderColor: "#fff",
+    borderWidth: 2,
+  },
+  btnText: {
+    color: "#fff",
+    textAlign: "center",
+    fontSize: 17,
+    fontWeight: "500",
+    margin: 8,
   },
   textColor: {
     color: "#fff",
@@ -78,6 +79,13 @@ export const styles = StyleSheet.create({
     fontWeight: "bold",
     margin: 8,
   },
+  border: {
+    color: "#fff",
+    borderRadius: 15,
+    borderWidth: 1,
+    borderColor: "#fff",
+    margin: 10,
+  },
   containerList: {
     flex: 1,
     justifyContent: "center",
@@ -99,7 +107,11 @@ export const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
-    marginBottom: 10,
+    marginBottom: 0,
+    borderRadius: 5,
+    borderWidth: 1,
+    borderColor: "#fff",
+    margin: 10,
   },
   itemText: {
     color: "#fff",
@@ -112,7 +124,6 @@ export const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "space-between",
     padding: 10,
-    backgroundColor: "#212020",
     borderRadius: 8,
   },
   rowContent: {
@@ -210,7 +221,6 @@ export const styles = StyleSheet.create({
   },
   moveUp: {
     justifyContent: "center",
-    bottom: 50,
   },
   newsButton: {
     marginVertical: 10,
