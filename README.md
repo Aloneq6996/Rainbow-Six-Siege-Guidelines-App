@@ -15,8 +15,8 @@
   - [Environment](#what-i-was-using)
   - [Build time](#build-time)
 - [Creators](#creators)
-  - [Creator](#creator)
-  - [Co-Creator](#co-creator)
+  - [Creator](#creator-aloneq_)
+  - [Co-Creator](#co-creator-casbear)
   - [Helpers](#helpers)
 - [How to run](#how-to-run)
 
@@ -106,7 +106,7 @@ So if not updated, well I'm sorry for that pal.
 
 ## Creators
 
-### Creator: [Aloneq\_](https://github.com/Aloneq6996)
+### Creator [Aloneq\_](https://github.com/Aloneq6996)
 
 ### Co-Creator [Casbear](https://github.com/casbear)
 
