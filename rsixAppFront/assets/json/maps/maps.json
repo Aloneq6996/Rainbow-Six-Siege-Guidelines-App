@@ -1,0 +1,189 @@
+[
+  {
+    "id": 1,
+    "name": "Yacht",
+    "playlists": ["Quick Match"],
+    "released": "Black Ice (February 2016)",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/smDP6lSSaB6Daa7bLZxHZ/d6cc60d76e553e91503a474ff0bc148b/r6-maps-yacht.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Villa",
+    "playlists": ["Ranked", "TDM", "Standard", "Quick Match"],
+    "released": "Para Bellum (June 2018)",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/Io6dxNeHbCbJoF9WLJf9s/ebf89b009affba37df84dcf1934c74e0/r6-maps-villa.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Tower",
+    "playlists": ["Quick Match"],
+    "released": "White Noise (November 2017)",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6ZMBunxANmzTNr42wwzggb/3a19c506f9e3f910e34da21095686fa9/r6-maps-tower.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Theme Park",
+    "playlists": ["Ranked", "Standard", "TDM"],
+    "released": "Blood Orchid (August 2017)",
+    "reworked": "December 2019",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2immPCOZj6tTHMM9zeBg5B/cf09c9c75bc2e70dd38ebf0a12bdb9a2/r6-maps-themepark.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Skyscraper",
+    "playlists": ["Ranked", "Standard", "TDM"],
+    "released": "Red Crow (November 2016)",
+    "reworked": "December 2020",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7vblsbhmSPLsI3pQJ5Dqx9/f213af09981f5c8ec9b71fb0c3f9dcdd/r6-maps-skyscraper.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Presidential Plane",
+    "playlists": ["Quick Match"],
+    "released": "Base game (December 2015)",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3YSN2V0HWsddcQq82Iqihn/d3e03012e8909be26f8274b7f9b3bf19/r6-maps-plane.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Outback",
+    "playlists": ["Ranked", "Standard"],
+    "released": "Burnt Horizon (March 2019)",
+    "reworked": "November 2021",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1vqGVW6pqBZlLKp4h86NnB/08a7e337c0cfa604cde79e755fedb397/r6-maps-outback.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Oregon",
+    "playlists": ["Ranked", "Standard"],
+    "released": "Base game (December 2015)",
+    "reworked": "March 2020",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/Z9a0gU7iR0vfcbXtoJUOW/42ad6aabbd189fbcd74c497627f1624e/r6-maps-oregon.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Kanal",
+    "playlists": ["Ranked", "Standard"],
+    "released": "Launch (December 2015)",
+    "reworked": "September 2019",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4VHR8uZRGkHqvtZxtmibtc/da988c2cab37f1cb186535fc9ba40bea/r6-maps-kanal.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Kafe Dostoyevsky",
+    "playlists": ["Ranked", "Standard"],
+    "released": "Base game (December 2015)",
+    "reworked": "June 2019",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2nIuPSHvbM57TK90VSwBEm/70144ada56cf1ba72103aeb4ece9ed1a/r6-maps-kafe.jpg"
+  },
+  {
+    "id": 11,
+    "name": "House",
+    "playlists": ["Quick Match"],
+    "released": "Base game (December 2015)",
+    "reworked": "June 2020",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/28OaEZAY3stNFr0wSvW9MB/c7acc97d43486349763acab3c1564414/r6-maps-house.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Hereford Base",
+    "playlists": ["Quick Match"],
+    "released": "Base game (December 2015)",
+    "reworked": "September 2018",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1QHhMYSliWgWXFLxZj19hz/44197c1d98498d8a77618076a19ce538/r6-maps-hereford.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Fortress",
+    "playlists": ["Quick Match"],
+    "released": "Wind bastion (December 2018)",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1MrLwvq61aSSvvUj3dDiZg/18e267c79b8015a1af509a2e5694b18b/r6-maps-fortress.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Favela",
+    "playlists": ["Quick Match", "TDM"],
+    "released": "Skull Rain (August 2016)",
+    "reworked": "June 2021",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5x991vPOlYbFlynxn9tmn8/96fac98b7b7f7ae54076e0bbcb4dcc42/r6-maps-favela__1_.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Consulate",
+    "playlists": ["Ranked", "Standard", "Quick Match"],
+    "released": "Base game (December 2015)",
+    "reworked": "May 2023",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6PR2sBla9E6TNurVUfJ0mc/9a58f08dca1c465787e5a1b6cf6a136b/CONSULATE_REWORK_PREVIEW_03_960x540.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Coastline",
+    "playlists": ["Ranked", "Standard", "Quick Match", "TDM"],
+    "released": "Velvet Shell (February 2017)",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5GfAQ3pXCJnDqiqaDH3Zic/db1722cd699bb864ee8f7b0db951b0c3/r6-maps-coastline.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Clubhouse",
+    "playlists": ["Ranked", "Standard", "Quick Match"],
+    "released": "Base game (December 2015)",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1vCw5eD2XzxZlv6Au1gtui/baeebaa75cd672e0af8f9f624cf61bde/r6-maps-clubhouse.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Chalet",
+    "playlists": ["Ranked", "Standard", "Quick Match"],
+    "released": "Base game (December 2015)",
+    "reworked": "September 2020",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/Km3ZJUM7ZMVbGsi6gad5Y/c48162371342d9f15386c77a3766315b/r6-maps-chalet.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Border",
+    "playlists": ["Ranked", "Standard"],
+    "released": "Dust Line (May 2016)",
+    "reworked": "March 2021",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4hqsrL3cokFqedkfjiEaGf/c73f6714b535263a18e4de2ca2405dd1/r6-maps-border__1_.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Bank",
+    "playlists": ["Ranked", "Standard", "Quick Match"],
+    "released": "Base game (December 2015)",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6ilgtuzucX7hEu2MvjhRtp/0bb6e106d78625ea218a572fbb7a5157/r6-maps-bank.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Emerald Plains",
+    "playlists": ["Ranked", "Standard", "Quick Match", "TDM"],
+    "released": "Demon Veil (April 2022)",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1IGW5GG24TGEv3q8bRc9aJ/a73e0dc1fd385b4afd32cd3a2592a294/r6s_maps_emeraldplains__1_.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Close Quarter",
+    "playlists": ["TDM"],
+    "released": "Operation Vector Glare (June 2022)",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6u3cuepKWT8IFdaGznfc3k/d470334bddf5d6313c15879cde524615/r6s_maps_closequarters.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Stadium",
+    "playlists": ["Quick Match"],
+    "released": "Operation Brutal Swarm (September 2022)",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4sQkH6y0h79oYEHuWHGAv/0103ee95bd83c8e222b32f7784e323da/r6s_maps_stadium.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Nighthaven Labs",
+    "playlists": ["Ranked", "Standard", "Quick Match", "TDM"],
+    "released": "Operation Solar Raid (December 2022)",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/57i2PyuzpgVFzOvLUSAItO/636e57b198377a5a5d1d35492b52b808/Nighthaven_labs_screen.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Lair",
+    "playlists": ["Ranked", "Standard", "Quick Match", "TDM"],
+    "released": "Operation Deep Freeze (November 2023)",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/423IqxUqD6yfPEy6CissY0/b97de350094cd300c911ec53915d0c9a/r6s-maps-lair.jpg"
+  }
+]

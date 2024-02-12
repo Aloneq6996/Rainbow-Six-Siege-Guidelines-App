@@ -2,10 +2,10 @@ import { SafeAreaView, View, TouchableHighlight, Text } from "react-native";
 import { Image } from "expo-image";
 
 import { styles } from "../assets/styles";
-import { notAvailableYet } from "../assets/handlers/notAvaibleHandler";
-import { figuringOutHandler } from "../assets/handlers/figureoutHandler";
-
 import { HomeScreenProps } from "../assets/types/ScreenProps";
+
+import { notAvailableYet } from "../assets/handlers/notAvaibleHandler";
+import { devHanlder } from "../assets/handlers/devHandler";
 
 export const HomeScreen: React.FC<HomeScreenProps> = (props) => {
   return (
@@ -35,7 +35,8 @@ export const HomeScreen: React.FC<HomeScreenProps> = (props) => {
             style={styles.btn}
             underlayColor={"#363434"}
             onPress={() => {
-              figuringOutHandler();
+              devHanlder();
+              props.navigation.push("MapList");
             }}
           >
             <Text style={styles.btnText}>Mapy</Text>

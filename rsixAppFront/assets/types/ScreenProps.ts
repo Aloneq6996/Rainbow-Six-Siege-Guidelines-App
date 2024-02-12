@@ -60,3 +60,8 @@ export type IndividualNewsScreenProps = NativeStackScreenProps<
   RootStackParamList,
   "IndividualNews"
 >;
+
+export type MapListScreenProps = NativeStackScreenProps<
+  RootStackParamList,
+  "MapList"
+>;

@@ -5,7 +5,8 @@ export type RootStackParamList = {
   OperatorsListAttack: undefined;
   OperatorsListDefense: undefined;
   OperatorsSpecific: { operatorName: string };
-  Maps: undefined;
+  MapList: undefined;
+  MapSpecific: { mapName: string };
   WeaponsList: undefined;
   WeaponSpecific: { weaponName: string };
   SpecialGadget: { gadgetName: string };
