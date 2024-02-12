@@ -1,4 +1,4 @@
-import { StyleSheet, useWindowDimensions } from "react-native";
+import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   scrollContainer: {
@@ -126,6 +126,13 @@ export const styles = StyleSheet.create({
     padding: 10,
     borderRadius: 8,
   },
+  mapContent: {
+    flexDirection: "column",
+    alignItems: "center",
+    justifyContent: "space-between",
+    padding: 10,
+    borderRadius: 8,
+  },
   rowContent: {
     flexWrap: "wrap",
     flexDirection: "row",
@@ -150,6 +157,11 @@ export const styles = StyleSheet.create({
   imageAbility: {
     width: 150,
     height: 80,
+    resizeMode: "contain",
+  },
+  imageMap: {
+    width: 340,
+    height: 320,
     resizeMode: "contain",
   },
   searchInput: {

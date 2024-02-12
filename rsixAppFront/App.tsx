@@ -16,77 +16,64 @@ import { Settings } from "./routes/Settings";
 import { Statistics } from "./routes/Statistics";
 import { News } from "./routes/News";
 import { IndividualNews } from "./routes/IndividualNews";
+import { MapList } from "./routes/MapList";
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
+const OPTIONS = { headerShown: false };
 
 export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen
-          name="Home"
-          component={HomeScreen}
-          options={{
-            headerShown: false,
-          }}
-        />
-        <Stack.Screen
-          name="Settings"
-          component={Settings}
-          options={{ headerShown: false }}
-        />
+        <Stack.Screen name="Home" component={HomeScreen} options={OPTIONS} />
+        <Stack.Screen name="Settings" component={Settings} options={OPTIONS} />
         <Stack.Screen
           name="Operators"
           component={Operators}
-          options={{
-            headerShown: false,
-          }}
+          options={OPTIONS}
         />
         <Stack.Screen
           name="OperatorsListAttack"
           component={OperatorsListAttack}
-          options={{ headerShown: false }}
+          options={OPTIONS}
         />
         <Stack.Screen
           name="OperatorsListDefense"
           component={OperatorsListDefense}
-          options={{ headerShown: false }}
+          options={OPTIONS}
         />
         <Stack.Screen
           name="OperatorsSpecific"
           component={OperatorsSpecific}
-          options={{ headerShown: false }}
+          options={OPTIONS}
         />
         <Stack.Screen
           name="WeaponsList"
           component={WeaponsList}
-          options={{ headerShown: false }}
+          options={OPTIONS}
         />
         <Stack.Screen
           name="WeaponSpecific"
           component={WeaponSpecific}
-          options={{ headerShown: false }}
+          options={OPTIONS}
         />
         <Stack.Screen
           name="SpecialGadget"
           component={SpecialGadget}
-          options={{ headerShown: false }}
+          options={OPTIONS}
         />
         <Stack.Screen
           name="Statistics"
           component={Statistics}
-          options={{ headerShown: false }}
+          options={OPTIONS}
         />
-        <Stack.Screen
-          name="News"
-          component={News}
-          options={{ headerShown: false }}
-        />
+        <Stack.Screen name="News" component={News} options={OPTIONS} />
         <Stack.Screen
           name="IndividualNews"
           component={IndividualNews}
-          options={{ headerShown: false }}
+          options={OPTIONS}
         />
+        <Stack.Screen name="MapList" component={MapList} options={OPTIONS} />
       </Stack.Navigator>
     </NavigationContainer>
   );
