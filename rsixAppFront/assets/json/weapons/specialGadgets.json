@@ -652,7 +652,7 @@
     "name": "Zoto Canister",
     "type": "Anti Hard Breach / Crowd Control",
     "description": "Cylinder Zoto to miotane urządzenie, które może spowalniać przeciwników, zamrażać urządzenia, uniemożliwiając rozmieszczanie i korzystanie z nich, a nawet ujawniać ślady stóp wrogów, którzy przechodzą przez zamrożony obszar.",
-    "quantity": "4",
+    "quantity": "3",
     "operator": "Tubarão",
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2HBwr95RPJmDlx29Sg5noC/6b05e8549d4fe44066ed01677440e74d/r6s-operator-ability-tubarao.png"
   }

@@ -28,7 +28,8 @@
       "Iana",
       "Osa",
       "Brava",
-      "Ram"
+      "Ram",
+      "Maverick"
     ],
     "image": "https://liquipedia.net/commons/images/thumb/4/4e/R6S_Smoke_Grenade.png/70px-R6S_Smoke_Grenade.png"
   },
@@ -206,7 +207,8 @@
       "Melusi",
       "Aruni",
       "Solis",
-      "Fenrir"
+      "Fenrir",
+      "Kapkan"
     ],
     "image": "https://liquipedia.net/commons/images/thumb/9/9f/R6S_Equipment_Bulletproof_Camera.png/70px-R6S_Equipment_Bulletproof_Camera.png"
   },
@@ -245,7 +247,8 @@
       "Ela",
       "Clash",
       "Warden",
-      "Thorn"
+      "Thorn",
+      "Thunderbird"
     ],
     "image": "https://liquipedia.net/commons/images/thumb/4/49/R6S_Deployable_Shield.png/70px-R6S_Deployable_Shield.png"
   },
@@ -276,7 +279,6 @@
     "quantity": 2,
     "operators": [
       "Rook",
-      "Kapkan",
       "Valkyrie",
       "Caveira",
       "Echo",
