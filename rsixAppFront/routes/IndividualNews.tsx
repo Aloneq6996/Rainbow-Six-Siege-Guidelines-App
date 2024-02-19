@@ -1,4 +1,9 @@
-import { SafeAreaView, View, useWindowDimensions } from "react-native";
+import {
+  SafeAreaView,
+  View,
+  useWindowDimensions,
+  ScrollView,
+} from "react-native";
 import React from "react";
 import { Image } from "expo-image";
 import axios from "axios";
@@ -103,14 +108,20 @@ export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
       <Image style={styles.logo} source={require("../assets/png/logo.png")} />
 
       <View style={styles.containerList}>
-        {newsData && (
-          <View style={{ width: width, height: height + 10, flex: 1 }}>
-            <WebView
-              source={{ html: htmlWithStyle }}
-              style={{ width: width, flex: 1 }}
-            />
-          </View>
-        )}
+        <ScrollView
+          style={styles.scrollContainer}
+          contentInsetAdjustmentBehavior="automatic"
+        >
+          {newsData && (
+            <View style={{ width: width, height: height + 10, flex: 1 }}>
+              <WebView
+                source={{ html: htmlWithStyle }}
+                style={{ width: width, flex: 1 }}
+                scrollEnabled={false}
+              />
+            </View>
+          )}
+        </ScrollView>
       </View>
     </SafeAreaView>
   );

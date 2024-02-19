@@ -43,9 +43,7 @@ app.get("/api/statistics", async (req, res) => {
 app.get("/api/news", async (req, res) => {
     const r6api = new R6API.default({ undefined, undefined })
 
-    let limit = req.query.limit
-
-    const news = await r6api.getNews({ limit: limit })
+    const news = await r6api.getNews({ limit: 99999999 })
 
     res.json({ news: news })
 })

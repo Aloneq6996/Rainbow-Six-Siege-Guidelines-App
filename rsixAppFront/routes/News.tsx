@@ -25,12 +25,7 @@ export const News: React.FC<NewsScreenProps> = (props) => {
 
   const getNews = async () => {
     try {
-      const response = await axios.get("http://172.20.10.2:6996/api/news", {
-        params: {
-          limit: limit,
-        },
-      });
-
+      const response = await axios.get("http://172.20.10.2:6996/api/news");
       setNewsData(response.data.news.items);
     } catch (error) {
       console.error(error);
@@ -42,7 +37,10 @@ export const News: React.FC<NewsScreenProps> = (props) => {
     if (!newsData || typeof newsData !== "object") {
       return <Text style={styles.textColor}>Ładowanie danych...</Text>;
     }
-    return newsData.map((item) => (
+
+    const limitedNewsData = newsData.slice(0, limit);
+
+    return limitedNewsData.map((item) => (
       <TouchableOpacity
         key={item.id}
         activeOpacity={0.8}
@@ -57,6 +55,11 @@ export const News: React.FC<NewsScreenProps> = (props) => {
 
   const handleButtonPress = (id: string) => {
     props.navigation.push("IndividualNews", { newsId: id });
+  };
+
+  const loadMoreNews = () => {
+    let newLimit = limit + 5;
+    setLimit(newLimit);
   };
 
   return (
@@ -78,14 +81,7 @@ export const News: React.FC<NewsScreenProps> = (props) => {
         </ScrollView>
       </View>
       <TouchableHighlight style={styles.moreBtn}>
-        <Text
-          style={styles.textColor}
-          onPress={() => {
-            let newLimit = limit + 5;
-            setLimit(newLimit);
-            getNews();
-          }}
-        >
+        <Text style={styles.textColor} onPress={loadMoreNews}>
           Wczytaj więcej
         </Text>
       </TouchableHighlight>
