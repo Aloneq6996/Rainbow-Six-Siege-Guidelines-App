@@ -64,7 +64,7 @@ Each functionality:
 - Statistics
 
   - Based on your Ubisoft credentials (email, password, username and platform) which are provided by you in settings (don't worry it's being saved on your device so no one can intercept it), it's getting information from Ubisoft and showing it to you!
-  - **_for now it's discontinued because of lack of api_**
+  - **_for now it's discontinued because of lack of api (see issue [#64](https://github.com/Aloneq6996/Rainbow-Six-Siege-Guidelines-App/issues/64))_**
 
 - News
   - It's requesting data from Ubisoft and shows the newest updates for you!
