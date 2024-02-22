@@ -1,6 +1,6 @@
 # Rainbow Six Siege Guidelines
 
-# Contents
+## Contents
 
 - [Functionalities](#whats-inside)
   - [Operators](#operators)
@@ -42,7 +42,7 @@ Here is a list of functionalities:
 
 - ### Statistics
 
-  - Discontinued for now. (I'm waiting for response from ubisoft since 5.02.2024)
+  - Discontinued for now.
 
 - ### News
   - As you can tell, you can check newest updates in here!
@@ -55,7 +55,7 @@ Each functionality:
 
 - Operators
 
-  - Each operator is a stack of information saved in jsons, made by me! Why? Because ubisoft hates developers and doesn't publish any of theirs api's :(
+  - Each operator is a stack of information saved in jsons.
 
 - Weapons
 
@@ -64,7 +64,6 @@ Each functionality:
 - Statistics
 
   - Based on your Ubisoft credentials (email, password, username and platform) which are provided by you in settings (don't worry it's being saved on your device so no one can intercept it), it's getting information from Ubisoft and showing it to you!
-  - well it's under develompent so you can't actually use it entirely
   - **_for now it's discontinued because of lack of api_**
 
 - News
@@ -75,10 +74,10 @@ Each functionality:
 Great question, here's an answer!
 I have no idea.
 
-It was a tiny pain to make it, since React doesn't like me but even so I decided to do it.
-I couldn't find a simple and yet useful guideline for Siege so I made one.
-I want to update it as much as I can but I have other projects to make and school to pass.
-So if not updated, well I'm sorry for that pal.
+It was a tiny pain to make it but even so we decided to do it.
+We couldn't find a simple and yet useful guideline for Siege so we made one.
+We want to update it as much as we can but we have other projects to make and school to pass.
+So if not updated, well we're sorry for that pal.
 
 ## Simple nerd stuff
 
@@ -160,4 +159,4 @@ npm start
 
 - after you done this two things you can scan QR code which popped up with your camera (iOS) or expo go app (Android)
 
-Enjoy
+Enjoy!
