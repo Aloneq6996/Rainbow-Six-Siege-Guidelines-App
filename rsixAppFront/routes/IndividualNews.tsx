@@ -1,14 +1,8 @@
-import {
-  SafeAreaView,
-  View,
-  useWindowDimensions,
-  ScrollView,
-} from "react-native";
-import React from "react";
+import { SafeAreaView, View, useWindowDimensions } from "react-native";
+import React, { useEffect, useState } from "react";
 import { Image } from "expo-image";
 import axios from "axios";
 import markdownit from "markdown-it";
-import { useEffect, useState } from "react";
 import WebView from "react-native-webview";
 
 import { styles } from "../assets/styles";
@@ -99,6 +93,13 @@ export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
       align-items: center;
       padding: 2.5%;
     }
+    img{
+      width: 100%;
+      height: 40%;
+      justify-content: center;
+      align-items: center;
+      padding: 2.5%;
+    }
     `;
 
   const htmlWithStyle = addStyleTag(newsData as string, cssStyle);
@@ -108,20 +109,15 @@ export const IndividualNews: React.FC<IndividualNewsScreenProps> = (props) => {
       <Image style={styles.logo} source={require("../assets/png/logo.png")} />
 
       <View style={styles.containerList}>
-        <ScrollView
-          style={styles.scrollContainer}
-          contentInsetAdjustmentBehavior="automatic"
-        >
-          {newsData && (
-            <View style={{ width: width, height: height + 10, flex: 1 }}>
-              <WebView
-                source={{ html: htmlWithStyle }}
-                style={{ width: width, flex: 1 }}
-                scrollEnabled={false}
-              />
-            </View>
-          )}
-        </ScrollView>
+        {newsData && (
+          <View style={{ height: height, flex: 1 }}>
+            <WebView
+              source={{ html: htmlWithStyle }}
+              style={{ width: width, flex: 1, backgroundColor: "#000" }}
+              scrollEnabled={true}
+            />
+          </View>
+        )}
       </View>
     </SafeAreaView>
   );
