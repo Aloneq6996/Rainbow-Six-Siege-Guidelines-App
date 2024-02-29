@@ -13,7 +13,7 @@ import { Image } from "expo-image";
 import { styles } from "../assets/styles";
 import { OperatorsListDefenseScreenProps } from "../assets/types/ScreenProps";
 
-const operatorsDefenseJson = require("../assets/json/operators/operatorsDefense.json");
+const operatorsDefenseJson = require("../assets/json/operators/defense/operatorsDefensePL.json");
 
 export const OperatorsListDefense: React.FC<OperatorsListDefenseScreenProps> = (
   props

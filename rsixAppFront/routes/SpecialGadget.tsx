@@ -12,7 +12,7 @@ import { styles } from "../assets/styles";
 import { SpecialGadgetScreenProps } from "../assets/types/ScreenProps";
 import * as Type from "../assets/types/Types";
 
-const specialGadgetJson = require("../assets/json/weapons/specialGadgets.json");
+const specialGadgetJson = require("../assets/json/weapons/specialGadgets/specialGadgetsPL.json");
 
 export const SpecialGadget: React.FC<SpecialGadgetScreenProps> = (props) => {
   const { route } = props;

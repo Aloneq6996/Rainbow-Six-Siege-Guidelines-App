@@ -13,12 +13,12 @@ import { styles } from "../assets/styles";
 import { OperatorsSpecificScreenProps } from "../assets/types/ScreenProps";
 import * as Type from "../assets/types/Types";
 
-const operatorsAttackJson = require("../assets/json/operators/operatorsAttack.json");
-const operatorsDefenseJson = require("../assets/json/operators/operatorsDefense.json");
-const weaponsJson = require("../assets/json/weapons/weaponsPrimary.json");
-const weaponsSecondaryJson = require("../assets/json/weapons/weaponsSecondary.json");
-const uniGadgetsJson = require("../assets/json/weapons/gadgets.json");
-const specialGadgetJson = require("../assets/json/weapons/specialGadgets.json");
+const operatorsAttackJson = require("../assets/json/operators/attack/operatorsAttackPL.json");
+const operatorsDefenseJson = require("../assets/json/operators/defense/operatorsDefensePL.json");
+const weaponsJson = require("../assets/json/weapons/primary/weaponsPrimaryPL.json");
+const weaponsSecondaryJson = require("../assets/json/weapons/secondary/weaponsSecondaryPL.json");
+const uniGadgetsJson = require("../assets/json/weapons/gadgets/gadgetsPL.json");
+const specialGadgetJson = require("../assets/json/weapons/specialGadgets/specialGadgetsPL.json");
 
 export const OperatorsSpecific: React.FC<OperatorsSpecificScreenProps> = (
   props

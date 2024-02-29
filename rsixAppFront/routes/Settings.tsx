@@ -16,6 +16,7 @@ export const Settings: React.FC<SettingsScreenProps> = (props) => {
   const [password, setPassword] = useState<string>("");
   const [username, setUsername] = useState<string>("");
   const [platform, setPlatform] = useState<string>("");
+  const [language, setLanguage] = useState<string>("");
 
   useEffect(() => {
     loadSettings();
@@ -32,19 +33,23 @@ export const Settings: React.FC<SettingsScreenProps> = (props) => {
     setPassword(settings.savedPassword);
     setUsername(settings.savedUsername);
     setPlatform(settings.savedPlatform);
+    setLanguage(settings.savedLanguage);
   };
 
   const saveSettings = async () => {
-    if (!email || !password || !username || !platform) {
+    if (!email || !password || !username || !platform || !language) {
       return null;
     }
 
-    saveUserData(email, password, username, platform);
+    saveUserData(email, password, username, platform, language);
   };
 
   const ubi = "Uplay";
   const ps = "PlayStation Network";
   const xb = "Xbox Live";
+
+  const pl = "Polski";
+  const en = "English";
 
   return (
     <SafeAreaView style={styles.container}>
@@ -89,6 +94,22 @@ export const Settings: React.FC<SettingsScreenProps> = (props) => {
                 : platform === "uplay"
                 ? ubi
                 : null}
+            </Text>
+          </View>
+        </RNPickerSelect>
+        <Text style={styles.textColor}>Język:</Text>
+        <RNPickerSelect
+          style={styles.dropdownInput}
+          onValueChange={(value) => setLanguage(value)}
+          items={[
+            { label: "Polski", value: "pl" },
+            { label: "English", value: "en" },
+          ]}
+          value={language}
+        >
+          <View style={styles.settingsInput}>
+            <Text style={styles.textColor}>
+              {language === "pl" ? pl : language === "en" ? en : null}
             </Text>
           </View>
         </RNPickerSelect>
