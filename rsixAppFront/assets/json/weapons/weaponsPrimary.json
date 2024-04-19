@@ -6,9 +6,9 @@
     "damage": 47,
     "operators": ["Sledge", "Thatcher"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0X"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/7/78/R6S_wpn_L85A2.png"
@@ -20,9 +20,9 @@
     "damage": 41,
     "operators": ["Thatcher", "Flores"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/16U6xEvX8I5xQd9duveBLN/45d22960872cfa3fb6be9eb47fa0be4e/AR33.png"
@@ -34,9 +34,9 @@
     "damage": 38,
     "operators": ["Ash", "Iana"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": ["SuppressorX", "Flash HiderX", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2SZoqSXKoNPvZFIJsFsDE5/cb109885bf19c8697abf832f10cfd9a6/G36C.png"
@@ -48,7 +48,7 @@
     "damage": 39,
     "operators": ["Ash", "Ram"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0X"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": [
         "Suppressor",
         "Flash HiderX",
@@ -56,7 +56,7 @@
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical gripX"],
+      "grips": ["Vertical gripX", "Horizontal gripX"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/dQbqK9VxczuiscwBDSkT8/777a062f6095dde0371eab5200dcb451/R4-C.png"
@@ -68,9 +68,9 @@
     "damage": 46,
     "operators": ["Thermite", "Osa"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2dgpAeAWb3SkZV7rxDbVdQ/fa32323256b7c6f8a1977d3f71e7d4b2/556xi.png"
@@ -82,7 +82,7 @@
     "damage": 37,
     "operators": ["Twitch"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": [
         "Suppressor",
         "Flash HiderX",
@@ -102,9 +102,9 @@
     "damage": 45,
     "operators": ["Fuze", "Ace"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7KAZZgnpqD07y47jVVXEuh/e0d7e67101f8f966aa6e1c59e835454f/AK-12.png"
@@ -116,7 +116,7 @@
     "damage": 42,
     "operators": ["IQ", "Wamai"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0X", "2.5X"],
+      "scopes": ["1.0X", "2.5 (Only for IQ)X"],
       "barrels": ["SuppressorX", "Flash HiderX", "Compensator", "Muzzle Brake"],
       "grips": [],
       "underbarrel": ["Laser"]
@@ -130,9 +130,9 @@
     "damage": 48,
     "operators": ["IQ", "Grim"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1LT0N89YaOHvRwn3Pphr8K/02d4a3da9cda132d8201fd134f24fede/552_Commando.png"
@@ -164,7 +164,7 @@
     "damage": 40,
     "operators": ["Buck"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": [
         "Suppressor",
         "Flash HiderX",
@@ -184,7 +184,7 @@
     "damage": 40,
     "operators": ["Blackbeard"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": [
         "Suppressor",
         "Flash HiderX",
@@ -192,7 +192,7 @@
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4LytczDQmu0M63gO2WtCCm/331ef3b1938352ae71d7c0bd23de3596/Mk17_CQB.png"
@@ -204,7 +204,7 @@
     "damage": 48,
     "operators": ["Capitão", "Brava"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": [
         "Suppressor",
         "Flash HiderX",
@@ -212,7 +212,7 @@
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6ub8y2Cs5EYhVPfDWuVVkW/82ca131a41ee4ba2e0b75f2dc52ed9e3/PARA-308.png"
@@ -224,9 +224,9 @@
     "damage": 40,
     "operators": ["Hibana"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle BrakeX"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7wLf325q9amF8bnVP1QGr0/2faff1a197f90dcded4472852a317d6b/Type-89.png"
@@ -238,9 +238,9 @@
     "damage": 42,
     "operators": ["Jackal"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0X"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/63vTDjkXeKq7rOoSBhoJD4/08603e6603d564e0fa38af9ec86b7c1f/C7E.png"
@@ -252,9 +252,9 @@
     "damage": 45,
     "operators": ["Zofia"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle BrakeX"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4oWAgi7tgQP1Tq0HooRtye/9109a74921ee17610d4bd85a61582823/M762.png"
@@ -266,9 +266,9 @@
     "damage": 44,
     "operators": ["Lion"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5YBZe76NUDO32eF66wW90g/488c315743d59230962a4d67618223d6/V308.png"
@@ -280,7 +280,7 @@
     "damage": 42,
     "operators": ["Finka", "Thunderbird"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0"],
+      "scopes": ["1.0X", "2.5 (Only for Finka)X"],
       "barrels": [
         "Suppressor",
         "Flash HiderX",
@@ -288,7 +288,7 @@
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/29LjYuJ4s6yA8k9Uv2u28C/89ec812559e7d74b7c269279f4c46d92/Spear_.308.png"
@@ -300,7 +300,7 @@
     "damage": 44,
     "operators": ["Maverick"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": [
         "Suppressor",
         "Flash HiderX",
@@ -308,7 +308,7 @@
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3jhi90ycmuc8mAiuSXFoCi/bcf354459e7becd6ede52ee97917c832/M4.png"
@@ -318,9 +318,9 @@
     "name": "AK-47M",
     "type": "Karabin szturmowy",
     "damage": 44,
-    "operators": ["Nomad"],
+    "operators": ["Nomad", "Deimos"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.5"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
       "grips": [],
       "underbarrel": ["Laser"]
@@ -334,9 +334,9 @@
     "damage": 47,
     "operators": ["Nomad", "Iana"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6VgkPBsr1WApI3rWc9kcM0/b18b8e25f3e951e8e722213f2ee59eb0/ARX200.png"
@@ -348,7 +348,7 @@
     "damage": 38,
     "operators": ["Gridlock"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": [
         "Suppressor",
         "Flash HiderX",
@@ -356,7 +356,7 @@
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/62tE3th2ThcGHlrcqWkmEX/d69c9de199542e25fa55f6d293f15671/r6-operator-weapon-ar-f90.png"
@@ -376,7 +376,7 @@
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4P9dpUph5w3MSsLNnW6be/04baba24990fcb75a9c0bcfd01b7d190/Commando_9.png"
@@ -388,7 +388,7 @@
     "damage": 45,
     "operators": ["Zero"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": [
         "SuppressorX",
         "Flash HiderX",
@@ -396,7 +396,7 @@
         "Muzzle Brake",
         "Extended BarrelX"
       ],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7x7eDTm2NNpfGiFMrfQqEX/9898e74c780537be3ca6d88db32ea21e/F2000.png"
@@ -408,7 +408,7 @@
     "damage": 35,
     "operators": ["Sens"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": [
         "Suppressor",
         "Flash HiderX",
@@ -416,7 +416,7 @@
         "Muzzle Brake",
         "Extended BarrelX"
       ],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1bhuAox7U6aHN6UriXsAry/3c213cd27f5f64ba01a29b42e5b24ac5/POF9.png"
@@ -428,7 +428,7 @@
     "damage": 34,
     "operators": ["Smoke", "Nøkk"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X"],
+      "scopes": ["1.0X", "2.5 (Only for Nøkk)X"],
       "barrels": ["SuppressorX", "Flash HiderX", "Muzzle Brake"],
       "grips": [],
       "underbarrel": ["Laser"]
@@ -442,7 +442,7 @@
     "damage": 27,
     "operators": ["Doc", "Rook", "Melusi"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0X"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": ["Suppressor", "Flash HiderX", "Muzzle Brake"],
       "grips": ["Vertical gripX"],
       "underbarrel": ["Laser"]
@@ -456,7 +456,7 @@
     "damage": 30,
     "operators": ["Mute", "Wamai"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X"],
+      "scopes": ["1.0X", "2.5 (Only for Wamai)X"],
       "barrels": [
         "SuppressorX",
         "Flash HiderX",
@@ -476,9 +476,9 @@
     "damage": 27,
     "operators": ["Echo"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X"],
+      "scopes": ["1.0X"],
       "barrels": ["Built-in Suppressor"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5HaMldwFltBwiiyDDfkPpD/6de3aa9aaa17458e7f6186ba59b8deff/MP5SD.png"
@@ -490,7 +490,7 @@
     "damage": 38,
     "operators": ["Castle", "Pulse"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X"],
+      "scopes": ["1.0X", "2.5 (Only for Castle)X"],
       "barrels": [
         "Suppressor",
         "Flash HiderX",
@@ -498,7 +498,7 @@
         "Muzzle Brake",
         "Extended BarrelX"
       ],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/7/7d/R6S_wpn_UMP45.png"
@@ -510,7 +510,7 @@
     "damage": 22,
     "operators": ["Doc", "Rook", "Solis"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X"],
+      "scopes": ["1.0X", "2.5 (Only for Doc and Rook)X"],
       "barrels": [
         "Suppressor",
         "Flash HiderX",
@@ -530,7 +530,7 @@
     "damage": 34,
     "operators": ["Kapkan", "Tachanka", "Azami"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0X"],
+      "scopes": ["1.0X", "2.5 (Only for Tachanka)X"],
       "barrels": [
         "Suppressor",
         "Flash HiderX",
@@ -538,7 +538,7 @@
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/42gH96xTTYaTZsfXI3c0wL/a7edbf11af97091ee884b68e59fe6a4f/9x19VSN.png"
@@ -550,7 +550,7 @@
     "damage": 32,
     "operators": ["Bandit", "Zero", "Fenrir"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X"],
+      "scopes": ["1.0X", "2.5 (Only for Zero)X"],
       "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
       "grips": [],
       "underbarrel": ["Laser"]
@@ -564,9 +564,9 @@
     "damage": 45,
     "operators": ["Frost"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": ["Suppressor", "Extended BarrelX"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/60sbThKtOpNOwKu3OP0oGV/672fd9263f7786402a0d855273473a6f/9mm_C1.png"
@@ -578,7 +578,7 @@
     "damage": 26,
     "operators": ["Valkyrie", "Warden", "Tubarão"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X"],
+      "scopes": ["1.0X"],
       "barrels": [
         "Suppressor",
         "Flash HiderX",
@@ -586,7 +586,7 @@
         "Muzzle Brake",
         "Extended BarrelX"
       ],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5HFewpAJ8npDDCKFnEadhL/d398bb477d6b56fe41bfdb5862ed31c0/MPX.png"
@@ -617,7 +617,7 @@
     "damage": 34,
     "operators": ["Jackal", "Osa"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": [
         "Suppressor",
         "Flash HiderX",
@@ -625,7 +625,7 @@
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/6/69/R6S_wpn_PDW9.png"
@@ -637,7 +637,7 @@
     "damage": 23,
     "operators": ["Mira", "Goyo"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X"],
+      "scopes": ["1.0X", "2.5 (Only for Goyo)X"],
       "barrels": [
         "Suppressor",
         "Flash HiderX",
@@ -645,7 +645,7 @@
         "Muzzle Brake",
         "Extended BarrelX"
       ],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/a/a1/R6S_wpn_Vector_.45_ACP.png"
@@ -679,7 +679,7 @@
     "attachments": {
       "scopes": ["1.0X"],
       "barrels": ["Suppressor", "Flash Hider", "CompensatorX", "Muzzle Brake"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6OdwaLWxcnFvhlVwWbP2Du/4f7e94bdb6d34d5c0aa7b7b147b4092e/Scorpion_EVO_3_A1.png"
@@ -699,7 +699,7 @@
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/8/86/R6S_wpn_K1A.png"
@@ -719,7 +719,7 @@
         "Muzzle Brake",
         "Extended BarrelX"
       ],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/d/dd/R6S_wpn_Mx4_Storm.png"
@@ -739,7 +739,7 @@
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3W9XJdMOgpHSw55HfwRSAv/cf8f220678d503e6c3e535c00b2e636a/AUG_A3.png"
@@ -751,7 +751,7 @@
     "damage": 26,
     "operators": ["Mozzie", "Aruni"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X"],
+      "scopes": ["1.0X"],
       "barrels": [
         "Suppressor",
         "Flash HiderX",
@@ -759,7 +759,7 @@
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7K86OBjL3zmYWt0ZvUcCLj/16a947334e39f27da177d787773593e4/r6-operator-weapon-smg-p10roni.png"
@@ -771,7 +771,7 @@
     "damage": 44,
     "operators": ["Thorn"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X"],
+      "scopes": ["1.0X"],
       "barrels": [
         "Suppressor",
         "Flash HiderX",
@@ -779,7 +779,7 @@
         "Muzzle Brake",
         "Extended Barrel"
       ],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5WMIsPUWTXprZnAwctPsTt/f1c652b681e7e9ba6ba66bcd29e12a76/uzk50gi.png"
@@ -789,7 +789,7 @@
     "name": "M590A1",
     "type": "Strzelba",
     "damage": 48,
-    "operators": ["Sledge", "Thatcher", "Smoke", "Mute", "Warden"],
+    "operators": ["Sledge", "Thatcher", "Smoke", "Mute", "Warden", "Deimos"],
     "attachments": {
       "scopes": ["1.0X"],
       "barrels": [],
@@ -835,7 +835,7 @@
     "attachments": {
       "scopes": ["1.0X"],
       "barrels": ["Suppressor"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2Q6mL4CbifmIgifV2yV3Hi/2bb2b323f055b03a2c1ba516c262c24e/SASG-12.png"
@@ -961,7 +961,7 @@
     "attachments": {
       "scopes": ["1.0X"],
       "barrels": ["Suppressor", "Extended BarrelX"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/0/0a/R6S_wpn_FO-12.png"
@@ -973,9 +973,9 @@
     "damage": 125,
     "operators": ["Dokkaebi", "Vigil"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0", "2.5X"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": [],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2ZjVndetsX8WEn5ZfyUQa0/e3a781be7eab22876d25f748e8fd0f5a/BOSG.12.2.png"
@@ -987,9 +987,9 @@
     "damage": 69,
     "operators": ["Maestro", "Alibi", "Azami"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0X"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": [],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/e/e5/R6S_wpn_ACS12.png"
@@ -1001,9 +1001,9 @@
     "damage": 63,
     "operators": ["Kaid", "Goyo"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0X"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": ["Suppressor"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/7/77/R6S_wpn_TCSG12.png"
@@ -1015,9 +1015,9 @@
     "damage": 69,
     "operators": ["Twitch", "Lion", "Sens"],
     "attachments": {
-      "scopes": ["1.0", "1.5X", "2.0X", "2.5X"],
+      "scopes": ["1.0", "2.5X", "3.0"],
       "barrels": ["Suppressor", "Muzzle BrakeX"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/5djkS4YtAtOF0vBmg0T60x/ea2b1ff7e5367e66c99bc7ad7e95bfe3/417.png"
@@ -1031,7 +1031,7 @@
     "attachments": {
       "scopes": ["1.0X"],
       "barrels": ["SuppressorX", "Muzzle Brake"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4fXznwDtLt61VCF8QIF4N3/34e2e6d6c33d4c504c945bdd13c322f6/OTs-03.png"
@@ -1043,9 +1043,9 @@
     "damage": 69,
     "operators": ["Buck", "Brava"],
     "attachments": {
-      "scopes": ["1.0", "1.5X", "2.0X", "2.5X", "3.0X"],
+      "scopes": ["1.0", "2.5X", "3.0"],
       "barrels": ["Suppressor", "Muzzle BrakeX"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4dBzqVVmnpv1DZi91LAnEN/e374b4ea289fc992280b943cdbb94d60/CAMRS.png"
@@ -1057,9 +1057,9 @@
     "damage": 61,
     "operators": ["Blackbeard", "Flores"],
     "attachments": {
-      "scopes": ["1.0", "1.5X", "2.0X", "2.5X", "3.0X"],
+      "scopes": ["1.0", "2.5X", "3.0"],
       "barrels": ["Suppressor", "Muzzle BrakeX"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3H3sICdj6BK8LhtQPRd2aJ/26826ebba73e0e5fd503256d069f3256/SR-25.png"
@@ -1071,9 +1071,9 @@
     "damage": 60,
     "operators": ["Dokkaebi", "Aruni"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0X", "2.5X", "3.0X"],
+      "scopes": ["1.0X", "2.5X", "3.0 (Only for Dokkaebi)"],
       "barrels": ["Suppressor", "Muzzle BrakeX"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/6KIMqp5dA95z1RI3PrG9jv/eb939638169811a3fa858a44e6e5d97e/Mk_14_EBR.png"
@@ -1085,9 +1085,9 @@
     "damage": 62,
     "operators": ["Maverick", "Tubarão"],
     "attachments": {
-      "scopes": ["1.0", "1.5X", "2.0X", "2.5X", "3.0X"],
+      "scopes": ["1.0", "2.5X", "3.0 (Only for Maverick)"],
       "barrels": ["Suppressor", "Muzzle BrakeX"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4lGGEGZLkbldz114Wl5hCo/78a04c46654f80fae03e730bd79f3563/AR-15.50.png"
@@ -1113,9 +1113,9 @@
     "damage": 46,
     "operators": ["Fuze", "Finka"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1wxS2HOCvoPAfnJEDFWjfw/7feddb98582ec37b500243d3f3e19eca/6P41.png"
@@ -1127,9 +1127,9 @@
     "damage": 37,
     "operators": ["IQ", "Amaru"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/4TIb7oeJesaROOOfTlCBaZ/ffd6a802f9a779a0d39b2122c49b3254/G8A1.png"
@@ -1141,9 +1141,9 @@
     "damage": 48,
     "operators": ["Capitão"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": ["Flash HiderX", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/7z8UpVPS3P14OC1oL9dDIn/39c0c657f154218003fd4b2a9250b92f/M249.png"
@@ -1155,9 +1155,9 @@
     "damage": 48,
     "operators": ["Gridlock"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0", "2.5"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": ["Flash Hider", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3p0oG7GsLIoHaRullf7xsF/e2a9e135af63e8897355023cd34538c4/M249_SAW.png"
@@ -1169,9 +1169,9 @@
     "damage": 46,
     "operators": ["Ying"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0X", "2.5"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": ["SuppressorX", "Flash HiderX", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/23HCxaNTRUHBlFAvCTMZQm/fe319cc164fac034a29e9b114ae7d5cb/T-95_LSW.png"
@@ -1183,9 +1183,9 @@
     "damage": 41,
     "operators": ["Zofia", "Ram"],
     "attachments": {
-      "scopes": ["1.0X", "1.5X", "2.0X"],
+      "scopes": ["1.0X", "2.5X"],
       "barrels": ["Suppressor", "Flash HiderX", "Compensator", "Muzzle Brake"],
-      "grips": ["Vertical gripX", "Angled grip"],
+      "grips": ["Vertical gripX", "Angled grip", "Horizontal grip"],
       "underbarrel": ["Laser"]
     },
     "image": "https://liquipedia.net/commons/images/7/7a/R6S_wpn_LMG-E.png"

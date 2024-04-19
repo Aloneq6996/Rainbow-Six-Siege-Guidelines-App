@@ -418,5 +418,15 @@
     "counters": ["Aruni", "Castle", "Goyo", "Mira"],
     "counteredBy": ["Mute"],
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/3YQiStwC1Qo4wKWmgK6XCH/ac8a0fea30f2996f96ca31b17a0039fa/r6s-operators-badge-ram.png"
+  },
+  {
+    "id": 36,
+    "role": "Intel Gatherer / Crowd Control",
+    "name": "Gerald",
+    "surname": "Morris",
+    "nickname": "Deimos",
+    "counters": ["Caveira"],
+    "counteredBy": ["Mute", "Tubarão", "Vigil"],
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/18uYWtYnEjmMQBTTdkIfWF/2bb4305ef6b7826f1c8ae3ea88ef826a/r6s-operators-badge-deimos.png"
   }
 ]

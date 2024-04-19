@@ -624,7 +624,7 @@
     "id": 70,
     "name": "Kiba Barrier",
     "type": "Area Denial",
-    "description": "Bariera Kiba to zmodyfikowany kunai, który po rzuceniu przykleja się do powierzchni i uwalnia materiał, który najpierw rozszerza się, a następnie twardnieje, tworząc kuloodporną barierę, która załata dziury w twojej obronie.",
+    "description": "Bariera Kiba to zmodyfikowany kunai, który po rzuceniu przykleja się do powierzchni i uwalnia materiał, który najpierw rozszerza się, a następnie twardnieje, tworząc wytrzymałą barierę, która załata dziury w twojej obronie.",
     "quantity": "5",
     "operator": "Azami",
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1UDhKrAXnm0thdHhsTTAyo/03f6b0b4879208d963e6d551b86ad3a6/r6s-operator-ability-azami.png"
@@ -655,5 +655,14 @@
     "quantity": "3",
     "operator": "Tubarão",
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2HBwr95RPJmDlx29Sg5noC/6b05e8549d4fe44066ed01677440e74d/r6s-operator-ability-tubarao.png"
+  },
+  {
+    "id": 73,
+    "name": "DeathMark Tracker",
+    "type": "Intel Gatherer",
+    "description": "Miniaturowa latająca sonda wyszukuje wybrany cel i ujawnia jego lokalizację Deimosowi, jednocześnie ujawniając jego lokalizację. Ponieważ jego niestandardowa Vendetta .44 jest jedyną bronią dostępną podczas tropienia, Deimos nadaje mu osobisty charakter.",
+    "quantity": "3",
+    "operator": "Deimos",
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/vfUd3exyKBnSVj7Uj0rD3/c109abe7787520f3e0a3150a343cc4d6/r6s-operator-ability-deimos.png"
   }
 ]
