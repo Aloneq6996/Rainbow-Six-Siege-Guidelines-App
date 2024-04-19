@@ -5,7 +5,7 @@
     "type": "Granade",
     "description": "Granat odłamkowy, który eksploduje chwile po wyciągnięciu zawleczki.",
     "quantity": 2,
-    "operators": ["Sledge", "Glaz", "Gridlock", "Nøkk"],
+    "operators": ["Sledge", "Glaz", "Gridlock", "Nøkk", "Deimos"],
     "image": "https://liquipedia.net/commons/images/thumb/a/a6/R6S_Frag_Grenade.png/70px-R6S_Frag_Grenade.png"
   },
   {
@@ -29,7 +29,8 @@
       "Osa",
       "Brava",
       "Ram",
-      "Maverick"
+      "Maverick",
+      "Deimos"
     ],
     "image": "https://liquipedia.net/commons/images/thumb/4/4e/R6S_Smoke_Grenade.png/70px-R6S_Smoke_Grenade.png"
   },
@@ -93,7 +94,8 @@
       "Amaru",
       "Zero",
       "Sens",
-      "Grim"
+      "Grim",
+      "Deimos"
     ],
     "image": "https://liquipedia.net/commons/images/thumb/8/83/R6S_Hard_Breach_Charge.png/69px-R6S_Hard_Breach_Charge.png"
   },

@@ -397,5 +397,20 @@
       "underbarrel": []
     },
     "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/23AlSVw8MwI1y3ZakEfqgW/c4561ae6e8da8db2627a146b8b55ee6c/GONNE-6_HUD_Icon__1_.png"
+  },
+  {
+    "id": 107,
+    "name": "Vendetta .44",
+    "type": "Rewolwer",
+    "damage": "78",
+    "operators": ["Deimos"],
+    "attachments": {
+      "barrels": ["Built-in"],
+      "underbarrel": [],
+      "extra": {
+        "scopes": ["Built-in 2.5"]
+      }
+    },
+    "image": "https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2kx8YFXaz4l9A3iJctZ33h/30f25aff1e25daf0dff88d258423adcf/44VENDETTA.png"
   }
 ]
